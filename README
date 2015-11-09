@@ -1,0 +1,23 @@
+This repository contains all the source materials for my personal website. 
+
+You can find a live version at www.michaelchughes.com.
+
+Usage
+-----
+$ make html # Build source materials on local machine
+$ make serve # Serve website locally. Point browser to localhost:8000
+$ make rsync_upload # Upload only changed files via rsync
+
+Dependencies
+-----
+* Pelican: http://blog.getpelican.com/
+* Theme is pelican-bootstrap3: https://github.com/DandyDev/pelican-bootstrap3 
+
+Changelog
+---------
+* Changed Makefile so rsync_upload doesn't delete content from remote location (I keep lots of other things there.)
+* Added a custom.css file under content/customstyles. This fixes some display issues for the navigation bar when including a site logo. Also makes fonts generally bigger.
+
+Acknowledgements
+----------------
+Mt. Everest favicon found at freefavicon.com

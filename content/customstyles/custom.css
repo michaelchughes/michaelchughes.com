@@ -1,0 +1,24 @@
+.body {
+	font-size: 15px;
+}
+
+.list-group-item-text>span {
+	font-size: 13px;
+}
+
+.center-img>img {
+	align: center;
+}
+
+.navbar-brand {
+	height: 45px;
+	padding-top: 11px;
+	padding-bottom: 16px;
+	line-height: 18px;
+	font-size: 17px;
+}
+
+.navbar-brand>img {
+	display: inline;
+	margin-top: -5px;
+}

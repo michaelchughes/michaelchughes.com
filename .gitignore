@@ -1,5 +1,6 @@
 output/
 build/
 content/pages/cv.md
+content/papers/MichaelCHughes_CurriculumVitae.pdf
 
 *.pyc

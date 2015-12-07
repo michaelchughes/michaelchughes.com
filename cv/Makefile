@@ -1,5 +1,7 @@
 # Makefile to build PDF and Markdown resume from YAML.
-#
+# 
+# Acks
+# ----
 # Brandon Amos <http://bamos.io> and Ellis Michael <http://ellismichael.com>
 
 TEMPLATES=$(shell find templates -type f)
@@ -11,10 +13,13 @@ MD=$(BUILD_DIR)/resume.md
 
 .PHONY: all clean
 
-all: pdf markdown
 markdown: $(MD)
 pdf: $(PDF)
 tex: $(TEX)
+
+all: $(PDF) $(MD)
+	cp $(BUILD_DIR)/resume.pdf ../content/papers/MichaelCHughes_CurriculumVitae.pdf
+	cp $(BUILD_DIR)/resume.md ../content/pages/cv.md
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)

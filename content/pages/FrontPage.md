@@ -9,7 +9,7 @@ organizing every New York Times article from the last 20 years or
 automatically annotating videos of human activities.
 My technical focus is on developing optimization algorithms for a broad family of Bayesian nonparametric models that include mixtures, topic models, sequential models, and relational models. My collaborators and I have released an open-source
 <a href="http://bitbucket.org/michaelchughes/bnpy-dev/">
-Python package called <strong>bnpy</strong></a>.
+Python package called <strong>BNPy</strong></a>.
 Please try it out!
 
 ### News

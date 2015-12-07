@@ -1,7 +1,6 @@
 Title: CV for Michael C. Hughes
 Date: 2015-11-07
-save_as: resume.html
-
+save_as: cv.html
 
 [PDF]({{ pdf }}) |
 [source]({{ source }}) |

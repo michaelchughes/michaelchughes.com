@@ -1,0 +1,7 @@
+<div id="{{ "section-" + name | lower | replace(' ', '-') }}" class="section">
+  <h3 class="section-title">{{ name }}</h3>
+
+  {% block body %}
+    {{ data }}
+  {% endblock body %}
+</div>

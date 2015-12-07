@@ -1,0 +1,18 @@
+~< extends "section.tex" >~
+
+~< block body >~
+  \begin{enumerate}
+    ~< for pub in items >~
+      \item{
+        ~< if pub.url is defined >~
+          ``\href{<< pub.url >>}{<< pub.title >>}.''
+        ~< else >~
+          ``<< pub.title >>.''
+        ~< endif >~
+        << pub.authors >>.
+        << pub.venue >>,
+        << pub.year >>.
+      }
+    ~< endfor >~
+  \end{enumerate}
+~< endblock body >~

@@ -1,0 +1,15 @@
+~< extends "section.tex" >~
+
+~< block body >~
+  ~< for school in items >~
+    \begin{samepage}
+      \cventry
+        {<< school.date >>}
+        {<< school.major >>}
+        {<< school.school >>}
+        {}
+        {~< if school.gpa is defined >~\textit{GPA: << school.gpa >>}~< endif >~}
+        {}
+    \end{samepage}
+  ~< endfor >~
+~< endblock body >~

@@ -1,0 +1,44 @@
+\documentclass[11pt,letterpaper,sans]{moderncv}
+
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Page margins
+\usepackage[scale=0.75]{geometry}
+
+\AtBeginDocument{
+	\hypersetup{
+		colorlinks=true,
+		linkbordercolor=blue,
+		linkcolor=blue,
+		urlcolor={blue!80!black},
+		pdfborder = 0 0 1}}
+
+\name{<< name.first >>}{<< name.last >>}
+\AtEndPreamble{\hypersetup{pdftitle={Michael C. Hughes -- CV}}}
+
+~<if address is defined >~
+  \address{<< address.street >>}
+  {<< address.city >>, << address.state >> << address.zip >>}
+  {<< address.country >>}
+~< endif >~
+
+~<if mobile is defined >~
+  \phone[mobile]{<< mobile >>}
+~< endif >~
+
+~<if email is defined >~
+  \email{<< email >>}
+~< endif >~
+
+\homepage{<< website >>}
+\social[linkedin]{<< linkedin >>}
+\social[github]{<< github >>}
+
+\begin{document}
+\makecvtitle
+  \vspace{-20pt}
+
+  << body >>
+
+\end{document}

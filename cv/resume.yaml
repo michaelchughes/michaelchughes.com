@@ -1,0 +1,109 @@
+---
+name:
+  first: Michael C.
+  last: Hughes
+
+
+website: www.michaelchughes.com
+github: michaelchughes
+email: mike@michaelchughes.com
+linkedin: michaelchughesLI
+
+# Markdown details
+pdf: /cv/cv.pdf
+source: https://github.com/michaelchughes/
+
+sections:
+  - name: Education
+    type: education
+    items:
+      - date: Sept. 2010--Present
+        school: Brown University
+        major: Ph.D. Candidate, Computer Science
+
+      - date: May 2012
+        school: Brown University
+        major: M.S. Computer Science
+        gpa: "4.0"
+
+      - date: May 2010
+        school: Olin College of Engineering
+        major: B.S. Electrical \& Computer Engineering
+        gpa: "3.93"
+
+  - name: Research Experience
+    type: experience
+    items:
+      - date: Spring 2016
+        topic: "Ph.D. Thesis: Scalable inference for Bayesian nonparametric clustering"
+        about: "Advisor: Erik Sudderth"
+        notes:
+          - "Developed variational inference algorithm that adapts to data by adding or removing clusters during training."
+          - "Optimizes sophisticated objective function based on marginal likelihood for Ockham's razor model selection."
+          - "Applicable to mixture models, topic models, and hidden Markov models."
+          - "Implemented algorithms in \\href{http://www.bitbucket.org/michaelchughes/bnpy-dev}{open-source Python package BNPy}."
+
+      - date: Spring 2012
+        topic: "Master's Project: Sequential Models for Video and Motion Capture"
+        about: "Adviser: Erik Sudderth"
+        notes:
+          - "Developed methods to discover common actions from many videos of humans performing common activities."
+          - "Improved existing MCMC inference algorithms with data-driven Metropolis-Hastings proposals."
+
+  - name: Honors and Awards
+    type: experience
+    items:
+      - date: Spring 2011
+        about: NSF Graduate Research Fellowship Award
+        notes:
+          - "Three year funding award. Covers tuition and provides research stipend."
+
+      - date: Spring 2011
+        about: NDSEG Graduate Research Fellowship Award
+        notes:
+          - "Three year funding award. Declined to accept NSF fellowship."
+
+  # Publications imported by generate.py script if publications file exists
+  - name: Publications
+    type: publications
+
+  - name: Industry Experience
+    type: experience
+    items:
+      - date: Summer 2013
+        about: Software Engineering Intern
+        employer: Google
+        location: Mountain View
+        notes:
+          - "Improved walking/biking/running classifier using smartphone accelerometer data."
+          - "Led collection of dataset from dozens of individuals for classifier evaluation."
+  - name: Non-profit Experience
+    type: experience
+    items:
+      - date: 2014
+        about: Signal Program Fellow
+        employer: Harvard Humanitarian Initiative
+        location: Cambridge, MA
+        notes:
+          - "Developed prototype detector for common housing structures in sub-Saharan Africa from satellite images."
+          - "Intended for humanitarian oversight of conflict areas where burning structures is common attack pattern."
+          - "Featured in TEDx talk: \\url{http://youtu.be/u7l9rBwOnwU}"
+
+  - name: Teaching Experience
+    type: experience
+    items:
+      - date: 2014-present
+        about: Research Mentor
+        employer: Brown University
+        notes:
+          - "Mentored students on projects related to Bayesian nonparametric clustering and the BNPy Python package."
+          - "William Stephenson. 2015 undergraduate honors thesis: \\href{http://cs.brown.edu/research/pubs/theses/ugrad/2015/stephenson.will.pdf}{Variational Inference for Hierarchical Dirichlet Process based Nonparametric Models}."
+          - "Sonia Phene. 2015 undergraduate honors thesis: \\href{http://cs.brown.edu/research/pubs/theses/ugrad/2015/phene.sonia.pdf}{Multiprocessor parallelization of Variational Inference for Bayesian Nonparametric Topic Models}."
+          - "Mengrui Ni. 2015 masters project: \\href{http://cs.brown.edu/research/pubs/theses/masters/2015/ni.mengrui.pdf}{Variational Inference for Beta-Bernoulli Dirichlet Process Mixture Models}."
+          - "Mert Terzihan. 2015 masters project."
+
+      - date: Fall 2013
+        about: "Lead TA for CS 142: Intro to Machine Learning"
+        notes:
+          - "Led weekly 1 hour recitation session to review key concepts."
+          - "Designed homework assignments and exam questions."

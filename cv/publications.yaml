@@ -1,0 +1,66 @@
+
+- title: Scalable Adaptation of State Complexity for Nonparametric Hidden Markov Models
+  authors: Michael C. Hughes, William Stephenson, \& Erik B. Sudderth
+  key: nips2015
+  year: 2015
+  venuetype: ""
+  venue: Neural Information Processing Systems (NIPS)
+  url: http://michaelchughes.com/papers/HughesStephensonSudderth_NIPS_2015.pdf
+
+- title: Reliable and Scalable Variational Inference for the Hierarchical Dirichlet Process
+  authors: Michael C. Hughes, Dae Il Kim, \& Erik B. Sudderth
+  key: aistats2015
+  year: 2015
+  venuetype: ""
+  venue: Artificial Intelligence \& Statistics (AISTATS)
+  url: http://michaelchughes.com/papers/HughesKimSudderth_AISTATS_2015.pdf
+
+
+- title: "BNPy: Reliable and scalable variational inference for Bayesian nonparametric models"
+  authors: Michael C. Hughes, \& Erik B. Sudderth
+  key: nipsworkshop2014
+  year: 2013
+  venuetype: ""
+  venue: 3rd NIPS Workshop on Probabilistic Programming
+  url: http://michaelchughes.com/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf
+
+- title: Joint Modeling of Multiple Time Series via the Beta Process with Application to Motion Capture Segmentation
+  authors: Emily Fox, Michael C. Hughes, Erik B. Sudderth, \& Michael I. Jordan
+  key: aoas2015
+  year: 2014
+  venuetype: ""
+  venue: Annals of Applied Statistics, Vol. 8(3)
+  url: http://michaelchughes.com/papers/FoxHughesSudderthJordan_AOAS_2014.pdf
+
+
+- title: Memoized Online Variational Inference for Dirichlet Process Mixture Models
+  authors: Michael C. Hughes \& Erik B. Sudderth
+  key: nips2013
+  year: 2013
+  venuetype: ""
+  venue: Neural Information Processing Systems (NIPS)
+  url: http://michaelchughes.com/papers/HughesSudderth_NIPS_2013.pdf
+
+- title: Effective Split-Merge Monte Carlo Methods for Nonparametric Models of Sequential Data
+  authors: Michael C. Hughes, Emily Fox, \& Erik B. Sudderth
+  key: nips2012
+  year: 2012
+  venuetype: ""
+  venue: Neural Information Processing Systems (NIPS)
+  url: http://michaelchughes.com/papers/HughesFoxSudderth_NIPS_2012.pdf
+
+- title: The Nonparametric Metadata Dependent Relational Model
+  authors: Dae Il Kim, Michael C. Hughes, \& Erik B. Sudderth
+  key: icml2012
+  year: 2012
+  venuetype: ""
+  venue: International Conference on Machine Learning (ICML)
+  url: http://michaelchughes.com/papers/KimHughesSudderth_ICML_2012.pdf
+
+- title: Nonparametric Discovery of Activity Patterns from Video Collections
+  authors: Michael C. Hughes \& Erik B. Sudderth
+  key: pocv2012
+  year: 2012
+  venuetype: ""
+  venue: CVPR Workshop on Perceptual Organization in Computer Vision (POCV)
+  url: http://michaelchughes.com/papers/HughesSudderth_POCV_2012.pdf

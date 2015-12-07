@@ -1,3 +1,5 @@
 output/
+build/
+content/pages/cv.md
 
 *.pyc

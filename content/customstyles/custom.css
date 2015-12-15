@@ -10,12 +10,23 @@
 	align: center;
 }
 
+.navbar-nav {
+	padding-top: 12px;
+	font-size: 20px;
+}
+
+
+
+.navbar-brand>img {
+	width: 40px;
+}
+
 .navbar-brand {
-	height: 45px;
-	padding-top: 11px;
-	padding-bottom: 16px;
-	line-height: 18px;
-	font-size: 17px;
+	height: 61px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	line-height: 25px;
+	font-size: 24px;
 }
 
 .navbar-brand>img {

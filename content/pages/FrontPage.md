@@ -1,4 +1,4 @@
-Title: Michael C. Hughes
+Title: Hi, I'm Mike
 Date: 2015-11-07
 save_as: index.html
 
@@ -20,12 +20,13 @@ Please try it out!
 		Invited talk at NIPS 2015 workshop.
 		</h4>
 		<p class="list-group-item-text">
-			I'll be at the <a href="https://sites.google.com/site/nipsbnp2015">
+			I'll gave an invited talk at the <a href="https://sites.google.com/site/nipsbnp2015">
 			Bayesian Nonparametrics: The Next Generation workshop </a>
-			to talk about my thesis work building 
+			about my thesis work building 
 			effective variational inference for models based 
 			on the Dirichlet process and its hierarchical variants.
-		</p>
+		  <a href="https://dl.dropboxusercontent.com/u/568924/NIPSBNP2015_v1210.pdf"> [slides PDF] </a>
+    </p>
 	</li>
 
 

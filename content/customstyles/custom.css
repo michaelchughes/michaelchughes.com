@@ -12,13 +12,7 @@
 
 .navbar-nav {
 	padding-top: 12px;
-	font-size: 20px;
-}
-
-
-
-.navbar-brand>img {
-	width: 40px;
+	font-size: 18px;
 }
 
 .navbar-brand {
@@ -26,7 +20,7 @@
 	padding-top: 18px;
 	padding-bottom: 18px;
 	line-height: 25px;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .navbar-brand>img {

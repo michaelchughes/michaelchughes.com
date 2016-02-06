@@ -26,7 +26,7 @@ THEME = 'theme'
 BOOTSTRAP_THEME = 'simplex'
 
 SITELOGO = 'images/logo.jpg'
-SITELOGO_SIZE = 32
+SITELOGO_SIZE = 40
 FAVICON = 'images/favicon.ico'
 
 CUSTOM_CSS = 'custom.css'

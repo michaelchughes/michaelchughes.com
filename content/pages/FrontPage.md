@@ -15,12 +15,26 @@ Please try it out!
 ### News
 
 <ul class="list-group">
+  <li class="list-group-item">
+    <h4 class="list-group-item-heading">
+    Invited talks on my thesis.
+    </h4>
+    <p class="list-group-item-text">
+      I visited several research groups at Northeastern, U. Washington, and MIT to
+      discuss results from my thesis work trying to make 
+      effective variational inference for clustering that scales to millions of examples.
+      <a href="https://dl.dropboxusercontent.com/u/568924/InvitedTalk_ScalableInferenceThatAdaptsClusters_v20160123.pdf">
+      [slides PDF] </a>
+      <a href="https://dl.dropboxusercontent.com/u/568924/InvitedTalk_ScalableInferenceThatAdaptsClusters_v20160123.pptx">
+      [slides PPTX] </a>
+    </p>
+
 	<li class="list-group-item">
 		<h4 class="list-group-item-heading">
 		Invited talk at NIPS 2015 workshop.
 		</h4>
 		<p class="list-group-item-text">
-			I'll gave an invited talk at the <a href="https://sites.google.com/site/nipsbnp2015">
+			I gave an invited talk at the <a href="https://sites.google.com/site/nipsbnp2015">
 			Bayesian Nonparametrics: The Next Generation workshop </a>
 			about my thesis work building 
 			effective variational inference for models based 

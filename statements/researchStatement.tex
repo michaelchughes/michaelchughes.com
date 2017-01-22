@@ -1,0 +1,47 @@
+\documentclass[11pt,letterpaper,sans]{article}
+\usepackage{url}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{natbib}
+\usepackage{tgpagella}
+      
+\title{Research Statement: Adaptive and Scalable BNP Clustering}
+\author{Michael C. Hughes \\ www.michaelchughes.com}
+
+\begin{document}
+\maketitle
+
+My research goal is to develop algorithms for discovering interpretable clusters from large applied datasets with hierarchical, sequential, or network structure. 
+I specialize in Bayesian nonparametric (BNP) models, particularly those based on the Dirichlet process and its extensions. BNP models offer principled ways to decide how complex the learned clustering should be, thereby helping users solve the model selection problem. These methods balance gains in predictive performance from adding more clusters with a rich-get-richer preference for fewer clusters.
+The expected number of clusters under BNP priors grows sensibly as more data is seen. This last property is especially desirable for large-scale streaming applications. If trained effectively, these models could keep discovering new clusters to explain new phenomena in an endless stream of data.
+
+However, recent inference algorithms have not fulfilled the promise of these models. Both sampling-based methods (MCMC) and optimization-based varitional inference are unable to explore the posterior effectively due to the restrictively local nature of block-coordinate ascent updates. As a Ph.D. student, I have developed scalable algorithms for several BNP models that can change many variables at once and escape local optima to recover compact sets of useful clusters. As a post-doctoral scholar, I look forward to extending these methods to a much broader class of models, developing even more scalable representations, and investigating exciting applications in the biological and social sciences. These extensions require interdisciplinary connections as well as developing and releasing practical software tools, such as my open-source Python package BNPy: Bayesian nonparametrics for Python.
+
+\section{Previous Research Experience.}
+\paragraph{Scalable inference for DP mixtures.}
+The first paper from my thesis project \cite{hughes:moVB} developed a new algorithm for Dirichlet process mixture models that can adapt the number of clusters to the provided dataset in a single training run while optimizing a properly regularized objective function: the well-known variational lower bound on marginal likelihood. This function exhibits the Bayesian "Ockham's razor" effect, which penalizes models that have redundant or irrelevant clusters. Our method escapes local optima via proposal moves that can add or remove clusters to improve this objective. These proposals increase the local neighborhood of possibilities that can be explored compared to earlier coordinate ascent algorithms. Furthermore, our method scales to large datasets by processing data one small batch at a time. Unlike stochastic methods that require the careful choice of a nuisance learning rate \cite{hoffman:svi}, our scalable memoized algorithm has no learning rate at all yet guarantees that the objective will monotonically increase after every step.
+
+\paragraph{Extensions to hierarchies and sequences.}
+Recent work has extended our memoized variational inference framework to group-wise clustering and topic modeling with the hierarchical Dirichlet process (HDP) \cite{hughes:hdpreliable} as well as sequence segmentation via the HDP hidden Markov model (HDP-HMM) \cite{hughes:hdphmm}. In both of these settings, developing reliable proposals was challenging given non-conjugate models and tighter dependencies within the data. Nevertheless, our implementations optimize a variational lower bound which can be used for dynamic model selection while scaling to process millions of observations. We have also shown promising parallelization of the most expensive steps of our algorithms, effectively reducing the cost of training on the whole human genome from days to hours with dozens of CPU cores working together.
+
+\section{Proposed Work.}
+\paragraph{Relational models.}
+Ideas from my previous work can be naturally extended to clustering problems on biological and social networks. Previous stochastic block models based on the hierarchical Dirichlet process (HDP) \cite{airoldi2009mmsb, kim2013hdpaMMSB} can benefit from scalable training that adapts the set of active clusters. The memoized approach offers particular advantages in this domain because it avoids complications of stochastically subsampling a subset of edges during each training step.
+ However, these generative models have an unrealistic bias towards dense graphs.
+ I am excited to explore recent alternative models that better capture sparse edge appearance patterns \cite{broderick:sparseEdgeExchangeable}.
+
+\paragraph{Probabilistic programming.}
+Probabilistic programming has come a long way in the last few years and the time is right to develop inference methods that are effective for a large class of BNP models. This class could include models based on the Dirichlet process, the larger family of completely random measures, or even the Beta process. The primary challenge here is developing scalable and adaptive inference methods that are truly general purpose. Toward this end, general purpose ``black-box'' variational methods \cite{kucukelbir:Stan, ranganath:blackbox} have arisen in the past few years which could inspire new solutions when combined with the adaptive proposals from my work.
+
+\paragraph{Extreme scalability.}
+Two major challenges prevent BNP clustering from scaling to billions of examples. First, the bottleneck of inference is the runtime cost of fitting a large model to new data (the ``local'' step). Recent approaches  \cite{mnih:neuralVariational} combine the fast, feed-forward properties of neural networks within an overall framework optimizing the Bayesian variational objective. By training a feed-forward network to approximate the local posterior \cite{gan:deepTSBN}, these methods use information from previous examples to cluster new data faster. With this approach our memoized algorithm could train models with thousands of clusters. The second challenge is performing adaptive inference in a truly distributed setting, with dozens of parallel workers each creating new clusters from disjoint batches and integrating them into a coherent centralized model. Developing such a framework would make BNP clustering accessible to many industry-scale applications.
+
+
+\paragraph{Biological applications.}
+Among many applied problems, I am particularly excited about chromatin segmentation. Given observations indicating the presence of regulatory proteins across the genome, the goal is to cluster intervals of the genome with similar regulatory patterns. Several publications have shown promising biological relevance using simple Markov models \cite{ernst2010discovery,ernst2012chromhmm}, but rely strongly on a-priori assumptions that fix the number of clusters to a few dozen. Using our scalable and adaptive inference, we can instead learn many more interpretable clusters from data. 
+%This line of investigation would involve collaborations with biology researchers. 
+I am especially excited about the wealth of publically available data for this problem available from the ENCODE project \cite{hoffman2012integrative}, which has surveyed chromatin proteins from dozens of different cell types (liver, heart, leukemia, and more). With this data, we could build a powerful hierarchical BNP model that shares information across cell types.
+
+\bibliographystyle{unsrt}
+\bibliography{MacrosForJournalNames,References}
+
+\end{document}

@@ -2,6 +2,86 @@ Title: Papers
 Date: 2015-11-07
 save_as: papers.html
 
+### 2016
+
+<div class="list-group-item">
+  <a href="{filename}/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf">
+    <h4 class="list-group-item-heading">
+        Supervised topic models for clinical interpretability
+    </h4>
+    <p class="list-group-item-text">
+        Michael C. Hughes,
+        Huseyin Melih Elibol
+        Thomas McCoy, MD
+        Roy Perlis, MD
+        Finale Doshi-Velez
+    </p>
+    <p class="list-group-item-text"><i>
+        ML for Health workshop at NIPS 2016
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{filename}/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf">
+            [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/abs/1612.01678">
+            [arXiv]
+        </a>
+    </p>
+</div>
+
+
+<div class="list-group-item">
+    <a href="{filename}/papers/JiHughesSudderth_PracticalBNPWorkshop_2016.pdf">
+    <h4 class="list-group-item-heading">
+From Patches to Natural Images
+via Hierarchical Dirichlet Processes
+    </h4>
+    <p class="list-group-item-text">
+        Geng Ji,
+        Michael C. Hughes,
+        Erik B. Sudderth
+    </p>
+    <p class="list-group-item-text"><i>
+        Practical Bayesian nonparametrics workshop at NIPS 2016
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{filename}/papers/JiHughesSudderth_PracticalBNPWorkshop_2016.pdf">
+            [paper PDF]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="{filename}/papers/HughesSudderth_arXiv_2016.pdf">
+    <h4 class="list-group-item-heading">
+Fast Learning of Clusters and Topics via Sparse Posteriors
+    </h4>
+    <p class="list-group-item-text">
+        Michael C. Hughes,
+        Erik B. Sudderth
+    </p>
+    <p class="list-group-item-text"><i>
+        preprint
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{filename}/papers/HughesSudderth_arXiv_2016.pdf">
+            [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/abs/1609.07521">
+            [arXiv]
+        </a>
+    </p>
+</div>
+
+
 ### 2015
 
 <div class="list-group-item">

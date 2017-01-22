@@ -40,9 +40,9 @@ AVATAR = '/images/Mike_IceCreamSocialHeadshot.jpg'
 ABOUT_ME = '''<strong>Mike Hughes</strong>
 	<br />mike@michaelchughes.com
 	<br />
-	<br />PhD. student
+	<br />Post-doctoral fellow
 	<br /><a href="http://cs.brown.edu/">Dept. of Computer Science</a>
-	<br />Brown University
+	<br />Harvard University
 	'''
 
 HIDE_SIDEBAR = True

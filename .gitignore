@@ -4,3 +4,18 @@ content/pages/cv.md
 content/papers/MichaelCHughes_CurriculumVitae.pdf
 
 *.pyc
+
+.texpadtmp/
+statements/*.pdf
+*-eps-converted-to.pdf
+*.dvi
+*.log
+*.blg
+*.bbl
+*.aux
+*.backup
+*.tmp
+*.synctex.gz
+*.out
+*.ps
+*.toc

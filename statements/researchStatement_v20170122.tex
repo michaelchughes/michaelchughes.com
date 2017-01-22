@@ -1,0 +1,81 @@
+\documentclass[11pt,letterpaper,sans]{article}
+\usepackage{url}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{natbib}
+\usepackage{tgpagella}
+\usepackage{hyperref}
+\usepackage{parskip}
+
+\title{Research Statement: Improving clinical decisions via supervised Bayesian nonparametric time-series models}
+\author{Michael C. Hughes \\ www.michaelchughes.com}
+
+\begin{document}
+\maketitle
+
+\emph{PROMPT: A statement of research interests of up to three pages that succinctly describes the applicant's research interests. The statement should explain the importance and potential impact of this research.}
+\\
+
+My research develops machine learning algorithms that discover interpretable clusters from large datasets with hierarchical or sequential structure.
+While topic models like Latent Dirichlet Allocation and time-series baselines like hidden Markov models have been common for years, several important questions remain ripe for exploration:
+
+\textbf{How can we better explore the posterior?}
+Most existing approaches have non-convex objectives which are vulnerable to local optima, requiring complex initialization heuristics or wasteful multiple restarts.
+Furthermore, representing diverse solutions with similar prediction quality is valuable.
+
+\textbf{How can we incorporate labels to guide clustering?} Existing methods suffer flaws of poor generalization or are overly focused on supervised task, thus yielding good predictions but poorly interpretable clusters.
+
+As a current postdoctoral scholar, my aim is to develop novel machine learning answers to these questions within two ongoing  clinical collaboration projects. 
+First, we work with data from the intensive care unit (ICU)
+to model the physiological transitions of patients during their stay and suggest appropriate interventions like medication or ventilation.
+Second, with Dr. Roy Perlis at MGH, we examine the electronic health records of over 50,000 patients with major depressive disorder, hoping to identify relevant subtypes and use these to suggest 
+targeted medications from the huge space of possible prescriptions.
+Both projects require much more work.
+As a Harvard Data Science Initiative postdoctoral fellow, I would have the resources to make meaningful progress.
+
+\section{Reliable and scalable non-convex optimization.}
+
+My primary research within machine learning lies in developing improved optimization algorithms for clustering. I specialize in Bayesian nonparametric (BNP) models, particularly those based on the Dirichlet process and its extensions. BNP models offer principled ways to decide how many clusters should be used to describe a given dataset. These methods balance gains in predictive performance from adding more clusters with a rich-get-richer preference for fewer clusters. BNP models offer an automatic solution to the model selection problem and avoid expensive alternatives like cross-validation. 
+The expected number of clusters under BNP priors grows sensibly as more data is seen. This last property is especially desirable for large-scale applications. If trained effectively, these models could keep discovering new clusters to explain new phenomena in an endless stream of data.
+However, recent inference algorithms have not fulfilled the promise of these models. Both sampling-based Markov chain Monte Carlo (MCMC) methods and optimization-based variational inference are unable to explore the posterior effectively due to the restrictively local nature of block-coordinate ascent updates.
+
+\paragraph{Scalable inference for DP mixtures.}
+The first key paper from my Ph.D. thesis \cite{hughes:moVB} developed a new algorithm for Dirichlet process mixture models that can adapt the number of clusters to the provided dataset in a single training run while optimizing a properly regularized objective function: the well-known variational lower bound on marginal likelihood. This function exhibits the Bayesian "Ockham's razor" effect, which penalizes models that have redundant or irrelevant clusters. Our method escapes local optima via proposal moves that can add or remove clusters to improve this objective. These proposals increase the local neighborhood of possibilities that can be explored compared to earlier coordinate ascent algorithms. Furthermore, our method scales to large datasets by processing data one small batch at a time. Unlike stochastic methods that require the careful choice of a nuisance learning rate \cite{hoffman:svi}, our scalable memoized algorithm has no learning rate at all yet guarantees that the objective will monotonically increase after every step.
+
+\paragraph{Extensions to hierarchies and sequences.}
+Later, we extended our memoized variational inference framework to group-wise clustering and topic modeling with the hierarchical Dirichlet process (HDP) \citep{hughes:hdpreliable} as well as sequence segmentation via the HDP hidden Markov model (HDP-HMM)~\citep{hughes:hdphmm}. In both of these settings, developing reliable proposals was challenging given non-conjugate models and tighter dependencies within the data. Nevertheless, our implementations optimize a variational lower bound which can be used for dynamic model selection while scaling to process millions of observations. We also demonstrated promising parallelization of the most expensive algorithm steps, effectively reducing the cost of training on the whole human genome from days to hours with dozens of CPU cores working together.
+
+\paragraph{Recognition networks for extreme scalability.}
+Two major challenges prevent BNP clustering from scaling to billions of examples and thousands of clusters. First, the bottleneck of inference is the runtime cost of fitting a large model to new data (the ``local'' step). Recent approaches  \cite{mnih:neuralVariational} combine the fast, feed-forward properties of neural networks within an overall framework optimizing the Bayesian variational objective. By training a feed-forward network to approximate the local posterior \cite{gan:deepTSBN}, these methods use information from previous examples to cluster new data faster. With this approach our memoized algorithm could train models with thousands of clusters. The second challenge is performing adaptive inference in a truly distributed setting, with dozens of parallel workers each creating new clusters from disjoint batches and integrating them into a coherent centralized model. Developing such a framework would make BNP clustering accessible to many industry-scale applications.
+
+
+\section{Supervised clustering of medical time-series.}
+
+\paragraph{Multiobjective optimization: improving predictions and representations.}
+
+Our healthcare tasks pair some input measurements $x$ (labs, vital signs) with some output labels $y$ (prescribed drugs or interventions).
+Unlike purely supervised learning which focuses on modeling $y$ given $x$, we wish to do well simultaneously at predicting $y$ \emph{and} modeling the density of $x$ well.
+Many existing flavors of supervised topic models exist, but they have two key problems: either they do not consistently achieve reasonable heldout predictive performance relative to simpler baseline classifiers (see supervised LDA \citep{blei2007sLDA} and relatives), or they focus entirely on the prediction task without caring at all about $p(x)$, as in the BP-sLDA~\citep{chen2015bplda} training objective. Furthermore, a common symptom of many published experiments is that predictions do not improve as the model capacity of the generative model increases, as measured in the number of states or topics.
+
+We propose a new multi-objective optimization problem which deliberately finds the best possible model for $x$ which meets some minimum specified threshold on the prediction performance for $y$.
+
+\paragraph{Improved predictions in high-dimensional label spaces.}
+Our clinical collaborators have identified at least 191 drugs which are used as primary or auxiliary treatments for major depressive disorder. Successful treatments often require the joint prescription of two or three of these drugs, rather than just selecting one. 
+Baseline algorithms naively predict each drug's relevance to a patient independently of others.
+We propose to investigate methods that would properly predict combinations. This can draw on advances in structured prediction from the machine learning literature and domain knowledge of drug interactions.
+
+
+\section{Long-term Vision.}
+\paragraph{Reinforcement learning.}
+Use clustering methods above as representation strategy for RL, where actions are the prescription of different drugs, etc. 
+
+
+
+\paragraph{Probabilistic programming.}
+Probabilistic programming has come a long way in the last few years and the time is right to develop scalable inference methods that are effective for a large class of BNP models. This class could include models based on hierarchies of the Dirichlet process, the larger family of completely random measures, or latent feature models based on the Beta process. The primary challenge here is developing scalable and adaptive inference methods that are truly general purpose. Toward this end, general purpose ``black-box'' variational methods \cite{kucukelbir:Stan, ranganath:blackbox} have arisen in the past few years which could inspire new solutions when combined with the adaptive proposals from my work.
+
+
+\newpage
+\bibliographystyle{unsrt}
+\bibliography{MacrosForJournalNames,References}
+
+\end{document}

@@ -1,37 +1,108 @@
 Title: Hi, I'm Mike
-Date: 2015-11-07
+Date: 2016-08-01
 save_as: index.html
 
-I am a final-year Ph.D. student in the computer science department at Brown University. My adviser is Erik Sudderth. I'm interested in machine learning and computer vision.
+I am currently a computer science post-doctoral research fellow at Harvard University, under the supervision of 
+<a href="http://finale.seas.harvard.edu/">Finale Doshi-Velez</a>. We are actively exploring applications of machine learning to personalized medicine.
 
-For my thesis project, I study large-scale unsupervised clustering problems like 
+I recently (May 2016) completed my Ph.D. in computer science at Brown University, advised by <a href="http://cs.brown.edu/people/sudderth">Erik Sudderth</a>.  For my thesis project, I studied large-scale unsupervised clustering problems like 
 organizing every New York Times article from the last 20 years or 
 automatically annotating videos of human activities.
-My technical focus is on developing optimization algorithms for a broad family of Bayesian nonparametric models that include mixtures, topic models, sequential models, and relational models. My collaborators and I have released an open-source
-<a href="http://bitbucket.org/michaelchughes/bnpy-dev/">
+My technical focus was on developing optimization algorithms for a broad family of Bayesian nonparametric models that include mixtures, topic models, sequential models, and relational models. My collaborators and I have released an open-source
+<a href="http://github.com/bnpy/bnpy/">
 Python package called <strong>BNPy</strong></a>.
 Please try it out!
 
 ### News
 
 <ul class="list-group">
+	<li class="list-group-item">
+	<h4 class="list-group-item-heading">
+	[Dec 2016] BNPy software tutorial at NIPS 2016 workshop
+	</h4>
+	<p class="list-group-item-text">
+		Slides from my talk:
+		<a href="https://www.dropbox.com/s/oalse0q7q0c7fmt/20161207_bnpytalk.pptx?dl=0">
+		 [slides.pptx]</a>
+		<a href="https://www.dropbox.com/s/2c0c7rtp5uxk0hj/20161207_bnpytalk.pdf?dl=0">
+		 [slides.pdf]</a>
+	</p>
+	<p class="list-group-item-text">
+		New: <a href="http://bnpy.readthedocs.io/en/latest/index.html">
+		BNPy project website </a>
+		with example gallery
+	</p>
+	</li>
+
+	<li class="list-group-item">
+	<h4 class="list-group-item-heading">
+	[Dec 2016] Posters at NIPS 2016 Workshops
+	</h4>
+	<p class="list-group-item-text">
+		<a href="/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf">
+		Preliminary supervised topic model paper</a>
+		at
+		<a href="http://www.nipsml4hc.ws/home">
+			ML for Health workshop.
+		</a>
+	</p>
+	<p class="list-group-item-text">
+		<a href="/papers/JiHughesSudderth_PracticalBNPWorkshop_2016.pdf">
+		HDP models for natural images</a>
+		at
+		<a href="https://sites.google.com/site/nipsbnp2016/">
+			Practical BNP workshop.
+		</a>
+	</p>
+	</li>
+
+	<li class="list-group-item">
+	<h4 class="list-group-item-heading">
+	[Sep 2016] Workshop at NIPS '16: Practical Bayesian Nonparametrics
+	</h4>
+	<p class="list-group-item-text">
+		Please consider submitting to our workshop: 
+    <a href="https://sites.google.com/site/nipsbnp2016/">https://sites.google.com/site/nipsbnp2016/</a> 
+	</p>
+	</li>
+
   <li class="list-group-item">
-    <h4 class="list-group-item-heading">
-    Invited talks on my thesis.
-    </h4>
-    <p class="list-group-item-text">
-      I visited several research groups at Northeastern, U. Washington, and MIT to
-      discuss results from my thesis work trying to make 
-      effective variational inference for clustering that scales to millions of examples.
-      <a href="https://dl.dropboxusercontent.com/u/568924/InvitedTalk_ScalableInferenceThatAdaptsClusters_v20160123.pdf">
-      [slides PDF] </a>
-      <a href="https://dl.dropboxusercontent.com/u/568924/InvitedTalk_ScalableInferenceThatAdaptsClusters_v20160123.pptx">
-      [slides PPTX] </a>
-    </p>
+	<h4 class="list-group-item-heading">
+	[Aug 2016] Started post-doc at Harvard
+	</h4>
+	<p class="list-group-item-text">
+		You can now find me at my new office in Maxwell-Dworkin (MD 209).
+	</p>
+	</li>
+
+	<li class="list-group-item">
+	<h4 class="list-group-item-heading">
+	[May 2016] Successful Ph.D. defense!
+	</h4>
+	<p class="list-group-item-text">
+		Many thanks to family and friends who supported me along the way.
+	</p>
+	</li>
+
+
+	<li class="list-group-item">
+	<h4 class="list-group-item-heading">
+	[Jan 2016] Invited talks on my thesis.
+	</h4>
+	<p class="list-group-item-text">
+	I visited several research groups at Northeastern, U. Washington, and MIT to
+	discuss results from my thesis work trying to make 
+	effective variational inference for clustering that scales to millions of examples.
+	<a href="https://dl.dropboxusercontent.com/u/568924/InvitedTalk_ScalableInferenceThatAdaptsClusters_v20160123.pdf">
+	[slides PDF] </a>
+	<a href="https://dl.dropboxusercontent.com/u/568924/InvitedTalk_ScalableInferenceThatAdaptsClusters_v20160123.pptx">
+	[slides PPTX] </a>
+	</p>
+	</li>
 
 	<li class="list-group-item">
 		<h4 class="list-group-item-heading">
-		Invited talk at NIPS 2015 workshop.
+		[Dec 2015] Invited talk at NIPS 2015 workshop.
 		</h4>
 		<p class="list-group-item-text">
 			I gave an invited talk at the <a href="https://sites.google.com/site/nipsbnp2015">
@@ -46,7 +117,7 @@ Please try it out!
 
 	<li class="list-group-item">
 		<h4 class="list-group-item-heading">
-		Paper accepted at NIPS 2015.
+		[Sept 2015] Paper accepted at NIPS 2015.
 		</h4>
 		<p class="list-group-item-text">
 			<a href="/papers/HughesStephensonSudderth_NIPS_2015.pdf">
@@ -58,7 +129,7 @@ Please try it out!
 
 		<li class="list-group-item">
 		<h4 class="list-group-item-heading">
-		Paper accepted at AISTATS 2015.
+		[May 2015] Paper accepted at AISTATS 2015.
 		</h4>
 		<p class="list-group-item-text">
 			<a href="/papers/HughesKimSudderth_AISTATS_2015.pdf">

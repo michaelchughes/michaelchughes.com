@@ -1,3 +1,26 @@
+- title: Predicting intervention onset in the ICU with switching state space models
+  authors: Marzyeh Ghassemi, Mike Wu, Michael C. Hughes, Peter Szolovits, and Finale Doshi-Velez
+  key: ghassemi2017amiacri
+  year: 2017
+  venuetype: ""
+  venue: AMIA CRI 2017
+  url: http://michaelchughes.com/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf
+
+- title: Supervised topic models for clinical interpretability
+  authors: Michael C. Hughes, Huseyin Melih Elibol, Thomas McCoy, Roy Perlis, and Finale Doshi-Velez
+  key: mlhc2016
+  year: 2016
+  venuetype: ""
+  venue: ML for Health workshop at NIPS
+  url: http://michaelchughes.com/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf
+
+- title: Fast Learning of Clusters and Topics via Sparse Posteriors
+  authors: Michael C. Hughes \& Erik B. Sudderth
+  key: arxiv2016
+  year: 2016
+  venuetype: ""
+  venue: arXiv e-print
+  url: http://michaelchughes.com/papers/HughesSudderth_arXiv_2016.pdf
 
 - title: Scalable Adaptation of State Complexity for Nonparametric Hidden Markov Models
   authors: Michael C. Hughes, William Stephenson, \& Erik B. Sudderth

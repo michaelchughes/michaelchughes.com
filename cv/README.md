@@ -15,6 +15,6 @@ Type `make` to generate a LaTeX pdf and a markdown file.
 Notes
 -----
 Most raw content in resume.yaml uses LaTeX commands for things like urls, etc. 
-There is lots of code in generate.py to automagically do the right thing which building the markdown page. 
+There is lots of code in generate.py to automagically do the right thing when building the markdown page. 
 
 

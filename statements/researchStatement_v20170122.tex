@@ -1,13 +1,20 @@
 \documentclass[11pt,letterpaper,sans]{article}
 \usepackage{url}
 \usepackage[letterpaper, margin=1in]{geometry}
-\usepackage{natbib}
 \usepackage{tgpagella}
 \usepackage{hyperref}
 \usepackage{parskip}
 
+%%% Bibliography
+\usepackage{natbib}
+\bibliographystyle{abbrvnat}
+\setcitestyle{numbers,open={[},close={]}}
+%\setcitestyle{authoryear,open={(},close={)}}
+
 \title{Research Statement: Improving clinical decisions via semi-supervised Bayesian hierarchical models}
-\author{Michael C. Hughes \\ www.michaelchughes.com}
+\author{Michael C. Hughes \\ 
+    \url{www.michaelchughes.com}
+}
 
 \begin{document}
 \maketitle
@@ -17,40 +24,39 @@
 
 My research develops machine learning
 algorithms that discover interpretable clusters from large datasets with hierarchical or sequential structure.
-Consider applications such as 
-finding patients in the intensive care unit (ICU) with similar symptom trajectories over time 
-or
-finding cooccurance patterns of 
-failed treatments
-in the electronic health records of psychiatric patients.
+Two motivating examples come from my ongoing clinical collaborations.
+First, consider 
+discovering common symptom trajectories for patients in the intensive care unit (ICU).
+Next, consider finding cooccurance patterns of 
+symptoms and treatments
+in the electronic health records (EHR) of mental health patients.
 A common approach is to fit unsupervised hierarchical models such as the 
 Latent Dirichlet Allocation 
 topic model or the hidden Markov model, because these baselines offer interpretable, low-dimensional representations of the high-dimensional input data.
 However, despite wide-spread usage these methods often do not meet practioners' expectations due to
 unreliable optimization algorithms
 or 
-results which do not intuitively align
-with some domain-specific knowledge not included in input data.
-% to ``supervise'' the learned representations.
+results that do not align
+with some domain-specific knowledge not easily provided to the algorithm.
 To deliver the promise of probabilistic graphical models to the broader scientific and medical community, my work seeks answers to two key questions:
 
 \begin{itemize}
 
-\item \textbf{Q1: How can we better explore 
-complex posterior distributions with multiple modes?} Most existing clustering methods optimize non-convex objective functions via a local search, and thus baseline methods often get stuck in poor-quality local optima.
+\item \textbf{Q1: How can we \emph{improve optimization algorithms} to reach good solutions consistently?} Most existing clustering methods optimize non-convex objective functions via a local search, and thus baseline methods often get stuck in poor-quality local optima.
 How can we escape to better solutions without complex initialization heuristics and wasteful multiple restarts?
-Can we do better by representing multiple modes? 
 
-\item \textbf{Q2: How can we incorporate domain-specific knowledge to guide clustering?} In the ICU, we care about learning representations that predict patient symptoms $x$ as well as needed treatments $y$. Our clinical collaborators tell us that a method must accurately model both $x$ and $y$ to gain trust by medical professionals. Many existing generative models can jointly produce $x,y$ pairs, but training methods often unfortunately end up with good $y$ predictions but poor $x$ predictions, or vice versa. Many applications offer a further challenge: the unlabeled data $x$ is often much more plentiful than outcomes data $y$.
+\item \textbf{Q2: How can we \emph{incorporate domain-specific knowledge} to guide clustering?}
+We care about learning representations that predict patient symptoms $x$ (observed data) as well as needed treatments $y$ (domain-specific supervision). Our clinical collaborators tell us that a method must accurately model both $x$ and $y$ to gain trust by medical professionals. Many existing models have tried, yet unfortunately end up with good $y$ predictions but poor $x$ predictions, or vice versa. Many applications offer a further challenge: the observed data $x$ is often far more plentiful than labeled outcomes $y$ (such datasets are called \emph{semi-supervised}).
 \end{itemize}
 
 As a Harvard Data Science Initiative scholar, 
 I will develop novel machine learning answers to these questions.
 My intended outcomes are three-fold: publications in top-tier machine learning conferences, usable open-source software,
-and clinical publications for two ongoing collaborations with healthcare researchers: time-series modeling of ICU patient symptoms and necessary interventions (with Marzyeh Ghassemi, Prof. Leo Celi, and data from the MIMIC team at MIT)
-and modeling EHR histories 
-to better suggest drug combination therapies for patients with major depressive disorder (with Dr. Roy Perlis at MGH).
-Both projects provide rich datasets to explore with semi-supervised Bayesian hierarchical models. By developing reliable and scalable optimization methods that escape local optima and accurately model patient symptoms and needed interventions, I hope to improve clinical understanding and patient outcomes.
+and clinical publications.
+I am particularly keen on the latter for my two ongoing collaborations with healthcare researchers:
+time-series modeling of ICU patient symptoms and necessary interventions (with Marzyeh Ghassemi, Prof. Doshi-Velez, and data from Prof. Leo Celi and the MIMIC team at MIT)
+and modeling EHR histories for patients with major depressive disorder (with Prof. Doshi-Velez and Dr. Roy Perlis at MGH).
+Both projects provide rich datasets to explore with semi-supervised Bayesian hierarchical models. By developing reliable optimization methods accurately model patient symptoms and needed interventions, I hope to improve clinical understanding and patient outcomes.
 
 %First, modeling of ICU patient vital signs and 
 
@@ -63,32 +69,37 @@ Both projects provide rich datasets to explore with semi-supervised Bayesian hie
 \section{Past work: Reliable optimization for Bayesian nonparametrics.}
 
 My Ph.D. thesis project specialized in developing more robust optimization methods (and thus answering Q1) for Bayesian nonparametric (BNP) models, particularly the Dirichlet process (DP) mixture model and its extensions. 
-While parametric models require the practioner to decide in advance exactly how many clusters to find in a dataset,
+While parametric models require an \emph{a priori} value for the number of clusters to fit to data,
 BNP models offer principled ways to 
 learn model complexity directly from the data,
-balancing gains in predictive performance from adding more clusters with a rich-get-richer preference for fewer clusters.
-BNP models offer an automatic solution to the model selection problem and avoid expensive alternatives like cross-validation. 
+balancing gains in data fit from adding more clusters with a rich-get-richer preference for fewer clusters.
+BNP models offer an automatic solution to the model selection problem that avoids expensive alternatives like cross-validation. 
 %The expected number of clusters under BNP priors grows sensibly as more data is seen. This last property is especially desirable for large-scale applications. If trained effectively, these models could keep discovering new clusters to explain new phenomena in an endless stream of data.
-However, standard BNP inference algorithms do not fulfil their promise. Both sampling-based Markov chain Monte Carlo (MCMC) methods and optimization-based variational inference are unable to explore the posterior effectively. Due to the restrictively local nature of block-coordinate ascent updates, these methods often get stuck in poor local optima.
+However, standard BNP inference algorithms do not fulfil this promise. Both Markov chain Monte Carlo (MCMC) methods and optimization-based variational inference use restrictive updates to subsets of variables that easily get stuck in poor local modes due to the limited local range of each update.
 
-Our NIPS 2013 paper \cite{hughes:moVB} developed a new algorithm for Dirichlet process mixture models that can adapt the number of clusters to the provided dataset in a single training run while optimizing an objective function which tightly bounds the marginal likelihood and thus exhibits the ``Ockham's razor'' effect that penalizes models with redundant or irrelevant clusters.
-Our method escapes local optima via non-local proposal moves that can add or remove clusters to improve this objective. These proposals widen the neighborhood of possibilities that can be explored compared to earlier coordinate ascent algorithms. Furthermore, our method scales to large datasets by processing data one small batch at a time. Unlike stochastic methods that require tuning a nuisance learning rate \cite{hoffman:svi}, our scalable memoized algorithm has no learning rate at all yet guarantees that the objective will monotonically increase after every step.
+Our NIPS 2013 paper \cite{hughes2013moVB} developed a new algorithm for Dirichlet process mixture models that employs proposal updates designed to jump out of local optima by adding crucial missing clusters or removing redundant or useless clusters. 
+These proposals optimize a sensible variational objective function which tightly bounds the marginal likelihood and thus exhibits the ``Ockham's razor'' effect that penalizes models with too many clusters.
+Furthermore, our method scales to large datasets by processing data one small batch at a time. Unlike stochastic methods that require tuning a nuisance learning rate \cite{hoffman:svi}, our scalable memoized algorithm has no learning rate at all yet guarantees that the objective will monotonically increase after every step.
 
-Later, we extended this algorithm to group-wise clustering and topic modeling with the hierarchical Dirichlet process (HDP) \citep{hughes:hdpreliable} as well as sequence segmentation via the HDP hidden Markov model (HDP-HMM)~\citep{hughes:hdphmm}. In both of these settings, developing reliable proposals was challenging given non-conjugate models and tighter dependencies within the data. Nevertheless, our implementations optimize a variational lower bound which can be used for dynamic model selection while scaling to process millions of observations.
+% adapt the number of clusters to the provided dataset in a single training run while optimizing an objective function which tightly bounds the marginal likelihood and thus exhibits the ``Ockham's razor'' effect that penalizes models with redundant or irrelevant clusters.
+%Our method escapes local optima via non-local proposal moves that can add or remove clusters to improve this objective. These proposals widen the neighborhood of possibilities that can be explored compared to earlier coordinate ascent algorithms. Furthermore, our method scales to large datasets by processing data one small batch at a time. Unlike stochastic methods that require tuning a nuisance learning rate \cite{hoffman:svi}, our scalable memoized algorithm has no learning rate at all yet guarantees that the objective will monotonically increase after every step.
+
+Later, we extended this algorithm to topic modeling with the hierarchical Dirichlet process (HDP) \citep{hughes2015hdpreliable} as well as sequence segmentation via the HDP hidden Markov model (HDP-HMM)~\citep{hughes2015hdphmm}. 
+These settings are more challenging due to non-conjugate models and tighter data dependencies.
+Nevertheless, our implementations optimize a variational lower bound which can be used for dynamic model selection for millions of observations.
 %We also demonstrated parallelization of the most expensive algorithm steps, effectively reducing the cost of training on the whole human genome from days to hours with dozens of CPU cores working together.
-To make my thesis contributions accessible to the general public, I released an open-source Python package BNPy \citep{hughes2016BNPy}. This package is actively used by data science teams at the New York Times.
+To make my thesis contributions accessible to the general public, I released an open-source Python package BNPy \citep{hughes2017bnpy}, which is now actively used by data science teams at the New York Times.
 Looking forward, we expect lessons from designing proposals to escale local optima for BNP models to directly inspire 
-more work on Q1, especially in providing theoretical guarantees on approximation quality, and extending to more sophisticated models needed in healthcare applications.
+more work on Q1, especially in extending to more sophisticated models needed in healthcare applications.
 
 
 
 \section{Proposed work: Semi-supervised models for clinical time-series.}
 
 \paragraph{Multi-objective optimization for accuracy \emph{and} interpretability.}
-To answer Q2, we wish to build supervised BNP hierarchical models for our healthcare applications that jointly explain some input measurements $x$ (labs, vital signs) and some output labels $y$ (prescribed drugs or interventions).
+To answer Q2 for our healthcare applications, we wish to build supervised BNP hierarchical models that jointly explain some input measurements $x$ (labs, vital signs) and some output labels $y$ (prescribed drugs or interventions).
 Unlike purely supervised learning which focuses on modeling $y$ given $x$, we wish to do well simultaneously at predicting $y$ \emph{and} modeling the density of $x$ well.
-As a first step, we focus on topic models for bag-of-words data, where many existing flavors of supervision exist but with two key problems: either they do not consistently achieve reasonable heldout predictive performance relative to simpler baseline classifiers (see supervised LDA \citep{blei2007sLDA} and relatives), or they focus entirely on the prediction task without caring at all about $p(x)$, as in BP-sLDA~\citep{chen2015bplda}. 
-%Furthermore, a common symptom of many published experiments is that predictions do not improve as the model capacity of the generative model increases, as measured in the number of states or topics. 
+As a first step, we focus on topic models for bag-of-words data, where many existing flavors of supervision exist but have two key problems: either they do not consistently achieve predictive performance comparable to baseline classifiers (see supervised LDA \citep{blei2007sLDA} and relatives), or they focus entirely on the prediction task without caring at all about modeling $p(x)$, as in BP-sLDA~\citep{chen2015bplda}. 
 Our recent workshop paper
 \citep{hughes2016clinicalSLDA} highlights failures of existing methods and shows that effective non-local optimization (answering Q1) will be important. Looking ahead to answer Q2, we will explore a constraint-based approach which deliberately finds the best possible model for $x$ which meets some minimum specified threshold on the prediction performance for $y$. We expect insights on both effective optimization and effective supervision (Q2) will easily spill over from topic models into our ICU time-series applications.
 
@@ -99,24 +110,21 @@ is dealing with hundreds of possible interventions $y$. Our collaborators at MGH
 Instead of naively predicting each drug independently of others, we propose to investigate methods that would properly predict combinations. This can draw on advances in structured prediction from the machine learning literature and domain knowledge of drug similarity.
 
 \paragraph{Sparsity assignments and recognition networks for extreme scalability.}
-Two major challenges prevent BNP clustering from scaling to billions of examples and thousands of clusters. First, the bottleneck of inference is the runtime cost of fitting a large model to new data (the ``local'' step). Recent approaches  \cite{mnih:neuralVariational} combine the fast, feed-forward properties of neural networks within an overall framework optimizing the Bayesian variational objective. By training a feed-forward network to approximate the local posterior \cite{gan:deepTSBN}, these methods use information from previous examples to cluster new data faster. 
+Two major challenges prevent BNP clustering from scaling to billions of examples and thousands of clusters. First, the bottleneck of inference is the runtime cost of fitting a large model to new data (the ``local'' step). Recent approaches  \cite{mnih2014neuralVariational} combine the fast, feed-forward properties of neural networks within an overall framework optimizing the Bayesian variational objective. By training a feed-forward network to approximate the local posterior \cite{gan2015deepTSBN}, these methods use information from previous examples to cluster new data faster. 
 Second, my preliminary work on sparse variational posteriors \citep{hughes2016sparse} suggests that using sparse representations of cluster assignments can reduce storage costs and improve speed, making topic models with thousands of topics a possibility. Together, these innovations could help answer Q1 and make BNP optimization much more effective for industry-scale applications.
 
 %With this approach our memoized algorithm could train models with thousands of clusters. The second challenge is performing adaptive inference in a truly distributed setting, with dozens of parallel workers each creating new clusters from disjoint batches and integrating them into a coherent centralized model. Developing such a framework would make BNP clustering accessible to many industry-scale applications.
 
 
-\section{Long-term Vision.}
-\paragraph{Reinforcement learning.}
-Use clustering methods above as representation strategy for RL, where actions are the prescription of different drugs, etc. 
+\section{Long-term Vision: Accessible tools for clinical decision-making.}
 
+In the next decade, I think answers to Q1 and Q2 can directly help clinicians better diagnose and treat patients.
+One necessary step will be integrating the rich representations of our clinical models into a reinforcement learning framework, so that we purposefully model interventions as actions that have feedback on future patient behavior, rather than just algorithm outputs.
+Another step will be connecting our improved optimization ideas and improved supervision ideas into probabilistic programming environments like Stan~\citep{kucukelbir:Stan}, so that scientists and clinicians in many domains can try them out on new models and datasets.
+I intend for my post-doctoral research to take concrete steps towards this vision.
 
-
-\paragraph{Probabilistic programming.}
-Probabilistic programming has come a long way in the last few years and the time is right to develop scalable inference methods that are effective for a large class of BNP models. This class could include models based on hierarchies of the Dirichlet process, the larger family of completely random measures, or latent feature models based on the Beta process. The primary challenge here is developing scalable and adaptive inference methods that are truly general purpose. Toward this end, general purpose ``black-box'' variational methods \cite{kucukelbir:Stan, ranganath:blackbox} have arisen in the past few years which could inspire new solutions when combined with the adaptive proposals from my work.
-
-
-\newpage
-\bibliographystyle{unsrt}
-\bibliography{MacrosForJournalNames,References}
-
+{\scriptsize
+    \setlength{\bibsep}{1pt}
+    \bibliography{MacrosForJournalNames,References}
+}
 \end{document}

@@ -17,9 +17,9 @@ sections:
   - name: Education
     type: education
     items:
-      - date: Sept. 2010--Present
+      - date: May 2016
         school: Brown University
-        major: Ph.D. Candidate, Computer Science
+        major: Ph.D., Computer Science
 
       - date: May 2012
         school: Brown University
@@ -34,18 +34,34 @@ sections:
   - name: Research Experience
     type: experience
     items:
+      - date: Fall 2016 - present
+        topic: "Post-doc: Machine learning for clinical interpretability"
+        about: "Adviser: Prof. Finale Doshi-Velez (Harvard)"
+        notes:
+          - "Developing machine learning models to aid clinical decision-making"
+          - "Collaboration with MGH to improve prediction of drugs for mental health patients"
+          - "Collaboration with MIT to better suggest interventions in the ICU"
+
+      - date: Summery 2016
+        topic: "Estimating carbon biomass from LiDAR waveforms"
+        about: "Adviser: Prof. Erik Sudderth (Brown CS) and Prof. Jim Kellner (Brown Ecology \& Evolutionary Biology)"
+        notes:
+          - "Predicted forest biomass from LiDAR waveforms to better understand land use and climate change"
+          - "Developed Bayesian nonparametric regression to jointly model waveforms and biomass values" 
+          - "Intended for use in upcoming NASA mission \\href{https://science.nasa.gov/missions/gedi}{GEDI}"
+
       - date: Spring 2016
         topic: "Ph.D. Thesis: Scalable inference for Bayesian nonparametric clustering"
-        about: "Advisor: Erik Sudderth"
+        about: "Adviser: Prof. Erik Sudderth"
         notes:
           - "Developed variational inference algorithm that adapts to data by adding or removing clusters during training."
           - "Optimizes sophisticated objective function based on marginal likelihood for Ockham's razor model selection."
           - "Applicable to mixture models, topic models, and hidden Markov models."
-          - "Implemented algorithms in \\href{http://www.bitbucket.org/michaelchughes/bnpy-dev}{open-source Python package BNPy}."
+          - "Implemented algorithms in \\href{http://www.github.com/bnpy/bnpy}{open-source Python package BNPy}."
 
       - date: Spring 2012
         topic: "Master's Project: Sequential Models for Video and Motion Capture"
-        about: "Adviser: Erik Sudderth"
+        about: "Adviser: Prof. Erik Sudderth"
         notes:
           - "Developed methods to discover common actions from many videos of humans performing common activities."
           - "Improved existing MCMC inference algorithms with data-driven Metropolis-Hastings proposals."

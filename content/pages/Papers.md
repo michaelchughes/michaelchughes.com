@@ -5,6 +5,30 @@ save_as: papers.html
 ### 2016
 
 <div class="list-group-item">
+  <a href="{filename}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
+    <h4 class="list-group-item-heading">
+        Predicting intervention onset in the ICU with switching state space models
+    </h4>
+    <p class="list-group-item-text">
+        Marzyeh Ghassemi,
+        Mike Wu,
+        Michael C. Hughes,
+        Peter Szolovits,
+        Finale Doshi-Velez
+    </p>
+    <p class="list-group-item-text"><i>
+        AMIA CRI 2017
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{filename}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
+            [paper PDF]
+    </p>
+</div>
+
+
+
   <a href="{filename}/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf">
     <h4 class="list-group-item-heading">
         Supervised topic models for clinical interpretability

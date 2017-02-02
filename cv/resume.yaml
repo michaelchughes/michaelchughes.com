@@ -35,16 +35,16 @@ sections:
     type: experience
     items:
       - date: Fall 2016 - present
-        topic: "Post-doc: Machine learning for clinical interpretability"
+        topic: "Postdoctoral fellow: Machine learning for clinical interpretability"
         about: "Adviser: Prof. Finale Doshi-Velez (Harvard)"
         notes:
-          - "Developing machine learning models to aid clinical decision-making"
           - "Collaboration with MGH to improve prediction of drugs for mental health patients"
           - "Collaboration with MIT to better suggest interventions in the ICU"
+          - "Supported by gift from Oracle"
 
       - date: Summery 2016
         topic: "Estimating carbon biomass from LiDAR waveforms"
-        about: "Adviser: Prof. Erik Sudderth (Brown CS) and Prof. Jim Kellner (Brown Ecology \& Evolutionary Biology)"
+        about: "Adviser: Prof. Erik Sudderth \\& Prof. Jim Kellner (Ecology \\& Evolutionary Biology)"
         notes:
           - "Predicted forest biomass from LiDAR waveforms to better understand land use and climate change"
           - "Developed Bayesian nonparametric regression to jointly model waveforms and biomass values" 
@@ -108,7 +108,7 @@ sections:
   - name: Teaching Experience
     type: experience
     items:
-      - date: 2014-present
+      - date: 2014-2016
         about: Research Mentor
         employer: Brown University
         notes:
@@ -123,3 +123,30 @@ sections:
         notes:
           - "Led weekly 1 hour recitation session to review key concepts."
           - "Designed homework assignments and exam questions."
+
+
+  - name: Professional Service
+    type: experience
+    items:
+      - date: "2016"
+        about: Workshop Organizer
+        notes:
+          - "\\href{https://sites.google.com/site/nipsbnp2016/}{Practical Bayesian Nonparametrics workshop} at NIPS '16"
+          - "Full day workshop with invited speakers, contributed talks, two panel discussions, and lively poster session"
+          - "Led decisions on >25 submitted papers based on peer review"
+
+      - date: "2016"
+        about: Invited Panelist
+        notes:
+         - "Software panel at \\href{http://approximateinference.org/}{Advances in Approximate Bayesian Inference workshop} at NIPS '16"
+
+      - date: ""
+        about: Program Committee / Reviewer
+        notes:
+          - ICML 2017
+          - AAAI 2017
+          - NIPS 2016
+          - ICML 2015
+          - NIPS 2015
+          - NIPS 2014
+          - NIPS 2013 (reviewer award)

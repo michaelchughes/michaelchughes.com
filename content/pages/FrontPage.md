@@ -3,7 +3,7 @@ Date: 2016-08-01
 save_as: index.html
 
 I am currently a computer science post-doctoral research fellow at Harvard University, under the supervision of 
-<a href="http://finale.seas.harvard.edu/">Finale Doshi-Velez</a>. We are actively exploring applications of machine learning to personalized medicine.
+<a href="http://finale.seas.harvard.edu/">Finale Doshi-Velez</a>. We are actively exploring applications of machine learning to clinical medicine, especially combination therapies for mental health disorders and interventions in the Intensive Care Unit (ICU).
 
 I completed my Ph.D. in computer science at Brown University in May 2016, advised by <a href="http://cs.brown.edu/people/sudderth">Erik Sudderth</a>.  For my thesis project, I studied large-scale unsupervised clustering problems like 
 organizing every New York Times article from the last 20 years or 
@@ -24,6 +24,13 @@ Please try it out!
 		<a href="https://www.meetup.com/Boston-Bayesians/events/237060774/">
 		Event website and talk abstract
 		</a>
+	</p>
+	<p class="list-group-item-text">
+		Slides from my talk:
+		<a href="https://www.dropbox.com/s/rpdyra2pznfr98i/20170207_BNPyTalk_BostonBayesians.pptx?dl=0">
+		 [slides.pptx, 73 MB]</a>
+		<a href="https://www.dropbox.com/s/agf93kdfbbnthn5/20170207_BNPyTalk_BostonBayesians_Small.pdf?dl=0">
+		 [slides.pdf, 23 MB]</a>
 	</p>
 	</li>
 

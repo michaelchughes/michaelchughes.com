@@ -2,7 +2,7 @@ Title: Papers
 Date: 2015-11-07
 save_as: papers.html
 
-### 2016
+### 2017
 
 <div class="list-group-item">
   <a href="{filename}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
@@ -24,11 +24,42 @@ save_as: papers.html
         &#8226;
         <a href="{filename}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
             [paper PDF]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+  <a href="{filename}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
+    <h4 class="list-group-item-heading">
+        Refinery: An Open Source Topic Modeling Web Platform
+    </h4>
+    <p class="list-group-item-text">
+        Daeil Kim,
+        Benjamin F. Swanson,
+        Michael C. Hughes,
+        Erik B. Sudderth
+    </p>
+    <p class="list-group-item-text"><i>
+        JMLR Machine Learning Open Source Software (MLOSS) 2017
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{filename}/papers/KimSwansonHughesSudderth_JMLRSoftware_2017.pdf">
+            [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://github.com/daeilkim/refinery/">
+            [Github code]
+        </a>
+
     </p>
 </div>
 
 
+### 2016
 
+<div class="list-group-item">
   <a href="{filename}/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf">
     <h4 class="list-group-item-heading">
         Supervised topic models for clinical interpretability
@@ -149,7 +180,7 @@ Reliable and Scalable Variational Inference for the Hierarchical Dirichlet Proce
     </h4>
     <p class="list-group-item-text">
 Michael C. Hughes,
-Dae Il Kim,
+Daeil Kim,
 Erik B. Sudderth
     </p>
     <p class="list-group-item-text"><i>

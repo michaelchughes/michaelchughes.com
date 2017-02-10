@@ -5,7 +5,7 @@ save_as: index.html
 I am currently a computer science post-doctoral research fellow at Harvard University, under the supervision of 
 <a href="http://finale.seas.harvard.edu/">Finale Doshi-Velez</a>. We are actively exploring applications of machine learning to personalized medicine.
 
-I recently (May 2016) completed my Ph.D. in computer science at Brown University, advised by <a href="http://cs.brown.edu/people/sudderth">Erik Sudderth</a>.  For my thesis project, I studied large-scale unsupervised clustering problems like 
+I completed my Ph.D. in computer science at Brown University in May 2016, advised by <a href="http://cs.brown.edu/people/sudderth">Erik Sudderth</a>.  For my thesis project, I studied large-scale unsupervised clustering problems like 
 organizing every New York Times article from the last 20 years or 
 automatically annotating videos of human activities.
 My technical focus was on developing optimization algorithms for a broad family of Bayesian nonparametric models that include mixtures, topic models, sequential models, and relational models. My collaborators and I have released an open-source
@@ -16,6 +16,18 @@ Please try it out!
 ### News
 
 <ul class="list-group">
+	<li class="list-group-item">
+	<h4 class="list-group-item-heading">
+	[Feb 2016] Invited talk on BNPy at Boston Bayesians meetup
+	</h4>
+	<p class="list-group-item-text">
+		<a href="https://www.meetup.com/Boston-Bayesians/events/237060774/">
+		Event website and talk abstract
+		</a>
+	</p>
+	</li>
+
+
 	<li class="list-group-item">
 	<h4 class="list-group-item-heading">
 	[Dec 2016] BNPy software tutorial at NIPS 2016 workshop

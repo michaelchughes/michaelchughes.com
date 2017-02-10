@@ -3,8 +3,17 @@
   key: ghassemi2017amiacri
   year: 2017
   venuetype: ""
-  venue: AMIA CRI 2017
+  venue: AMIA CRI
   url: http://michaelchughes.com/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf
+
+- title: "Refinery: An Open Source Topic Modeling Web Platform"
+  authors: Daeil Kim, Benjamin F. Swanson, Michael C. Hughes, and Erik B. Sudderth
+  key: kim2017refinery
+  year: 2017
+  venuetype: ""
+  venue: JMLR MLOSS
+  url: http://michaelchughes.com/papers/KimSwansonHughesSudderth_JMLRSoftware_2017.pdf
+
 
 - title: Supervised topic models for clinical interpretability
   authors: Michael C. Hughes, Huseyin Melih Elibol, Thomas McCoy, Roy Perlis, and Finale Doshi-Velez

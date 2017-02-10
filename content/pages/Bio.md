@@ -4,7 +4,7 @@ save_as: bio.html
 
 My name is Michael C. Hughes, but everybody calls me Mike.
 
-I’m now a post-doctoral researcher at Harvard, in Cambridge, MA.
+I’m now a postdoctoral researcher at Harvard, in Cambridge, MA.
 Previously, I did my PhD in computer science at Brown University in Providence, RI.
 Before that, I did my undergraduate degree at <a href="http://www.olin.edu">Olin College of Engineering</a>, in Needham, MA.
 

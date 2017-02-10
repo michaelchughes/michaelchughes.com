@@ -40,8 +40,8 @@ AVATAR = '/images/Mike_IceCreamSocialHeadshot.jpg'
 ABOUT_ME = '''<strong>Mike Hughes</strong>
 	<br />mike@michaelchughes.com
 	<br />
-	<br />Post-doctoral fellow
-	<br /><a href="http://cs.brown.edu/">Dept. of Computer Science</a>
+	<br />Postdoctoral fellow
+	<br /><a href="http://www.seas.harvard.edu/">SEAS Computer Science</a>
 	<br />Harvard University
 	'''
 

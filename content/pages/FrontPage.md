@@ -18,6 +18,28 @@ Please try it out!
 <ul class="list-group">
 	<li class="list-group-item">
 	<h4 class="list-group-item-heading">
+	[Mar 2016] Presented paper on ICU intervention prediction at 
+		<a href="https://www.amia.org/jointsummits2017/papers/">
+			AMIA CRI '17
+		</a>
+	</h4>
+	<p class="list-group-item-text">
+		Nominated for Clinical Informatics Research Award (1 of 7 nominees)
+	</p>
+	<p class="list-group-item-text">
+		<a href="/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
+		paper [PDF] 
+		</a>
+        &#8226;
+		<a href="/talks/20170328_AMIACRI2017.pdf">
+		 slides [PDF]
+		</a>
+	</p>
+	</li>
+
+
+	<li class="list-group-item">
+	<h4 class="list-group-item-heading">
 	[Feb 2016] Invited talk on BNPy at Boston Bayesians meetup
 	</h4>
 	<p class="list-group-item-text">

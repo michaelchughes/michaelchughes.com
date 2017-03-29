@@ -30,7 +30,7 @@ SITELOGO_SIZE = 40
 FAVICON = 'images/favicon.ico'
 
 CUSTOM_CSS = 'custom.css'
-STATIC_PATHS = ['images', 'papers', 'customstyles']
+STATIC_PATHS = ['images', 'talks', 'papers', 'customstyles']
 EXTRA_PATH_METADATA = {
     'customstyles/custom.css': {'path':'custom.css'},
     }

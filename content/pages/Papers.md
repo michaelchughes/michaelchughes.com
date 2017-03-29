@@ -10,26 +10,32 @@ save_as: papers.html
         Predicting intervention onset in the ICU with switching state space models
     </h4>
     <p class="list-group-item-text">
-        Marzyeh Ghassemi,
-        Mike Wu,
-        Michael C. Hughes,
+        Marzyeh Ghassemi*,
+        Mike Wu*,
+        Michael C. Hughes*,
         Peter Szolovits,
         Finale Doshi-Velez
     </p>
     <p class="list-group-item-text"><i>
-        AMIA CRI 2017
+        <a href="https://www.amia.org/jointsummits2017/papers/">
+            AMIA CRI 2017
+        </a>
     </i></p>
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
         <a href="{filename}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
-            [paper PDF]
+        [paper PDF]
+        </a>
+        &#8226;
+        <a href="{filename}/talks/20170328_AMIACRI2017.pdf">
+        [slides PDF]
         </a>
     </p>
 </div>
 
 <div class="list-group-item">
-  <a href="{filename}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
+  <a href="{filename}/papers/KimSwansonHughesSudderth_JMLRSoftware_2017.pdf">
     <h4 class="list-group-item-heading">
         Refinery: An Open Source Topic Modeling Web Platform
     </h4>

@@ -3,6 +3,37 @@ Date: 2015-11-07
 save_as: papers.html
 
 ### 2017
+<div class="list-group-item">
+  <a href="{filename}/papers/JiHughesSudderth_ICML_2017.pdf">
+    <h4 class="list-group-item-heading">
+        From Patches to Images: A Nonparametric Generative Model
+    </h4>
+    <p class="list-group-item-text">
+        Geng Ji,
+        Michael C. Hughes,
+        Erik B. Sudderth
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://2017.icml.cc">
+            ICML 2017
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{filename}/papers/JiHughesSudderth_ICML_2017.pdf">
+        [paper PDF]
+        </a>
+        &#8226;
+        <a href="{filename}/papers/JiHughesSudderth_ICML_2017_supplement.zip">
+        [supplement ZIP]
+        </a>
+        &#8226;
+        <a href="https://github.com/bnpy/hdp-grid-image-restoration/">
+        [Github code]
+        </a>
+    </p>
+</div>
 
 <div class="list-group-item">
   <a href="{filename}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
@@ -53,6 +84,10 @@ save_as: papers.html
         &#8226;
         <a href="{filename}/papers/KimSwansonHughesSudderth_JMLRSoftware_2017.pdf">
             [paper PDF]
+        </a>
+        &#8226;
+        <a href="http://www.jmlr.org/papers/v18/15-441.html">
+            [publisher link]
         </a>
         &#8226;
         <a href="https://github.com/daeilkim/refinery/">

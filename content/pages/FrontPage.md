@@ -3,9 +3,9 @@ Date: 2016-08-01
 save_as: index.html
 
 I am currently a computer science post-doctoral research fellow at Harvard University, under the supervision of 
-<a href="http://finale.seas.harvard.edu/">Finale Doshi-Velez</a>. We are actively exploring applications of machine learning to clinical medicine, especially combination therapies for mental health disorders and interventions in the Intensive Care Unit (ICU).
+<a href="http://finale.seas.harvard.edu/">Prof. Finale Doshi-Velez</a>. We are actively exploring applications of machine learning to clinical medicine, especially combination therapies for mental health disorders and interventions in the Intensive Care Unit (ICU).
 
-I completed my Ph.D. in computer science at Brown University in May 2016, advised by <a href="http://cs.brown.edu/people/sudderth">Erik Sudderth</a>.  For my thesis project, I studied large-scale unsupervised clustering problems like 
+I completed my Ph.D. in computer science at Brown University in May 2016, advised by <a href="http://cs.brown.edu/people/sudderth">Prof. Erik Sudderth</a>.  For my thesis project, I studied large-scale unsupervised clustering problems like 
 organizing every New York Times article from the last 20 years or 
 automatically annotating videos of human activities.
 My technical focus was on developing optimization algorithms for a broad family of Bayesian nonparametric models that include mixtures, topic models, sequential models, and relational models. My collaborators and I have released an open-source
@@ -18,7 +18,7 @@ Please try it out!
 <ul class="list-group">
 	<li class="list-group-item">
 	<h4 class="list-group-item-heading">
-	[Mar 2016] Presented paper on ICU intervention prediction at 
+	[Mar 2017] Presented paper on ICU intervention prediction at 
 		<a href="https://www.amia.org/jointsummits2017/papers/">
 			AMIA CRI '17
 		</a>
@@ -40,7 +40,7 @@ Please try it out!
 
 	<li class="list-group-item">
 	<h4 class="list-group-item-heading">
-	[Feb 2016] Invited talk on BNPy at Boston Bayesians meetup
+	[Feb 2017] Invited talk on BNPy at Boston Bayesians meetup
 	</h4>
 	<p class="list-group-item-text">
 		<a href="https://www.meetup.com/Boston-Bayesians/events/237060774/">

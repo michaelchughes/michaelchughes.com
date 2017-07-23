@@ -143,6 +143,8 @@ sections:
       - date: ""
         about: Program Committee / Reviewer
         notes:
+          - AAAI 2018
+          - NIPS 2017
           - ICML 2017
           - AAAI 2017
           - NIPS 2016

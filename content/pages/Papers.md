@@ -35,6 +35,35 @@ save_as: papers.html
     </p>
 </div>
 
+
+<div class="list-group-item">
+  <a href="{filename}/papers/RossHughesDoshiVelez_IJCAI_2017.pdf">
+    <h4 class="list-group-item-heading">
+    Right for the Right Reasons: Training Differentiable Models by Constraining their Explanations
+    </h4>
+    <p class="list-group-item-text">
+        Andrew Slavin Ross,
+        Michael C. Hughes,
+        Finale Doshi-Velez
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://ijcai-17.org/">
+            IJCAI 2017
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{filename}/papers/RossHughesDoshiVelez_IJCAI_2017.pdf">
+        [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/abs/1703.03717">
+        [arxiv:1703.03717]
+        </a>
+    </p>
+</div>
+
 <div class="list-group-item">
   <a href="{filename}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
     <h4 class="list-group-item-heading">

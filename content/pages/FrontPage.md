@@ -16,6 +16,17 @@ Please try it out!
 ### News
 
 <ul class="list-group">
+
+	<li class="list-group-item">
+	<h4 class="list-group-item-heading">
+	[Sep 2017] Organizing 
+	<a href="https://ml4health.github.io/2017/">
+		Machine Learning for Health (ML4H) workshop at NIPS 2017
+	</a>
+	</h4>
+	<p>Please <a href="https://ml4health.github.io/2017/pages/call-for-papers.html#submission_instructions">submit some awesome papers!</a></p>
+	</li>
+
 	<li class="list-group-item">
 	<h4 class="list-group-item-heading">
 	[Mar 2017] Presented paper on ICU intervention prediction at 

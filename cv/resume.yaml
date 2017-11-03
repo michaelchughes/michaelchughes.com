@@ -8,6 +8,7 @@ website: www.michaelchughes.com
 github: michaelchughes
 email: mike@michaelchughes.com
 linkedin: michaelchughesLI
+mobile: +1-617-371-76 one one
 
 # Markdown details
 pdf: /papers/MichaelCHughes_CurriculumVitae.pdf
@@ -17,71 +18,75 @@ sections:
   - name: Education
     type: education
     items:
-      - date: May 2016
+      - date: 2016
         school: Brown University
-        major: Ph.D., Computer Science
+        major: Ph.D. and M.S., Computer Science.
 
-      - date: May 2012
-        school: Brown University
-        major: M.S. Computer Science
-        gpa: "4.0"
-
-      - date: May 2010
+      - date: 2010
         school: Olin College of Engineering
         major: B.S. Electrical \& Computer Engineering
-        gpa: "3.93"
 
   - name: Research Experience
     type: experience
     items:
-      - date: Fall 2016 - present
-        topic: "Postdoctoral fellow: Machine learning for clinical interpretability"
-        about: "Adviser: Prof. Finale Doshi-Velez (Harvard)"
+      - date: 2016 - 
+        topic: "Postdoctoral fellow: Machine learning to improve clinical decisions"
+        about: "Adviser: \\href{https://finale.seas.harvard.edu/}{Prof. Finale Doshi-Velez} (Harvard)"
         notes:
-          - "Collaboration with MGH to improve prediction of drugs for mental health patients"
-          - "Collaboration with MIT to better suggest interventions in the ICU"
-          - "Supported by gift from Oracle"
+          - "Developed semi-supervised topic models for characterizing depression (with \\href{https://cgm.massgeneral.org/faculty/roy-h-perlis/}{Dr. Perlis} and \\href{https://www.cdi.pitt.edu/people/thomas-mccoy-md}{Dr. McCoy})"
+          - "Applied time-series models to predict ventilator interventions in the ICU using \\href{https://mimic.physionet.org/}{MIMIC-III dataset}"
+          - "Advanced methods for training deep models to be more interpretable to clinicians or other users"
 
-      - date: Summer 2016
-        topic: "Estimating carbon biomass from LiDAR waveforms"
-        about: "Adviser: Prof. Erik Sudderth \\& Prof. Jim Kellner (Ecology \\& Evolutionary Biology)"
+      - date: 2016
+        topic: "Postdoc project: Estimating carbon biomass from LiDAR waveforms"
+        about: "Adviser:  \\href{http://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth} \\& \\href{https://kellnerlab.org/}{Prof. Jim Kellner} (Brown U., Ecology \\& Evolutionary Biology)"
         notes:
           - "Predicted forest biomass from LiDAR waveforms to better understand land use and climate change"
           - "Developed Bayesian nonparametric regression to jointly model waveforms and biomass values" 
           - "Intended for use in upcoming NASA mission \\href{https://science.nasa.gov/missions/gedi}{GEDI}"
 
-      - date: Spring 2016
-        topic: "Ph.D. Thesis: Scalable inference for Bayesian nonparametric clustering"
-        about: "Adviser: Prof. Erik Sudderth"
+      - date: 2016
+        topic: "Ph.D. Thesis: Reliable and scalable inference for Bayesian nonparametric clustering"
+        about: "Adviser: \\href{http://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth}"
         notes:
           - "Developed variational inference algorithm that adapts to data by adding or removing clusters during training."
-          - "Optimizes sophisticated objective function based on marginal likelihood for Ockham's razor model selection."
+          - "Optimizes marginal likelihood objective function capable of Ockham's razor model selection."
           - "Applicable to mixture models, topic models, and hidden Markov models."
-          - "Implemented algorithms in \\href{http://www.github.com/bnpy/bnpy}{open-source Python package BNPy}."
+          - "Implemented algorithms in \\href{http://www.github.com/bnpy/bnpy}{open-source Python package: BNPy}."
 
-      - date: Spring 2012
+      - date: 2012
         topic: "Master's Project: Sequential Models for Video and Motion Capture"
-        about: "Adviser: Prof. Erik Sudderth"
+        about: "Adviser:  \\href{http://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth}"
         notes:
-          - "Developed methods to discover common actions from many videos of humans performing common activities."
+          - "Developed methods to discover common actions from many videos of humans performing household exercises."
           - "Improved existing MCMC inference algorithms with data-driven Metropolis-Hastings proposals."
 
   - name: Honors and Awards
     type: experience
     items:
-      - date: Spring 2011
+      - date: 2017
+        about: Nominee for AMIA Clinical Informatics Research Award 
+        notes:
+          - "1 of 7 papers nominated at \\href{https://www.amia.org/jointsummits2017}{AMIA's 2017 Joint Summits on Translational Science}, out of >50 papers."
+
+      - date: 2011
         about: NSF Graduate Research Fellowship Award
         notes:
-          - "Three year funding award. Covers tuition and provides research stipend."
+          - "Three year award to fund Ph.D. studies. Covers tuition and provides research stipend."
 
-      - date: Spring 2011
+      - date: 2011
         about: NDSEG Graduate Research Fellowship Award
         notes:
           - "Three year funding award. Declined to accept NSF fellowship."
 
-  # Publications imported by generate.py script if publications file exists
-  - name: Publications
+  # Publications imported by generate.py script from separate .yaml files
+  - name: Highlighted Publications
     type: publications
+    yaml_file: pubs_highlight.yaml
+
+  - name: Highlighted Preprints
+    type: publications
+    yaml_file: pubs_preprints.yaml
 
   - name: Industry Experience
     type: experience
@@ -89,15 +94,16 @@ sections:
       - date: Summer 2013
         about: Software Engineering Intern
         employer: Google
-        location: Mountain View
+        location: Mountain View, CA
         notes:
           - "Improved walking/biking/running classifier using smartphone accelerometer data."
           - "Led collection of dataset from dozens of individuals for classifier evaluation."
-  - name: Non-profit Experience
+
+  - name: Outreach Experience
     type: experience
     items:
       - date: 2014
-        about: Signal Program Fellow
+        about: \href{https://hhi.harvard.edu/research/signa}{Signal Program} Fellow
         employer: Harvard Humanitarian Initiative
         location: Cambridge, MA
         notes:
@@ -105,34 +111,60 @@ sections:
           - "Intended for humanitarian oversight of conflict areas where burning structures is common attack pattern."
           - "Featured in TEDx talk: \\url{http://youtu.be/u7l9rBwOnwU}"
 
-  - name: Teaching Experience
+      - date: 2014-2016
+        about: Volunteer AP Computer Science Instructor
+        employer: TEALS and Boston Latin Academy
+        location: Roxbury, MA
+        notes:
+          - "Taught 1-2 classes / week for 2 years via \\href{https://www.tealsk12.org/}{TEALS \"CS in every high school\"} initiative sponsored by Microsoft."
+          - "Developed hands-on lessons to excite students from diverse backgrounds about computational thinking."
+          - "Mentored full-time teacher Ingrid Roche as she transitioned from media arts to computer science."
+
+
+  - name: Teaching and Mentorship
     type: experience
     items:
+      - date: 2016-2017
+        about: Research Mentor
+        employer: Harvard University SEAS
+        notes:
+          - "Mentored undergraduate senior thesis projects on Bayesian nonparametric inference."
+          - "Frederick Widjaja. 2017 honors thesis: {Streaming Variational Inference for the Indian Buffet Process}."
+          - "Madhu Vijay. 2017 honors thesis: {Characterizing Posterior Uncertainty for the Indian Buffet Process}."
+
       - date: 2014-2016
         about: Research Mentor
         employer: Brown University
         notes:
           - "Mentored students on projects related to Bayesian nonparametric clustering and the BNPy Python package."
           - "William Stephenson. 2015 undergraduate honors thesis: \\href{http://cs.brown.edu/research/pubs/theses/ugrad/2015/stephenson.will.pdf}{Variational Inference for Hierarchical Dirichlet Process based Nonparametric Models}."
-          - "Sonia Phene. 2015 undergraduate honors thesis: \\href{http://cs.brown.edu/research/pubs/theses/ugrad/2015/phene.sonia.pdf}{Multiprocessor parallelization of Variational Inference for Bayesian Nonparametric Topic Models}."
+          - "Sonia Phene. 2015 undergraduate honors thesis: \\href{http://cs.brown.edu/research/pubs/theses/ugrad/2015/phene.sonia.pdf}{Multiprocessor Parallelization of Variational Inference for Bayesian Nonparametric Topic Models}."
           - "Mengrui Ni. 2015 masters project: \\href{http://cs.brown.edu/research/pubs/theses/masters/2015/ni.mengrui.pdf}{Variational Inference for Beta-Bernoulli Dirichlet Process Mixture Models}."
           - "Mert Terzihan. 2015 masters project."
 
       - date: Fall 2013
-        about: "Lead TA for CS 142: Intro to Machine Learning"
+        about: "Lead Graduate TA for \\href{http://cs.brown.edu/courses/cs142/fall2013/}{CS 142: Intro to Machine Learning}"
         notes:
-          - "Led weekly 1 hour recitation session to review key concepts."
+          - "Led weekly 1 hour recitation session to review key concepts for 50+ students."
           - "Designed homework assignments and exam questions."
 
 
   - name: Professional Service
     type: experience
     items:
+      - date: "2017"
+        about: Workshop Organizer
+        notes:
+          - "\\href{https://ml4health.github.io/2017/}{Machine Learning for Health workshop} at NIPS '17 (NIPS ML4H 2017)"
+          - "Full-day workshop with invited keynotes and panels involving clinicians, statisticians, and computer scientists"
+          - "Organized peer-review process for 118 submitted papers"
+
+
       - date: "2016"
         about: Workshop Organizer
         notes:
           - "\\href{https://sites.google.com/site/nipsbnp2016/}{Practical Bayesian Nonparametrics workshop} at NIPS '16"
-          - "Full day workshop with invited speakers, contributed talks, two panel discussions, and lively poster session"
+          - "Full-day workshop with invited speakers, contributed talks, two panel discussions, and lively poster session"
           - "Led decisions on >25 submitted papers based on peer review"
 
       - date: "2016"
@@ -143,12 +175,13 @@ sections:
       - date: ""
         about: Program Committee / Reviewer
         notes:
-          - AAAI 2018
-          - NIPS 2017
-          - ICML 2017
-          - AAAI 2017
-          - NIPS 2016
-          - ICML 2015
-          - NIPS 2015
-          - NIPS 2014
-          - NIPS 2013 (reviewer award)
+          - "2018 - ICLR, AAAI, AMIA CRI"
+          - "2017 - NIPS, ICML, AAAI"
+          - "2016 - NIPS"
+          - "2015 - NIPS, ICML"
+          - "2014 - NIPS, ICML"
+          - "2013 - NIPS (\\href{https://nips.cc/Conferences/2013/Awards}{reviewer award})"
+
+  - name: All Publications (in chronological order)
+    type: publications
+    yaml_file: publications.yaml

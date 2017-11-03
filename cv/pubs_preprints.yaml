@@ -1,0 +1,23 @@
+- title: Prediction-Constrained Training for Semi-Supervised Mixture and Topic Models
+  authors: Michael C. Hughes, Leah Weiner, Gabriel Hope, Thomas H. McCoy, Jr., Roy H. Perlis, Erik B. Sudderth, \& Finale Doshi-Velez
+  key: arxiv2017
+  year: 2017
+  venuetype: ""
+  venue: arXiv e-print
+  url: https://arxiv.org/pdf/1707.07341.pdf
+
+- title: Fast Learning of Clusters and Topics via Sparse Posteriors
+  authors: Michael C. Hughes \& Erik B. Sudderth
+  key: arxiv2016
+  year: 2016
+  venuetype: ""
+  venue: arXiv e-print
+  url: http://michaelchughes.com/papers/HughesSudderth_arXiv_2016.pdf
+
+- title: "BNPy: Reliable and scalable variational inference for Bayesian nonparametric models"
+  authors: Michael C. Hughes, \& Erik B. Sudderth
+  key: nipsworkshop2014
+  year: 2014
+  venuetype: ""
+  venue: 3rd NIPS Workshop on Probabilistic Programming
+  url: http://michaelchughes.com/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf

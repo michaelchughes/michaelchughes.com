@@ -207,6 +207,13 @@ def main():
             yaml_data.update(yaml.load(f))
 
     # Sub into the publications section as its items, if they don't exist
+    for s in yaml_data['sections']:
+        if 'yaml_file' in s and s['yaml_file'].endswith('.yaml'):
+            extra_yaml_fpath = s['yaml_file']
+            with open(extra_yaml_fpath, 'r') as f:
+                s['items'] = yaml.load(f)
+
+    '''
     if args.publications:
         with open(args.publications) as f:
             pubs = yaml.load(f)
@@ -215,11 +222,12 @@ def main():
             if 'type' in s and s['type'] == 'publications' and 'items' not in s:
                 s['items'] = pubs
                 break
-
     # Remove the publications section if it exists and has no items
     yaml_data['sections'] = [
         s for s in yaml_data['sections']
         if 'type' not in s or s['type'] != 'publications' or 'items' in s]
+    '''
+
 
     if args.html or args.latex or args.markdown:
         if args.html:

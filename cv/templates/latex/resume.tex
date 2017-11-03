@@ -2,6 +2,10 @@
 
 \moderncvstyle{banking}
 \moderncvcolor{blue}
+\renewcommand*{\addresssymbol}       {}
+\renewcommand*{\mobilephonesymbol}   {}
+\renewcommand*{\emailsymbol}         {}
+\renewcommand*{\homepagesymbol}      {}
 
 % Page margins
 \usepackage[scale=0.75]{geometry}
@@ -9,8 +13,8 @@
 \AtBeginDocument{
 	\hypersetup{
 		colorlinks=true,
-		linkbordercolor=blue,
-		linkcolor=blue,
+		linkbordercolor={blue!80!black},
+		linkcolor={blue!80!black},
 		urlcolor={blue!80!black},
 		pdfborder = 0 0 1}}
 
@@ -30,12 +34,13 @@
 ~<if email is defined >~
   \email{<< email >>}
 ~< endif >~
-
-\homepage{<< website >>}
-\social[linkedin]{<< linkedin >>}
+%\social[linkedin]{<< linkedin >>}
 \social[github]{<< github >>}
+\homepage{<< website >>}
 
 \begin{document}
+\fancyfoot[r]{\thepage}
+
 \makecvtitle
   \vspace{-20pt}
 

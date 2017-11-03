@@ -6,6 +6,7 @@ content/papers/MichaelCHughes_CurriculumVitae.pdf
 *.pyc
 
 .texpadtmp/
+cover_letter/*.pdf
 statements/*.pdf
 *-eps-converted-to.pdf
 *.dvi

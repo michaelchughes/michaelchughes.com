@@ -18,6 +18,37 @@ Please try it out!
 <ul class="list-group">
 
 	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[Nov 2017] Paper accepted to AAAI 2018.
+		</h4>
+		<p class="list-group-item-text">
+			<a href="https://arxiv.org/pdf/1711.06178.pdf">
+			Beyond Sparsity: Tree Regularization of Deep Models for Interpretability
+			[PDF]
+			</a>
+		</p> 
+		<p>
+			Our paper describes a new regularization method to <emph>optimize</emph> recurrent neural networks to have more interpretable decision boundaries (closer to the decision trees that clinicians like).
+		</p>
+	</li>
+
+
+	<li class="list-group-item">
+	<h4 class="list-group-item-heading">
+	[Nov 2017] Invited talk at <a href="https://www.ll.mit.edu">MIT Lincoln Laboratory</a>
+	</h4>
+	<p class="list-group-item-text">
+		"Optimizing Machine Learning Models for Clinical Interpretability"
+	</p>
+	<p class="list-group-item-text">
+		Slides:
+		<a href="https://www.dropbox.com/s/4aj9j1c2yw3kybj/20171114_LincolnLab.pdf?dl=0">
+		 [slides.pdf, 5 MB]
+		</a>
+	</p>
+	</li>
+
+	<li class="list-group-item">
 	<h4 class="list-group-item-heading">
 	[Sep 2017] Organizing 
 	<a href="https://ml4health.github.io/2017/">
@@ -92,7 +123,7 @@ Please try it out!
 	</h4>
 	<p class="list-group-item-text">
 		<a href="/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf">
-		Preliminary supervised topic model paper</a>
+		Fast per-document inference for supervised topic models</a>
 		at
 		<a href="http://www.nipsml4hc.ws/home">
 			ML for Health workshop.
@@ -179,7 +210,7 @@ Please try it out!
 		</p>
 	</li>
 
-		<li class="list-group-item">
+	<li class="list-group-item">
 		<h4 class="list-group-item-heading">
 		[May 2015] Paper accepted at AISTATS 2015.
 		</h4>

@@ -2,6 +2,38 @@ Title: Papers
 Date: 2015-11-07
 save_as: papers.html
 
+### 2018
+<div class="list-group-item">
+  <a href="https://arxiv.org/pdf/1711.06178.pdf">
+    <h4 class="list-group-item-heading">
+        Beyond Sparsity: Tree Regularization of Deep Models for Interpretability
+    </h4>
+    <p class="list-group-item-text">
+        Mike Wu,
+        Michael C. Hughes,
+        Sonali Parbhoo,
+        Maurizio Zazzi,
+        Volker Roth,
+        and Finale Doshi-Velez
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://aaai.org/Conferences/AAAI-18/">
+            AAAI 2018
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://arxiv.org/pdf/1711.06178.pdf">
+        [arXiv PDF (with supplement)]
+        </a>
+        &#8226;
+        <a href="https://github.com/dtak/tree-regularization-public/">
+        [Github code (coming soon)]
+        </a>
+    </p>
+</div>
+
 ### 2017
 <div class="list-group-item">
   <a href="{filename}/papers/JiHughesSudderth_ICML_2017.pdf">

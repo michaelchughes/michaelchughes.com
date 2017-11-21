@@ -1,3 +1,12 @@
+- title: "Beyond Sparsity: Tree Regularization of Deep Models for Interpretability"
+  authors: "Mike Wu\\textsuperscript{u}, Michael C. Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
+  key: wu2018aaai
+  year: 2018
+  venuetype: ""
+  venue: "To appear in Association for Advancement of Artificial Intelligence (AAAI)"
+  url: https://arxiv.org/pdf/1711.06178.pdf
+
+
 - title: "From Patches to Images: A Nonparametric Generative Model"
   authors: "Geng Ji\\textsuperscript{d}, Michael C. Hughes, and Erik B. Sudderth"
   key: ji2017icml

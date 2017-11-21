@@ -22,4 +22,9 @@
 {% endfor %}
 </ul>
 
+  {% if footnote is defined %}
+   <p class="list-group-item-text"><emph>{{ footnote }}</emph></p>
+  {% endif %}
+
+
 {% endblock body %}

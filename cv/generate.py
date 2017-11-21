@@ -103,7 +103,6 @@ class RenderContext(object):
         # Grab the timestamp of the last commit
         timestamp = Repo('..').head.commit.committed_date
         yaml_data['generated'] = strftime("%B %d %Y", localtime(timestamp))
-
         return self._render_template(
             self._base_template, yaml_data).rstrip() + '\n'
 
@@ -148,6 +147,9 @@ MARKDOWN_CONTEXT = RenderContext(
         ('--', '-'),                       # en dash
         (r'``([^\']*)\'\'', r'"\1"'),      # quotes
         (r'\\&', '&'),                       # \& to &
+        (r'\\textsuperscript{d}', r"<sup>d</sup>"),
+        (r'\\textsuperscript{m}', r"<sup>m</sup>"),
+        (r'\\textsuperscript{u}', r"<sup>u</sup>"),        
     ]
 )
 
@@ -212,7 +214,9 @@ def main():
             extra_yaml_fpath = s['yaml_file']
             with open(extra_yaml_fpath, 'r') as f:
                 s['items'] = yaml.load(f)
-
+                #if 'footnote' in s:
+                #    s['items'][0]['authors'] += \
+                #        "\\footnotemark{ABCD}"
     '''
     if args.publications:
         with open(args.publications) as f:

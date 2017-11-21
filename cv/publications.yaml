@@ -1,5 +1,5 @@
 - title: "From Patches to Images: A Nonparametric Generative Model"
-  authors: Geng Ji, Michael C. Hughes, and Erik B. Sudderth
+  authors: "Geng Ji\\textsuperscript{d}, Michael C. Hughes, and Erik B. Sudderth"
   key: ji2017icml
   year: 2017
   venuetype: ""
@@ -7,15 +7,15 @@
   url: http://michaelchughes.com/papers/JiHughesSudderth_ICML_2017.pdf
 
 - title: "Right for the Right Reasons: Training Differentiable Models by Constraining their Explanations"
-  authors: Andrew Slavin Ross, Michael C. Hughes, and Finale Doshi-Velez
+  authors: "Andrew Slavin Ross\\textsuperscript{m}, Michael C. Hughes, and Finale Doshi-Velez"
   key: ross2017ijcai
   year: 2017
   venuetype: ""
   venue: International Joint Conference on Artificial Intelligence (ICJAI)
   url: http://michaelchughes.com/papers/RossHughesDoshiVelez_IJCAI_2017.pdf
 
-- title: Predicting intervention onset in the ICU with switching state space models
-  authors: Marzyeh Ghassemi, Mike Wu, Michael C. Hughes, Peter Szolovits, and Finale Doshi-Velez
+- title: Predicting Intervention Onset in the ICU with Switching State Space Models
+  authors: "Marzyeh Ghassemi, Mike Wu\\textsuperscript{u}, Michael C. Hughes, Peter Szolovits, and Finale Doshi-Velez"
   key: ghassemi2017amiacri
   year: 2017
   venuetype: ""
@@ -31,7 +31,7 @@
   url: http://michaelchughes.com/papers/KimSwansonHughesSudderth_JMLRSoftware_2017.pdf
 
 - title: "Associations between aboveground forest biomass and waveform LiDAR metrics: implications for modeling footprint-level biomass using Global Ecosystem Dynamics Investigation data"
-  authors: "J. Kellner, J. B. Blair, L. Duncanson, L., S. Hancock, M. A. Hofton, M. C. Hughes, S. Marselis, S., J. Armston, E. B. Sudderth, H. Tang, L. Weiner, and R. Dubayah"
+  authors: "J. Kellner, J. B. Blair, L. Duncanson, L., S. Hancock, M. A. Hofton, M. C. Hughes, S. Marselis, S., J. Armston, E. B. Sudderth, H. Tang, L. Weiner\\textsuperscript{d}, and R. Dubayah"
   key: agu2016
   year: 2016
   venuetype: ""
@@ -47,7 +47,7 @@
   url: http://michaelchughes.com/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf
 
 - title: Scalable Adaptation of State Complexity for Nonparametric Hidden Markov Models
-  authors: Michael C. Hughes, William Stephenson, \& Erik B. Sudderth
+  authors: "Michael C. Hughes, William Stephenson\\textsuperscript{u}, and Erik B. Sudderth"
   key: nips2015
   year: 2015
   venuetype: ""
@@ -55,7 +55,7 @@
   url: http://michaelchughes.com/papers/HughesStephensonSudderth_NIPS_2015.pdf
 
 - title: Reliable and Scalable Variational Inference for the Hierarchical Dirichlet Process
-  authors: Michael C. Hughes, Dae Il Kim, \& Erik B. Sudderth
+  authors: Michael C. Hughes, Dae Il Kim, and Erik B. Sudderth
   key: aistats2015
   year: 2015
   venuetype: ""
@@ -64,7 +64,7 @@
 
 
 - title: "BNPy: Reliable and scalable variational inference for Bayesian nonparametric models"
-  authors: Michael C. Hughes \& Erik B. Sudderth
+  authors: Michael C. Hughes and Erik B. Sudderth
   key: nipsworkshop2014
   year: 2013
   venuetype: ""
@@ -72,7 +72,7 @@
   url: http://michaelchughes.com/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf
 
 - title: Joint Modeling of Multiple Time Series via the Beta Process with Application to Motion Capture Segmentation
-  authors: Emily Fox, Michael C. Hughes, Erik B. Sudderth, \& Michael I. Jordan
+  authors: Emily Fox, Michael C. Hughes, Erik B. Sudderth, and Michael I. Jordan
   key: aoas2015
   year: 2014
   venuetype: ""
@@ -81,7 +81,7 @@
 
 
 - title: Memoized Online Variational Inference for Dirichlet Process Mixture Models
-  authors: Michael C. Hughes \& Erik B. Sudderth
+  authors: Michael C. Hughes and Erik B. Sudderth
   key: nips2013
   year: 2013
   venuetype: ""
@@ -89,7 +89,7 @@
   url: http://michaelchughes.com/papers/HughesSudderth_NIPS_2013.pdf
 
 - title: Effective Split-Merge Monte Carlo Methods for Nonparametric Models of Sequential Data
-  authors: Michael C. Hughes, Emily Fox, \& Erik B. Sudderth
+  authors: Michael C. Hughes, Emily Fox, and Erik B. Sudderth
   key: nips2012
   year: 2012
   venuetype: ""
@@ -97,7 +97,7 @@
   url: http://michaelchughes.com/papers/HughesFoxSudderth_NIPS_2012.pdf
 
 - title: The Nonparametric Metadata Dependent Relational Model
-  authors: Dae Il Kim, Michael C. Hughes, \& Erik B. Sudderth
+  authors: Dae Il Kim, Michael C. Hughes, and Erik B. Sudderth
   key: icml2012
   year: 2012
   venuetype: ""
@@ -105,7 +105,7 @@
   url: http://michaelchughes.com/papers/KimHughesSudderth_ICML_2012.pdf
 
 - title: Nonparametric Discovery of Activity Patterns from Video Collections
-  authors: Michael C. Hughes \& Erik B. Sudderth
+  authors: Michael C. Hughes and Erik B. Sudderth
   key: pocv2012
   year: 2012
   venuetype: ""

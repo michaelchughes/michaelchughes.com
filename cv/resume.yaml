@@ -84,6 +84,7 @@ sections:
   - name: Highlighted Publications
     type: publications
     yaml_file: pubs_highlight.yaml
+    footnote: "Superscripts indicate mentored student's role: u = undergraduate, m = masters, d = doctoral."
 
   - name: Highlighted Preprints
     type: publications

@@ -8,7 +8,7 @@ website: www.michaelchughes.com
 github: michaelchughes
 email: mike@michaelchughes.com
 linkedin: michaelchughesLI
-mobile: +1-617-371-76 one one
+mobile: +1-617-371-7611
 
 # Markdown details
 pdf: /papers/MichaelCHughes_CurriculumVitae.pdf
@@ -29,37 +29,38 @@ sections:
   - name: Research Experience
     type: experience
     items:
-      - date: 2016 - 
-        topic: "Postdoctoral fellow: Machine learning to improve clinical decisions"
+      - date: 2016 - present
+        topic: "Postdoctoral fellow: Machine learning to improve clinical  decisions in healthcare"
         about: "Adviser: \\href{https://finale.seas.harvard.edu/}{Prof. Finale Doshi-Velez} (Harvard)"
         notes:
-          - "Developed semi-supervised topic models for characterizing depression (with \\href{https://cgm.massgeneral.org/faculty/roy-h-perlis/}{Dr. Perlis} and \\href{https://www.cdi.pitt.edu/people/thomas-mccoy-md}{Dr. McCoy})"
-          - "Applied time-series models to predict ventilator interventions in the ICU using \\href{https://mimic.physionet.org/}{MIMIC-III dataset}"
-          - "Advanced methods for training deep models to be more interpretable to clinicians or other users"
+          - "Developed semi-supervised models for characterizing and treating depression (with \\href{https://cgm.massgeneral.org/faculty/roy-h-perlis/}{Dr. Perlis} and \\href{https://www.cdi.pitt.edu/people/thomas-mccoy-md}{Dr. McCoy})."
+          - "Applied time-series models to predict ventilator interventions in the ICU for \\href{https://mimic.physionet.org/}{public dataset} of >36,000 patients."
+          - "Created methods for training deep models so they are more interpretable to clinicians or other users."
 
       - date: 2016
         topic: "Postdoc project: Estimating carbon biomass from LiDAR waveforms"
         about: "Adviser:  \\href{http://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth} \\& \\href{https://kellnerlab.org/}{Prof. Jim Kellner} (Brown U., Ecology \\& Evolutionary Biology)"
         notes:
-          - "Predicted forest biomass from LiDAR waveforms to better understand land use and climate change"
-          - "Developed Bayesian nonparametric regression to jointly model waveforms and biomass values" 
-          - "Intended for use in upcoming NASA mission \\href{https://science.nasa.gov/missions/gedi}{GEDI}"
+          - "Predicted forest biomass from LiDAR waveforms to better understand land use and climate change."
+          - "Modeled waveforms and biomass predictions jointly via nonparametric regression using our \\href{http://www.github.com/bnpy/bnpy}{BNPy toolbox.}" 
+          - "Intended for use in NASA's upcoming \\href{https://science.nasa.gov/missions/gedi}{Global Ecosystem Dynamics Investigation (GEDI)}."
 
       - date: 2016
         topic: "Ph.D. Thesis: Reliable and scalable inference for Bayesian nonparametric clustering"
         about: "Adviser: \\href{http://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth}"
         notes:
-          - "Developed variational inference algorithm that adapts to data by adding or removing clusters during training."
-          - "Optimizes marginal likelihood objective function capable of Ockham's razor model selection."
-          - "Applicable to mixture models, topic models, and hidden Markov models."
-          - "Implemented algorithms in \\href{http://www.github.com/bnpy/bnpy}{open-source Python package: BNPy}."
+          - "Developed variational optimization algorithms that scale to millions of examples and hundreds of clusters."
+          - "Optimized lower bound on marginal likelihood, thus penalizing too simple and too complex explanations."
+          - "Escaped local optima via data-driven proposals that add useful new clusters and remove redundant ones."
+          - "Applied to topic models of 2 million NY Times articles and  sequential models of the whole human genome."
+          - "Implemented algorithms in \\href{http://www.github.com/bnpy/bnpy}{open-source package: Bayesian Nonparametrics for Python (BNPy)}."
 
       - date: 2012
         topic: "Master's Project: Sequential Models for Video and Motion Capture"
         about: "Adviser:  \\href{http://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth}"
         notes:
           - "Developed methods to discover common actions from many videos of humans performing household exercises."
-          - "Improved existing MCMC inference algorithms with data-driven Metropolis-Hastings proposals."
+          - "Improved existing inference algorithms with data-driven Metropolis-Hastings proposals."
 
   - name: Honors and Awards
     type: experience
@@ -97,29 +98,7 @@ sections:
         location: Mountain View, CA
         notes:
           - "Improved walking/biking/running classifier using smartphone accelerometer data."
-          - "Led collection of dataset from dozens of individuals for classifier evaluation."
-
-  - name: Outreach Experience
-    type: experience
-    items:
-      - date: 2014
-        about: \href{https://hhi.harvard.edu/research/signa}{Signal Program} Fellow
-        employer: Harvard Humanitarian Initiative
-        location: Cambridge, MA
-        notes:
-          - "Developed prototype detector for common housing structures in sub-Saharan Africa from satellite images."
-          - "Intended for humanitarian oversight of conflict areas where burning structures is common attack pattern."
-          - "Featured in TEDx talk: \\url{http://youtu.be/u7l9rBwOnwU}"
-
-      - date: 2014-2016
-        about: Volunteer AP Computer Science Instructor
-        employer: TEALS and Boston Latin Academy
-        location: Roxbury, MA
-        notes:
-          - "Taught 1-2 classes / week for 2 years via \\href{https://www.tealsk12.org/}{TEALS \"CS in every high school\"} initiative sponsored by Microsoft."
-          - "Developed hands-on lessons to excite students from diverse backgrounds about computational thinking."
-          - "Mentored full-time teacher Ingrid Roche as she transitioned from media arts to computer science."
-
+          - "Led collection of dataset from dozens of individuals for classifier evaluation via custom Android app."
 
   - name: Teaching and Mentorship
     type: experience
@@ -148,6 +127,37 @@ sections:
           - "Led weekly 1 hour recitation session to review key concepts for 50+ students."
           - "Designed homework assignments and exam questions."
 
+  - name: Outreach Experience
+    type: experience
+    items:
+      - date: 2014
+        about: \href{https://hhi.harvard.edu/research/signa}{Signal Program} Fellow
+        employer: Harvard Humanitarian Initiative
+        location: Cambridge, MA
+        notes:
+          - "Developed prototype detector for common housing structures in sub-Saharan Africa from satellite images."
+          - "Intended for humanitarian oversight of conflict areas where burning structures is common attack pattern."
+          - "Featured in TEDx talk: \\url{http://youtu.be/u7l9rBwOnwU}"
+
+      - date: 2014-2016
+        about: Volunteer AP Computer Science Instructor
+        employer: TEALS and Boston Latin Academy
+        location: Roxbury, MA
+        notes:
+          - "Taught 1-2 classes / week for 2 years via \\href{https://www.tealsk12.org/}{TEALS \"CS in every high school\"} initiative sponsored by Microsoft."
+          - "Developed hands-on lessons to excite students from diverse backgrounds about computational thinking."
+          - "Mentored full-time teacher Ingrid Roche as she transitioned from media arts to AP computer science (Java)."
+
+
+      - date: 2007-2010
+        about: Co-Founder and Curriculum Director
+        employer: Olin College Engineering Discovery
+        location: Needham, MA
+        notes:
+          - "Managed 15 undergrads in developing hands-on lessons for 4th-8th graders."
+          - "Hosted workshops for 30 children to design, build, and launch bottle rockets."
+          - "Pioneered green energy workshop which earned over \\$750 in outside funding."
+
 
   - name: Professional Service
     type: experience
@@ -156,21 +166,21 @@ sections:
         about: Workshop Organizer
         notes:
           - "\\href{https://ml4health.github.io/2017/}{Machine Learning for Health workshop} at NIPS '17 (NIPS ML4H 2017)"
-          - "Full-day workshop with invited keynotes and panels involving clinicians, statisticians, and computer scientists"
-          - "Organized peer-review process for 118 submitted papers"
+          - "Full-day workshop with invited keynotes and panels involving clinicians, statisticians, and computer scientists."
+          - "Organized peer-review process for 118 submitted papers."
 
 
       - date: "2016"
         about: Workshop Organizer
         notes:
-          - "\\href{https://sites.google.com/site/nipsbnp2016/}{Practical Bayesian Nonparametrics workshop} at NIPS '16"
-          - "Full-day workshop with invited speakers, contributed talks, two panel discussions, and lively poster session"
-          - "Led decisions on >25 submitted papers based on peer review"
+          - "\\href{https://sites.google.com/site/nipsbnp2016/}{Practical Bayesian Nonparametrics workshop} at NIPS '16."
+          - "Full-day workshop with invited speakers, contributed talks, two panel discussions, and lively poster session."
+          - "Led decisions on >25 submitted papers based on peer review."
 
       - date: "2016"
         about: Invited Panelist
         notes:
-         - "Software panel at \\href{http://approximateinference.org/}{Advances in Approximate Bayesian Inference workshop} at NIPS '16"
+         - "Software panel at \\href{http://approximateinference.org/}{Advances in Approximate Bayesian Inference workshop} at NIPS '16."
 
       - date: ""
         about: Program Committee / Reviewer

@@ -1,0 +1,20 @@
+Project: Switching state time-series models for the ICU
+
+## Publication
+Predicting intervention onset in the ICU with switching state space models
+Marzyeh Ghassemi*, Mike Wu*, Michael C. Hughes*, Peter Szolovits, Finale Doshi-Velez
+AMIA Summit on Clinical Research Informatics 2017
+
+Paper PDF: http://michaelchughes.com/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf
+Slides PDF: http://michaelchughes.com/talks/20170328_AMIACRI2017.pdf
+
+## Summary
+
+In this project during my postdoc, our goal was to discover common trajectories of patients in the ICU (e.g. start at severe kidney malfunction, drift slowly towards more stable vitals) via latent variable models. Data was from 36,000 patients from Boston-area hospitals, via the public MIMIC-III dataset (https://mimic.physionet.org/). On the medical informatics side, Mike and Finale collaborated with Marzyeh Ghassemi (grad student at MIT) and her adviser Prof. Peter Szolovits (MIT) as well as Leo Celi (Clinical Research Director, Laboratory of Computational Physiology, MIT). Mike Wu (former Yale undergrad, just started grad school at Stanford) helped coding, training, and evaluating some models.
+
+The observed time-series data included hourly measurements of vital signs (heart rate, blood pressure, etc.) and lab tests on blood samples (kidney function, nutrient levels, etc.). The project goal was to predict *actionable* interventions at each timestep (e.g.  when to apply mechanical ventilation to help breathing or when to apply blood thinner drugs (vasopressors)), and to do these predictions several hours ahead. Predictions several hours ahead would let doctors and patients have conversations about risks ahead of time (improving patient care) while also improving staffing/equipment logistics for the hospital. 
+
+Our model of choice was first-order hidden Markov models with a first-order autoregressive Gaussian likelihood to handle tight dependencies in the vital sign data. In some ways, this was an out-of-the-box application of variational methods for training HMMs, but needed the scalability provided by Mike's BNPy toolbox to handle all 36,000 sequences (each ~10-100 timesteps long). A final challenge was needing to intelligently handle missing data, as some lab tests are run only once a day or even less, so a smart "carry and hold" imputation process was needed.
+
+Mike's team found that even with small HMMs (10 hidden states, to keep interpretable), they could improve prediction of need for ventilators and other interventions even 4 hours ahead of time. This was relative to baselines that use the raw feature data (vital signs) combined with the demographics of the patient. Mike also did some feature analysis to try to interpret what clinical signals each learned HMM "state" was using: some states seemed to be clear signals of deterioration.
+

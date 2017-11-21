@@ -1,0 +1,105 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{url}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{tgpagella}
+\usepackage{parskip}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    citecolor=black,
+}
+\urlstyle{same}
+
+\usepackage{amsmath,amssymb,amsfonts}
+\newcommand{\ts}{\textstyle}
+
+\usepackage{xspace} % insert space when needed, very important
+\newcommand{\MichaelCHughes}{\textbf{M. C. Hughes}\xspace}
+
+%%% Bibliography
+\usepackage{natbib}
+\bibliographystyle{myabbrvnat}
+\setcitestyle{numbers,open={[},close={]}}
+%\setcitestyle{authoryear,open={(},close={)}}
+
+\begin{document}
+
+ \null
+ \begin{center}%
+  {\Large 
+  Michael C. Hughes 
+  \quad
+  Teaching Statement
+  }
+  \quad
+  \url{www.michaelchughes.com}
+  \par%
+ \end{center}%
+ \vskip 1em%
+ \par
+
+I view my role as an educator to have 3 essential parts: classroom teaching, research mentorship, and outreach beyond the university.
+My teaching experience includes a semester as head TA for the \emph{Intro to Machine Learning} class in the Computer Science department at Brown University (fall 2013), when I led weekly recitations for over 50 students.
+I have mentored over 10 undergraduate, masters, and Ph.D. students on research projects during my time at Brown and later at Harvard, including 4 honors theses, 2 masters theses, and 5 co-authored publications at major machine learning conferences.
+Finally, my outreach experience includes 2 years as an AP Computer Science (Java) instructor at Boston Latin Academy via the TEALS ``Computer Science in Every High School'' volunteer program\footnote{\url{www.tealsk12.org}}, as well as work on open-source tools to detect and respond to humanitarian crises via the Harvard Humanitarian Initiative\footnote{\url{http://youtu.be/u7l9rBwOnwU}} (with help of two CS students at Brown).
+I view all these efforts as interrelated ways to train more people to think critically about how to turn data into actionable knowledge, and bring the benefits of such insights to the broader public.
+
+Throughout these efforts, I have converged on three guiding principles which inspire my actions as an educator: students should (1) feel valued, (2) learn by doing meaningful work, and (3) repeatedly seek and reflect on feedback.
+Below, I motivate these goals with concrete examples from my experience and close by describing a vision for the courses I would like to teach.
+
+\subsection*{Goal 1: Student should Feel Valued and Not Afraid to Fail}
+
+My first goal for all students is that they know I value them as worthwhile human beings regardless of academic achievements. 
+Francis Edward Su (Harvey Mudd) calls this ``Teaching with Grace''\footnote{\url{http://mathyawp.blogspot.com/2013/01/the-lesson-of-grace-in-teaching.html}}. One way I strive to do this is by learning the names of students I interact with. Naming gives students dignity and shows they belong. Furthermore, I try to promote informal interaction with students, such as regular lunches with research group members or offering snacks at office hours.
+By creating conversation openings, I can build a sense of community, make students feel respected, and listen to their concerns.
+
+Meaningful learning requires students to take risks and occasionally fail at some tasks. By convincing students that their value is not tied to classroom or research performance, I find they are more willing to try new ideas and also more receptive to feedback about how to improve. 
+Being willing to take risks and thus become vulnerable is not easy for humans, especially in front of instructors or supervisors. 
+Rather than hide my own failures from students, I try to 
+model how to take risks and respond to criticism by showing the harsh (but fair) reviews I've received on past submissions or honestly discussing my own feelings of impostor syndrome. 
+%Building on this foundation of grace, my goal as a data science educator and mentor is to empower students to take active roles in their education and become effective critical thinkers and communicators.
+
+
+\subsection*{Goal 2: Students should Learn by \emph{Doing} and Do Meaningful Work}
+
+My ideal classroom favors case-study-like problem sets to practice new skills followed by open-ended, project-based learning to achieve mastery.
+This comes from my own undergraduate education at Olin College, whos founding purpose is to reinvent engineering education to emphasize hands-on approaches in every course. In my Olin introductory courses, I did take a few exams, but I also built a hovercraft, synthesized quantum dots, coded a replicate of the Apollo Guidance System, and fabricated heat sinks. From this experience, I have come to view students of all ages as capable individuals who can and should take ownership over their learning. Of course, plenty of scholarship on what works in engineering education also supports a learn-by-doing approach [TODO CITATIONS?]
+
+My core areas of expertise, data science and machine learning, have wonderfully low barriers to entry for student of all levels to explore self-directed projects.
+Almost any core skill (e.g. clustering, classification, time-series analysis) can be practiced immediately via applying it to an exciting dataset from a student's favorite domain (e.g. music, sports, biology, etc.). I am particularly excited about a holistic approach to such projects, which emphasizes quantitative rigor as well as the challenges of real-world data science: such as cleaning messy datasets and the need for effective communication of insights to the application's stakeholders.
+
+When student projects are self-directed and tackle meaningful problems, they help students build \emph{lifelong} passions as well as very employable skills. For example, when building an object detector for satellite images in my humanitarian outreach work, I solicited help from two CS students at Brown (Hasnain and Christine) to help evaluate feature pipelines and improve the user interaction, whose work counted as their final projects in an advanced computer vision course (taught by Prof. James Hays at Brown). 
+Students love having meaningful project work to point to on their resume, and employers love it too.
+When possible, I am excited to bring important research problems into the classroom and use them to motivate next-generation solutions. 
+
+\subsection*{Goal 3: Students should Interact, Receive Feedback, Reflect, and Repeat}
+
+As a student and postdoc research trainee, I have repeatedly found that the best way to make progress on difficult problems is to repeatedly seek and iterate upon feedback from others. At Brown, my adviser Erik and I led weekly meetings where all younger students working on projects related to our Bayesian Nonparametrics in Python (BNPy) package would meet together, round-table style, rather than one-on-one. Each student would give a short update (via whiteboard or slides) followed by feedback from the group. 
+As a postdoc, I have organized similar round-table meetings for undergraduate thesis students.
+Throughout these sessions, I try to model \emph{critical scientific thinking} skills and \emph{debugging strategies}.
+For example, when a student reports that an inference method is not working well, students and I collaborate to collect appropriate evidence (e.g. trace plots of the objective function), form hypotheses, and suggest concrete next steps.
+%A common failure mode is that younger students disengage when others are presenting work that might not directly align with their own project. I find the
+We also find these efforts help with presentation skills, especially when other students not directly in the project are in the room offer advice on draft figures and tables.
+%I also have students practice interpreting and presenting each others figures and tables.
+%While this worked well in most cases, I found through discussions that some students were nervous to bring up certain fundamental questions, so I held additional research office hours where they could approach
+
+One exportable success in ``rapid feedback'' at our lab at Harvard is the custom of a short chalk talk (\~10 minutes) at ``tea time'' each Monday, Wednesday, and Friday. Each lab member participates in a rotation, and when assigned discusses either an in-progress research question or an interesting paper. 
+These chalk talks are especially suited to creating an atmosphere of rapid exploration and awareness of others' work, with lively discussion throughout. I plan to incorporate similar habits in any lab I supervise. 
+
+Looking to the future, I hope my lab can be a vibrant place where students easily seek interactions among themselves and related labs. Given my focus on open-source software, I'm excited to bring regular rapid code reviews into practice with my research students (something we're now experimenting with in my lab at Harvard).
+
+\subsection*{Courses I'd Love to Teach}
+
+I am prepared to teach a variety of standard undergraduate course content across the intersection of computer science, applied mathematics, and statistics. I would especially like to teach an introductory course on Machine Learning, covering core mathematical methods as well as practical software implementation. I would happily also teach courses on Computer Vision, Artificial Intelligence, Data Science, Optimization, or Biomedical Informatics. If needed, I could also handle more fundamental courses like Probability and Statistics, Algorithms, or Data Structures.
+Finally, I am excited about co-teaching with another instructor (especially those from outside CS) on topics at the intersection of data science and X, where X could be medicine, biology, genomics, or other natural sciences.
+
+[FOR BIG SCHOOLS] For upper-level graduate courses, I prefer a seminar-and-project-style approach where students try reading, criticizing, and remixing recent research papers. Possible topics could focus on different modeling approaches (Bayesian Nonparametrics, Graphical Models, Deep Probabilistic Models Models), different inference methods (Markov Chain Monte Carlo, Variational Methods, Probabilistic Programming), or different application needs (Semi-supervised Methods, Time-series analysis).
+
+[FOR SMALL SCHOOLS]
+I have a side interest in developing courses that introduce computational thinking to students outside of the standard CS 1 course. I can imagine coures like Intro to Computing for the Humanities, or Intro to Computing for Biologists, which help students master algorithms and software using discipline-relevant projects.
+
+
+
+\end{document}

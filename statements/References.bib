@@ -1,16 +1,105 @@
+@inproceedings{kingma2014autoencodingVB,
+    title={Auto-encoding variational {B}ayes},
+    author={D.P. Kingma and M. Welling},
+    booktitle=iclr,
+    year={2014}
+}
+
+@inproceedings{kingma2014semi,
+  title={Semi-supervised learning with deep generative models},
+  author={Kingma, Diederik P and Mohamed, Shakir and Rezende, Danilo Jimenez and Welling, Max},
+  booktitle=nips,
+  year={2014}
+}
+
+@inproceedings{mnih2014neuralVariational,
+    author = {Mnih, A. and Gregor, K.},
+    title = {Neural variational inference and learning in belief networks},
+    booktitle = icml,
+    year = {2014},
+}
+
+
 @inproceedings{ackermann2010bregmanplusplus,
-    author = {Ackermann, Marcel R. and Blömer, Johannes},
+    author = {Ackermann, Marcel R. and Bl{\"o}mer, Johannes},
     title = {{B}regman clustering for separable instances},
     booktitle = {Proceedings of the 12th Scandinavian conference on Algorithm Theory ({SWAT})},
     year = {2010},
 }
 
-@article{wu2017treeregularization,
+@article{hughes2017pc,
+  title={Prediction-Constrained Training for Semi-Supervised Mixture and Topic Models},
+  author={\MichaelCHughes and Leah Weiner and Gabriel Hope and Thomas H. McCoy and Roy H. Perlis and Erik B. Sudderth and Finale Doshi-Velez},
+  journal = {ArXiv},
+  number = {1707.07341},
+  url = {https://arxiv.org/pdf/1707.07341.pdf},
+}
+
+@inproceedings{hughes2016clinicalSLDA,
+  title={Supervised topic models for clinical interpretability},
+  author={\MichaelCHughes and Huseyin Melih Elibol and Thomas H. McCoy and Roy H. Perlis and Finale Doshi-Velez},
+  booktitle={NIPS Workshop on Machine Learning for Health},
+  year={2016},
+}
+
+@inproceedings{hughes2017clinicalPCSLDA,
+  title={Prediction-Constrained Topic Models for Antidepressant Recommendation},
+  author={\MichaelCHughes and Gabriel Hope and Leah Weiner and Thomas McCoy and Roy Perlis and Erik Sudderth and Finale Doshi-Velez},
+  booktitle={NIPS Workshop on Machine Learning for Health},
+  year={2017},
+}
+
+@inproceedings{blei2008sLDA,
+  title={Supervised topic models},
+  author={Mc{A}uliffe, Jon D and Blei, David M},
+  booktitle=nips,
+  year={2008},
+}
+
+@inproceedings{zhang2014howToSuperviseTopicModels,
+  title={How to Supervise Topic Models},
+  author={Zhang, C. and Kjellstr{\"o}m, H.},
+  booktitle={ECCV Workshop on Graphical Models in Computer Vision},
+  year={2014}
+}
+
+@article{zhu2012medlda,
+  title={Med{L}{D}{A}: maximum margin supervised topic models},
+  author={Zhu, Jun and Ahmed, Amr and Xing, Eric P},
+  journal={The Journal of Machine Learning Research},
+  volume={13},
+  number={1},
+  pages={2237--2278},
+  year={2012},
+}
+
+
+@article{ganchev2010posteriorconstraints,
+ title = {Posterior Regularization for Structured Latent Variable Models},
+ author = {Ganchev, Kuzman and Gra\c{c}a, Jo{\~a}o and Gillenwater, Jennifer and Taskar, Ben},
+ journal = jmlr,
+ volume = {11},
+ month = aug,
+ year = {2010},
+ pages={2001--2049},
+} 
+
+
+
+@inproceedings{halpern2012comparison,
+  title={A comparison of dimensionality reduction techniques for unstructured clinical text},
+  author={Halpern, Yoni and Horng, Steven and Nathanson, Larry A and Shapiro, Nathan I and Sontag, David},
+  booktitle={{ICML} Workshop on Clinical Data Analysis},
+  year={2012}
+}
+
+@inproceedings{wu2017treeregularization,
   author    = {Mike Wu and \MichaelCHughes and 
   Sonali Parbhoo and Maurizio Zazzi and Volker Roth and Finale        Doshi-Velez},
-  title     = {Beyond Sparsity: Tree-based Regularization of Deep Models for Interpretability },
-  year      = {2017},
-  journal = {In Submission},
+  title     = {Beyond Sparsity: Tree Regularization of Deep Models for Interpretability },
+  year      = {2018},
+  booktitle = {AAAI},
+  url = {https://arxiv.org/pdf/1711.06178.pdf},
 }
 
 @inproceedings{lipton2016interpretability,
@@ -56,7 +145,7 @@
 @inproceedings{ghassemi2017ssam,
   author    = {Marzyeh Ghassemi and Mike Wu and \MichaelCHughes and others},
   title     = {Predicting intervention onset in the {ICU} with switching state space models},
-  booktitle = {AMIA CRI},
+  booktitle = {AMIA Summit on Clinical Research Informatics},
   year         = 2017,
   url = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543372/pdf/2611344.pdf},
 }
@@ -78,6 +167,7 @@
   title     = {Memoized Online Variational Inference for {D}irichlet Process Mixture Models},
   year      = {2013},
   booktitle = nips,
+  url = {http://michaelchughes.com/papers/HughesSudderth_NIPS_2013.pdf},
 }
 @inproceedings{hughes2015hdpreliable,
   author    = {\MichaelCHughes and Dae Il Kim and
@@ -85,6 +175,7 @@
   title     = {Reliable and Scalable Variational Inference for the Hierarchical {D}irichlet Process},
   year      = {2015},
   booktitle = aistats,
+  url = {http://michaelchughes.com/papers/HughesKimSudderth_AISTATS_2015.pdf},
 }
 @inproceedings{hughes2015hdphmm,
   author    = {\MichaelCHughes and William Stephenson and
@@ -92,4 +183,5 @@
   title     = {Scalable Adaptation of State Complexity for Nonparametric Hidden {M}arkov Models},
   year      = {2015},
   booktitle = nips,
+  url = {http://michaelchughes.com/papers/HughesStephensonSudderth_NIPS_2015.pdf},
 }

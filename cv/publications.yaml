@@ -3,7 +3,7 @@
   key: ji2017icml
   year: 2017
   venuetype: ""
-  venue: ICML
+  venue: International Conference on Machine Learning (ICML)
   url: http://michaelchughes.com/papers/JiHughesSudderth_ICML_2017.pdf
 
 - title: "Right for the Right Reasons: Training Differentiable Models by Constraining their Explanations"
@@ -11,7 +11,7 @@
   key: ross2017ijcai
   year: 2017
   venuetype: ""
-  venue: ICJAI
+  venue: International Joint Conference on Artificial Intelligence (ICJAI)
   url: http://michaelchughes.com/papers/RossHughesDoshiVelez_IJCAI_2017.pdf
 
 - title: Predicting intervention onset in the ICU with switching state space models
@@ -19,7 +19,7 @@
   key: ghassemi2017amiacri
   year: 2017
   venuetype: ""
-  venue: AMIA CRI
+  venue: AMIA Summit on Clinical Research Informatics
   url: http://michaelchughes.com/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf
 
 - title: "Refinery: An Open Source Topic Modeling Web Platform"
@@ -27,7 +27,7 @@
   key: kim2017refinery
   year: 2017
   venuetype: ""
-  venue: JMLR MLOSS
+  venue: JMLR Machine Learning Open Source Software (MLOSS)
   url: http://michaelchughes.com/papers/KimSwansonHughesSudderth_JMLRSoftware_2017.pdf
 
 - title: "Associations between aboveground forest biomass and waveform LiDAR metrics: implications for modeling footprint-level biomass using Global Ecosystem Dynamics Investigation data"
@@ -43,7 +43,7 @@
   key: mlhc2016
   year: 2016
   venuetype: ""
-  venue: ML for Health workshop at NIPS
+  venue: NIPS Workshop on Machine Learning for Health (NIPS ML4H)
   url: http://michaelchughes.com/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf
 
 - title: Scalable Adaptation of State Complexity for Nonparametric Hidden Markov Models
@@ -64,7 +64,7 @@
 
 
 - title: "BNPy: Reliable and scalable variational inference for Bayesian nonparametric models"
-  authors: Michael C. Hughes, \& Erik B. Sudderth
+  authors: Michael C. Hughes \& Erik B. Sudderth
   key: nipsworkshop2014
   year: 2013
   venuetype: ""

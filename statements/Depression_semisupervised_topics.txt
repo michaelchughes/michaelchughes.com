@@ -1,0 +1,38 @@
+Project: Characterizing and treating depression with prediction-constrained semi-supervised topic models
+
+## Methods Publication
+
+Prediction-Constrained Training for Semi-Supervised Mixture and Topic Models
+PDF: https://arxiv.org/pdf/1707.07341.pdf
+
+## ML + Healthcare workshop publication
+
+Newer one accepted to 2017 workshop, but here's an older one that's live online:
+
+Supervised topic models for clinical interpretability
+Michael C. Hughes, Huseyin Melih Elibol, Thomas McCoy MD, Roy Perlis MD, Finale Doshi-Velez
+ML for Health workshop at NIPS 2016
+Paper PDF: https://arxiv.org/abs/1612.01678
+
+## Summary
+
+Major depressive disorder impacts many adults in the US and abroad, but its treatments are still only partially understood. Many doctors, including Mike's collaborators Dr. Perlis and Dr. McCoy at Mass General (MGH), often characterize the treatment process as "trial and error" even in public talks. In an era of personalized medicine and big data, we'd like to build models to help clinicians better guess which drug will work for each patient. Often, a patient needs a *combination* of 2 or more drugs to be successful, so this isn't just a one-of-N problem.
+
+Mike's collaborators have stressed that they want population-level insights (what subtypes of depression exist, how do they relate to other diseases) as well as patient-specific insights (which drug(s) will work, and why). Finale and Mike are thus excited about latent variable models that can do *both* tasks simultaneously: find clusters/topics that help characterize the observed population *and* use the patient-specific low-dimensional embedding as features to predict the drug treatment accurately. Here, the observed data are structured billing codes in the health record (e.g. patient has 1 diagnosis of disease XYZ, 2 chest xray procedures, and 1 broken leg). These are easily seen as "bags of code words" and so topic models are a natural choice.
+
+A final challenge: Like many domains, medical data have much more unlabeled data than labeled data. The health record says what was *tried* for a patient, but Mike worked with his clinical collaborators to use make intelligent guesses on what *succeeded* (if patient stays on same antidepressant long enough,  assume it's helping). 
+The original cohort has over 200,000 patients, of whom about 40,000 can be assigned a successful drug labeling. Not all patients have obviously successful labels, so how can we use these many unlabeled patients with few labeled patients?
+
+Mike's initial approach was supervised LDA (Blei and McAuliffe 2008). But like many others (e.g. Yoni Halpern's 2012 workshop paper), he found this approach to be flawed... given enough topics, the difference between unsupervised and supervised models was basically nonexistent. Even "fancier" supervised topic models like MEDLDA weren't delivering gains in predictions. Through careful analysis (in the arxiv paper above), Mike found that these approaches were basically flawed: instead of training to optimize predictions of y from x alone, they were optimizing a flavor of "joint likelihood" p(x, y), where y is replicated some number of times. Mike thus came up with a better objective function, called *prediction constrained* training. It applies to *any* downstream latent variable model, not just topics.
+
+In math:
+    max  \log p(x)
+    subject to    \log p(y | x) >= some minimum value
+
+In words: we seek the best generative model for the data, subject to meeting some minimum performance in the prediction of y from x alone. This is the natural framework that practitioners want when training a supervised latent variable model. Plus, it naturally fits into a semi-supervised scenario, because the constraint still must be met even if few data points are labeled.
+
+This objective (or approximations to it) can be trained via gradient descent on the KKT-ified unconstrained objective. Mike uses automatic differentiation (tools like Tensorflow). He broadly finds that the resulting models have reasonable gains on both toy and real data tasks over both unsupervised and supervised baselines, even when the number of topics gets large (50, 100, and beyond).
+
+Mike is working now on a clinical publication for our depression cohort, hopefully submitted in a week or two. Our intended impact is a method to improve prediction of depression treatments *and* identify interesting population level trends (e.g. Mike has found that a topic on chemotherapy that is predictive for some drugs, which he is working with clinicians to understand).
+
+Future work could explore variational auto-encoder models for fast inference for new examples, and extend our implementations for mixtures and topics to semi-supervised time-series models.

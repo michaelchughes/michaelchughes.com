@@ -15,7 +15,7 @@
   url: http://michaelchughes.com/papers/HughesSudderth_arXiv_2016.pdf
 
 - title: "BNPy: Reliable and scalable variational inference for Bayesian nonparametric models"
-  authors: Michael C. Hughes, \& Erik B. Sudderth
+  authors: Michael C. Hughes \& Erik B. Sudderth
   key: nipsworkshop2014
   year: 2014
   venuetype: ""

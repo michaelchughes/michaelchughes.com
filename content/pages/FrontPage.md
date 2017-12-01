@@ -2,20 +2,73 @@ Title: Hi, I'm Mike
 Date: 2016-08-01
 save_as: index.html
 
-I am currently a computer science post-doctoral research fellow at Harvard University, under the supervision of 
-<a href="http://finale.seas.harvard.edu/">Prof. Finale Doshi-Velez</a>. We are actively exploring applications of machine learning to clinical medicine, especially combination therapies for mental health disorders and interventions in the Intensive Care Unit (ICU).
+I am currently a postdoctoral fellow in computer science at Harvard SEAS, advised by 
+<a href="http://finale.seas.harvard.edu/">Prof. Finale Doshi-Velez</a>. We are actively exploring applications of machine learning to clinical medicine, especially combination therapies for major depression and interventions in the Intensive Care Unit (ICU).
 
-I completed my Ph.D. in computer science at Brown University in May 2016, advised by <a href="http://cs.brown.edu/people/sudderth">Prof. Erik Sudderth</a>.  For my thesis project, I studied large-scale unsupervised clustering problems like 
+Our recent methods cover two exciting areas of core ML research:
+<i>(1) Semi-supervised learning</i>: We have new objectives for training semi-supervised latent variable models can simultaneously discovering disease subtypes and suggest useful treatments.
+<i>(2) Explainable AI</i>: Our upcoming AAAI '18 paper shows how to optimize deep neural networks to have more interpretable decision boundaries, especially for clinical tasks.
+
+I completed my Ph.D. in computer science at Brown University in May 2016, advised by <a href="http://www.ics.uci.edu/~sudderth/">Prof. Erik Sudderth</a>. My thesis studied large-scale unsupervised clustering problems like 
 organizing every New York Times article from the last 20 years or 
-automatically annotating videos of human activities.
-My technical focus was on developing optimization algorithms for a broad family of Bayesian nonparametric models that include mixtures, topic models, sequential models, and relational models. My collaborators and I have released an open-source
+segmenting the human genome to find patterns in the epigenetic modifiers that amplify or inhibit expression.
+My technical focus was developing reliable non-convex optimization algorithms for a broad family of Bayesian nonparametric models that include mixtures, topic models, sequential models, and relational models. We have released an open-source
 <a href="http://github.com/bnpy/bnpy/">
 Python package called <strong>BNPy</strong></a>.
 Please try it out!
 
+### Job Search!
+
+I am actively looking for tenure-track faculty positions this season (2017-18). Please reach out if you have questions.
+
+<ul class="list-group">
+	<li class="list-group-item">
+		<p class="list-group-item-text">
+			<a href="/papers/mch_research.pdf">
+			[research statement PDF]
+			</a>
+            &#8226;
+			<a href="/papers/mch_teaching.pdf">
+			[teaching statement PDF]
+			</a>
+	        &#8226;
+			<a href="/papers/MichaelCHughes_CurriculumVitae.pdf">
+			[cv PDF]
+			</a>
+		</p> 
+	</li>
+</ul>
+
 ### News
 
 <ul class="list-group">
+
+	<li class="list-group-item">
+	<h4 class="list-group-item-heading">
+	[Dec 2017] Presenting at NIPS 2017 Workshops
+	</h4>
+	<p class="list-group-item-text">
+		&#8226;
+		<a href="/papers/HughesEtAl_NIPSML4H_2017.pdf">
+			Poster: Prediction-constrained Topic Models for Antidepressant Recommendation
+		</a>
+		at
+		<a href="http://www.nipsml4hc.ws/home">
+			ML for Health Workshop (NIPS ML4H 2017)
+		</a>
+	</p>
+	<p class="list-group-item-text">
+		&#8226;
+		<a href="https://arxiv.org/pdf/1711.06178.pdf">
+			Poster and Talk (by Mike Wu): Optimizing deep models with tree-regularization
+		</a>
+		at
+		<a href="https://sites.google.com/view/timl-nips2017/schedule?authuser=0">
+			Transparent and Interpretable ML workshop (NIPS TIML 2017)
+		</a>
+		(will also appear in AAAI '18)
+	</p>
+	</li>
 
 	<li class="list-group-item">
 		<h4 class="list-group-item-heading">
@@ -141,7 +194,7 @@ Please try it out!
 
 	<li class="list-group-item">
 	<h4 class="list-group-item-heading">
-	[Sep 2016] Workshop at NIPS '16: Practical Bayesian Nonparametrics
+	[Sep 2016] Organizing Workshop at NIPS '16: Practical Bayesian Nonparametrics
 	</h4>
 	<p class="list-group-item-text">
 		Please consider submitting to our workshop: 

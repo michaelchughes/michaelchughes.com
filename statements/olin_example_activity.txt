@@ -1,0 +1,58 @@
+## Example Learning Activity
+
+At some point in the Data Science course, students would be introduced to
+Principal Component Analysis (PCA), a fundamental method for dimensionality
+reduction (turning data points with 1000s of measurements, like images, into
+much smaller vectors without losing essential information).
+
+As an instructor, my goals when introducing PCA are to:
+(1) illustrate why PCA is a useful idea with practical examples
+(2) emphasize cool conceptual connections to eigenvectors from Linear Algebra 
+    and Lagrange multipliers from calculus
+(3) have students practice applying PCA to data and visualizing results
+
+Below is a sketch of how I would structure a ~45 minute lesson on PCA with
+these goals in mind.
+
+## BEFORE CLASS
+Students do background reading on practical PCA using Python's sklearn
+
+## 00-05 min: Hook
+
+I show demos of cool real-world projects that use PCA
+
+* Eigen Clothing : 3-d PCA space explains all human body shapes
+http://cs.brown.edu/~black/Papers/guanECCV10.pdf
+
+* Eigen Genes : PCA on genetic variations leads to a map of Europe
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3989108/figure/F1/
+
+## 05-20 min : Mini lecture
+
+I'd model math on the board for the simplified 1-component case of PCA
+
+1) Derive the "minimize reconstruction error" objective
+    max_w w^T S w
+    subject to w^Tw  = 1 
+    where S is covariance matrix of data
+
+2) Show how to solve the objective via Lagrange multipliers
+    Answer: w is the eigenvector of S with largest eigenvalue.
+
+3) Emphasize dual interpretations of the objective
+    "maximizing variance" of projected data to retain information
+    "minimizing reconstruction error" 
+
+4) Sketch how the eigenvalue story scales up to K PCA dimensions.
+
+## 20-25 min: Group discussion of reading
+
+What are the assumptions of PCA?
+What hyperparameters need tuning?
+
+## 20-45 min: Situated practice
+
+Students use sklearn to visualize principle components of several datasets,
+including some data from their long-term project. They also practice using
+scree plots and other tools to decide "how many" components are enough.
+

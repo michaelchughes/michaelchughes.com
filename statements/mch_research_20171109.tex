@@ -65,11 +65,11 @@ offer the best possible insights into patient clusters or disease subtypes while
 %We care about learning representations that predict patient symptoms $x$ (observed data) as well as needed treatments $y$ (task-specific supervision, often scarce). Our clinical collaborators tell us that a method should accurately model both $x$ and $y$ to gain trust by medical professionals. Many existing methods have tried, yet unfortunately fail to either explain $x$ well, or fail in prediction of $y$ from $x$. 
 
 \textbf{Q2: How can we \emph{improve inference algorithms} to reach good solutions consistently?} 
-Models that are flexible enough for big clinical data, such as Bayesian nonparametric models or deep neural networks,
+Models that are flexible enough for big clinical data, such as Bayesian nonparametric (BNP) models or deep neural networks,
 suffer from unreliable training.
-Typical methods optimize non-convex objective functions via iterative updates to subsets of parameters. Even on small data, random initializations become stuck at poor local optima and fail to reach even the best mode, let alone the real posterior. Scaling to millions of examples only exaggerates this problem.
+Typical methods optimize non-convex objective functions via iterative updates to subsets of parameters. Even on small data, random initializations become stuck at poor local optima and fail to reach even the best mode, let alone explore the real posterior. Scaling to millions of examples only exaggerates this problem.
 My Ph.D. work on reliable BNP suggests that standard updates can be interleaved with \emph{data-driven proposals} that create new clusters to better explain some examples or remove irrelevant clusters.
-Our proposal-driven algorithms reach qualitatively better solutions consistently without expensive restarts or cross-validation.
+Our proposal-driven algorithms reach qualitatively better solutions without expensive restarts or cross-validation.
 %Future work can study proposals with guarantees on approximation quality, inspired by \emph{k-means++}~\citep{arthur2007kmeansplusplus}. 
 
 \paragraph{{Q3: How can we \emph{optimize models to be interpretable} to human users?}}
@@ -84,45 +84,47 @@ We have also thought about counter-factual reasoning: understanding how slightly
 \section*{Semi-Supervised Models for Personalized Medicine: Progress on Q1}
 
 Personalized healthcare is a natural problem for latent variable models, which can infer patient-specific low-dimensional representations useful for task-specific predictions.
-Clinicians often prefer models where hidden variables $h$ (e.g. trajectory from severe kidney malfunction to healthy state) jointly explain some input data $x$ (e.g. labs, vital signs) and some output labels $y$ (e.g. prescribed interventions).
+Clinicians often prefer models where hidden variables $h$ (e.g. trajectory from severe kidney malfunction to healthy state) jointly explain input data $x$ (e.g. labs, vital signs) and output labels $y$ (e.g. prescribed interventions).
 Our paper at the 2017 Joint Summits of the American Medical Informatics Association (AMIA) applied auto-regressive switching-state models to time-series data from 36,000 ICU patients~\citep{ghassemi2017ssam}.
 Although trained in an \emph{unsupervised} way (discovering common trajectories without labels $y$), our learned representations improved 4-hour look-ahead predictions of need for mechanical ventilation. Latent variable models can improve personalized care and smooth logistics in the busy ICU, but 
 to reach higher accuracies 
 we must \emph{supervise} training by including labels.
 
-Despite decades of work on (semi-)supervision of latent variable models, existing methods remain unsatisfactory. For example, a survey of supervised topic models by \cite{halpern2012comparison} shows \emph{no} accuracy gains over unsupervised models when predicting patient outcomes from clinical notes. 
-My postdoc work has discovered why: previous training objectives do not emphasize the prediction of $y$ from $x$ alone. 
+Despite decades of work on (semi-)supervision of latent variable models, existing methods remain unsatisfactory. For example, a supervised topic model survey~\cite{halpern2012comparison} shows no accuracy gains over unsupervised models when predicting patient outcomes from clinical notes. 
+My postdoc work has discovered why: previous training objectives do not prioritize predicting $y$ from $x$ alone. 
 Instead, our recent preprint~\cite{hughes2017pc} shows many previous objectives \citep{blei2008sLDA,zhang2014howToSuperviseTopicModels,zhu2012medlda,ganchev2010posteriorconstraints} can be formally reduced to optimizing a \emph{joint} probability $p(x,y)$, where the labels $y$ are replicated $\lambda \geq 1$ times. When the model is (inevitably) misspecified for real data, 
 such training may not predict $y$ from $x$ well.
-Instead, our new prediction-constrained (PC) objective directly delivers the best possible generative model that meets a provided minimum accuracy on the model's $y$ from $x$ predictions.
-Our PC objective for training parameters $\xi$ sensibly upweights the \emph{entire} conditional $p(y | x)$ by some $\lambda \gg 1$, while previous work only upweights the connection of $y$ to hidden variables $h$:
-\begin{align}
-\mbox{MED-LDA \cite{zhu2012medlda}, PR \cite{ganchev2010posteriorconstraints}, Power-sLDA \cite{zhang2014howToSuperviseTopicModels} etc.:}\quad
-\max_{\xi} &\log \textstyle \int_{h} p(y | h, \xi)^{\lambda} p(x | h, \xi) p(h | \xi) d h
-\notag \\ \notag
-\mbox{our Prediction Constrained (PC) objective:}\quad
-\max_{\xi} &\log p(x | \xi) + \log \textstyle [ \int_{h} p(y | h, \xi) p(h | x, \xi) d h ]^{\lambda}
-%\max_{\xi} &\log p(x | \xi) \text{~subj. to~} \log \Big[ \int_{h} p(y | h, x, \xi) p(h | x, \xi) d h \Big] \ge \epsilon
-\end{align}
+
+%Our PC objective for training parameters $\xi$ sensibly upweights the \emph{entire} conditional $p(y | x)$ by some $\lambda \gg 1$, while previous work only upweights the connection of $y$ to hidden variables $h$:
+%\begin{align}
+%\mbox{MED-LDA \cite{zhu2012medlda}, PR \cite{ganchev2010posteriorconstraints}, Power-sLDA \cite{zhang2014howToSuperviseTopicModels} etc.:}\quad
+%\max_{\xi} &\log \textstyle \int_{h} p(y | h, \xi)^{\lambda} p(x | h, \xi) p(h | \xi) d h
+%\notag \\ \notag
+%\mbox{our Prediction Constrained (PC) objective:}\quad
+%\max_{\xi} &\log p(x | \xi) + \log \textstyle [ \int_{h} p(y | h, \xi) p(h | x, \xi) d h ]^{\lambda}
+%%\max_{\xi} &\log p(x | \xi) \text{~subj. to~} \log \Big[ \int_{h} p(y | h, x, \xi) p(h | x, \xi) d h \Big] \ge \epsilon
+%\end{align}
 %Training such models in a semi-supervised manner remains challenging under current frameworks, because the goals of explaining the data $x$ itself and the prediction of $y$ from $x$ are often in tension for misspecified models. 
 %For example, we find that maximum likelihood training often favors parameters that explain abundant data $x$ instead of the prediction task.
 %However, existing approaches to train such models from semi-supervised datasets commonly fail to either explain the data $x$ well or deliver poor predictions of labels $y$ from heldout data $x$, especially when the model is misspecified.
 %During my postdoc, I have developed new \emph{prediction-constrained} training methods for semi-supervised topic models \citep{hughes2017pc}.
-Our PC training reaches qualitatively better solutions in several domains (toy examples with misspecification, sentiment analysis in text) and can handle extremely rare labels.
+To improve accuracy, our proposed prediction-constrained (PC) objective directly delivers the best possible generative model that meets a provided quality guarantee on the model's $y$ from $x$ predictions.
+Our PC-trained mixture and topic models reach qualitatively better solutions on toy examples with misspecification and text sentiment analysis. Unlike purely discriminative approaches, PC training can improve predictions by including many unlabeled examples, while boosting data likelihoods as well.
 This work is under review for the 2018 AI \& Statistics conference. 
-We are applying our PC objective to recommend specific antidepressants for patients suffering from major depression in collaboration with Dr. Perlis and Dr. McCoy at Massachusetts General Hospital, with two papers accepted at the NIPS Workshop on ML for Health~\citep{hughes2017clinicalPCsLDA, hughes2016clinicalSLDA} and a clinical journal publication in preparation.
+Working with Dr. Perlis and Dr. McCoy at Massachusetts General Hospital, we have applied PC training to recommend antidepressants for patients with major depression, resulting in two papers in the NIPS Workshop on ML for Health~\citep{hughes2017clinicalPCsLDA, hughes2016clinicalSLDA} and a clinical journal publication in preparation.
 
 
 \textbf{Future work: extensions to time-series models and reinforcement learning.}
-Our prediction-constrained (PC) framework should translate usefully for training many other latent variable models, especially our ICU time-series applications. A key remaining challenge here is designing scalable algorithms.
-Further ahead, we think prediction-constrained methods could help reinforcement learning models make drug recommendations that maximize reward over time (e.g. number of days with reduced pain symptoms) even when labels on the success of actions are rare.
+Our prediction-constrained (PC) framework should translate usefully to many currently unsupervised latent variable models, including our ICU time-series applications and recent compositions of linear dynamical systems with flexible neural net likelihoods~\citep{johnson2016svae}. 
+%A key remaining challenge here is designing scalable algorithms.
+Further ahead, prediction-constrained methods could help reinforcement learning models make sequential drug recommendations that maximize reward even when labels for action success are rare.
 
 \textbf{Future work: prediction-constrained posteriors to handle uncertainty.}
 Our current PC framework delivers point estimates of parameters.
 We would rather estimate \emph{posterior distributions} and thus manage our uncertainty. However, standard variational methods for estimating approximate posteriors are not tractable for PC training. These methods optimize a \emph{lower bound} on the data evidence $\log p(x)$ but one term in our PC objective requires an \emph{upper bound} instead. Such upper bounds could also be useful for other common questions, such as estimating $p(\text{validation data} | \text{train data})$ for a given model.
 Estimating variational upper bounds remains a challenging methodological problem.
 %Recent efforts using the reparameterization trick and the $\chi^2$-divergence offer promise \citep{chisq}, but more work is needed to handle bias in the Monte Carlo approximations to the gradient.
-Ultimately, producing estimates of uncertainty could help better calibrate predictions for suggested interventions, especially when cases look very different than any training data.
+Ultimately, including uncertainty in our PC-trained models could provide better calibrated suggestions for interventions, especially when test examples diverge from training data.
 
 
 \section*{Reliable Inference for Bayesian Nonparametrics: Progress on Q2}
@@ -139,17 +141,18 @@ Our 2013 Neural Information Processing Systems (NIPS) conference paper~\cite{hug
 These proposals optimize a variational objective function which tightly bounds the marginal likelihood and thus exhibits the ``Ockham's razor'' effect that penalizes models that are too complex or too simple.
 Furthermore, our method scales to large datasets by processing data one small batch at a time. Unlike stochastic methods that require tuning a nuisance learning rate \cite{hoffman2013svi}, our scalable memoized algorithm has no learning rate at all yet guarantees that the objective will monotonically increase after every step.
 
-Later, we extended this algorithm to topic modeling with the hierarchical Dirichlet process (HDP) \citep{hughes2015hdpreliable} as well as sequence segmentation via the HDP hidden Markov model (HDP-HMM)~\citep{hughes2015hdphmm}. 
+Later, we extended this approach to topic modeling with the hierarchical Dirichlet process (HDP) \citep{hughes2015hdpreliable}, sequence segmentation via the HDP hidden Markov model (HDP-HMM)~\citep{hughes2015hdphmm},
+and compositional models for natural images~\citep{ji2017hdpgrid}.
 These settings are challenging due to non-conjugacy and tighter data dependencies.
 Nevertheless, we can optimize a variational lower bound via data-driven proposal moves that scale to millions of NY Times articles or the entire human genome.
-To make these contributions accessible, I released an open-source Python software package called BNPy \citep{hughes2017bnpy}, which has been used by many research teams, including data science teams at the New York Times.
+To make these contributions accessible, I released BNPy, an open-source Python software package~\citep{hughes2017bnpy} now used by many researchers, including data science teams at the New York Times.
 
 \textbf{Future work: Sparsity and recognition networks for extreme scalability.}
 Two major challenges prevent BNP clustering from scaling to billions of examples and thousands of clusters. First, the bottleneck of training is the runtime cost of fitting a large model to each new example. Recent variational auto-encoders
 ~\citep{kingma2014autoencodingVB,mnih2014neuralVariational} 
-pursue an overall Bayesian variational objective with a 
+pursue an overall Bayesian variational objective but use a 
 fast, feed-forward neural network to 
-approximate the posterior parameters needed for a new example. Thus, information from previous examples can help cluster new data faster and thus amortize costs. 
+approximate the posterior needed for each new example. Thus, information from previous examples can help cluster new data faster and thus amortize costs. 
 Second, our recent preprint~\citep{hughes2016sparse} suggests that \emph{sparse} representations of per-example posteriors can reduce storage and improve speed, making BNP models with thousands of clusters possible.
 Incorporating these ideas together with data-driven proposal moves and our
 semi-supervised PC training remains an open problem with huge potential for 
@@ -188,10 +191,11 @@ for many applications.
 In the next decade, I think answers to Q1, Q2, and Q3 can directly improve the daily decisions of clinicians treating individual patients and broaden scientific understanding of subtypes of depression and other diseases.
 My research agenda offers some crucial methods needed to answer these questions.
 I am excited to collaborate with others to achieve this goal, especially in making connections with reinforcement learning, natural language processing, probabilistic programming, and human-computer interaction.
-Aside from methodological and clinical publications, 
-I plan to deliver open-source code to the broader community. Finally, I am eager to integrate and deploy clinical decision support systems at the bedside, so patients can benefit from suggested treatments.
+I'm particularly keen to work with UX designers and clinicians to collaboratively prototype the predictive analytics tools of the future so they actually improve care.
+Beyond strong methodological and clinical publications, 
+I plan to deliver open-source tools to the broader ML community that make it possible to rapidly train, evaluate, inspect, and criticize a series of models to find the best approach for a given application. Finally, I am eager to integrate and deploy clinical decision support systems at the bedside, so patients can benefit from suggested treatments.
 
-[FOR BIG SCHOOLS] Potential funding sources?
+%[FOR BIG SCHOOLS] Potential funding sources?
 
 %One necessary step will be integrating rich BNP representations into a reinforcement learning framework, so that we purposefully model interventions as actions that have feedback on future patient behavior, rather than just one-time outputs.
 %Another step will be connecting our improved optimization ideas and improved supervision ideas into probabilistic programming environments like Stan~\citep{kucukelbir2015stan}, so that scientists in many domains can try them out on new models and datasets.

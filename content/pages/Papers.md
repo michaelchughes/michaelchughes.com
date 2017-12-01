@@ -2,7 +2,7 @@ Title: Papers
 Date: 2015-11-07
 save_as: papers.html
 
-### 2018
+### 2018 (to appear)
 <div class="list-group-item">
   <a href="https://arxiv.org/pdf/1711.06178.pdf">
     <h4 class="list-group-item-heading">
@@ -35,6 +35,44 @@ save_as: papers.html
 </div>
 
 ### 2017
+
+<div class="list-group-item">
+  <a href="{filename}/papers/HughesEtAl_NIPSML4H_2017.pdf">
+    <h4 class="list-group-item-heading">
+        Prediction-Constrained Topic Models for Antidepressant Prediction
+    </h4>
+    <p class="list-group-item-text">
+        Michael C. Hughes,
+        Gabriel Hope,
+        Leah Weiner,
+        Thomas H. McCoy, MD,
+        Roy H. Perlis, MD,
+        Erik B. Sudderth,
+        and Finale Doshi-Velez
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://ml4health.github.io/2017/">
+            ML for Health Workshop at NIPS 2017
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{filename}/papers/HughesEtAl_NIPSML4H_2017.pdf">
+        [short paper PDF]
+        </a>
+        &#8226;
+        <a href="https://www.dropbox.com/s/0x1hgm76ne3ubb3/20171129_ML4Hposter.pdf?dl=1">
+        [poster PDF]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/pdf/1707.07341.pdf">
+        [longer tech report on arXiv]
+        </a>
+    </p>
+</div>
+
+
 <div class="list-group-item">
   <a href="{filename}/papers/JiHughesSudderth_ICML_2017.pdf">
     <h4 class="list-group-item-heading">
@@ -174,7 +212,9 @@ save_as: papers.html
         Finale Doshi-Velez
     </p>
     <p class="list-group-item-text"><i>
-        ML for Health workshop at NIPS 2016
+        <a href="http://www.nipsml4hc.ws/">
+        ML for Health Workshop at NIPS 2016
+        </a>
     </i></p>
     </a>
     <p class="list-group-item-text"><span>

@@ -1,0 +1,78 @@
+%% Modified from original file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,letterpaper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}                              % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[letterpaper,scale={0.75,0.8}]{geometry}
+
+% font
+\usepackage{tgpagella}
+\renewcommand{\familydefault}{\sfdefault}         
+
+\renewcommand*{\addresssymbol}       {}
+\renewcommand*{\mobilephonesymbol}   {}
+\renewcommand*{\emailsymbol}         {}
+\renewcommand*{\homepagesymbol}      {}
+\renewcommand*{\addressfont}{\small\mdseries}
+
+% personal data
+\name{Michael C.}{Hughes}
+\phone[mobile]{+1~(617)~371~7611}
+\email{mike@michaelchughes.com}
+\homepage{www.michaelchughes.com}
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Brown University CS Faculty Search Committee}{
+15 Waterman St\\
+Providence, RI 02906}
+\date{\today}
+\opening{Dear Members of the Faculty Search Committee,}
+\closing{Sincerely,}
+
+\makelettertitle
+
+I am writing to apply for a tenure-track assistant professorship at Brown. I believe my background in statistical machine learning and its applications to healthcare make me a good fit for the advertised data science position within the CS department. I know that as an alumnus my application is unusual, but the faculty I worked closest with -- Erik Sudderth, Ben Raphael, James Hays, and Michael Black -- are no longer at Brown, so I hope to be considered with fresh eyes.
+
+I am currently a postdoctoral fellow at Harvard SEAS, after completing my Ph.D. at Brown.
+I develop machine learning methods
+that discover actionable knowledge from large, messy datasets. 
+My focus is healthcare applications, where new probabilistic models and optimization algorithms are needed to learn from abundant yet noisy and unlabeled electronic health records to produce insights clinicians can trust.
+In one project, we modeled common vital sign time-series trajectories in the Intensive Care Unit (ICU) to predict the need for intubating a patient with a mechanical ventilator. In ongoing work with Massachusetts General Hospital, we are discovering subpopulations of major depression disorder that require distinct drug combination therapies. Our efforts build on the contributions of my Ph.D. thesis: reliable algorithms for clustering hierarchical or sequential datasets which can scale up to millions of news articles or the whole human genome.
+I strive to deliver results beyond top-tier publications, such as my open-source BNPy toolbox which is used by data scientists at the NY Times. As a future faculty member, I hope to build a group known for strong methodological contributions within machine learning as well as successful deployment of clinical decision support systems at the point-of-care.
+
+I am excited to join Brown to pursue this vision.
+Across the Brown CS and Applied Math departments, I see possible research collaborations with experts in artificial intelligence, human-computer interaction, pattern theory, and database systems to tame 
+multimodal datasets from healthcare and beyond. 
+I would also look to the Brown Medical School and Rhode Island Hospital for long-term clinical collaborations and potential courses to co-teach. The new Data Science Initiative offers many opportunities across the natural sciences to apply my interests in explainable AI.
+As a former Brown CS student, I value the department's focus on undergraduate teaching and research mentorship. 
+I have significant experience in K-12 STEM outreach (2 years as a Microsoft TEALS ``CS in Every High School'' instructor), and I plan to continue similar efforts to improve STEM diversity from K-12 to graduate school.
+I am eager to join the Brown community as a faculty member, and I look forward to hearing from you.
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.

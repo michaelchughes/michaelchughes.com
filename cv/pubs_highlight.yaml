@@ -1,3 +1,11 @@
+- title: "Beyond Sparsity: Tree Regularization of Deep Models for Interpretability"
+  authors: "Mike Wu\\textsuperscript{u}, Michael C. Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
+  key: wu2018aaai
+  year: 2018
+  venuetype: ""
+  venue: "To appear in Association for Advancement of Artificial Intelligence (AAAI)"
+  url: https://arxiv.org/pdf/1711.06178.pdf
+
 - title: Predicting Intervention Onset in the ICU with Switching State Space Models
   authors: "Marzyeh Ghassemi, Mike Wu\\textsuperscript{u}, Michael C. Hughes, Peter Szolovits, and Finale Doshi-Velez"
   key: ghassemi2017amiacri

@@ -1,0 +1,91 @@
+Project: Characterizing and treating depression with prediction-constrained semi-supervised topic models
+
+## Longer Tech-report Publication
+
+Prediction-Constrained Training for Semi-Supervised Mixture and Topic Models
+PDF: https://arxiv.org/pdf/1707.07341.pdf
+
+## ML + Healthcare Workshop publications
+
+Prediction-Constrained Topic Models for Antidepressant Prediction
+Michael C. Hughes, Gabriel Hope, Leah Weiner, Thomas H. McCoy, MD, Roy H. Perlis, MD, Erik B. Sudderth, and Finale Doshi-Velez
+ML for Health Workshop at NIPS 2017
+Paper PDF: http://michaelchughes.com/papers/HughesEtAl_NIPSML4H_2017.pdf
+
+Supervised topic models for clinical interpretability
+Michael C. Hughes, Huseyin Melih Elibol, Thomas McCoy MD, Roy Perlis MD, Finale Doshi-Velez
+ML for Health workshop at NIPS 2016
+Paper PDF: https://arxiv.org/abs/1612.01678
+
+## Some blurbs about this project for Roy
+
+[assuming Roy can handle describing the EHR -> drugs prediction task]
+
+We expect baseline features to be inadequate for our complex drug prediction
+tasks: demographics capture some information but obviously lack essential
+medical details; EHR codeword histograms contain signal but have lots of
+noisy, irrelevant features. Wishing to learn informative ways to represent
+each patient in our cohort for downstream interpretation and classification,
+we developed a new method for supervising topic models known as Prediction-
+Constrained Supervised Latent Dirichlet Allocation.
+
+Probabilistic topic models (Blei, 2012) have become popular exploratory tools
+for count data because they explain high-dimensional count histogram data as a
+low-dimensional mixture of K possible themes, also known as topics. A clinical
+practitioner might interpret some topics as subpopulations of depression, and
+other topics as comorbid conditions. For example, given the EHR codeword
+representations of a depression cohort, a topic model might discover topics
+corresponding to anxiety disorders, bipolar disorders, pregnancy events,
+tobacco use, and cancer treatments. Using this representation, a young mother
+with postpartum anxiety might be represented by a 70%-30% mixture of the
+pregnancy topic and the anxiety topic, rather than an extended lists of codes
+produced by multiple visits to the obstetrician and psychiatrist. Given a
+trained topic model, we take as features the per-patient K-dimensional vector
+of probability weights for each of the K topics. This per-patient
+representation allows flexible representations within a compact, interpretable
+basis of clinical concepts that are discovered from the data, and can be fed
+as features into any classifier.
+
+Standard topic models like Latent Dirichlet Allocation (Blei et al., 2003),
+and most used in applied clinical informatics, are unsupervised; the
+discovered topic space is trained to best explain the observed word counts and
+not to perform any downstream classification task. Later methods have
+attempted to add supervision to the training process (Blei and McAuliffe,
+2010; Zhu et al., 2012), yet these supervised topic models have unfortunately
+been found to add little value over unsupervised models at heldout clinical
+classification tasks (Halpern et al., 2012). Our new PC-sLDA overcomes this
+methodological challenge. This method’s prediction-constrained (PC) training
+procedure forces topics to achieve good accuracy when predicting binary labels
+from the observed codewords, while still offering interpretable topic
+concepts.
+
+
+Aside from core machine learning methodology, Mike also works hard to
+visualize and understand the raw data and learned model structure. Mike has
+worked on informative visualizations of patient data over time, understanding
+how patients' prescribed drugs change over repeated visits. These are valuable
+for sanity checking the records and developing useful rules for deciding when
+to call a specific medication list "successful" (since such labels are not
+included in the record). Mike has also developed visualizations of the learned
+model structure, which enables clinicians to easily browse the "top words" for
+a discovered topic. This enables side-by-side comparisons to other model
+sizes, other training methods (supervised vs. unsupervised), and other
+classification methods like logistic regression.
+
+Example URL of model structure visualizations: http://cs.brown.edu/people/mhug
+hes/research/pcslda_html_export_20171013/mdd/LEGEND_NAME=PC_sLDA-LABEL_NAME
+=citalopram-N_STATES=10.0.html
+
+Mike is working now on a clinical publication for our depression cohort, with
+submission planned in the next few weeks to JAMA Psych.
+
+Looking ahead, we have short-term plans to also apply work on supervised topic
+models to phenome-wide association study data for depression and
+schizophrenia. Longer term, we hope to incorporate Mike's semi-supervised
+methods into a more sophisticated reinforcement learning model to tackle the
+sequential decision making required to treat real patients.
+
+
+
+
+

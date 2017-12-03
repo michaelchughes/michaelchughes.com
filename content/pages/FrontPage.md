@@ -53,7 +53,7 @@ I am actively looking for tenure-track faculty positions this season (2017-18). 
 			Poster: Prediction-constrained Topic Models for Antidepressant Recommendation
 		</a>
 		at
-		<a href="http://www.nipsml4hc.ws/home">
+		<a href="https://ml4health.github.io/2017/">
 			ML for Health Workshop (NIPS ML4H 2017)
 		</a>
 	</p>

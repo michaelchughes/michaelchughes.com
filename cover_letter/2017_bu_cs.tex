@@ -1,0 +1,80 @@
+%% Modified from original file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,letterpaper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}                              % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}
+
+% adjust the page margins
+\usepackage[letterpaper,scale={0.75,0.8}]{geometry}
+
+% font
+\usepackage{tgpagella}
+\renewcommand{\familydefault}{\sfdefault}         
+
+\renewcommand*{\addresssymbol}       {}
+\renewcommand*{\mobilephonesymbol}   {}
+\renewcommand*{\emailsymbol}         {}
+\renewcommand*{\homepagesymbol}      {}
+\renewcommand*{\addressfont}{\small\mdseries}
+
+% personal data
+\name{Michael C.}{Hughes}
+\phone[mobile]{+1~(617)~371~7611}
+\email{mike@michaelchughes.com}
+\homepage{www.michaelchughes.com}
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Faculty Search Committee}{
+Department of Electrical \& Computer Engineering\\
+Northeastern University \\
+360 Huntington Ave.\\
+Boston, Massachusetts 02115
+}
+\date{\today}
+\opening{Dear Members of the Faculty Search Committee,}
+\closing{Sincerely,}
+
+\makelettertitle
+
+I am writing to apply for a tenure-track assistant professorship at Northeastern University. I believe my background in statistical machine learning and its applications to healthcare make me a good fit for the advertised position within the ECE department.
+
+I am currently a postdoctoral fellow at Harvard SEAS, after completing my Ph.D. in Computer Science at Brown in 2016.
+My research develops machine learning methods
+that discover actionable knowledge from large, messy datasets. 
+My focus is healthcare applications, where new probabilistic models and optimization algorithms are needed to learn from abundant yet noisy and unlabeled electronic health records to produce insights clinicians can trust.
+In one project, we modeled common vital sign trajectories in the Intensive Care Unit (ICU) across 36,000 patients to predict the need for intubating with a mechanical ventilator. In ongoing work with psychiatrists at Massachusetts General Hospital, we are discovering subpopulations of major depression disorder that require distinct drug combination therapies. Our efforts build on the core contributions of my Ph.D. thesis: reliable algorithms for clustering hierarchical or sequential datasets which can scale up to cover millions of news articles or the whole human genome.
+I strive to deliver results beyond top-tier publications, such as my open-source BNPy toolbox which has been used by data scientists at the New York Times. As a future faculty member, I hope to build a group known for strong methodological contributions within machine learning as well as successful deployment of clinical decision support systems integrated at the point-of-care.
+
+Looking forward, I am excited to join Northeastern to pursue this vision.
+Within Northeastern ECE, I see possible research collaborations with experts in machine learning, bioimaging, and signal processing to tackle multimodal datasets from healthcare and beyond. 
+I also envision collaborations with experts in the Bouvé College of Health Science or the College of Computer and Information Sciences.
+I value Northeastern's commitment to experiential learning, and I hope to help broaden its project-based courses, co-op offerings, and undergraduate research.
+I have significant experience in STEM outreach (2 years as a Microsoft TEALS ``CS in Every High School'' instructor), and I plan to lead and mentor efforts to improve STEM diversity from K-12 to graduate school.
+I am eager to join Northeastern, and I look forward to hearing from you.
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.

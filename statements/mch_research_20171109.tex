@@ -111,7 +111,7 @@ such training may not predict $y$ from $x$ well.
 %During my postdoc, I have developed new \emph{prediction-constrained} training methods for semi-supervised topic models \citep{hughes2017pc}.
 To improve accuracy, our proposed prediction-constrained (PC) objective directly delivers the best possible generative model that meets a provided quality guarantee on the model's $y$ from $x$ predictions.
 Our PC-trained mixture and topic models reach qualitatively better solutions on toy examples with misspecification and text sentiment analysis. Unlike purely discriminative approaches, PC training can improve predictions by including many unlabeled examples, while boosting data likelihoods as well.
-This work is under review at a major ML conference. 
+This core methods work will appear in the Artificial Intelligence and Statistics (AISTATS) 2018 conference.
 Working with Dr. Perlis and Dr. McCoy at Massachusetts General Hospital, we have applied PC training to recommend antidepressants for patients with major depression, resulting in two papers in the NIPS Workshop on ML for Health~\citep{hughes2017clinicalPCsLDA, hughes2016clinicalSLDA} and a clinical journal publication in preparation for JAMA Psychiatry.
 
 
@@ -155,9 +155,9 @@ pursue an overall Bayesian variational objective but use a
 fast, feed-forward neural network to 
 approximate the posterior needed for each new example. Thus, information from previous examples can help cluster new data faster and thus amortize costs. 
 Second, our recent preprint~\citep{hughes2016sparse} suggests that \emph{sparse} representations of per-example posteriors can reduce storage and improve speed, making BNP models with thousands of clusters possible.
-Incorporating these ideas together with data-driven proposal moves and our
-semi-supervised PC training remains an open problem with huge potential for 
-discovering thousands of prototypical disease subtypes or patient trajectories from million-patient, multi-hospital datasets.
+Incorporating these speedups together with data-driven proposal moves and our
+semi-supervised PC training has huge potential for 
+discovering thousands of prototypical patient trajectories or disease subtypes from million-patient, multi-hospital datasets like eICU \citep{eICU}.
 
 \textbf{Future work: Guarantees on proposal quality.}
 Thus far, the data-driven proposals used in our algorithms have been heuristically designed and have no guarantees about how far its final estimate is from a global optima. Connections to the approximation quality guarantees in the \emph{k-means++} algorithm~\citep{arthur2007kmeansplusplus} might be possible with BNP variational objectives, because all these objectives are instances of minimizing (expected) Bregman divergences between cluster centers and data points~\citep{ackermann2010bregmanplusplus}. Proposal moves that deliver guaranteed approximation ratios to the best-possible clustering model would be a huge advancement for the reliability of BNP on large datasets.
@@ -189,12 +189,15 @@ for many applications.
 
 \section*{Research Vision: Machine Learning for Clinical Decision-Making.}
 
-In the next decade, I think answers to Q1, Q2, and Q3 can directly improve the daily decisions of clinicians treating individual patients and broaden scientific understanding of subtypes of depression and other diseases.
-My research agenda offers some crucial methods needed to answer these questions.
-I am excited to collaborate with others to achieve this goal, especially in making connections with reinforcement learning, natural language processing, probabilistic programming, and human-computer interaction.
-I'm particularly keen to work with UX designers and clinicians to collaboratively prototype the predictive analytics tools of the future so they actually improve care.
+
+In the next decade, I think answers to Q1, Q2, and Q3 can improve the daily decisions of clinicians for individual patients and broaden scientific understanding of subtypes of depression and other diseases.
+My research agenda offers crucial methods needed to answer these questions.
+I am excited to collaborate with others to achieve this agenda, especially experts in reinforcement learning,   probabilistic programming, and human-computer interaction.
+I'm particularly keen to work 
+with UX designers and clinicians to collaboratively prototype predictive analytics tools so they actually improve care.
 Beyond strong methodological and clinical publications, 
-I plan to deliver open-source tools to the broader ML community that make it possible to rapidly train, evaluate, inspect, and criticize a series of models to find the best approach for a given application. Finally, I am eager to integrate and deploy clinical decision support systems at the bedside, so patients can benefit from suggested treatments.
+I plan to deliver open-source tools to the broader ML community that make it possible to rapidly train, evaluate, inspect, and criticize a series of models to find the best approach for a given application. Finally, I am eager to deploy clinical decision support systems at the bedside, so patients can benefit from improved understanding of disease subtypes and targeted treatment predictions.
+
 
 %[FOR BIG SCHOOLS] Potential funding sources?
 

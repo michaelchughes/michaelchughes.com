@@ -4,17 +4,45 @@ save_as: bio.html
 
 My name is Michael C. Hughes, but everybody calls me Mike.
 
-I’m now a postdoctoral researcher at Harvard, in Cambridge, MA.
-Previously, I did my PhD in computer science at Brown University in Providence, RI.
-Before that, I did my undergraduate degree at <a href="http://www.olin.edu">Olin College of Engineering</a>, in Needham, MA.
+<ul class="list-group">
+  <li class="list-group-item">
+    <p class="list-group-item-text">
+      Jump to:&nbsp;&nbsp;
+      <a href="#Professional-Bio">
+      [Professional Bio]
+      </a>
+        &#8226;
+      <a href="#Personal-Background">
+      [Personal Background]
+      </a>
+        &#8226;
+      <a href="#Life-Outside-The-Lab">
+      [Life Outside the Lab]
+      </a>
+    </p> 
+  </li>
+</ul>
 
-I'm originally from Billings, Montana. 
+<a name="Professional-Bio"></a> 
+## Professional Bio
 
+Michael C. Hughes ("Mike") is currently a postdoctoral fellow in computer science at Harvard University, where he develops new machine learning methods for healthcare applications with Prof. Finale Doshi-Velez. His current research focus is helping clinicians understand and treat complex diseases like depression by training statistical models from big, messy electronic health record datasets. Other research interests include Bayesian data analysis, optimization algorithms, and any machine learning applications that advance medicine and the sciences. He completed a Ph.D. in the Department of Computer Science at Brown University in May 2016, advised by Prof. Erik Sudderth. You can find his papers and code on the web at www.michaelchughes.com.
 
+<a name="Personal-Background"></a> 
+## Personal Background
+
+I currently live in Cambridge, Mass. (2013-present).
+
+Before that (2010-2013), I lived in Providence, RI while a graduate student at Brown.
+
+Before that (2006-2010), I was an undergraduate at  <a href="http://www.olin.edu">Olin College of Engineering</a>, in Needham, MA.
+
+I'm originally from Billings, Montana. I completed all my primary and secondary education in the public school system there.
+
+<a name="Life-Outside-The-Lab"></a> 
 ## Life Outside the Lab
 
 Outside of computer science, I enjoy hiking, kayaking, skiing, fishing, and other adventures in the great outdoors.
-
 
 <div class="row">
 
@@ -80,3 +108,4 @@ Outside of computer science, I enjoy hiking, kayaking, skiing, fishing, and othe
   </div></div>
 
 </div>
+

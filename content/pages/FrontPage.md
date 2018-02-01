@@ -2,24 +2,16 @@ Title: Hi, I'm Mike
 Date: 2016-08-01
 save_as: index.html
 
+My research spans statistical machine learning and its applications in healthcare and the sciences.
+
 I am currently a postdoctoral fellow in computer science at Harvard SEAS, advised by 
-<a href="http://finale.seas.harvard.edu/">Prof. Finale Doshi-Velez</a>. We are actively exploring applications of machine learning to clinical medicine, especially combination therapies for major depression and interventions in the Intensive Care Unit (ICU).
+<a href="http://finale.seas.harvard.edu/">Prof. Finale Doshi-Velez</a>. 
+I completed my Ph.D. in computer science at Brown University in May 2016, advised by <a href="http://www.ics.uci.edu/~sudderth/">Prof. Erik Sudderth</a>.
 
-Our recent methods cover two exciting areas of core ML research:
-<i>(1) Semi-supervised learning</i>: We have new objectives for training semi-supervised latent variable models can simultaneously discovering disease subtypes and suggest useful treatments.
-<i>(2) Explainable AI</i>: Our upcoming AAAI '18 paper shows how to optimize deep neural networks to have more interpretable decision boundaries, especially for clinical tasks.
-
-I completed my Ph.D. in computer science at Brown University in May 2016, advised by <a href="http://www.ics.uci.edu/~sudderth/">Prof. Erik Sudderth</a>. My thesis studied large-scale unsupervised clustering problems like 
-organizing every New York Times article from the last 20 years or 
-segmenting the human genome to find patterns in the epigenetic modifiers that amplify or inhibit expression.
-My technical focus was developing reliable non-convex optimization algorithms for a broad family of Bayesian nonparametric models that include mixtures, topic models, sequential models, and relational models. We have released an open-source
-<a href="http://github.com/bnpy/bnpy/">
-Python package called <strong>BNPy</strong></a>.
-Please try it out!
 
 ### Job Search!
 
-I am actively looking for tenure-track faculty positions this season (2017-18). Please reach out if you have questions.
+I am looking for tenure-track faculty positions (2017-18). Please reach out if you have questions.
 
 <ul class="list-group">
 	<li class="list-group-item">
@@ -39,9 +31,52 @@ I am actively looking for tenure-track faculty positions this season (2017-18). 
 	</li>
 </ul>
 
+### Research Summary
+
+Recently, I've been motivated by two exciting clinical applications:
+
+* forecasting need for interventions in the Intensive Care Unit (ICU)
+* antidepressant recommendations for patients with major depression
+
+These applications have inspired new contributions to core ML methods:
+
+* **Semi-supervised learning**: Our new 
+<a href="https://arxiv.org/pdf/1707.07341.pdf">
+*Prediction Constrained*
+</a>
+training objective fits latent variable models so that they provide accurate predictions (e.g. drug recommendations) *and* interpretable generative models, even when labeled examples are rare.
+
+* **Explainable AI**: Our new 
+<a href="https://arxiv.org/pdf/1711.06178.pdf">
+*Tree Regularization*
+</a>
+method lets you optimize deep neural networks so learned class boundaries are similar to decision trees.
+
+My Ph.D. thesis work was motivated by several applied questions:
+
+* can we find clusters of cooccuring words that thematically organize every New York Times article from the last 20 years?
+* can we find clusters of cooccuring epigenetic modifiers that amplify or inhibit gene expression?
+
+To answer these questions, we developed new variational inference 
+algorithms for a broad family of Bayesian nonparametric models that include mixtures, topic models, sequential models, and relational models.
+Our key innovations include scaling to millions of examples and adding data-driven split/merge proposal moves to avoid poor local minima.
+
+Please try out 
+<a href="http://github.com/bnpy/bnpy/">
+<strong>BNPy</strong></a>, our open-source Python package.
+
 ### News
 
 <ul class="list-group">
+
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[Jan 2018] Paper accepted to AISTATS 2018.
+		</h4>
+		<p>
+			Our paper -- Semi-Supervised Prediction-Constrained Topic Models -- describes a new framework for training topic models and other latent variable models to improve *supervised* predictions while still providing good generative models with interpretable topics. The new approach fixes core issues with past methods like sLDA, and shines especially in semi-supervised tasks, when only a small fraction of training examples are labeled.
+		</p>
+	</li>
 
 	<li class="list-group-item">
 	<h4 class="list-group-item-heading">

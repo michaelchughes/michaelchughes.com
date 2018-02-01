@@ -46,17 +46,18 @@ sections:
           - "Intended for use in NASA's upcoming \\href{https://science.nasa.gov/missions/gedi}{Global Ecosystem Dynamics Investigation (GEDI)}."
 
       - date: 2016
-        topic: "Ph.D. Thesis: Reliable and scalable inference for Bayesian nonparametric clustering"
+        topic: "Ph.D. thesis: \\href{https://cs.brown.edu/research/pubs/theses/phd/2016/hughes.michael.pdf}{Reliable and scalable variational inference for Bayesian nonparametrics}"
         about: "Adviser: \\href{http://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth}"
         notes:
-          - "Developed variational optimization algorithms that scale to millions of examples and hundreds of clusters."
+          - "Thesis Title: Reliable and scalable variational inference for nonparametric mixtures, topics, and sequences"
+          - "Developed optimization algorithms for Bayesian nonparametric models that scale to millions of examples."
           - "Optimized lower bound on marginal likelihood, thus penalizing too simple and too complex explanations."
           - "Escaped local optima via data-driven proposals that add useful new clusters and remove redundant ones."
           - "Applied to topic models of 2 million NY Times articles and  sequential models of the whole human genome."
           - "Implemented algorithms in \\href{http://www.github.com/bnpy/bnpy}{open-source package: Bayesian Nonparametrics for Python (BNPy)}."
 
       - date: 2012
-        topic: "Master's Project: Sequential Models for Video and Motion Capture"
+        topic: "Master's project: Sequential Models for Video and Motion Capture"
         about: "Adviser:  \\href{http://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth}"
         notes:
           - "Developed methods to discover common actions from many videos of humans performing household exercises."

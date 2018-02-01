@@ -1,3 +1,10 @@
+- title: "Semi-Supervised Prediction-Constrained Topic Models"
+  authors: "Michael C. Hughes, Gabriel Hope\\textsuperscript{d}, Leah Weiner\\textsuperscript{d}, Thomas H. McCoy, Roy H. Perlis, Erik B. Sudderth, and Finale Doshi-Velez"
+  key: hughes2018aistats
+  year: 2018
+  venuetype: ""
+  venue: "To appear in Artificial Intelligence and Statistics (AISTATS)"
+
 - title: "Beyond Sparsity: Tree Regularization of Deep Models for Interpretability"
   authors: "Mike Wu\\textsuperscript{u}, Michael C. Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
   key: wu2018aaai
@@ -6,9 +13,8 @@
   venue: "To appear in Association for Advancement of Artificial Intelligence (AAAI)"
   url: https://arxiv.org/pdf/1711.06178.pdf
 
-
 - title: "Prediction-Constrained Topic Models for Antidepressant Prediction"
-  authors: "Michael C. Hughes, Gabriel Hope\\textsuperscript{d}, Leah Weiner\\textsuperscript{d}, Thomas H. McCoy, MD, Roy H. Perlis, MD, Erik B. Sudderth, and Finale Doshi-Velez"
+  authors: "Michael C. Hughes, Gabriel Hope\\textsuperscript{d}, Leah Weiner\\textsuperscript{d}, Thomas H. McCoy, Roy H. Perlis, Erik B. Sudderth, and Finale Doshi-Velez"
   key: hughes2017ml4hworkshop
   year: 2017
   venuetype: ""

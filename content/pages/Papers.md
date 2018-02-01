@@ -4,6 +4,39 @@ save_as: papers.html
 
 ### 2018 (to appear)
 <div class="list-group-item">
+  <a href="https://arxiv.org/abs/1707.07341">
+    <h4 class="list-group-item-heading">
+        Semi-Supervised Prediction-Constrained Topic Models
+    </h4>
+    <p class="list-group-item-text">
+        Michael C. Hughes,
+        Gabriel Hope,
+        Leah Weiner,
+        Thomas H. McCoy, MD,
+        Roy H. Perlis, MD,
+        Erik B. Sudderth,
+        and Finale Doshi-Velez
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="http://www.aistats.org/aistats2018">
+            AISTATS 2018
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        [PDF coming soon!]
+        &#8226;
+        [Python code coming soon!]
+        &#8226;
+        <a href="https://arxiv.org/pdf/1707.07341.pdf">
+        [arXiv PDF (slightly older, longer version)]
+        </a>
+        &#8226;
+    </p>
+</div>
+
+<div class="list-group-item">
   <a href="https://arxiv.org/pdf/1711.06178.pdf">
     <h4 class="list-group-item-heading">
         Beyond Sparsity: Tree Regularization of Deep Models for Interpretability
@@ -29,7 +62,7 @@ save_as: papers.html
         </a>
         &#8226;
         <a href="https://github.com/dtak/tree-regularization-public/">
-        [Github code (coming soon)]
+        [Github code]
         </a>
     </p>
 </div>

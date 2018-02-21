@@ -37,6 +37,10 @@ save_as: papers.html
         [Github code]
         </a>
         &#8226;
+        <a href="http://michaelchughes.com/public_html/aistats2018_topic_viz_html/movies/rerank_words=0/LEGEND_NAME=PC_sLDA-LABEL_NAME=more_than_2_out_of_4_stars-FRAC_LABELS=1.0-N_STATES=25.0.html">
+        [learned topics HTML]
+        </a>
+        &#8226;
         <a href="https://arxiv.org/pdf/1707.07341.pdf">
         [arXiv PDF (slightly older, longer version)]
         </a>

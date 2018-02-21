@@ -23,21 +23,6 @@ My name is Michael C. Hughes, but everybody calls me Mike.
   </li>
 </ul>
 
-<a name="Professional-Bio"></a> 
-## Professional Bio
-
-Michael C. Hughes ("Mike") is currently a postdoctoral fellow in computer science at Harvard University, where he develops new machine learning methods for healthcare applications with Prof. Finale Doshi-Velez. His current research focus is helping clinicians understand and treat complex diseases like depression by training statistical models from big, messy electronic health record datasets. Other research interests include Bayesian data analysis, optimization algorithms, and any machine learning applications that advance medicine and the sciences. He completed a Ph.D. in the Department of Computer Science at Brown University in May 2016, advised by Prof. Erik Sudderth. You can find his papers and code on the web at www.michaelchughes.com.
-
-<a name="Personal-Background"></a> 
-## Personal Background
-
-I currently live in Cambridge, Mass. (2013-present).
-
-Before that (2010-2013), I lived in Providence, RI while a graduate student at Brown.
-
-Before that (2006-2010), I was an undergraduate at  <a href="http://www.olin.edu">Olin College of Engineering</a>, in Needham, MA.
-
-I'm originally from Billings, Montana. I completed all my primary and secondary education in the public school system there.
 
 <a name="Life-Outside-The-Lab"></a> 
 ## Life Outside the Lab
@@ -108,4 +93,21 @@ Outside of computer science, I enjoy hiking, kayaking, skiing, fishing, and othe
   </div></div>
 
 </div>
+
+<a name="Professional-Bio"></a> 
+## Professional Bio
+
+Michael C. Hughes ("Mike") is currently a postdoctoral fellow in computer science at Harvard University, where he develops new machine learning methods for healthcare applications with Prof. Finale Doshi-Velez. His current research focus is helping clinicians understand and treat complex diseases like depression by training statistical models from big, messy electronic health record datasets. Other research interests include Bayesian data analysis, optimization algorithms, and any machine learning applications that advance medicine and the sciences. He completed a Ph.D. in the Department of Computer Science at Brown University in May 2016, advised by Prof. Erik Sudderth. You can find his papers and code on the web at www.michaelchughes.com.
+
+<a name="Personal-Background"></a> 
+## Personal Background
+
+I currently live in Cambridge, Mass. (2013-present).
+
+Before that (2010-2013), I lived in Providence, RI while a graduate student at Brown.
+
+Before that (2006-2010), I was an undergraduate at  <a href="http://www.olin.edu">Olin College of Engineering</a>, in Needham, MA.
+
+I'm originally from Billings, Montana. I completed all my primary and secondary education in the public school system there.
+
 

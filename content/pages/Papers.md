@@ -12,8 +12,8 @@ save_as: papers.html
         Michael C. Hughes,
         Gabriel Hope,
         Leah Weiner,
-        Thomas H. McCoy, MD,
-        Roy H. Perlis, MD,
+        Thomas H. McCoy, Jr.,
+        Roy H. Perlis,
         Erik B. Sudderth,
         and Finale Doshi-Velez
     </p>
@@ -25,9 +25,17 @@ save_as: papers.html
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        [PDF coming soon!]
+        <a href="{filename}/papers/HughesEtAl_AISTATS_2018.pdf">
+        [paper PDF]
+        </a>
         &#8226;
-        [Python code coming soon!]
+        <a href="{filename}/papers/HughesEtAl_AISTATS_2018_supplement.pdf">
+        [supplement PDF]
+        </a>
+        &#8226;
+        <a href="https://github.com/dtak/prediction-constrained-topic-models/">
+        [Github code]
+        </a>
         &#8226;
         <a href="https://arxiv.org/pdf/1707.07341.pdf">
         [arXiv PDF (slightly older, longer version)]

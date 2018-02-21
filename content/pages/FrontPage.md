@@ -74,7 +74,7 @@ Please try out
 		[Jan 2018] Paper accepted to AISTATS 2018.
 		</h4>
 		<p>
-			Our paper -- Semi-Supervised Prediction-Constrained Topic Models -- describes a new framework for training topic models and other latent variable models to improve *supervised* predictions while still providing good generative models with interpretable topics. The new approach fixes core issues with past methods like sLDA, and shines especially in semi-supervised tasks, when only a small fraction of training examples are labeled.
+			Our paper -- <a href="{filename}/papers/HughesEtAl_AISTATS_2018.pdf">Semi-Supervised Prediction-Constrained Topic Models</a> -- describes a new framework for training topic models and other latent variable models to improve <i>supervised</i> predictions while still providing good generative models with interpretable topics. The new approach fixes core issues with past methods like sLDA, and shines especially in semi-supervised tasks, when only a small fraction of training examples are labeled.
 		</p>
 	</li>
 

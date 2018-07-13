@@ -5,7 +5,7 @@ save_as: papers.html
 ### 2018
 
 <div class="list-group-item">
-  <a href="https://arxiv.org/abs/1707.07341">
+  <a href="{filename}/papers/HughesEtAl_AISTATS_2018.pdf">
     <h4 class="list-group-item-heading">
         Semi-Supervised Prediction-Constrained Topic Models
     </h4>

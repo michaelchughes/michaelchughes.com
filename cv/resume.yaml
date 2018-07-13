@@ -39,26 +39,26 @@ sections:
 
       - date: 2016
         topic: "Postdoc project: Estimating carbon biomass from LiDAR waveforms"
-        about: "Adviser:  \\href{http://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth} \\& \\href{https://kellnerlab.org/}{Prof. Jim Kellner} (Brown U., Ecology \\& Evolutionary Biology)"
+        about: "Adviser:  \\href{https://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth} \\& \\href{https://kellnerlab.org/}{Prof. Jim Kellner} (Brown U., Ecology \\& Evolutionary Biology)"
         notes:
           - "Predicted forest biomass from LiDAR waveforms to better understand land use and climate change."
-          - "Modeled waveforms and biomass predictions jointly via nonparametric regression using our \\href{http://www.github.com/bnpy/bnpy}{BNPy toolbox.}" 
+          - "Modeled waveforms and biomass predictions jointly via nonparametric regression using our \\href{https://www.github.com/bnpy/bnpy}{BNPy toolbox.}" 
           - "Intended for use in NASA's upcoming \\href{https://science.nasa.gov/missions/gedi}{Global Ecosystem Dynamics Investigation (GEDI)}."
 
       - date: 2016
         topic: "Ph.D. thesis: \\href{https://cs.brown.edu/research/pubs/theses/phd/2016/hughes.michael.pdf}{Reliable and scalable variational inference for Bayesian nonparametrics}"
-        about: "Adviser: \\href{http://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth}"
+        about: "Adviser: \\href{https://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth}"
         notes:
           - "Thesis Title: Reliable and scalable variational inference for nonparametric mixtures, topics, and sequences"
           - "Developed optimization algorithms for Bayesian nonparametric models that scale to millions of examples."
           - "Optimized lower bound on marginal likelihood, thus penalizing too simple and too complex explanations."
           - "Escaped local optima via data-driven proposals that add useful new clusters and remove redundant ones."
           - "Applied to topic models of 2 million NY Times articles and  sequential models of the whole human genome."
-          - "Implemented algorithms in \\href{http://www.github.com/bnpy/bnpy}{open-source package: Bayesian Nonparametrics for Python (BNPy)}."
+          - "Implemented algorithms in \\href{https://www.github.com/bnpy/bnpy}{open-source package: Bayesian Nonparametrics for Python (BNPy)}."
 
       - date: 2012
         topic: "Master's project: Sequential Models for Video and Motion Capture"
-        about: "Adviser:  \\href{http://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth}"
+        about: "Adviser:  \\href{https://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth}"
         notes:
           - "Developed methods to discover common actions from many videos of humans performing household exercises."
           - "Improved existing inference algorithms with data-driven Metropolis-Hastings proposals."
@@ -66,6 +66,12 @@ sections:
   - name: Honors and Awards
     type: experience
     items:
+      - date: 2018
+        about: "Best Paper Award, \\href{https://socalnlp.github.io/symp18/index.html}{SoCal NLP Symposium 2018}"
+        notes:
+          - "Awarded for \\href{https://www.michaelchughes.com/papers/HughesHopeWeinerEtAl_SoCalNLP_2018.pdf}{2 page summary} of our \\href{https://www.michaelchughes.com/papers/HughesEtAl_AISTATS_2018.pdf}{AISTATS 2018 paper}."
+
+
       - date: 2017
         about: Nominee for AMIA Clinical Informatics Research Award 
         notes:
@@ -118,13 +124,13 @@ sections:
         employer: Brown University
         notes:
           - "Mentored students on projects related to Bayesian nonparametric clustering and the BNPy Python package."
-          - "William Stephenson. 2015 undergraduate honors thesis: \\href{http://cs.brown.edu/research/pubs/theses/ugrad/2015/stephenson.will.pdf}{Variational Inference for Hierarchical Dirichlet Process based Nonparametric Models}."
-          - "Sonia Phene. 2015 undergraduate honors thesis: \\href{http://cs.brown.edu/research/pubs/theses/ugrad/2015/phene.sonia.pdf}{Multiprocessor Parallelization of Variational Inference for Bayesian Nonparametric Topic Models}."
-          - "Mengrui Ni. 2015 masters project: \\href{http://cs.brown.edu/research/pubs/theses/masters/2015/ni.mengrui.pdf}{Variational Inference for Beta-Bernoulli Dirichlet Process Mixture Models}."
+          - "William Stephenson. 2015 undergraduate honors thesis: \\href{https://cs.brown.edu/research/pubs/theses/ugrad/2015/stephenson.will.pdf}{Variational Inference for Hierarchical Dirichlet Process based Nonparametric Models}."
+          - "Sonia Phene. 2015 undergraduate honors thesis: \\href{https://cs.brown.edu/research/pubs/theses/ugrad/2015/phene.sonia.pdf}{Multiprocessor Parallelization of Variational Inference for Bayesian Nonparametric Topic Models}."
+          - "Mengrui Ni. 2015 masters project: \\href{https://cs.brown.edu/research/pubs/theses/masters/2015/ni.mengrui.pdf}{Variational Inference for Beta-Bernoulli Dirichlet Process Mixture Models}."
           - "Mert Terzihan. 2015 masters project."
 
       - date: Fall 2013
-        about: "Lead Graduate TA for \\href{http://cs.brown.edu/courses/cs142/fall2013/}{CS 142: Intro to Machine Learning}"
+        about: "Lead Graduate TA for \\href{https://cs.brown.edu/courses/cs142/fall2013/}{CS 142: Intro to Machine Learning}"
         notes:
           - "Led weekly 1 hour recitation session to review key concepts for 50+ students."
           - "Designed homework assignments and exam questions."
@@ -139,7 +145,7 @@ sections:
         notes:
           - "Developed prototype detector for common housing structures in sub-Saharan Africa from satellite images."
           - "Intended for humanitarian oversight of conflict areas where burning structures is common attack pattern."
-          - "Featured in TEDx talk: \\url{http://youtu.be/u7l9rBwOnwU}"
+          - "Featured in TEDx talk: \\url{https://youtu.be/u7l9rBwOnwU}"
 
       - date: 2014-2016
         about: Volunteer AP Computer Science Instructor

@@ -18,7 +18,7 @@ save_as: papers.html
         and Finale Doshi-Velez
     </p>
     <p class="list-group-item-text"><i>
-        <a href="http://www.aistats.org/aistats2018">
+        <a href="https://www.aistats.org/aistats2018">
             AISTATS 2018
         </a>
     </i></p>
@@ -37,7 +37,7 @@ save_as: papers.html
         [Github code]
         </a>
         &#8226;
-        <a href="http://michaelchughes.com/public_html/aistats2018_topic_viz_html/movies/rerank_words=0/LEGEND_NAME=PC_sLDA-LABEL_NAME=more_than_2_out_of_4_stars-FRAC_LABELS=1.0-N_STATES=25.0.html">
+        <a href="https://michaelchughes.com/public_html/aistats2018_topic_viz_html/movies/rerank_words=0/LEGEND_NAME=PC_sLDA-LABEL_NAME=more_than_2_out_of_4_stars-FRAC_LABELS=1.0-N_STATES=25.0.html">
         [learned topics HTML]
         </a>
         &#8226;
@@ -230,7 +230,7 @@ save_as: papers.html
             [paper PDF]
         </a>
         &#8226;
-        <a href="http://www.jmlr.org/papers/v18/15-441.html">
+        <a href="https://www.jmlr.org/papers/v18/15-441.html">
             [publisher link]
         </a>
         &#8226;
@@ -257,7 +257,7 @@ save_as: papers.html
         Finale Doshi-Velez
     </p>
     <p class="list-group-item-text"><i>
-        <a href="http://www.nipsml4hc.ws/">
+        <a href="https://www.nipsml4hc.ws/">
         ML for Health Workshop at NIPS 2016
         </a>
     </i></p>
@@ -350,11 +350,11 @@ Fast Learning of Clusters and Topics via Sparse Posteriors
 			[supplement PDF]
 		</a>
 		&#8226;
-		<a href="http://bitbucket.org/michaelchughes/bnpy-dev/">
+		<a href="https://bitbucket.org/michaelchughes/bnpy-dev/">
 		[Python code for inference: bnpy]
 		</a>
 		&#8226;
-		<a href="http://bitbucket.org/michaelchughes/x-hdphmm-nips2015/">
+		<a href="https://bitbucket.org/michaelchughes/x-hdphmm-nips2015/">
 		[Python code for plots: x-hdphmm-nips2015]
 		</a>
 	</p>
@@ -384,7 +384,7 @@ Artificial Intelligence & Statistics, 2015.
 			[supplement PDF]
 		</a>
 		&#8226;
-		<a href="http://bitbucket.org/michaelchughes/bnpy-dev/">
+		<a href="https://bitbucket.org/michaelchughes/bnpy-dev/">
 			[Python code: bnpy]
 		</a>
 		&#8226;
@@ -419,7 +419,7 @@ Erik B. Sudderth
 			[paper PDF]
 		</a>
 		&#8226;
-		<a href="http://bitbucket.org/michaelchughes/bnpy-dev/">
+		<a href="https://bitbucket.org/michaelchughes/bnpy-dev/">
 			[Python code: bnpy]
 		</a>
 		&#8226;
@@ -455,7 +455,7 @@ Annals of Applied Statistics, Vol. 8(3), 2014.
 			[supplement PDF]
 		</a>
 		&#8226;
-		<a href="http://github.com/michaelchughes/NPBayesHMM/">
+		<a href="https://github.com/michaelchughes/NPBayesHMM/">
 			[Matlab code: NPBayesHMM]
 		</a>
 	</span></p>
@@ -490,7 +490,7 @@ Neural Information Processing Systems, 2013.
 			[poster PDF]
 		</a>
 		&#8226;
-		<a href="http://bitbucket.org/michaelchughes/bnpy-dev/">
+		<a href="https://bitbucket.org/michaelchughes/bnpy-dev/">
 			[Python code: bnpy]
 		</a>
 	</span></p>
@@ -580,7 +580,7 @@ CVPR Workshop on Perceptual Organization in Computer Vision (POCV), 2012.
 			[supplement ZIP]
 		</a>
 		&#8226;
-		<a href="http://github.com/michaelchughes/NPBayesHMM/">
+		<a href="https://github.com/michaelchughes/NPBayesHMM/">
 			[Matlab code: NPBayesHMM]
 		</a>
 	</span></p>

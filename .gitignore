@@ -8,6 +8,8 @@ content/papers/MichaelCHughes_CurriculumVitae.pdf
 
 *.pyc
 
+*/.DS_Store
+
 .texpadtmp/
 cover_letter/*.pdf
 statements/*.pdf

@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+import os
+
 AUTHOR = u'Michael C. Hughes'
 SITENAME = u'Michael C. Hughes'
 SITEURL = ''
@@ -36,13 +38,15 @@ EXTRA_PATH_METADATA = {
     }
 
 
-AVATAR = '/images/Mike_IceCreamSocialHeadshot.jpg'
+AVATAR = '/images/Mike_Headshot_201805.jpg'
 ABOUT_ME = '''<strong>Mike Hughes</strong>
 	<br />mike@michaelchughes.com
 	<br />
-	<br />Postdoctoral fellow
-	<br /><a href="http://www.seas.harvard.edu/">SEAS Computer Science</a>
-	<br />Harvard University
+	<br />Assistant Professor 
+    <br /><a href="https://cs.tufts.edu/">Dept. of Computer Science</a>
+    <br /><a href="https://www.tufts.edu/">Tufts University</a>
+    <br />
+    <br />Office: Halligan 210
 	'''
 
 HIDE_SIDEBAR = True
@@ -53,9 +57,35 @@ MENUITEMS = [
 	('Papers', '/papers.html'),
 	('CV', '/cv.html'),
 	('Bio', '/bio.html'),
+    ('Research', '/research.html'),
 	]
 
 DISPLAY_TAGS_ON_SIDEBAR = False
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = False
 DISPLAY_CATEGORIES_ON_SIDEBAR = False
 
+
+# Sitemap pluging
+
+PLUGIN_PATHS = [os.path.expandvars("$HOME/git/pelican-plugins/")]
+
+PLUGINS=['sitemap']
+
+SITEMAP = {
+    'exclude': [
+    	'archives.html',
+    	'categories.html',
+    	'tags.html',
+    	'tag/', 'category/', 'feeds/'],
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'pages': 0.5,
+        'indexes': 0.5,
+    },
+    'changefreqs': {
+        'articles': 'weekly',
+        'indexes': 'weekly',
+        'pages': 'weekly',
+    }
+}

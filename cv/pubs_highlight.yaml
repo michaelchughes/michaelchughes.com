@@ -3,15 +3,15 @@
   key: hughes2018aistats
   year: 2018
   venuetype: ""
-  venue: "To appear in Artificial Intelligence and Statistics (AISTATS)"
-  url: http://michaelchughes.com/papers/HughesEtAl_AISTATS_2018.pdf
+  venue: "Artificial Intelligence and Statistics (AISTATS)"
+  url: https://www.michaelchughes.com/papers/HughesEtAl_AISTATS_2018.pdf
 
 - title: "Beyond Sparsity: Tree Regularization of Deep Models for Interpretability"
   authors: "Mike Wu\\textsuperscript{u}, Michael C. Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
   key: wu2018aaai
   year: 2018
   venuetype: ""
-  venue: "To appear in Association for Advancement of Artificial Intelligence (AAAI)"
+  venue: "Association for Advancement of Artificial Intelligence (AAAI)"
   url: https://arxiv.org/pdf/1711.06178.pdf
 
 - title: Predicting Intervention Onset in the ICU with Switching State Space Models
@@ -20,7 +20,7 @@
   year: 2017
   venuetype: ""
   venue: AMIA Summit on Clinical Research Informatics
-  url: http://michaelchughes.com/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf
+  url: https://www.michaelchughes.com/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf
 
 - title: "Right for the Right Reasons: Training Differentiable Models by Constraining their Explanations"
   authors: "Andrew Slavin Ross\\textsuperscript{m}, Michael C. Hughes, and Finale Doshi-Velez"
@@ -28,7 +28,7 @@
   year: 2017
   venuetype: ""
   venue: International Joint Conference on Artificial Intelligence (ICJAI)
-  url: http://michaelchughes.com/papers/RossHughesDoshiVelez_IJCAI_2017.pdf
+  url: https://www.michaelchughes.com/papers/RossHughesDoshiVelez_IJCAI_2017.pdf
 
 - title: "From Patches to Images: A Nonparametric Generative Model"
   authors: "Geng Ji\\textsuperscript{d}, Michael C. Hughes, and Erik B. Sudderth"
@@ -36,7 +36,7 @@
   year: 2017
   venuetype: ""
   venue: International Conference on Machine Learning (ICML)
-  url: http://michaelchughes.com/papers/JiHughesSudderth_ICML_2017.pdf
+  url: https://www.michaelchughes.com/papers/JiHughesSudderth_ICML_2017.pdf
 
 - title: Scalable Adaptation of State Complexity for Nonparametric Hidden Markov Models
   authors: "Michael C. Hughes, William Stephenson\\textsuperscript{u}, and Erik B. Sudderth"
@@ -44,7 +44,7 @@
   year: 2015
   venuetype: ""
   venue: Neural Information Processing Systems (NIPS)
-  url: http://michaelchughes.com/papers/HughesStephensonSudderth_NIPS_2015.pdf
+  url: https://www.michaelchughes.com/papers/HughesStephensonSudderth_NIPS_2015.pdf
 
 - title: Reliable and Scalable Variational Inference for the Hierarchical Dirichlet Process
   authors: Michael C. Hughes, Dae Il Kim, and Erik B. Sudderth
@@ -52,7 +52,7 @@
   year: 2015
   venuetype: ""
   venue: Artificial Intelligence \& Statistics (AISTATS)
-  url: http://michaelchughes.com/papers/HughesKimSudderth_AISTATS_2015.pdf
+  url: https://www.michaelchughes.com/papers/HughesKimSudderth_AISTATS_2015.pdf
 
 - title: Joint Modeling of Multiple Time Series via the Beta Process with Application to Motion Capture Segmentation
   authors: Emily Fox, Michael C. Hughes, Erik B. Sudderth, and Michael I. Jordan
@@ -60,7 +60,7 @@
   year: 2014
   venuetype: ""
   venue: Annals of Applied Statistics, Vol. 8 (3)
-  url: http://michaelchughes.com/papers/FoxHughesSudderthJordan_AOAS_2014.pdf
+  url: https://www.michaelchughes.com/papers/FoxHughesSudderthJordan_AOAS_2014.pdf
 
 - title: Memoized Online Variational Inference for Dirichlet Process Mixture Models
   authors: Michael C. Hughes and Erik B. Sudderth
@@ -68,4 +68,4 @@
   year: 2013
   venuetype: ""
   venue: Neural Information Processing Systems (NIPS)
-  url: http://michaelchughes.com/papers/HughesSudderth_NIPS_2013.pdf
+  url: https://www.michaelchughes.com/papers/HughesSudderth_NIPS_2013.pdf

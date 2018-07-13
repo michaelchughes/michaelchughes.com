@@ -12,7 +12,7 @@
   year: 2016
   venuetype: ""
   venue: arXiv e-print
-  url: http://michaelchughes.com/papers/HughesSudderth_arXiv_2016.pdf
+  url: https://www.michaelchughes.com/papers/HughesSudderth_arXiv_2016.pdf
 
 - title: "BNPy: Reliable and scalable variational inference for Bayesian nonparametric models"
   authors: Michael C. Hughes and Erik B. Sudderth
@@ -20,4 +20,4 @@
   year: 2014
   venuetype: ""
   venue: 3rd NIPS Workshop on Probabilistic Programming
-  url: http://michaelchughes.com/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf
+  url: https://www.michaelchughes.com/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf

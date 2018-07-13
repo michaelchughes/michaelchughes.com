@@ -1,44 +1,22 @@
-Title: Hi, I'm Mike
-Date: 2016-08-01
+Title: Mike Hughes - Machine Learning Research
+Date: 2018-07-01
 save_as: index.html
 
-My research spans statistical machine learning and its applications in healthcare and the sciences.
+Welcome! My research spans statistical machine learning and its applications in healthcare and the sciences.
 
-I am currently a postdoctoral fellow in computer science at Harvard SEAS, advised by 
-<a href="http://finale.seas.harvard.edu/">Prof. Finale Doshi-Velez</a>. 
-I completed my Ph.D. in computer science at Brown University in May 2016, advised by <a href="http://www.ics.uci.edu/~sudderth/">Prof. Erik Sudderth</a>.
+I am an Assistant Professor in the Dept. of Computer Science at Tufts University (Medford, MA). 
+Previously, I was a postdoctoral fellow in computer science at Harvard SEAS, advised by 
+<a href="https://finale.seas.harvard.edu/">Prof. Finale Doshi-Velez</a>. 
+I did my Ph.D. in CS at Brown University in May 2016, advised by <a href="https://www.ics.uci.edu/~sudderth/">Prof. Erik Sudderth</a> (now at UC-Irvine).
 
+### Research Highlights
 
-### Job Search!
+Recently, I'm motivated by two exciting clinical applications:
 
-I am looking for tenure-track faculty positions (2017-18). Please reach out if you have questions.
-
-<ul class="list-group">
-	<li class="list-group-item">
-		<p class="list-group-item-text">
-			<a href="/papers/mch_research.pdf">
-			[research statement PDF]
-			</a>
-            &#8226;
-			<a href="/papers/mch_teaching.pdf">
-			[teaching statement PDF]
-			</a>
-	        &#8226;
-			<a href="/papers/MichaelCHughes_CurriculumVitae.pdf">
-			[cv PDF]
-			</a>
-		</p> 
-	</li>
-</ul>
-
-### Research Summary
-
-Recently, I've been motivated by two exciting clinical applications:
-
-* forecasting need for interventions in the Intensive Care Unit (ICU)
 * antidepressant recommendations for patients with major depression
+* forecasting need for interventions in the Intensive Care Unit (ICU)
 
-These applications have inspired new contributions to core ML methods:
+These applications have inspired new contributions to machine learning:
 
 * **Semi-supervised learning**: Our new 
 <a href="https://arxiv.org/pdf/1707.07341.pdf">
@@ -62,12 +40,35 @@ algorithms for a broad family of Bayesian nonparametric models that include mixt
 Our key innovations include scaling to millions of examples and adding data-driven split/merge proposal moves to avoid poor local minima.
 
 Please try out 
-<a href="http://github.com/bnpy/bnpy/">
+<a href="https://github.com/bnpy/bnpy/">
 <strong>BNPy</strong></a>, our open-source Python package.
 
 ### News
 
 <ul class="list-group">
+
+
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[Aug 2018] I have joined the faculty at Tufts' Computer Science Department!
+		</h4>
+		<p>
+			I'm actively looking for students (ugrad and Ph.D.) for various research projects. Please contact me if interested.
+		</p>
+	</li>
+
+
+
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[Apr 2018] <a href="{filename}/images/SoCalNLPBestPaperCertificate.jpg">Best Paper Award</a> at <a href="https://socalnlp.github.io/symp18/index.html">SoCalNLP 2018</a>
+		</h4>
+		<p>
+			Our winning <a href="{filename}/papers/HughesHopeWeinerEtAl_SoCalNLP_2018.pdf">2-page short paper</a> was a compact summary of our AISTATS 2018 paper: <a href="{filename}/papers/HughesEtAl_AISTATS_2018.pdf">Semi-Supervised Prediction-Constrained Topic Models</a>.
+			Thanks to co-author Gabe for presenting the work, to the SoCal NLP organizers for hosting, and to Amazon for sponsoring the award.
+		</p>
+	</li>
+
 
 	<li class="list-group-item">
 		<h4 class="list-group-item-heading">
@@ -199,7 +200,7 @@ Please try out
 		 [slides.pdf]</a>
 	</p>
 	<p class="list-group-item-text">
-		New: <a href="http://bnpy.readthedocs.io/en/latest/index.html">
+		New: <a href="https://bnpy.readthedocs.io/en/latest/index.html">
 		BNPy project website </a>
 		with example gallery
 	</p>
@@ -231,7 +232,7 @@ Please try out
 	<h4 class="list-group-item-heading">
 	[Sep 2016] Organizing Workshop at NIPS '16: Practical Bayesian Nonparametrics
 	</h4>
-	<p class="list-group-item-text">
+	<p class="list-group-item-text" style="overflow-wrap: break-word; word-wrap: break-word; word-break: break-all;">
 		Please consider submitting to our workshop: 
     <a href="https://sites.google.com/site/nipsbnp2016/">https://sites.google.com/site/nipsbnp2016/</a> 
 	</p>

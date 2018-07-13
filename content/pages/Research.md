@@ -23,6 +23,8 @@ training objective fits latent variable models so that they provide accurate pre
 </a>
 method lets you optimize deep neural networks so learned class boundaries are similar to decision trees.
 
+### Past Projects
+
 My Ph.D. thesis work was motivated by several applied questions:
 
 * can we find clusters of cooccuring words that thematically organize every New York Times article from the last 20 years?

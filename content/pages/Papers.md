@@ -2,7 +2,8 @@ Title: Papers
 Date: 2015-11-07
 save_as: papers.html
 
-### 2018 (to appear)
+### 2018
+
 <div class="list-group-item">
   <a href="https://arxiv.org/abs/1707.07341">
     <h4 class="list-group-item-heading">

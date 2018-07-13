@@ -4,44 +4,29 @@ save_as: index.html
 
 Welcome! My research spans statistical machine learning and its applications in healthcare and the sciences.
 
-I am an Assistant Professor in the Dept. of Computer Science at Tufts University (Medford, MA). 
+I am an Assistant Professor in the Dept. of Computer Science at Tufts University. 
 Previously, I was a postdoctoral fellow in computer science at Harvard SEAS, advised by 
 <a href="https://finale.seas.harvard.edu/">Prof. Finale Doshi-Velez</a>. 
 I did my Ph.D. in CS at Brown University in May 2016, advised by <a href="https://www.ics.uci.edu/~sudderth/">Prof. Erik Sudderth</a> (now at UC-Irvine).
 
 ### Research Highlights
 
-Recently, I'm motivated by two exciting clinical applications:
+Recently, my work is motivated by two exciting clinical applications:
 
-* antidepressant recommendations for patients with major depression
+* antidepressant drug recommendations for patients with major depression
 * forecasting need for interventions in the Intensive Care Unit (ICU)
 
 These applications have inspired new contributions to machine learning:
 
-* **Semi-supervised learning**: Our new 
+* **Semi-supervised learning**: Our 
 <a href="https://arxiv.org/pdf/1707.07341.pdf">
-*Prediction Constrained*
+paper at AISTATS 2018
+</a> fits latent variable models so that they provide accurate predictions (e.g. drug recommendations) *and* interpretable generative models, even when labeled examples are rare.
+
+* **Explainable AI**: Our <a href="https://arxiv.org/pdf/1711.06178.pdf">
+paper at AAAI 2018 
 </a>
-training objective fits latent variable models so that they provide accurate predictions (e.g. drug recommendations) *and* interpretable generative models, even when labeled examples are rare.
-
-* **Explainable AI**: Our new 
-<a href="https://arxiv.org/pdf/1711.06178.pdf">
-*Tree Regularization*
-</a>
-method lets you optimize deep neural networks so learned class boundaries are similar to decision trees.
-
-My Ph.D. thesis work was motivated by several applied questions:
-
-* can we find clusters of cooccuring words that thematically organize every New York Times article from the last 20 years?
-* can we find clusters of cooccuring epigenetic modifiers that amplify or inhibit gene expression?
-
-To answer these questions, we developed new variational inference 
-algorithms for a broad family of Bayesian nonparametric models that include mixtures, topic models, sequential models, and relational models.
-Our key innovations include scaling to millions of examples and adding data-driven split/merge proposal moves to avoid poor local minima.
-
-Please try out 
-<a href="https://github.com/bnpy/bnpy/">
-<strong>BNPy</strong></a>, our open-source Python package.
+introduces "Tree Regularization", a method to optimize deep neural networks so learned class boundaries are similar to decision trees (the trees can then be inspected by domain experts).
 
 ### News
 

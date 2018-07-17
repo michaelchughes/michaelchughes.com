@@ -43,7 +43,7 @@ ABOUT_ME = '''<strong>Mike Hughes</strong>
 	<br />mike@michaelchughes.com
 	<br />
 	<br />Assistant Professor 
-    <br /><a href="https://cs.tufts.edu/">Dept. of Computer Science</a>
+    <br /><a href="https://www.cs.tufts.edu/">Dept. of Computer Science</a>
     <br /><a href="https://www.tufts.edu/">Tufts University</a>
     <br />
     <br />Office: Halligan 210

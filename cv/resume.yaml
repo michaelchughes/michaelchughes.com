@@ -15,12 +15,17 @@ pdf: /papers/MichaelCHughes_CurriculumVitae.pdf
 source: https://github.com/michaelchughes/michaelchughes.com/
 
 sections:
+
   - name: Education
     type: education
     items:
       - date: 2016
         school: Brown University
-        major: Ph.D. and M.S., Computer Science.
+        major: Ph.D., Computer Science.
+
+      - date: 2012
+        school: Brown University
+        major: M.S., Computer Science.
 
       - date: 2010
         school: Olin College of Engineering
@@ -28,8 +33,15 @@ sections:
 
   - name: Research Experience
     type: experience
+
     items:
-      - date: 2016 - present
+      - date: 2018 - present
+        topic: "Assistant Professor of Computer Science"
+        about: "\\href{www.cs.tufts.edu}{Tufts University}, Medford, MA"
+        notes:
+          - "Conduct research, advise students, and teach classes."
+
+      - date: 2016 - 2018
         topic: "Postdoctoral fellow: Machine learning to improve clinical  decisions in healthcare"
         about: "Adviser: \\href{https://finale.seas.harvard.edu/}{Prof. Finale Doshi-Velez} (Harvard)"
         notes:

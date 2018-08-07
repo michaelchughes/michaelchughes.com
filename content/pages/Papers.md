@@ -1,6 +1,12 @@
 Title: Papers
-Date: 2015-11-07
+Date: 2018-08-07
 save_as: papers.html
+
+External links:
+<nbsp;>
+[[My Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=ugSmcnoAAAAJ)]
+&#8226;
+[[My ORCID iD Profile](https://orcid.org/0000-0003-4859-7400)]
 
 ### 2018
 

@@ -41,6 +41,7 @@ EXTRA_PATH_METADATA = {
 AVATAR = '/images/Mike_Headshot_201805.jpg'
 ABOUT_ME = '''<strong>Mike Hughes</strong>
 	<br />mike@michaelchughes.com
+    <br />Twitter: <a href="https://www.twitter.com/mike_c_hughes">@mike_c_hughes</a>
 	<br />
 	<br />Assistant Professor 
     <br /><a href="https://www.cs.tufts.edu/">Dept. of Computer Science</a>

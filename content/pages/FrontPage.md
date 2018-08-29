@@ -35,6 +35,45 @@ introduces "Tree Regularization", a method to optimize deep neural networks so l
 
 	<li class="list-group-item">
 		<h4 class="list-group-item-heading">
+		[Aug 2018] I'm organizing 2 Workshops at NIPS 2018:
+		</h4>
+		<ul>
+			<li>
+			<a href="https://sites.google.com/view/nipsbnp2018">
+			All of Bayesian Nonparametrics (BNP @ NIPS 2018)
+			</a>
+			</li>
+			<li>
+			<a href="https://ml4health.github.io/2018/">
+				Machine Learning for Health (ML4H @ NIPS 2018)
+			</a>
+			</li>
+		</ul>
+		<p> Please consider submitting a short paper!
+		</p>
+	</li>
+
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[Aug 2018] I'll present a tutorial -- 
+		<a href="mlhc2018_tutorial.html">
+			"Machine Learning for Clinicians: Advances for Multi-Modal Health Data"
+		</a>
+		-- <a href="https://www.mlforhc.org"> at MLHC 2018</a>.
+		</h4>
+		<p>
+			Goal: make healthcare professionals aware of the latest tools from ML and help them be research effective collaborators.
+		<a href="mlhc2018_tutorial.html">
+				Please visit the 
+				Tutorial Website 
+			</a>
+			(with outline, slides, and full bibliography).
+		</p>
+	</li>
+
+
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
 		[Aug 2018] I have joined the faculty at Tufts' Computer Science Department!
 		</h4>
 		<p>

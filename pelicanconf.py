@@ -59,6 +59,8 @@ MENUITEMS = [
 	('CV', '/cv.html'),
 	('Bio', '/bio.html'),
     ('Research', '/research.html'),
+    ('Courses', '/courses.html'),
+    ('Join my Lab', '/join.html'),
 	]
 
 DISPLAY_TAGS_ON_SIDEBAR = False

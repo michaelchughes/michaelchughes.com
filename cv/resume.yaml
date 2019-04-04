@@ -124,11 +124,19 @@ sections:
           - "Designed to help clinicians understand enough modern machine learning to collaborate successfully with ML researchers."
 
       - date: "2018"
-        about: Workshop Organizer
+        about: "Workshop Organizer: ML4H at NeurIPS 2018"
         notes:
-          - "\\href{https://ml4health.github.io/2018/}{Machine Learning for Health workshop} at NeurIPS '18 (NeurIPS ML4H 2018)"
-          - "Full-day workshop with invited keynotes and accepted papers involving clinicians, statisticians, and computer scientists."
+          - "\\href{https://ml4health.github.io/2018/}{Machine Learning for Health workshop} at NeurIPS '18 (NeurIPS ML4H 2018)."
+          - "Full-day workshop with invited keynotes, accepted papers/posters, and lively panel discussions."
+          - "Provided a forum for interdisciplinary interaction between clinicians, statisticians, and computer scientists."
           - "Helped with website, PR, and continuity in peer-review process from previous years."
+
+      - date: "2018"
+        about: "Workshop Organizer: BNP at NeurIPS 2018"
+        notes:
+          - "\\href{https://sites.google.com/view/nipsbnp2018/}{All of Bayesian Nonparametrics workshop} at NeurIPS '18 (NeurIPS BNP 2018)."
+          - "Full-day workshop with invited keynotes, accepted papers/posters, and lively panel discussions."
+          - "Helped with peer-review process for accepted posters, \\href{hosted a panel discussion on cutting-edge software for BNP}{https://sites.google.com/view/nipsbnp2018/schedule}."
 
       - date: "2017"
         about: Workshop Organizer

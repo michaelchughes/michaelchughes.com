@@ -16,7 +16,7 @@
 		{% endif %}
 		<p class="list-group-item-text">{{ pub.authors }}</p>
 		<p class="list-group-item-text">
-			<i>{{ pub.venuetype }} {{ pub.venue }}</i>, {{ pub.year }}
+			<i>{{ pub.venue }}</i>, {{ pub.year }}
 		</p>
 	</li>
 {% endfor %}

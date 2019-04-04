@@ -11,6 +11,8 @@ TEX=$(BUILD_DIR)/resume.tex
 PDF=$(BUILD_DIR)/resume.pdf
 MD=$(BUILD_DIR)/resume.md
 
+YAML=$(BUILD_DIR)/publications_journal.yaml $(BUILD_DIR)/publications_workshop.yaml $(BUILD_DIR)/publications_conference.yaml $(BUILD_DIR)/publications_highlight.yaml 
+
 .PHONY: all clean
 
 markdown: $(MD)
@@ -24,10 +26,10 @@ all: $(PDF) $(MD)
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
 
-$(TEX): $(BUILD_DIR)
+$(TEX): $(BUILD_DIR) $(YAML)
 	python generate.py -b publications.yaml resume.yaml --latex
 
-$(MD): $(BUILD_DIR)
+$(MD): $(BUILD_DIR) $(YAML)
 	python generate.py -b publications.yaml resume.yaml --markdown
 
 # Try quite mode... if it fails run in verbose mode
@@ -38,3 +40,21 @@ $(PDF): $(TEX)
 
 clean:
 	rm -rf $(BUILD_DIR)
+
+$(BUILD_DIR)/publications_journal.yaml: $(BUILD_DIR) publications.yaml
+	grep -B4 -A2 "venuetype: journal" publications.yaml | sed -e 's/--//g' > $(BUILD_DIR)/publications_journal.yaml;
+
+$(BUILD_DIR)/publications_conference.yaml: $(BUILD_DIR) publications.yaml
+	grep -B4 -A2 "venuetype: conference" publications.yaml | sed -e 's/--//g' > $(BUILD_DIR)/publications_conference.yaml;
+
+$(BUILD_DIR)/publications_workshop.yaml: $(BUILD_DIR) publications.yaml
+	grep -B4 -A2 "venuetype: workshop" publications.yaml | sed -e 's/--//g' > $(BUILD_DIR)/publications_workshop.yaml;
+
+## BY DISPLAYTYPE
+
+$(BUILD_DIR)/publications_highlight.yaml: $(BUILD_DIR) publications.yaml
+	grep -B7 "displaytype: highlight" publications.yaml | sed -e 's/--//g' > $(BUILD_DIR)/publications_highlight.yaml;
+
+
+
+	

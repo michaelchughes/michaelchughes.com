@@ -10,6 +10,58 @@ External links:
 
 ### 2018
 
+
+<div class="list-group-item">
+  <a href="{filename}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">
+    <h4 class="list-group-item-heading">
+        Prediction-Constrained POMDPs
+    </h4>
+    <p class="list-group-item-text">
+        Joseph Futoma,
+        Michael C. Hughes,
+        and Finale Doshi-Velez
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://sites.google.com/site/rlponips2018/home/call-for-papers">
+            Reinforcement Learning under Partial Observability (RLPO) workshop at NeurIPS 2018
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{filename}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">
+        [paper PDF]
+        </a>
+    </p>
+</div>
+
+
+<div class="list-group-item">
+  <a href="{filename}/papers/NestorEtAl_ML4HWorkshop2018.pdf">
+    <h4 class="list-group-item-heading">
+        Rethinking clinical prediction: Why machine learning must consider year of care and feature aggregation
+    </h4>
+    <p class="list-group-item-text">
+        Bret Nestor, Matthew B. A. McDermott, Geeticka Chauhan, Tristan Naumann, Michael C. Hughes, Anna Goldenberg, Marzyeh Ghassemi
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://ml4health.github.io/2018/">
+            Machine Learning for Healthcare (ML4H) workshop at NeurIPS 2018
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{filename}/papers/NestorEtAl_ML4HWorkshop2018.pdf">
+        [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/abs/1811.12583">
+        [arXiv]
+        </a>
+    </p>
+</div>
+
 <div class="list-group-item">
   <a href="{filename}/papers/HughesEtAl_AISTATS_2018.pdf">
     <h4 class="list-group-item-heading">

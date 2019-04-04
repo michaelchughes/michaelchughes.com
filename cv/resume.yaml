@@ -39,7 +39,9 @@ sections:
         topic: "Assistant Professor of Computer Science"
         about: "\\href{www.cs.tufts.edu}{Tufts University}, Medford, MA"
         notes:
-          - "Conduct research, advise students, and teach classes."
+          - "Conduct research in statistical machine learning methods and applications to health informatics."
+          - "Advise Ph.D., M.S., and B.S. students in machine learning research projects."
+          - "Teach machine learning courses targeted at advanced undergraduates (\\href{https://www.cs.tufts.edu/comp/135/2019s/}{COMP 135 Intro to ML}) and graduate students (\\href{https://www.cs.tufts.edu/comp/150BDL/2018f/}{COMP 150 Bayesian Deep Learning})."
 
       - date: 2016 - 2018
         topic: "Postdoctoral fellow: Machine learning to improve clinical  decisions in healthcare"
@@ -75,14 +77,27 @@ sections:
           - "Developed methods to discover common actions from many videos of humans performing household exercises."
           - "Improved existing inference algorithms with data-driven Metropolis-Hastings proposals."
 
+  - name: Highlighted Publications
+    type: publications
+    yaml_file: build/publications_highlight.yaml
+    footnote: "Superscripts indicate mentored student's role: u = undergraduate, m = masters, d = doctoral. Complete publication list at end of this document."
+
+  - name: Highlighted Preprints
+    type: publications
+    yaml_file: pubs_preprints.yaml
+
   - name: Honors and Awards
     type: experience
     items:
       - date: 2018
+        about: "Top 200 Reviewer Award, \\href{https://nips.cc/Conferences/2018/Reviewers}{NeurIPS 2018}"
+        notes:
+          - "Recognized as one of top 200 of more than 3500 expert reviewers at the top international machine learning conference."
+
+      - date: 2018
         about: "Best Paper Award, \\href{https://socalnlp.github.io/symp18/index.html}{SoCal NLP Symposium 2018}"
         notes:
           - "Awarded for \\href{https://www.michaelchughes.com/papers/HughesHopeWeinerEtAl_SoCalNLP_2018.pdf}{2 page summary} of our \\href{https://www.michaelchughes.com/papers/HughesEtAl_AISTATS_2018.pdf}{AISTATS 2018 paper}."
-
 
       - date: 2017
         about: Nominee for AMIA Clinical Informatics Research Award 
@@ -99,30 +114,70 @@ sections:
         notes:
           - "Three year funding award. Declined to accept NSF fellowship."
 
-  # Publications imported by generate.py script from separate .yaml files
-  - name: Highlighted Publications
-    type: publications
-    yaml_file: pubs_highlight.yaml
-    footnote: "Superscripts indicate mentored student's role: u = undergraduate, m = masters, d = doctoral."
-
-  - name: Highlighted Preprints
-    type: publications
-    yaml_file: pubs_preprints.yaml
-
-  - name: Industry Experience
+  - name: Professional Service
     type: experience
     items:
-      - date: Summer 2013
-        about: Software Engineering Intern
-        employer: Google
-        location: Mountain View, CA
+      - date: "2018"
+        about: Invited Tutorial
         notes:
-          - "Improved walking/biking/running classifier using smartphone accelerometer data."
-          - "Led collection of dataset from dozens of individuals for classifier evaluation via custom Android app."
+          - "\\href{https://www.michaelchughes.com/mlhc2018_tutorial.html}{Machine Learning for Clinicians: Advances for Multi-Modal Health Data} at \\href{https://www.mlforhc.org/2018}{MLHC '18}"
+          - "Designed to help clinicians understand enough modern machine learning to collaborate successfully with ML researchers."
+
+      - date: "2018"
+        about: Workshop Organizer
+        notes:
+          - "\\href{https://ml4health.github.io/2018/}{Machine Learning for Health workshop} at NeurIPS '18 (NeurIPS ML4H 2018)"
+          - "Full-day workshop with invited keynotes and accepted papers involving clinicians, statisticians, and computer scientists."
+          - "Helped with website, PR, and continuity in peer-review process from previous years."
+
+      - date: "2017"
+        about: Workshop Organizer
+        notes:
+          - "\\href{https://ml4health.github.io/2017/}{Machine Learning for Health workshop} at NIPS '17 (NIPS ML4H 2017)"
+          - "Full-day workshop with invited keynotes and panels involving clinicians, statisticians, and computer scientists."
+          - "Organized peer-review process for 118 submitted papers."
+
+      - date: "2016"
+        about: Workshop Organizer
+        notes:
+          - "\\href{https://sites.google.com/site/nipsbnp2016/}{Practical Bayesian Nonparametrics workshop} at NIPS '16."
+          - "Full-day workshop with invited speakers, contributed talks, two panel discussions, and lively poster session."
+          - "Led decisions on >25 submitted papers based on peer review."
+
+      - date: "2016"
+        about: Invited Panelist
+        notes:
+         - "Software panel at \\href{http://approximateinference.org/2016}{Advances in Approximate Bayesian Inference workshop} at NIPS '16."
+
+      - date: ""
+        about: Program Committee / Reviewer
+        notes:
+          - "2019 - NIPS, AISTATS, ICLR"
+          - "2018 - NIPS (\\href{https://nips.cc/Conferences/2018/Reviewers}{reviewer award}), AAAI, AISTATS, ICLR, AMIA CRI"
+          - "2017 - NIPS, ICML, AAAI"
+          - "2016 - NIPS"
+          - "2015 - NIPS, ICML"
+          - "2014 - NIPS, ICML"
+          - "2013 - NIPS (\\href{https://nips.cc/Conferences/2013/Awards}{reviewer award})"
+
 
   - name: Teaching and Mentorship
     type: experience
     items:
+      - date: Spring 2019
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/135/2019s/}{COMP 135 Introduction to Machine Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught core principles of machine learning to about 50 students"
+          - "Course format: 3 open-ended projects, weekly homeworks, and 2 exams"
+
+      - date: Fall 2018
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/150BDL/2018f/}{COMP 150 Bayesian Deep Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced topics seminar to about 18 students"
+          - "Course format: weekly homeworks for first month, then 2-month open-ended team project"
+
       - date: 2016-2017
         about: Research Mentor
         employer: Harvard University SEAS
@@ -150,15 +205,6 @@ sections:
   - name: Outreach Experience
     type: experience
     items:
-      - date: 2014
-        about: \href{https://hhi.harvard.edu/research/signa}{Signal Program} Fellow
-        employer: Harvard Humanitarian Initiative
-        location: Cambridge, MA
-        notes:
-          - "Developed prototype detector for common housing structures in sub-Saharan Africa from satellite images."
-          - "Intended for humanitarian oversight of conflict areas where burning structures is common attack pattern."
-          - "Featured in TEDx talk: \\url{https://youtu.be/u7l9rBwOnwU}"
-
       - date: 2014-2016
         about: Volunteer AP Computer Science Instructor
         employer: TEALS and Boston Latin Academy
@@ -168,6 +214,14 @@ sections:
           - "Developed hands-on lessons to excite students from diverse backgrounds about computational thinking."
           - "Mentored full-time teacher Ingrid Roche as she transitioned from media arts to AP computer science (Java)."
 
+      - date: 2014
+        about: \href{https://hhi.harvard.edu/research/signa}{Signal Program} Fellow
+        employer: Harvard Humanitarian Initiative
+        location: Cambridge, MA
+        notes:
+          - "Developed prototype detector for common housing structures in sub-Saharan Africa from satellite images."
+          - "Intended for humanitarian oversight of conflict areas where burning structures is common attack pattern."
+          - "Featured in TEDx talk: \\url{https://youtu.be/u7l9rBwOnwU}"
 
       - date: 2007-2010
         about: Co-Founder and Curriculum Director
@@ -178,40 +232,25 @@ sections:
           - "Hosted workshops for 30 children to design, build, and launch bottle rockets."
           - "Pioneered green energy workshop which earned over \\$750 in outside funding."
 
-
-  - name: Professional Service
+  - name: Industry Experience
     type: experience
     items:
-      - date: "2017"
-        about: Workshop Organizer
+      - date: Summer 2013
+        about: Software Engineering Intern
+        employer: Google
+        location: Mountain View, CA
         notes:
-          - "\\href{https://ml4health.github.io/2017/}{Machine Learning for Health workshop} at NIPS '17 (NIPS ML4H 2017)"
-          - "Full-day workshop with invited keynotes and panels involving clinicians, statisticians, and computer scientists."
-          - "Organized peer-review process for 118 submitted papers."
+          - "Improved walking/biking/running classifier using smartphone accelerometer data."
+          - "Led collection of dataset from dozens of individuals for classifier evaluation via custom Android app."
 
-
-      - date: "2016"
-        about: Workshop Organizer
-        notes:
-          - "\\href{https://sites.google.com/site/nipsbnp2016/}{Practical Bayesian Nonparametrics workshop} at NIPS '16."
-          - "Full-day workshop with invited speakers, contributed talks, two panel discussions, and lively poster session."
-          - "Led decisions on >25 submitted papers based on peer review."
-
-      - date: "2016"
-        about: Invited Panelist
-        notes:
-         - "Software panel at \\href{http://approximateinference.org/}{Advances in Approximate Bayesian Inference workshop} at NIPS '16."
-
-      - date: ""
-        about: Program Committee / Reviewer
-        notes:
-          - "2018 - ICLR, AAAI, AMIA CRI"
-          - "2017 - NIPS, ICML, AAAI"
-          - "2016 - NIPS"
-          - "2015 - NIPS, ICML"
-          - "2014 - NIPS, ICML"
-          - "2013 - NIPS (\\href{https://nips.cc/Conferences/2013/Awards}{reviewer award})"
-
-  - name: All Publications (in chronological order)
+  - name: All Conference Publications (in reverse chronological order)
     type: publications
-    yaml_file: publications.yaml
+    yaml_file: build/publications_conference.yaml
+
+  - name: All Journal Publications (in reverse chronological order)
+    type: publications
+    yaml_file: build/publications_journal.yaml
+
+  - name: All Workshop Papers (in reverse chronological order)
+    type: publications
+    yaml_file: build/publications_workshop.yaml

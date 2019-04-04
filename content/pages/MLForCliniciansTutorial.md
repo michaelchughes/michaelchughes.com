@@ -36,6 +36,7 @@ save_as: mlhc2018_tutorial.html
   </li>
 </ul>
 
+<!--
 # Survey
 
 <ul class="list-group">
@@ -50,6 +51,7 @@ If you are a clinician, please take this short survey to help us understand the 
         </p>
     </li>
 </ul>
+-->
 
 # Goals
 

@@ -1,137 +1,170 @@
+- title: "Prediction-Constrained POMDPs"
+  authors: "Joseph Futoma, Michael C. Hughes, and Finale Doshi-Velez"
+  key: futoma2019pcpomdp
+  year: 2019
+  venuetype: workshop
+  venue: "Reinforcement Learning under Partial Observability (RLPO) workshop at NeurIPS 2018"
+  url: https://www.michaelchughes.com/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf
+  displaytype: highlight
+
+- title: "Rethinking clinical prediction: Why machine learning must consider year of care and feature aggregation"
+  authors: "Bret Nestor, Matthew B. A. McDermott, Geeticka Chauhan, Tristan Naumann, Michael C. Hughes, Anna Goldenberg, Marzyeh Ghassemi"
+  key: nestor2019rethinking
+  year: 2019
+  venuetype: workshop
+  venue: "Machine Learning for Healthcare (ML4H) workshop at NeurIPS 2018"
+  url: https://www.michaelchughes.com/papers/NestorEtAl_ML4HWorkshop2018.pdf
+  displaytype: none
+
 - title: "Semi-Supervised Prediction-Constrained Topic Models"
   authors: "Michael C. Hughes, Gabriel Hope\\textsuperscript{d}, Leah Weiner\\textsuperscript{d}, Thomas H. McCoy Jr, Roy H. Perlis, Erik B. Sudderth, and Finale Doshi-Velez"
   key: hughes2018aistats
   year: 2018
-  venuetype: ""
+  venuetype: conference
   venue: "Artificial Intelligence and Statistics (AISTATS)"
   url: https://www.michaelchughes.com/papers/HughesEtAl_AISTATS_2018.pdf
+  displaytype: highlight
 
 - title: "Beyond Sparsity: Tree Regularization of Deep Models for Interpretability"
   authors: "Mike Wu\\textsuperscript{u}, Michael C. Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
   key: wu2018aaai
   year: 2018
-  venuetype: ""
+  venuetype: conference
   venue: "Association for Advancement of Artificial Intelligence (AAAI)"
   url: https://arxiv.org/pdf/1711.06178.pdf
+  displaytype: highlight
 
 - title: "Prediction-Constrained Topic Models for Antidepressant Prediction"
   authors: "Michael C. Hughes, Gabriel Hope\\textsuperscript{d}, Leah Weiner\\textsuperscript{d}, Thomas H. McCoy, Roy H. Perlis, Erik B. Sudderth, and Finale Doshi-Velez"
   key: hughes2017ml4hworkshop
   year: 2017
-  venuetype: ""
+  venuetype: workshop
   venue: NIPS Workshop on Machine Learning for Health (NIPS ML4H)
   url: https://www.michaelchughes.com/papers/HughesEtAl_NIPSML4H_2017.pdf
+  displaytype: none
 
 - title: "From Patches to Images: A Nonparametric Generative Model"
   authors: "Geng Ji\\textsuperscript{d}, Michael C. Hughes, and Erik B. Sudderth"
   key: ji2017icml
   year: 2017
-  venuetype: ""
+  venuetype: conference
   venue: International Conference on Machine Learning (ICML)
   url: https://www.michaelchughes.com/papers/JiHughesSudderth_ICML_2017.pdf
+  displaytype: highlight
 
 - title: "Right for the Right Reasons: Training Differentiable Models by Constraining their Explanations"
   authors: "Andrew Slavin Ross\\textsuperscript{m}, Michael C. Hughes, and Finale Doshi-Velez"
   key: ross2017ijcai
   year: 2017
-  venuetype: ""
+  venuetype: conference
   venue: International Joint Conference on Artificial Intelligence (ICJAI)
   url: https://www.michaelchughes.com/papers/RossHughesDoshiVelez_IJCAI_2017.pdf
+  displaytype: none
 
 - title: Predicting Intervention Onset in the ICU with Switching State Space Models
   authors: "Marzyeh Ghassemi, Mike Wu\\textsuperscript{u}, Michael C. Hughes, Peter Szolovits, and Finale Doshi-Velez"
   key: ghassemi2017amiacri
   year: 2017
-  venuetype: ""
+  venuetype: conference
   venue: AMIA Summit on Clinical Research Informatics
   url: https://www.michaelchughes.com/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf
+  displaytype: highlight
 
 - title: "Refinery: An Open Source Topic Modeling Web Platform"
   authors: Daeil Kim, Benjamin F. Swanson, Michael C. Hughes, and Erik B. Sudderth
   key: kim2017refinery
   year: 2017
-  venuetype: ""
+  venuetype: journal
   venue: JMLR Machine Learning Open Source Software (MLOSS)
   url: https://www.michaelchughes.com/papers/KimSwansonHughesSudderth_JMLRSoftware_2017.pdf
+  displaytype: none
 
 - title: "Associations between aboveground forest biomass and waveform LiDAR metrics: implications for modeling footprint-level biomass using Global Ecosystem Dynamics Investigation data"
   authors: "J. Kellner, J. B. Blair, L. Duncanson, L., S. Hancock, M. A. Hofton, M. C. Hughes, S. Marselis, S., J. Armston, E. B. Sudderth, H. Tang, L. Weiner\\textsuperscript{d}, and R. Dubayah"
   key: agu2016
   year: 2016
-  venuetype: ""
+  venuetype: workshop
   venue: "American Geophysical Union, Fall General Assembly"
   url: "https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/187662"
+  displaytype: none
 
 - title: Supervised topic models for clinical interpretability
   authors: Michael C. Hughes, Huseyin Melih Elibol, Thomas McCoy, Roy Perlis, and Finale Doshi-Velez
   key: mlhc2016
   year: 2016
-  venuetype: ""
+  venuetype: workshop
   venue: NIPS Workshop on Machine Learning for Health (NIPS ML4H)
   url: https://www.michaelchughes.com/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf
+  displaytype: none
 
 - title: Scalable Adaptation of State Complexity for Nonparametric Hidden Markov Models
   authors: "Michael C. Hughes, William Stephenson\\textsuperscript{u}, and Erik B. Sudderth"
   key: nips2015
   year: 2015
-  venuetype: ""
+  venuetype: conference
   venue: Neural Information Processing Systems (NIPS)
   url: https://www.michaelchughes.com/papers/HughesStephensonSudderth_NIPS_2015.pdf
+  displaytype: none
 
 - title: Reliable and Scalable Variational Inference for the Hierarchical Dirichlet Process
   authors: Michael C. Hughes, Dae Il Kim, and Erik B. Sudderth
   key: aistats2015
   year: 2015
-  venuetype: ""
+  venuetype: conference
   venue: Artificial Intelligence \& Statistics (AISTATS)
   url: https://www.michaelchughes.com/papers/HughesKimSudderth_AISTATS_2015.pdf
-
+  displaytype: none
 
 - title: "BNPy: Reliable and scalable variational inference for Bayesian nonparametric models"
   authors: Michael C. Hughes and Erik B. Sudderth
   key: nipsworkshop2014
-  year: 2013
-  venuetype: ""
+  year: 2014
+  venuetype: "workshop"
   venue: 3rd NIPS Workshop on Probabilistic Programming
   url: https://www.michaelchughes.com/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf
+  displaytype: none
 
 - title: Joint Modeling of Multiple Time Series via the Beta Process with Application to Motion Capture Segmentation
   authors: Emily Fox, Michael C. Hughes, Erik B. Sudderth, and Michael I. Jordan
   key: aoas2015
   year: 2014
-  venuetype: ""
+  venuetype: journal
   venue: Annals of Applied Statistics, Vol. 8(3)
   url: https://www.michaelchughes.com/papers/FoxHughesSudderthJordan_AOAS_2014.pdf
-
+  displaytype: none
 
 - title: Memoized Online Variational Inference for Dirichlet Process Mixture Models
   authors: Michael C. Hughes and Erik B. Sudderth
   key: nips2013
   year: 2013
-  venuetype: ""
+  venuetype: conference
   venue: Neural Information Processing Systems (NIPS)
   url: https://www.michaelchughes.com/papers/HughesSudderth_NIPS_2013.pdf
+  displaytype: none
 
 - title: Effective Split-Merge Monte Carlo Methods for Nonparametric Models of Sequential Data
   authors: Michael C. Hughes, Emily Fox, and Erik B. Sudderth
   key: nips2012
   year: 2012
-  venuetype: ""
+  venuetype: conference
   venue: Neural Information Processing Systems (NIPS)
   url: https://www.michaelchughes.com/papers/HughesFoxSudderth_NIPS_2012.pdf
+  displaytype: none
 
 - title: The Nonparametric Metadata Dependent Relational Model
   authors: Dae Il Kim, Michael C. Hughes, and Erik B. Sudderth
   key: icml2012
   year: 2012
-  venuetype: ""
+  venuetype: conference
   venue: International Conference on Machine Learning (ICML)
   url: https://www.michaelchughes.com/papers/KimHughesSudderth_ICML_2012.pdf
+  displaytype: none
 
 - title: Nonparametric Discovery of Activity Patterns from Video Collections
   authors: Michael C. Hughes and Erik B. Sudderth
   key: pocv2012
   year: 2012
-  venuetype: ""
+  venuetype: workshop
   venue: CVPR Workshop on Perceptual Organization in Computer Vision (POCV)
   url: https://www.michaelchughes.com/papers/HughesSudderth_POCV_2012.pdf
+  displaytype: none

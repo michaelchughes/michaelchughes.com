@@ -31,21 +31,37 @@ introduces "Tree Regularization", a method to optimize deep neural networks so l
 ### News
 
 <ul class="list-group">
-
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[Dec 2018] Two short papers accepted to workshops at NeurIPS 2018
+		</h4>
+		<ul>
+			<li>
+				<a href="{filename}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">
+					Prediction-Constrained POMDPs
+				</a> at RLPO @ NeurIPS2018
+			</li>
+			<li>
+		        <a href="{filename}/papers/NestorEtAl_ML4HWorkshop2018.pdf">
+        	        Rethinking clinical prediction: Why machine learning must consider year of care and feature aggregation
+				</a> at ML4Health @ NeurIPS 2018
+			</li>
+		</ul>
+	</li>
 
 	<li class="list-group-item">
 		<h4 class="list-group-item-heading">
-		[Aug 2018] I'm organizing 2 Workshops at NIPS 2018:
+		[Aug 2018] I'm organizing 2 Workshops at NeurIPS 2018:
 		</h4>
 		<ul>
 			<li>
 			<a href="https://sites.google.com/view/nipsbnp2018">
-			All of Bayesian Nonparametrics (BNP @ NIPS 2018)
+			All of Bayesian Nonparametrics (BNP @ NeurIPS 2018)
 			</a>
 			</li>
 			<li>
 			<a href="https://ml4health.github.io/2018/">
-				Machine Learning for Health (ML4H @ NIPS 2018)
+				Machine Learning for Health (ML4H @ NeurIPS 2018)
 			</a>
 			</li>
 		</ul>

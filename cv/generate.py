@@ -147,7 +147,9 @@ MARKDOWN_CONTEXT = RenderContext(
         ('--', '-'),                       # en dash
         (r'``([^\']*)\'\'', r'"\1"'),      # quotes
         (r'\\&', '&'),                       # \& to &
+        (r'\\textsuperscript{b}', r"<sup>b</sup>"),
         (r'\\textsuperscript{d}', r"<sup>d</sup>"),
+        (r'\\textsuperscript{c}', r"<sup>c</sup>"),
         (r'\\textsuperscript{m}', r"<sup>m</sup>"),
         (r'\\textsuperscript{u}', r"<sup>u</sup>"),        
     ]
@@ -176,7 +178,7 @@ HTML_CONTEXT = RenderContext(
 def process_resume(context, yaml_data, preview):
     rendered_resume = context.render_resume(yaml_data)
     if preview:
-        print rendered_resume
+        print(rendered_resume)
     else:
         context.write_to_outfile(rendered_resume)
 
@@ -206,21 +208,21 @@ def main():
     yaml_data = {}
     for yaml_file in args.yamls:
         with open(yaml_file) as f:
-            yaml_data.update(yaml.load(f))
+            yaml_data.update(yaml.load(f, Loader=yaml.FullLoader))
 
     # Sub into the publications section as its items, if they don't exist
     for s in yaml_data['sections']:
         if 'yaml_file' in s and s['yaml_file'].endswith('.yaml'):
             extra_yaml_fpath = s['yaml_file']
             with open(extra_yaml_fpath, 'r') as f:
-                s['items'] = yaml.load(f)
+                s['items'] = yaml.load(f, Loader=yaml.FullLoader)
                 #if 'footnote' in s:
                 #    s['items'][0]['authors'] += \
                 #        "\\footnotemark{ABCD}"
     '''
     if args.publications:
         with open(args.publications) as f:
-            pubs = yaml.load(f)
+            pubs = yaml.load(f, Loader=yaml.FullLoader)
 
         for s in yaml_data['sections']:
             if 'type' in s and s['type'] == 'publications' and 'items' not in s:

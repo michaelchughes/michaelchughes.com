@@ -4,7 +4,14 @@ save_as: courses.html
 
 Courses taught at Tufts University:
 
+* Spring 2020: COMP 136 <a href="https://www.cs.tufts.edu/comp/136/2020s/">Statistical Pattern Recognition</a> **COMING SOON**
+
+* Fall 2019: COMP 150-03 <a href="https://www.cs.tufts.edu/comp/150BDL/2019f/">Bayesian Deep Learning</a>
+
+* Spring 2019: COMP 135 <a href="https://www.eecs.tufts.edu/~mhughes/courses/intro_ml/2019s/">Introduction to Machine Learning</a>
+
 * Fall 2018: COMP 150-03 <a href="https://www.cs.tufts.edu/comp/150BDL/2018f/">Bayesian Deep Learning</a>
+
 
 Courses TA'd at Brown University while a graduate student:
 

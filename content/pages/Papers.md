@@ -8,11 +8,161 @@ External links:
 &#8226;
 [[My ORCID iD Profile](https://orcid.org/0000-0003-4859-7400)]
 
+See also the complete list in my [Curriculum Vitae]({static}/cv.html)
+
+### 2020
+
+<div class="list-group-item">
+  <a href="{static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf">
+    <h4 class="list-group-item-heading">
+        Regional Tree Regularization for Interpretability in Black Box Models
+    </h4>
+    <p class="list-group-item-text">
+        Mike Wu, Sonali Parbhoo, Michael C. Hughes, Ryan Kindle, Leo Celi, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
+      </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://aaai.org/Conferences/AAAI-20/">
+           To Appear in AAAI 2020
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf">
+        [paper PDF]
+        </a>
+    </p>
+</div>
+
+### 2019
+
+<div class="list-group-item">
+  <a href="{static}/papers/ZhangHughes_AABI_2019.pdf">
+    <h4 class="list-group-item-heading">
+        Rapid Model Comparison by Amortizing Across Models
+    </h4>
+    <p class="list-group-item-text">
+        Lily H. Zhang and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="http://www.approximateinference.org/">
+            2nd Symposium on Advances in Approximate Bayesian Inference (AABI 2019)
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/ZhangHughes_AABI_2019.pdf">
+        [paper PDF]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+  <a href="{static}/papers/PradierHughesDoshiVelez_AABI_2019.pdf">
+    <h4 class="list-group-item-heading">
+        Challenges in Computing and Optimizing Upper Bounds of Marginal Likelihood based on Chi-Square Divergences
+    </h4>
+    <p class="list-group-item-text">
+        Melanie F. Pradier, Michael C. Hughes, and Finale Doshi-Velez
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="http://www.approximateinference.org/">
+            2nd Symposium on Advances in Approximate Bayesian Inference (AABI 2019)
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/PradierHughesDoshiVelez_AABI_2019.pdf">
+        [paper PDF]
+        </a>
+    </p>
+</div>
+
+
+<div class="list-group-item">
+  <a href="{static}/papers/NestorEtAl_MLHC_2019.pdf">
+    <h4 class="list-group-item-heading">
+        Feature Robustness in Non-stationary Health Records: Caveats to Deployable Model Performance in Common Clinical Machine Learning Tasks
+    </h4>
+    <p class="list-group-item-text">
+        Bret Nestor,
+        Matthew B.A. McDermott,
+        Willie, Boag,
+        Gabriela Berner,
+        Tristan Nauman,
+        Michael C. Hughes,
+        Anna Goldenberg,
+        and Marzyeh Ghassemi
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://www.mlforhc.org/2019-conference">
+            Machine Learning for Healthcare (MLHC) 2019
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/NestorEtAl_MLHC_2019.pdf">
+        [paper PDF]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+  <a href="https://ashpublications.org/blood/article-abstract/134/Supplement_1/3435/428173/Supervised-Machine-Learning-Algorithms-Using">
+    <h4 class="list-group-item-heading">
+        Supervised Machine Learning Algorithms Using Patient Related Factors to Predict in-Hospital Mortality Following Acute Myeloid Leukemia Therapy
+    </h4>
+    <p class="list-group-item-text">
+        Nauman Saleem Siddiqui, Andreas Klein, Amandeep Godara, Cindy Varga, Rachel J. Buchsbaum, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://www.hematology.org/Annual-Meeting/">
+            Proceedings of 61st Annual Meeting of the American Hematology Society
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://ashpublications.org/blood/article-abstract/134/Supplement_1/3435/428173/Supervised-Machine-Learning-Algorithms-Using">
+        [abstract HTML]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+  <a href="https://www.eecs.tufts.edu/~gtatiya/files/2019/IEEE_ICDL_EPIROB_2019_gtatiya.pdf">
+    <h4 class="list-group-item-heading">
+        Sensorimotor Cross-Behavior Knowledge Transfer for Grounded Category Recognition
+    </h4>
+    <p class="list-group-item-text">
+        Gyan Tatiya,
+        Ramtin Hosseini,
+        Michael C. Hughes,
+        and Jivko Sinapov
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://icdl-epirob2019.org/">
+            Joint IEEE International Conference on Development and Learning and Epigenetic Robotics (ICDL-EpiRob)
+         </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://www.eecs.tufts.edu/~gtatiya/files/2019/IEEE_ICDL_EPIROB_2019_gtatiya.pdf">
+        [paper PDF]
+        </a>
+    </p>
+</div>
+
+
 ### 2018
 
 
 <div class="list-group-item">
-  <a href="{filename}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">
+  <a href="{static}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">
     <h4 class="list-group-item-heading">
         Prediction-Constrained POMDPs
     </h4>
@@ -29,7 +179,7 @@ External links:
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="{filename}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">
+        <a href="{static}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">
         [paper PDF]
         </a>
     </p>
@@ -37,7 +187,7 @@ External links:
 
 
 <div class="list-group-item">
-  <a href="{filename}/papers/NestorEtAl_ML4HWorkshop2018.pdf">
+  <a href="{static}/papers/NestorEtAl_ML4HWorkshop2018.pdf">
     <h4 class="list-group-item-heading">
         Rethinking clinical prediction: Why machine learning must consider year of care and feature aggregation
     </h4>
@@ -52,7 +202,7 @@ External links:
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="{filename}/papers/NestorEtAl_ML4HWorkshop2018.pdf">
+        <a href="{static}/papers/NestorEtAl_ML4HWorkshop2018.pdf">
         [paper PDF]
         </a>
         &#8226;
@@ -63,7 +213,7 @@ External links:
 </div>
 
 <div class="list-group-item">
-  <a href="{filename}/papers/HughesEtAl_AISTATS_2018.pdf">
+  <a href="{static}/papers/HughesEtAl_AISTATS_2018.pdf">
     <h4 class="list-group-item-heading">
         Semi-Supervised Prediction-Constrained Topic Models
     </h4>
@@ -84,11 +234,11 @@ External links:
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="{filename}/papers/HughesEtAl_AISTATS_2018.pdf">
+        <a href="{static}/papers/HughesEtAl_AISTATS_2018.pdf">
         [paper PDF]
         </a>
         &#8226;
-        <a href="{filename}/papers/HughesEtAl_AISTATS_2018_supplement.pdf">
+        <a href="{static}/papers/HughesEtAl_AISTATS_2018_supplement.pdf">
         [supplement PDF]
         </a>
         &#8226;
@@ -141,7 +291,7 @@ External links:
 ### 2017
 
 <div class="list-group-item">
-  <a href="{filename}/papers/HughesEtAl_NIPSML4H_2017.pdf">
+  <a href="{static}/papers/HughesEtAl_NIPSML4H_2017.pdf">
     <h4 class="list-group-item-heading">
         Prediction-Constrained Topic Models for Antidepressant Prediction
     </h4>
@@ -162,7 +312,7 @@ External links:
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="{filename}/papers/HughesEtAl_NIPSML4H_2017.pdf">
+        <a href="{static}/papers/HughesEtAl_NIPSML4H_2017.pdf">
         [short paper PDF]
         </a>
         &#8226;
@@ -178,7 +328,7 @@ External links:
 
 
 <div class="list-group-item">
-  <a href="{filename}/papers/JiHughesSudderth_ICML_2017.pdf">
+  <a href="{static}/papers/JiHughesSudderth_ICML_2017.pdf">
     <h4 class="list-group-item-heading">
         From Patches to Images: A Nonparametric Generative Model
     </h4>
@@ -195,11 +345,11 @@ External links:
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="{filename}/papers/JiHughesSudderth_ICML_2017.pdf">
+        <a href="{static}/papers/JiHughesSudderth_ICML_2017.pdf">
         [paper PDF]
         </a>
         &#8226;
-        <a href="{filename}/papers/JiHughesSudderth_ICML_2017_supplement.zip">
+        <a href="{static}/papers/JiHughesSudderth_ICML_2017_supplement.zip">
         [supplement ZIP]
         </a>
         &#8226;
@@ -211,7 +361,7 @@ External links:
 
 
 <div class="list-group-item">
-  <a href="{filename}/papers/RossHughesDoshiVelez_IJCAI_2017.pdf">
+  <a href="{static}/papers/RossHughesDoshiVelez_IJCAI_2017.pdf">
     <h4 class="list-group-item-heading">
     Right for the Right Reasons: Training Differentiable Models by Constraining their Explanations
     </h4>
@@ -228,7 +378,7 @@ External links:
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="{filename}/papers/RossHughesDoshiVelez_IJCAI_2017.pdf">
+        <a href="{static}/papers/RossHughesDoshiVelez_IJCAI_2017.pdf">
         [paper PDF]
         </a>
         &#8226;
@@ -239,7 +389,7 @@ External links:
 </div>
 
 <div class="list-group-item">
-  <a href="{filename}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
+  <a href="{static}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
     <h4 class="list-group-item-heading">
         Predicting intervention onset in the ICU with switching state space models
     </h4>
@@ -258,18 +408,18 @@ External links:
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="{filename}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
+        <a href="{static}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf">
         [paper PDF]
         </a>
         &#8226;
-        <a href="{filename}/talks/20170328_AMIACRI2017.pdf">
+        <a href="{static}/talks/20170328_AMIACRI2017.pdf">
         [slides PDF]
         </a>
     </p>
 </div>
 
 <div class="list-group-item">
-  <a href="{filename}/papers/KimSwansonHughesSudderth_JMLRSoftware_2017.pdf">
+  <a href="{static}/papers/KimSwansonHughesSudderth_JMLRSoftware_2017.pdf">
     <h4 class="list-group-item-heading">
         Refinery: An Open Source Topic Modeling Web Platform
     </h4>
@@ -285,7 +435,7 @@ External links:
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="{filename}/papers/KimSwansonHughesSudderth_JMLRSoftware_2017.pdf">
+        <a href="{static}/papers/KimSwansonHughesSudderth_JMLRSoftware_2017.pdf">
             [paper PDF]
         </a>
         &#8226;
@@ -304,7 +454,7 @@ External links:
 ### 2016
 
 <div class="list-group-item">
-  <a href="{filename}/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf">
+  <a href="{static}/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf">
     <h4 class="list-group-item-heading">
         Supervised topic models for clinical interpretability
     </h4>
@@ -323,7 +473,7 @@ External links:
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="{filename}/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf">
+        <a href="{static}/papers/HughesElibolMcCoyPerlisDoshi_MLHCWorkshopAtNIPS2016.pdf">
             [paper PDF]
         </a>
         &#8226;
@@ -335,7 +485,7 @@ External links:
 
 
 <div class="list-group-item">
-    <a href="{filename}/papers/JiHughesSudderth_PracticalBNPWorkshop_2016.pdf">
+    <a href="{static}/papers/JiHughesSudderth_PracticalBNPWorkshop_2016.pdf">
     <h4 class="list-group-item-heading">
 From Patches to Natural Images
 via Hierarchical Dirichlet Processes
@@ -351,14 +501,14 @@ via Hierarchical Dirichlet Processes
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="{filename}/papers/JiHughesSudderth_PracticalBNPWorkshop_2016.pdf">
+        <a href="{static}/papers/JiHughesSudderth_PracticalBNPWorkshop_2016.pdf">
             [paper PDF]
         </a>
     </p>
 </div>
 
 <div class="list-group-item">
-    <a href="{filename}/papers/HughesSudderth_arXiv_2016.pdf">
+    <a href="{static}/papers/HughesSudderth_arXiv_2016.pdf">
     <h4 class="list-group-item-heading">
 Fast Learning of Clusters and Topics via Sparse Posteriors
     </h4>
@@ -372,7 +522,7 @@ Fast Learning of Clusters and Topics via Sparse Posteriors
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="{filename}/papers/HughesSudderth_arXiv_2016.pdf">
+        <a href="{static}/papers/HughesSudderth_arXiv_2016.pdf">
             [paper PDF]
         </a>
         &#8226;
@@ -386,7 +536,7 @@ Fast Learning of Clusters and Topics via Sparse Posteriors
 ### 2015
 
 <div class="list-group-item">
-  <a href="{filename}/papers/HughesStephensonSudderth_NIPS_2015.pdf">
+  <a href="{static}/papers/HughesStephensonSudderth_NIPS_2015.pdf">
   	<h4 class="list-group-item-heading">
     	Scalable Adaptation of State Complexity for Nonparametric Hidden Markov Models
     </h4>
@@ -401,11 +551,11 @@ Fast Learning of Clusters and Topics via Sparse Posteriors
 	</a>
     <p class="list-group-item-text"><span>
 		&#8226;
-		<a href="{filename}/papers/HughesStephensonSudderth_NIPS_2015.pdf">
+		<a href="{static}/papers/HughesStephensonSudderth_NIPS_2015.pdf">
 			[paper PDF]
 		</a>
 		&#8226;
-		<a href="{filename}/papers/HughesStephensonSudderth_NIPS_2015_supplement.pdf">
+		<a href="{static}/papers/HughesStephensonSudderth_NIPS_2015_supplement.pdf">
 			[supplement PDF]
 		</a>
 		&#8226;
@@ -420,7 +570,7 @@ Fast Learning of Clusters and Topics via Sparse Posteriors
 </div>
 
 <div class="list-group-item">
-  <a href="{filename}/papers/HughesKimSudderth_AISTATS_2015.pdf">
+  <a href="{static}/papers/HughesKimSudderth_AISTATS_2015.pdf">
   	<h4 class="list-group-item-heading">
 Reliable and Scalable Variational Inference for the Hierarchical Dirichlet Process.
     </h4>
@@ -435,11 +585,11 @@ Artificial Intelligence & Statistics, 2015.
 	</a>
     <p class="list-group-item-text"><span>
 		&#8226;
-		<a href="{filename}/papers/HughesKimSudderth_AISTATS_2015.pdf">
+		<a href="{static}/papers/HughesKimSudderth_AISTATS_2015.pdf">
 			[paper PDF]
 		</a>
 		&#8226;
-		<a href="{filename}/papers/HughesKimSudderth_AISTATS_2015_supplement.pdf">
+		<a href="{static}/papers/HughesKimSudderth_AISTATS_2015_supplement.pdf">
 			[supplement PDF]
 		</a>
 		&#8226;
@@ -447,11 +597,11 @@ Artificial Intelligence & Statistics, 2015.
 			[Python code: bnpy]
 		</a>
 		&#8226;
-		<a href="{filename}/papers/HughesKimSudderth_AISTATS_2015_poster.pdf">
+		<a href="{static}/papers/HughesKimSudderth_AISTATS_2015_poster.pdf">
 			[poster PDF]
 		</a>
 		&#8226;
-		<a href="{filename}/papers/HughesKimSudderth_AISTATS_2015_poster.pptx">
+		<a href="{static}/papers/HughesKimSudderth_AISTATS_2015_poster.pptx">
 			[poster PPTX]
 		</a>
 	</span></p>
@@ -460,7 +610,7 @@ Artificial Intelligence & Statistics, 2015.
 
 ### 2014
 <div class="list-group-item">
-  <a href="{filename}/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf">
+  <a href="{static}/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf">
   	<h4 class="list-group-item-heading">
 bnpy: Reliable and scalable variational inference for Bayesian nonparametric models
     </h4>
@@ -474,7 +624,7 @@ Erik B. Sudderth
 	</i></p>
     <p class="list-group-item-text"><span>
 		&#8226;
-		<a href="{filename}/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf">
+		<a href="{static}/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf">
 			[paper PDF]
 		</a>
 		&#8226;
@@ -482,7 +632,7 @@ Erik B. Sudderth
 			[Python code: bnpy]
 		</a>
 		&#8226;
-		<a href="{filename}/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014_poster.pdf">
+		<a href="{static}/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014_poster.pdf">
 			[poster PDF]
 		</a>
 	</span></p>
@@ -490,7 +640,7 @@ Erik B. Sudderth
 
 
 <div class="list-group-item">
-  <a href="{filename}/papers/FoxHughesSudderthJordan_AOAS_2014.pdf">
+  <a href="{static}/papers/FoxHughesSudderthJordan_AOAS_2014.pdf">
   	<h4 class="list-group-item-heading">
 Joint Modeling of Multiple Time Series via the Beta Process with Application to Motion Capture Segmentation.
     </h4>
@@ -506,11 +656,11 @@ Annals of Applied Statistics, Vol. 8(3), 2014.
 	</i></p>
     <p class="list-group-item-text"><span>
 		&#8226;
-		<a href="{filename}/papers/FoxHughesSudderthJordan_AOAS_2014.pdf">
+		<a href="{static}/papers/FoxHughesSudderthJordan_AOAS_2014.pdf">
 			[paper PDF]
 		</a>
 		&#8226;
-		<a href="{filename}/papers/FoxHughesSudderthJordan_AOAS_2014_supplement.pdf">
+		<a href="{static}/papers/FoxHughesSudderthJordan_AOAS_2014_supplement.pdf">
 			[supplement PDF]
 		</a>
 		&#8226;
@@ -523,7 +673,7 @@ Annals of Applied Statistics, Vol. 8(3), 2014.
 ### 2013
 
 <div class="list-group-item">
-  <a href="{filename}/papers/HughesSudderth_NIPS_2013.pdf">
+  <a href="{static}/papers/HughesSudderth_NIPS_2013.pdf">
   	<h4 class="list-group-item-heading">
 Memoized Online Variational Inference for Dirichlet Process Mixture Models
     </h4>
@@ -537,15 +687,15 @@ Neural Information Processing Systems, 2013.
 	</i></p>
     <p class="list-group-item-text"><span>
 		&#8226;
-		<a href="{filename}/papers/HughesSudderth_NIPS_2013.pdf">
+		<a href="{static}/papers/HughesSudderth_NIPS_2013.pdf">
 			[paper PDF]
 		</a>
 		&#8226;
-		<a href="{filename}/papers/HughesSudderth_NIPS_2013_supplement.pdf">
+		<a href="{static}/papers/HughesSudderth_NIPS_2013_supplement.pdf">
 			[supplement PDF]
 		</a>
 		&#8226;
-		<a href="{filename}/papers/HughesSudderth_NIPS_2013_poster.pdf">
+		<a href="{static}/papers/HughesSudderth_NIPS_2013_poster.pdf">
 			[poster PDF]
 		</a>
 		&#8226;
@@ -559,7 +709,7 @@ Neural Information Processing Systems, 2013.
 ### 2012
 
 <div class="list-group-item">
-  <a href="{filename}/papers/HughesFoxSudderth_NIPS_2012.pdf">
+  <a href="{static}/papers/HughesFoxSudderth_NIPS_2012.pdf">
   	<h4 class="list-group-item-heading">
 Effective Split-Merge Monte Carlo Methods for Nonparametric Models of Sequential Data
     </h4>
@@ -574,15 +724,15 @@ Neural Information Processing Systems, 2012.
 	</i></p>
     <p class="list-group-item-text"><span>
 		&#8226;
-		<a href="{filename}/papers/HughesFoxSudderth_NIPS_2012.pdf">
+		<a href="{static}/papers/HughesFoxSudderth_NIPS_2012.pdf">
 			[paper PDF]
 		</a>
 		&#8226;
-		<a href="{filename}/papers/HughesFoxSudderth_NIPS_2012_poster.pdf">
+		<a href="{static}/papers/HughesFoxSudderth_NIPS_2012_poster.pdf">
 			[poster PDF]
 		</a>
 		&#8226;
-		<a href="{filename}/papers/HughesFoxSudderth_NIPS_2012_supplement.pdf">
+		<a href="{static}/papers/HughesFoxSudderth_NIPS_2012_supplement.pdf">
 			[supplement PDF]
 		</a>
 	</span></p>
@@ -590,7 +740,7 @@ Neural Information Processing Systems, 2012.
 
 
 <div class="list-group-item">
-  <a href="{filename}/papers/KimHughesSudderth_ICML_2012.pdf">
+  <a href="{static}/papers/KimHughesSudderth_ICML_2012.pdf">
   	<h4 class="list-group-item-heading">
 The Nonparametric Metadata Dependent Relational Model
     </h4>
@@ -605,11 +755,11 @@ International Conference on Machine Learning, 2012.
 	</i></p>
     <p class="list-group-item-text"><span>
 		&#8226;
-		<a href="{filename}/papers/KimHughesSudderth_ICML_2012.pdf">
+		<a href="{static}/papers/KimHughesSudderth_ICML_2012.pdf">
 			[paper PDF]
 		</a>
 		&#8226;
-		<a href="{filename}/papers/KimHughesSudderth_ICML_2012_poster.pdf">
+		<a href="{static}/papers/KimHughesSudderth_ICML_2012_poster.pdf">
 			[poster PDF]
 		</a>
 	</span></p>
@@ -617,7 +767,7 @@ International Conference on Machine Learning, 2012.
 
 
 <div class="list-group-item">
-  <a href="{filename}/papers/HughesSudderth_POCV_2012.pdf">
+  <a href="{static}/papers/HughesSudderth_POCV_2012.pdf">
   	<h4 class="list-group-item-heading">
 Nonparametric Discovery of Activity Patterns from Video Collections
     </h4>
@@ -631,11 +781,11 @@ CVPR Workshop on Perceptual Organization in Computer Vision (POCV), 2012.
 	</i></p>
     <p class="list-group-item-text"><span>
 		&#8226;
-		<a href="{filename}/papers/HughesSudderth_POCV_2012.pdf">
+		<a href="{static}/papers/HughesSudderth_POCV_2012.pdf">
 			[paper PDF]
 		</a>
 		&#8226;
-		<a href="{filename}/papers/HughesSudderth_POCV_2012_supplement.zip">
+		<a href="{static}/papers/HughesSudderth_POCV_2012_supplement.zip">
 			[supplement ZIP]
 		</a>
 		&#8226;

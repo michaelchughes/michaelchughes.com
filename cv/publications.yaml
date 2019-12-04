@@ -1,16 +1,111 @@
+- title: "Regional Tree Regularization for Interpretability in Black Box Models"
+  authors: "Mike Wu\\textsuperscript{d}, Sonali Parbhoo, Michael C. Hughes, Ryan Kindle, Leo Celi, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
+  key: wu2020regional
+  year: 2020
+  venuetype: conference
+  venue: "To Appear at AAAI 2020"
+  url: https://www.michaelchughes.com/papers/WuParbhooHughes_AAAI_2020.pdf
+  displaytype: highlight
+
+- title: "Rapid Model Comparison by Amortizing Across Models"
+  authors: "Lily H. Zhang\\textsuperscript{b}, and Michael C. Hughes"
+  key: zhang2019rapid
+  year: 2019
+  venuetype: workshop
+  venue: "To Appear at Second Symposium on Advances in Approximate Bayesian Inference (AABI 2019)"
+  url: https://www.michaelchughes.com/papers/ZhangHughes_AABI_2019.pdf
+  displaytype: highlight
+
+- title: Classification of Enzyme Promiscuity Using Positive, Unlabeled, and Hard Negative Examples
+  authors: "Gian Marco Visani, Michael C. Hughes and Soha Hassoun"
+  key: visani2019enzyme
+  year: 2019
+  venuetype: workshop
+  venue: "To Appear at Machine Learning in Computational Biology Workshop (MLCB)"
+  url: ""
+
+- title: "MIMIC-Extract: A Data Extraction, Preprocessing, and Representation Pipeline for MIMIC-III"
+  authors: "Shirly Wang\\textsuperscript{m}, Matthew B. A. McDermott, Geeticka Chauhan, Michael C. Hughes, Tristan Naumann, and Marzyeh Ghassemi"
+  key: wang2019extract
+  year: 2019
+  venuetype: preprint
+  venue: "In Preparation for Journal Submission"
+  url: https://arxiv.org/abs/1907.08322
+  displaytype: preprint
+
+- title: "Predicting Treatment Discontinuation after Antidepressant Initiation."
+  authors: "Melanie F. Pradier, Thomas H. McCoy, Michael C. Hughes, Roy H. Perlis, and Finale Doshi-Velez"
+  key: pradier2019predicting
+  year: 2019
+  venuetype: journal
+  venue: "To Appear in Translational Psychiatry"
+  url: ""
+  displaytype: ""
+
+- title: Prediction-Constrained Training for Semi-Supervised Mixture and Topic Models
+  authors: "Michael C. Hughes, Leah Weiner\\textsuperscript{d}, Gabriel Hope\\textsuperscript{d}, Thomas H. McCoy, Roy H. Perlis, Erik B. Sudderth, and Finale Doshi-Velez"
+  key: arxiv2017
+  year: 2017
+  venuetype: ""
+  venue: arXiv e-print
+  url: https://arxiv.org/pdf/1707.07341.pdf
+
+- title: Fast Learning of Clusters and Topics via Sparse Posteriors
+  authors: Michael C. Hughes and Erik B. Sudderth
+  key: arxiv2016
+  year: 2016
+  venuetype: ""
+  venue: arXiv e-print
+  url: https://www.michaelchughes.com/papers/HughesSudderth_arXiv_2016.pdf
+
+- title: "BNPy: Reliable and scalable variational inference for Bayesian nonparametric models"
+  authors: Michael C. Hughes and Erik B. Sudderth
+  key: nipsworkshop2014
+  year: 2014
+  venuetype: ""
+  venue: 3rd NIPS Workshop on Probabilistic Programming
+  url: https://www.michaelchughes.com/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf
+
+- title: "Feature Robustness in Non-stationary Health Records: Caveats to Deployable Model Performance in Common Clinical Machine Learning Tasks"
+  authors: "Bret Nestor\\textsuperscript{d}, Matthew B. A. McDermott, Willie Boag, Gabriela Berner, Tristan Naumann, Michael C. Hughes, Anna Goldenberg, and Marzyeh Ghassemi"
+  key: nestor2019nonstationary
+  year: 2019
+  venuetype: conference
+  venue: "Machine Learning for Healthcare"
+  url: https://www.michaelchughes.com/papers/NestorEtAl_MLHC_2019.pdf
+  displaytype: highlight
+
+- title: "Supervised Machine Learning Algorithms Using Patient Related Factors to Predict in-Hospital Mortality Following Acute Myeloid Leukemia Therapy"
+  authors: "Nauman Saleem Siddiqui\\textsuperscript{c}, Andreas Klein, Amandeep Godara, Cindy Varga, Rachel J. Buchsbaum, and Michael C. Hughes"
+  key: siddiqui2019supervised
+  year: 2019
+  venuetype: conference
+  venue: "Proceedings of 61st Annual Meeting of the American Hematology Society"
+  url: https://ashpublications.org/blood/article-abstract/134/Supplement_1/3435/428173/Supervised-Machine-Learning-Algorithms-Using
+  displaytype: highlight
+
+- title: "Sensorimotor Cross-Behavior Knowledge Transfer for Grounded Category Recognition"
+  authors: "Gyan Tatiya\\textsuperscript{d}, Ramtin Hosseini\\textsuperscript{d}, Michael C. Hughes, and Jivko Sinapov"
+  key: tatiya2019sensorimotor
+  year: 2019
+  venuetype: conference
+  venue: "Joint IEEE International Conference on Development and Learning and Epigenetic Robotics (ICDL-EpiRob)"
+  url: https://www.eecs.tufts.edu/~gtatiya/files/2019/IEEE_ICDL_EPIROB_2019_gtatiya.pdf
+  displaytype: none
+
 - title: "Prediction-Constrained POMDPs"
   authors: "Joseph Futoma, Michael C. Hughes, and Finale Doshi-Velez"
   key: futoma2019pcpomdp
-  year: 2019
+  year: 2018
   venuetype: workshop
   venue: "Reinforcement Learning under Partial Observability (RLPO) workshop at NeurIPS 2018"
   url: https://www.michaelchughes.com/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf
   displaytype: highlight
 
 - title: "Rethinking clinical prediction: Why machine learning must consider year of care and feature aggregation"
-  authors: "Bret Nestor, Matthew B. A. McDermott, Geeticka Chauhan, Tristan Naumann, Michael C. Hughes, Anna Goldenberg, Marzyeh Ghassemi"
+  authors: "Bret Nestor\\textsuperscript{d}, Matthew B. A. McDermott, Geeticka Chauhan, Tristan Naumann, Michael C. Hughes, Anna Goldenberg, Marzyeh Ghassemi"
   key: nestor2019rethinking
-  year: 2019
+  year: 2018
   venuetype: workshop
   venue: "Machine Learning for Healthcare (ML4H) workshop at NeurIPS 2018"
   url: https://www.michaelchughes.com/papers/NestorEtAl_ML4HWorkshop2018.pdf
@@ -68,7 +163,7 @@
   venuetype: conference
   venue: AMIA Summit on Clinical Research Informatics
   url: https://www.michaelchughes.com/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf
-  displaytype: highlight
+  displaytype: none
 
 - title: "Refinery: An Open Source Topic Modeling Web Platform"
   authors: Daeil Kim, Benjamin F. Swanson, Michael C. Hughes, and Erik B. Sudderth

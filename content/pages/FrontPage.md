@@ -9,40 +9,111 @@ Previously, I was a postdoctoral fellow in computer science at Harvard SEAS, adv
 <a href="https://finale.seas.harvard.edu/">Prof. Finale Doshi-Velez</a>. 
 I did my Ph.D. in CS at Brown University in May 2016, advised by <a href="https://www.ics.uci.edu/~sudderth/">Prof. Erik Sudderth</a> (now at UC-Irvine).
 
+### Hiring 2019-2020
+
+I'm looking for motivated Ph.D. students and postdocs. See <a href="{static}/join.html">Join My Lab</a>
+
+Looking for a faculty position? Tufts CS is hiring tenure-track faculty in Computational Statistics. See <a href="https://apply.interfolio.com/66978">Interfolio Job Ad</a>.
+
 ### Research Highlights
 
-Recently, my work is motivated by two exciting clinical applications:
+My lab pursues advances to core ML methodology as well as high-impact applications.
+
+First, I'm interested in fundamental problems in statistical machine learning:
+
+* scalable probabilistic modeling and model checking (see our AABI 2019 paper)
+* semi-supervised learning with latent variable models (see our AISTATS 2018 paper)
+* probabilistic models for multivariate time-series with irregular or missing data
+* Bayesian nonparametric approaches to growing model complexity as data demands (see our BNPy package)
+* model-based reinforcement learning with open-world, partially-observable state
+* optimizing deep learning models to be more interpretable (see our AAAI 2020 and AAAI 2018 papers)
+
+Second, I'm interested in several exciting clinical applications of these techniques:
 
 * antidepressant drug recommendations for patients with major depression
 * forecasting need for interventions in the Intensive Care Unit (ICU)
 
-These applications have inspired new contributions to machine learning:
+For more, see my [Research page]({static}/research.html)
 
-* **Semi-supervised learning**: Our 
-<a href="https://arxiv.org/pdf/1707.07341.pdf">
-paper at AISTATS 2018
-</a> fits latent variable models so that they provide accurate predictions (e.g. drug recommendations) *and* interpretable generative models, even when labeled examples are rare.
-
-* **Explainable AI**: Our <a href="https://arxiv.org/pdf/1711.06178.pdf">
-paper at AAAI 2018 
-</a>
-introduces "Tree Regularization", a method to optimize deep neural networks so learned class boundaries are similar to decision trees (the trees can then be inspected by domain experts).
 
 ### News
 
 <ul class="list-group">
+
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[Dec 2019] Two papers accepted at <a href="">AABI 2019</a>
+		</h4>
+		<ul>
+			<li>
+				<a href="{static}/papers/ZhangHughes_AABI_2019.pdf">
+				Amortized Variational Inference for Rapid Model Comparison
+				</a>, with first author <a href="https://www.linkedin.com/in/lilyhzhang">Lily Zhang</a
+			</li>
+			<li>
+				<a href="{static}/papers/PradierHughesDoshiVelez_AABI_2019.pdf">
+				Challenges in Computing and Optimizing Upper Bounds of Marginal Likelihood based on Chi-Square Divergences 
+				</a>, with Melanie F. Pradier and Finale Doshi-Velez
+			</li>
+
+		</ul>
+
+	</li>
+
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[Nov 2019] Paper Accepted at <a href="">AAAI 2020</a>
+		</h4>
+		<ul>
+			<li>
+				<a href="{static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf">
+				Regional Tree Regularization for Interpretability in Deep Neural Networks
+				</a>
+			</li>
+		</ul>
+	</li>
+
+
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[Aug 2019] Paper Accepted at <a href="">MLHC 2019</a>
+		</h4>
+		<ul>
+			<li>
+				<a href="{static}/papers/NestorEtAl_MLHC_2019.pdf">
+					Feature Robustness in Non-stationary Health Records:
+					Caveats to Deployable Model Performance in Common Clinical Machine Learning Tasks
+				</a>
+			</li>
+		</ul>
+	</li>
+
+
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[June 2019] Invited Talk at <a href="">BNP 12</a>
+		</h4>
+		<ul>
+			<li>"Scalable and Reliable Variational Inference for Dirichlet Process Clustering with Sparse Assignments"
+			</li>
+			<li>
+          	"Venue: \\href{https://www.stats.ox.ac.uk/bnp12/programme.html}{12th International Conference on Bayesian Nonparametrics}"
+          	</li>
+        </ul>
+	</li>
+
 	<li class="list-group-item">
 		<h4 class="list-group-item-heading">
 		[Dec 2018] Two short papers accepted to workshops at NeurIPS 2018
 		</h4>
 		<ul>
 			<li>
-				<a href="{filename}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">
+				<a href="{static}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">
 					Prediction-Constrained POMDPs
 				</a> at RLPO @ NeurIPS2018
 			</li>
 			<li>
-		        <a href="{filename}/papers/NestorEtAl_ML4HWorkshop2018.pdf">
+		        <a href="{static}/papers/NestorEtAl_ML4HWorkshop2018.pdf">
         	        Rethinking clinical prediction: Why machine learning must consider year of care and feature aggregation
 				</a> at ML4Health @ NeurIPS 2018
 			</li>
@@ -101,10 +172,10 @@ introduces "Tree Regularization", a method to optimize deep neural networks so l
 
 	<li class="list-group-item">
 		<h4 class="list-group-item-heading">
-		[Apr 2018] <a href="{filename}/images/SoCalNLPBestPaperCertificate.jpg">Best Paper Award</a> at <a href="https://socalnlp.github.io/symp18/index.html">SoCalNLP 2018</a>
+		[Apr 2018] <a href="{static}/images/SoCalNLPBestPaperCertificate.jpg">Best Paper Award</a> at <a href="https://socalnlp.github.io/symp18/index.html">SoCalNLP 2018</a>
 		</h4>
 		<p>
-			Our winning <a href="{filename}/papers/HughesHopeWeinerEtAl_SoCalNLP_2018.pdf">2-page short paper</a> was a compact summary of our AISTATS 2018 paper: <a href="{filename}/papers/HughesEtAl_AISTATS_2018.pdf">Semi-Supervised Prediction-Constrained Topic Models</a>.
+			Our winning <a href="{static}/papers/HughesHopeWeinerEtAl_SoCalNLP_2018.pdf">2-page short paper</a> was a compact summary of our AISTATS 2018 paper: <a href="{static}/papers/HughesEtAl_AISTATS_2018.pdf">Semi-Supervised Prediction-Constrained Topic Models</a>.
 			Thanks to co-author Gabe for presenting the work, to the SoCal NLP organizers for hosting, and to Amazon for sponsoring the award.
 		</p>
 	</li>
@@ -115,7 +186,7 @@ introduces "Tree Regularization", a method to optimize deep neural networks so l
 		[Jan 2018] Paper accepted to AISTATS 2018.
 		</h4>
 		<p>
-			Our paper -- <a href="{filename}/papers/HughesEtAl_AISTATS_2018.pdf">Semi-Supervised Prediction-Constrained Topic Models</a> -- describes a new framework for training topic models and other latent variable models to improve <i>supervised</i> predictions while still providing good generative models with interpretable topics. The new approach fixes core issues with past methods like sLDA, and shines especially in semi-supervised tasks, when only a small fraction of training examples are labeled.
+			Our paper -- <a href="{static}/papers/HughesEtAl_AISTATS_2018.pdf">Semi-Supervised Prediction-Constrained Topic Models</a> -- describes a new framework for training topic models and other latent variable models to improve <i>supervised</i> predictions while still providing good generative models with interpretable topics. The new approach fixes core issues with past methods like sLDA, and shines especially in semi-supervised tasks, when only a small fraction of training examples are labeled.
 		</p>
 	</li>
 

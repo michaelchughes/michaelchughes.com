@@ -41,7 +41,7 @@ Outside of computer science, I enjoy hiking, kayaking, skiing, fishing, and othe
 
   <div class="col-sm-6 col-md-4"> <div class="thumbnail">
       <img 
-        src="{filename}/images/MikeGary_DesoCanyon_400.jpg"
+        src="{static}/images/MikeGary_DesoCanyon_400.jpg"
         alt="Glacier National Park">
       <div class="caption">
         <h4>Desolation Canyon, Utah</h4>
@@ -51,7 +51,7 @@ Outside of computer science, I enjoy hiking, kayaking, skiing, fishing, and othe
 
   <div class="col-sm-6 col-md-4"> <div class="thumbnail">
       <img 
-        src="{filename}/images/MikeHeena_AthabascaGlacier_400.jpg"
+        src="{static}/images/MikeHeena_AthabascaGlacier_400.jpg"
         alt="Athabasca Glacier Hike">
       <div class="caption">
         <h4>Alberta, Canada</h4>
@@ -62,7 +62,7 @@ Outside of computer science, I enjoy hiking, kayaking, skiing, fishing, and othe
 
   <div class="col-sm-6 col-md-4"> <div class="thumbnail">
       <img 
-        src="{filename}/images/Mike_GlacierNatlPark_400.jpg"
+        src="{static}/images/Mike_GlacierNatlPark_400.jpg"
         alt="Glacier National Park">
       <div class="caption">
         <h4>Glacier Nat'l Park, Montana</h4>
@@ -72,7 +72,7 @@ Outside of computer science, I enjoy hiking, kayaking, skiing, fishing, and othe
 
   <div class="col-sm-6 col-md-4"> <div class="thumbnail">
       <img 
-        src="{filename}/images/MikeAndHeena_CannonMtnHike_400.jpg"
+        src="{static}/images/MikeAndHeena_CannonMtnHike_400.jpg"
         alt="Hiking">
       <div class="caption">
         <h4>White Mountains, NH</h4>
@@ -82,7 +82,7 @@ Outside of computer science, I enjoy hiking, kayaking, skiing, fishing, and othe
 
   <div class="col-sm-6 col-md-4"><div class="thumbnail">
       <img 
-        src="{filename}/images/Mike_YellowstoneUnionFalls_400.jpg"
+        src="{static}/images/Mike_YellowstoneUnionFalls_400.jpg"
         alt="Hiking">
       <div class="caption">
         <h4>Yellowstone Nat'l Park, WY</h4>
@@ -92,7 +92,7 @@ Outside of computer science, I enjoy hiking, kayaking, skiing, fishing, and othe
 
   <div class="col-sm-6 col-md-4"> <div class="thumbnail">
       <img 
-        src="{filename}/images/Mike_KearsargePass_400.jpg"
+        src="{static}/images/Mike_KearsargePass_400.jpg"
         alt="Hiking">
       <div class="caption">
         <h4>King's Canyon Nat'l Park, CA</h4>
@@ -102,7 +102,7 @@ Outside of computer science, I enjoy hiking, kayaking, skiing, fishing, and othe
 
   <div class="col-sm-6 col-md-4"> <div class="thumbnail">
       <img 
-        src="{filename}/images/Mike_GiantDogfish_400.jpg"
+        src="{static}/images/Mike_GiantDogfish_400.jpg"
         alt="Fishing">
       <div class="caption">
         <h4>Green Lake, MN</h4>
@@ -112,7 +112,7 @@ Outside of computer science, I enjoy hiking, kayaking, skiing, fishing, and othe
 
   <div class="col-sm-6 col-md-4"> <div class="thumbnail">
       <img 
-        src="{filename}/images/Mike_Kayak_400.jpg"
+        src="{static}/images/Mike_Kayak_400.jpg"
         alt="Fishing">
       <div class="caption">
         <h4>Charlestown, RI</h4>
@@ -123,7 +123,7 @@ Outside of computer science, I enjoy hiking, kayaking, skiing, fishing, and othe
 
   <div class="col-sm-6 col-md-4"> <div class="thumbnail">
       <img 
-        src="{filename}/images/Mike_Baldface_400.jpg"
+        src="{static}/images/Mike_Baldface_400.jpg"
         alt="Fishing">
       <div class="caption">
         <h4>White Mountains, ME</h4>

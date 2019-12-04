@@ -16,6 +16,27 @@ source: https://github.com/michaelchughes/michaelchughes.com/
 
 sections:
 
+  - name: Research Expertise
+    type: experience
+
+    items:
+      - date: 2012-
+        about: "Machine Learning"
+        notes:
+          - "Probabilistic models, Bayesian nonparametrics, approximate inference, semi-supervised learning"
+
+
+      - date: 2017-
+        about: "Clinical Informatics"
+        notes:
+          - "Personalized risk and treatment prediction, phenotype discovery"
+
+      - date: 2012-
+        about: "Data Analysis"
+        notes:
+          - "Multivariate time series, images and videos, electronic health records"
+
+
   - name: Education
     type: education
     items:
@@ -39,9 +60,10 @@ sections:
         topic: "Assistant Professor of Computer Science"
         about: "\\href{www.cs.tufts.edu}{Tufts University}, Medford, MA"
         notes:
-          - "Conduct research in statistical machine learning methods and applications to health informatics."
+          - "Research statistical machine learning methods and applications to health informatics."
           - "Advise Ph.D., M.S., and B.S. students in machine learning research projects."
           - "Teach machine learning courses targeted at advanced undergraduates (\\href{https://www.cs.tufts.edu/comp/135/2019s/}{COMP 135 Intro to ML}) and graduate students (\\href{https://www.cs.tufts.edu/comp/150BDL/2018f/}{COMP 150 Bayesian Deep Learning})."
+          - "Appointed as the \\href{https://engineering.tufts.edu/news/2019/08/pickering-and-hughes-named-new-professorships}{Ann W. Lambertus and Peter Lambertus Assistant Professor} in 2019"
 
       - date: 2016 - 2018
         topic: "Postdoctoral fellow: Machine learning to improve clinical  decisions in healthcare"
@@ -80,15 +102,25 @@ sections:
   - name: Highlighted Publications
     type: publications
     yaml_file: build/publications_highlight.yaml
-    footnote: "Superscripts indicate mentored student's role: u = undergraduate, m = masters, d = doctoral. Complete publication list at end of this document."
+    footnote: "Superscripts indicate mentored student's status: u = undergraduate, m = masters, d = Ph.D. student, b = post-bacc, c = medical student. \\ Complete publication list at end of this document."
 
   - name: Highlighted Preprints
     type: publications
-    yaml_file: pubs_preprints.yaml
+    yaml_file: build/publications_preprint.yaml
+
+#  - name: Highlighted Manuscripts Under Review
+#    type: publications
+#.   displaytype: private
+#    yaml_file: build/publications_underreview.yaml
 
   - name: Honors and Awards
     type: experience
     items:
+      - date: 2019
+        about: "Top 400 Reviewer Award, \\href{https://nips.cc/Conferences/2019/Reviewers}{NeurIPS 2019}"
+        notes:
+          - "Recognized as one of top 400 of more than 3500 expert reviewers at the top international machine learning conference."
+
       - date: 2018
         about: "Top 200 Reviewer Award, \\href{https://nips.cc/Conferences/2018/Reviewers}{NeurIPS 2018}"
         notes:
@@ -114,14 +146,89 @@ sections:
         notes:
           - "Three year funding award. Declined to accept NSF fellowship."
 
-  - name: Professional Service
+
+  - name: Current Funding Support
     type: experience
     items:
+      - date: "9/1/19 - 8/31/22"
+        topic: "Amortized Inference for Large-Scale Graphical Models"
+        about: "NSF CISE: Robust Intelligence: Small"
+        notes:
+          - "Co-Investigators: Liping Liu (PI, Tufts CS) and Thomas Stopka (Tufts Public Health)"
+          - "Total Amount: \\$399,923"
+
+      - date: "7/1/19 - 6/30/20"
+        topic: "Estimating Individual Treatment Effects"
+        about: "Tufts Collaborates Award (Internal)"
+        notes:
+          - "Title: 'Estimating Individual Treatment Effects from Randomized Clinical Trials using Machine Learning'"
+          - "Co-Investigators: David Kent (Tufts Medical Center)"
+          - "Total Amount: \\$50,251"
+
+      - date: "6/24/19 - 6/23/20"
+        topic: "MASTR-E: Machine Learning for Human Performance Prediction"
+        about: "U.S. Army NSRDEC, Natick"
+        notes:
+          - "Co-Investigators: Eric Miller (PI, Tufts ECE) and Shuchin Aeron (Tufts ECE)"
+          - "Total Amount: \\$252,348"
+
+#  - name: Pending Grant Applications
+#    type: experience
+#    displaytype: private
+#    yaml_file: private_content/grants_underreview.yaml
+
+  - name: Invited Talks
+    type: experience
+    items:
+      
+      - date: "2019"
+        about: Invited Talk at BNP 2019
+        notes:
+          - "Title: Scalable and Reliable Variational Inference for Dirichlet Process Clustering with Sparse Assignments"
+          - "Venue: \\href{https://www.stats.ox.ac.uk/bnp12/programme.html}{12th International Conference on Bayesian Nonparametrics}"
+          - "Summarizes the effective learning methods behind our \\href{https://github.com/bnpy/bnpy/}{BNPy toolbox}"
+
+      - date: "2019"
+        about: "Invited Mentor at 2019 PLA General Hospital - MIT Critical Data Datathon"
+        notes:
+          - "\\href{http://www.plagh-mit-datathon.com/col.jsp?id=138}{4th annual PLAGH-MIT Datathon}"
+          - "Event held in Beijing, China with 25 teams of local clinicians and computational scientists"
+          - "Team goal: Answer clinical question on historical public dataset (\\href{https://mimic.physionet.org/}{MIMIC}) over 1 weekend"
+          - "Event goal: Develop local teams' skills via intense practice with expert oversight"
+          - "My role: Advise teams toward principled and clinically-useful analysis"
+
       - date: "2018"
-        about: Invited Tutorial
+        about: Invited Tutorial at MLHC 2018
         notes:
           - "\\href{https://www.michaelchughes.com/mlhc2018_tutorial.html}{Machine Learning for Clinicians: Advances for Multi-Modal Health Data} at \\href{https://www.mlforhc.org/2018}{MLHC '18}"
           - "Designed to help clinicians understand enough modern machine learning to collaborate successfully with ML researchers."
+
+      - date: "2016"
+        about: Invited Panelist
+        notes:
+         - "Software panel at \\href{http://approximateinference.org/2016}{Advances in Approximate Bayesian Inference workshop} at NIPS '16."
+
+
+  - name: Professional Service
+    type: experience
+    items:
+
+      - date: ""
+        about: Senior Program Committee / Meta-Reviewer
+        notes:
+          - "2020 - AAAI"
+
+      - date: ""
+        about: Program Committee / Reviewer
+        notes:
+          - "2020 - AISTATS, ICLR, AMIA CRI"
+          - "2019 - NIPS, AISTATS, ICLR"
+          - "2018 - NIPS (\\href{https://nips.cc/Conferences/2018/Reviewers}{reviewer award}), AAAI, AISTATS, ICLR, AMIA CRI"
+          - "2017 - NIPS, ICML, AAAI"
+          - "2016 - NIPS"
+          - "2015 - NIPS, ICML"
+          - "2014 - NIPS, ICML"
+          - "2013 - NIPS (\\href{https://nips.cc/Conferences/2013/Awards}{reviewer award})"
 
       - date: "2018"
         about: "Workshop Organizer: ML4H at NeurIPS 2018"
@@ -139,39 +246,29 @@ sections:
           - "Helped with peer-review process for accepted posters, \\href{hosted a panel discussion on cutting-edge software for BNP}{https://sites.google.com/view/nipsbnp2018/schedule}."
 
       - date: "2017"
-        about: Workshop Organizer
+        about: "Workshop Organizer: ML4H at NeurIPS 2017"
         notes:
           - "\\href{https://ml4health.github.io/2017/}{Machine Learning for Health workshop} at NIPS '17 (NIPS ML4H 2017)"
           - "Full-day workshop with invited keynotes and panels involving clinicians, statisticians, and computer scientists."
           - "Organized peer-review process for 118 submitted papers."
 
       - date: "2016"
-        about: Workshop Organizer
+        about: "Workshop Organizer: BNP at NeurIPS 2016"
         notes:
           - "\\href{https://sites.google.com/site/nipsbnp2016/}{Practical Bayesian Nonparametrics workshop} at NIPS '16."
           - "Full-day workshop with invited speakers, contributed talks, two panel discussions, and lively poster session."
           - "Led decisions on >25 submitted papers based on peer review."
 
-      - date: "2016"
-        about: Invited Panelist
-        notes:
-         - "Software panel at \\href{http://approximateinference.org/2016}{Advances in Approximate Bayesian Inference workshop} at NIPS '16."
-
-      - date: ""
-        about: Program Committee / Reviewer
-        notes:
-          - "2019 - NIPS, AISTATS, ICLR"
-          - "2018 - NIPS (\\href{https://nips.cc/Conferences/2018/Reviewers}{reviewer award}), AAAI, AISTATS, ICLR, AMIA CRI"
-          - "2017 - NIPS, ICML, AAAI"
-          - "2016 - NIPS"
-          - "2015 - NIPS, ICML"
-          - "2014 - NIPS, ICML"
-          - "2013 - NIPS (\\href{https://nips.cc/Conferences/2013/Awards}{reviewer award})"
-
-
   - name: Teaching and Mentorship
     type: experience
     items:
+      - date: "Fall 2019"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/150BDL/2019f/}{COMP 150 Bayesian Deep Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced topics seminar to 23 students"
+          - "Course format: weekly homeworks for first month, then 2-month open-ended team project"
+
       - date: Spring 2019
         about: "Course: \\href{https://www.cs.tufts.edu/comp/135/2019s/}{COMP 135 Introduction to Machine Learning}"
         employer: Tufts CS Dept.
@@ -179,12 +276,21 @@ sections:
           - "Taught core principles of machine learning to about 50 students"
           - "Course format: 3 open-ended projects, weekly homeworks, and 2 exams"
 
-      - date: Fall 2018
+      - date: "Fall 2018"
         about: "Course: \\href{https://www.cs.tufts.edu/comp/150BDL/2018f/}{COMP 150 Bayesian Deep Learning}"
         employer: Tufts CS Dept.
         notes:
           - "Taught advanced topics seminar to about 18 students"
           - "Course format: weekly homeworks for first month, then 2-month open-ended team project"
+          - "One project resulted in publication at IEEE conference (ICDL-EpiRob 2019)" 
+
+      - date: 2018-
+        about: Research Mentor
+        employer: Tufts University
+        notes:
+          - "Mentored undergraduate projects:"
+          - "-- Manh Duc Nguyen. 2019 CS honors thesis: {Particle-based algorithms for Bayesian Neural Networks - Hamiltonian Monte Carlo and Stein Variational Gradient Descent}"
+
 
       - date: 2016-2017
         about: Research Mentor
@@ -262,3 +368,4 @@ sections:
   - name: All Workshop Papers (in reverse chronological order)
     type: publications
     yaml_file: build/publications_workshop.yaml
+

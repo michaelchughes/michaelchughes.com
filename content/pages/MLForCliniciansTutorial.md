@@ -79,13 +79,13 @@ This tutorial is not necessarily designed for professional data scientists or ma
 
 # Content
 
-## 01:30-01:45 Overview (15 min) <a href="{filename}/talks/MLHC2018Tutorial_MLforClinicians_Overview.pdf">[slides PDF]</a>
+## 01:30-01:45 Overview (15 min) <a href="{static}/talks/MLHC2018Tutorial_MLforClinicians_Overview.pdf">[slides PDF]</a>
 
 * Tutorial Goals
 * Success Stories: ML for Sepsis Prediction
 * Context: ML as a piece of a much larger puzzle
 
-## 01:45-02:20 Part 1: Making Predictions (45 min) <a href="{filename}/talks/MLHC2018Tutorial_MLforClinicians_Part1.pdf">[slides PDF]</a>
+## 01:45-02:20 Part 1: Making Predictions (45 min) <a href="{static}/talks/MLHC2018Tutorial_MLforClinicians_Part1.pdf">[slides PDF]</a>
 
 
 * Evaluation of Predictions
@@ -105,7 +105,7 @@ This tutorial is not necessarily designed for professional data scientists or ma
 
 
 ## 02:20-02:30 <<< Questions + Break >>>
-## 02:30-03:15 Part 2: Learning Representations (45 min) <a href="{filename}/talks/MLHC2018Tutorial_MLforClinicians_Part2.pdf">[slides PDF]</a>
+## 02:30-03:15 Part 2: Learning Representations (45 min) <a href="{static}/talks/MLHC2018Tutorial_MLforClinicians_Part2.pdf">[slides PDF]</a>
 
 * Representations using Bag-of-Words
 * * Topic Models
@@ -130,7 +130,7 @@ This tutorial is not necessarily designed for professional data scientists or ma
 * * GANs
 
 ## 03:15-03:30 <<< Questions + Break >>>
-## 03:30-04:30 Part 3: Addressing Health Data Challenges <a href="{filename}/talks/MLHC2018Tutorial_MLforClinicians_Part3.pdf">[slides PDF]</a>
+## 03:30-04:30 Part 3: Addressing Health Data Challenges <a href="{static}/talks/MLHC2018Tutorial_MLforClinicians_Part3.pdf">[slides PDF]</a>
 
 We consider 6 key challenges for ML that arise from health applications. We will summarize
 

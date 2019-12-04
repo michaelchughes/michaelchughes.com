@@ -4,9 +4,10 @@ save_as: join.html
 
 Join my research team at Tufts CS!
 
-In Fall 2018, I am actively recruiting:
+In Fall-Winter 2019-2020, I am actively recruiting:
 
-* **new Ph.D. students** to join in Spring or Fall 2019
+* 1 **postdoc** for an exiting funded project on time-series analysis [Job Ad / Application Instructions](https://groups.google.com/d/msg/ml-news/DWI0sZtSBpU/p3wrL682BAAJ)
+* 1-2 **new Ph.D. students** to join in Spring or Fall 2020
 * current undergrad and masters students
 
 Keep reading below for the skills I'm looking for, some possible high-level project ideas, etc.
@@ -21,18 +22,18 @@ Possible project ideas, based on what I've done in the past with links to sample
 
 #### Statistical Machine Learning
 
-* **Semi-supervised training of latent variable models** [[My AISTATS 2018 paper]({filename}/papers/HughesEtAl_AISTATS_2018.pdf)]: How do we learn from datasets when labeled measurements are rare but unlabeled measurements are easy? Labels we wish to predict are often expensive, time-consuming, or dangerous to collect (e.g. does a patient respond to this medication?), but we have many thousands of *unlabeled* data measurements that might be useful (patient records). How can we make sure this works even when our model is wrong?
+* **Semi-supervised training of latent variable models** [[My AISTATS 2018 paper]({static}/papers/HughesEtAl_AISTATS_2018.pdf)]: How do we learn from datasets when labeled measurements are rare but unlabeled measurements are easy? Labels we wish to predict are often expensive, time-consuming, or dangerous to collect (e.g. does a patient respond to this medication?), but we have many thousands of *unlabeled* data measurements that might be useful (patient records). How can we make sure this works even when our model is wrong?
 
-* **Bayesian nonparametric models** [[My NIPS 2015 paper]]({filename}/papers/HughesStephensonSudderth_NIPS_2015.pdf), [[Bayesian Nonparametrics in Python (BNPy) package]](https://bnpy.readthedocs.io) : Many clustering algorithms require the number of clusters to be chosen in advance before any model fitting. Can we apply Bayesian nonparametric models to 'let the data speak' and learn a posterior distribution over possible clusterings that adapts to the complexity of the data at hand? How do we avoid the local optima that might result?
+* **Bayesian nonparametric models** [[My NIPS 2015 paper]]({static}/papers/HughesStephensonSudderth_NIPS_2015.pdf), [[Bayesian Nonparametrics in Python (BNPy) package]](https://bnpy.readthedocs.io) : Many clustering algorithms require the number of clusters to be chosen in advance before any model fitting. Can we apply Bayesian nonparametric models to 'let the data speak' and learn a posterior distribution over possible clusterings that adapts to the complexity of the data at hand? How do we avoid the local optima that might result?
 
-* **Latent Variable Models with Neural Networks for Recognition**: I'm excited about [deep generative models](https://www.shakirm.com/slides/DeepGenModelsTutorial.pdf) and variational autoencoders as ways to do fast inference for flexible model families.
+* **Latent Variable Models with Neural Networks for Recognition**: I'm excited about [deep generative models](https://www.shakirm.com/slides/DeepGenModelsTutorial.pdf) and variational autoencoders as ways to do fast inference for flexible model families. See my [[AABI 2019 paper]({static}/papers/ZhangHughes_AABI_2019.pdf)] with Lily Zhang on amortized VI for model comparison for some ideas of directions here.
 
 * **Models that are Robust to Missing Data**: How do we make good statistical predictions when some measurements are missing, or measurements happen at many different frequencies (some every minute, some irregularly every dozen hours or so)? 
 
 
 #### Machine Learning applications in Healthcare
 
-* **Intensive Care Interventions** [[My AMIA CRI 2017 paper]({filename}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf)], [[MIMIC dataset](https://mimic.physionet.org/)]: Patients in the intensive care units of hospitals are evolving all the time. Can we predict when they will need mechanical ventilators based on sensor readings? Could we do so far enough in advance that we might helpfully change clinical workflow? 
+* **Intensive Care Interventions** [[My AMIA CRI 2017 paper]({static}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf)], [[MIMIC dataset](https://mimic.physionet.org/)]: Patients in the intensive care units of hospitals are evolving all the time. Can we predict when they will need mechanical ventilators based on sensor readings? Could we do so far enough in advance that we might helpfully change clinical workflow? 
 
 * **Depression**: Patients who suffer from depression often look to antidepressant drugs, but currently psychiatrists have trouble knowing which of many drugs will work for that patient. Can we use probabilistic ML to predict which drug will work for a patient based on their history?
 
@@ -73,20 +74,27 @@ Generally, I plan to take M.S. students to join the lab after they have been acc
 * [M.S. in Computer Science](https://engineering.tufts.edu/cs/prospective/masters)
 * [Post Bacc. Certificates in Data Science or Computer Science](https://engineering.tufts.edu/cs/prospective/certificate-postbac)
 
+#### Note about Email for Prospective Students External to Tufts
+
+Please do contact me via email if you are interested in working with me. This helps me know who to look for in the applicant pool. It helps if you clearly articulate why your research interests overlap with mine by mentioning a topic listed on this page.
+
+I get **tons** of email, so I regret that I am unable to respond to about 95% of the unsolicited messages I get seeking admission to our Masters/PhD. If you mention the word "dinosaur" in the subject line, I'll be more likely to respond.
+
+If you don't get a response, this doesn't mean I'm not interested. Usually I wait to see a full application, and if I like what I see I will reach out to schedule a Skype interview. 
 
 
 <a name="prereq_skills"></a>
 ## Prerequisite Skills
 
-Preferred candidates will have a strong machine learning mathematical background and/or strong Python data science development background.
+Preferred candidates for PHD study will have a strong machine learning mathematical background *and* strong Python data science development background.
 
 #### Probabilistic Machine Learning Skills
 
 My group's work in statistical machine learning requires some prior understanding of concepts like Bayesian data analysis, supervised machine learning, optimization algorithms (e.g. gradient descent), unsupervised machine learning (e.g. k-means cluster/PCA) or deep learning. Good evidence for your probabilistic ML capabilities would include:
 
-* Evidence that you can complete a self-directed research project involving fitting a probabilistic model to data and interpreting its results. This might be a self-study project or a project from previous coursework. The key skill here is to be able to translate inference algorithm pseudocode from a research paper into a concrete Python implementation without much guidance.
+* Evidence that you can complete a self-directed research project involving fitting a probabilistic model to data and interpreting its results. This might be a self-study project or a project from previous coursework. The key skill here is to be able to translate inference algorithm pseudocode from a research paper into a concrete code implementation without much guidance.
 
-* Successful completion of AI/ML coursework at Tufts, including COMP 135 (Intro to ML) or COMP 136 (Statistical Pattern Recognition) or other 150-level courses. If you did a final project for that course, sending me your report/slides would be a great litmus test.
+* Successful completion of ML coursework at Tufts or another university, including at least a course like COMP 135 (Intro to ML), but preferably a course with more mathematical content like COMP 136 (Statistical Pattern Recognition) or other special-topics-level courses taught by ML faculty. If you did a final project for that course, sending me your report/slides would be a great litmus test.
 
 
 #### Python Data Science Development Skills

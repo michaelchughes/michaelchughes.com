@@ -11,7 +11,7 @@ TEX=$(BUILD_DIR)/resume.tex
 PDF=$(BUILD_DIR)/resume.pdf
 MD=$(BUILD_DIR)/resume.md
 
-YAML=$(BUILD_DIR)/publications_journal.yaml $(BUILD_DIR)/publications_workshop.yaml $(BUILD_DIR)/publications_conference.yaml $(BUILD_DIR)/publications_highlight.yaml 
+YAML=$(BUILD_DIR)/publications_journal.yaml $(BUILD_DIR)/publications_workshop.yaml $(BUILD_DIR)/publications_conference.yaml $(BUILD_DIR)/publications_highlight.yaml $(BUILD_DIR)/publications_preprint.yaml $(BUILD_DIR)/publications_underreview.yaml
 
 .PHONY: all clean
 
@@ -55,6 +55,10 @@ $(BUILD_DIR)/publications_workshop.yaml: $(BUILD_DIR) publications.yaml
 $(BUILD_DIR)/publications_highlight.yaml: $(BUILD_DIR) publications.yaml
 	grep -B7 "displaytype: highlight" publications.yaml | sed -e 's/--//g' > $(BUILD_DIR)/publications_highlight.yaml;
 
+$(BUILD_DIR)/publications_preprint.yaml: $(BUILD_DIR) publications.yaml
+	grep -B7 "displaytype: preprint" publications.yaml | sed -e 's/--//g' > $(BUILD_DIR)/publications_preprint.yaml;
 
+$(BUILD_DIR)/publications_underreview.yaml: private_content/publications_underreview.yaml
+	grep -B7 "displaytype: underreview" private_content/publications_underreview.yaml | sed -e 's/--//g' > $(BUILD_DIR)/publications_underreview.yaml;
 
 	

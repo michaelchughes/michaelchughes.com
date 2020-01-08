@@ -2,7 +2,7 @@ Title: Join My Lab
 Date: 2018-09-01
 save_as: join.html
 
-Join my research team at Tufts CS!
+Join my research team at Tufts CS! Become part of the growing and energetic [Tufts ML Research Group](https://www.cs.tufts.edu/research/ml/).
 
 In Fall-Winter 2019-2020, I am actively recruiting:
 

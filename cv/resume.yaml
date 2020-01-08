@@ -150,12 +150,20 @@ sections:
   - name: Current Funding Support
     type: experience
     items:
+      - date: "11/15/19 - 8/31/22"
+        topic: "ACT-NOW: Autonomous Cognitive Technologies for Novelty in Open Worlds"
+        about: "DARPA: \\href{https://www.darpa.mil/program/science-of-artificial-intelligence-and-learning-for-open-world-novelty}{SAIL-ON: Science of Artificial Intelligence and Learning for Open-world Novelty }"
+        notes:
+          - "Team at Tufts: Matthias Scheutz (PI, CS), Liping Liu (CS), Jivko Sinapov (CS)"
+          - "Team at Arizone State: Chitta Baral (CSE), Subbarao Kambhampati (CSE)"
+
       - date: "9/1/19 - 8/31/22"
         topic: "Amortized Inference for Large-Scale Graphical Models"
         about: "NSF CISE: Robust Intelligence: Small"
         notes:
           - "Co-Investigators: Liping Liu (PI, Tufts CS) and Thomas Stopka (Tufts Public Health)"
           - "Total Amount: \\$399,923"
+
 
       - date: "7/1/19 - 6/30/20"
         topic: "Estimating Individual Treatment Effects"
@@ -222,13 +230,13 @@ sections:
         about: Program Committee / Reviewer
         notes:
           - "2020 - AISTATS, ICLR, AMIA CRI"
-          - "2019 - NIPS, AISTATS, ICLR"
-          - "2018 - NIPS (\\href{https://nips.cc/Conferences/2018/Reviewers}{reviewer award}), AAAI, AISTATS, ICLR, AMIA CRI"
-          - "2017 - NIPS, ICML, AAAI"
-          - "2016 - NIPS"
-          - "2015 - NIPS, ICML"
-          - "2014 - NIPS, ICML"
-          - "2013 - NIPS (\\href{https://nips.cc/Conferences/2013/Awards}{reviewer award})"
+          - "2019 - NeurIPS (\\href{https://neurips.cc/Conferences/2019/Reviewers}{reviewer award}), AISTATS, ICLR"
+          - "2018 - NeurIPS (\\href{https://neurips.cc/Conferences/2018/Reviewers}{reviewer award}), AAAI, AISTATS, ICLR, AMIA CRI"
+          - "2017 - NeurIPS, ICML, AAAI"
+          - "2016 - NeurIPS"
+          - "2015 - NeurIPS, ICML"
+          - "2014 - NeurIPS, ICML"
+          - "2013 - NeurIPS (\\href{https://neurips.cc/Conferences/2013/Awards}{reviewer award})"
 
       - date: "2018"
         about: "Workshop Organizer: ML4H at NeurIPS 2018"

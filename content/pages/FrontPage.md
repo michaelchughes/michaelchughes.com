@@ -4,7 +4,8 @@ save_as: index.html
 
 Welcome! My research spans statistical machine learning and its applications in healthcare and the sciences.
 
-I am an Assistant Professor in the Dept. of Computer Science at Tufts University. 
+I am an Assistant Professor in the Dept. of Computer Science at Tufts University and a primary faculty member for the 
+[Tufts Machine Learning research group](https://www.cs.tufts.edu/research/ml/).
 Previously, I was a postdoctoral fellow in computer science at Harvard SEAS, advised by 
 <a href="https://finale.seas.harvard.edu/">Prof. Finale Doshi-Velez</a>. 
 I did my Ph.D. in CS at Brown University in May 2016, advised by <a href="https://www.ics.uci.edu/~sudderth/">Prof. Erik Sudderth</a> (now at UC-Irvine).
@@ -17,21 +18,22 @@ Looking for a faculty position? Tufts CS is hiring tenure-track faculty in Compu
 
 ### Research Highlights
 
-My lab pursues advances to core ML methodology as well as high-impact applications.
+My lab pursues advances to core machine learning methods as well as high-impact applications.
 
 First, I'm interested in fundamental problems in statistical machine learning:
 
-* scalable probabilistic modeling and model checking (see our AABI 2019 paper)
-* semi-supervised learning with latent variable models (see our AISTATS 2018 paper)
 * probabilistic models for multivariate time-series with irregular or missing data
-* Bayesian nonparametric approaches to growing model complexity as data demands (see our BNPy package)
-* model-based reinforcement learning with open-world, partially-observable state
-* optimizing deep learning models to be more interpretable (see our AAAI 2020 and AAAI 2018 papers)
+* scalable probabilistic modeling and model checking (see our [AABI 2019 paper]({static}/papers/ZhangHughes_AABI_2019.pdf))
+* semi-supervised learning with latent variable models (see our [AISTATS 2018 paper]({static}/papers/HughesEtAl_AISTATS_2018.pdf))
+* Bayesian nonparametric approaches to growing model complexity as data demands (see our [BNPy Python package](https://github.com/bnpy/bnpy))
+* model-based reinforcement learning with open-world, partially-observable state (see our AISTATS 2020 paper)
+* optimizing deep learning models to be more interpretable (see our [AAAI 2020]({static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf) and [AAAI 2018](https://arxiv.org/pdf/1711.06178.pdf) papers)
 
 Second, I'm interested in several exciting clinical applications of these techniques:
 
 * antidepressant drug recommendations for patients with major depression
 * forecasting need for interventions in the Intensive Care Unit (ICU)
+* forecasting chemotherapy risks for acute myeloid leukemia patients
 
 For more, see my [Research page]({static}/research.html)
 
@@ -42,7 +44,22 @@ For more, see my [Research page]({static}/research.html)
 
 	<li class="list-group-item">
 		<h4 class="list-group-item-heading">
-		[Dec 2019] Two papers accepted at <a href="">AABI 2019</a>
+		[Jan 2019] Paper accepted at <a href="https://www.aistats.org/">AISTATS 2020</a>
+		</h4>
+		<ul>
+			<li>
+				POPCORN: Partially Observed Prediction-Constrained Reinforcement Learning,
+				by Joseph Futoma, Michael C. Hughes, and Finale Doshi-Velez
+			</li>
+			<li>
+				Final version coming soon, for now see our <a href="{static}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">previous workshop paper from RLPO 2018</a>, which this newer paper builds on.
+			</li>
+		</ul>
+	</li>
+
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[Dec 2019] Two papers accepted at <a href="http://www.approximateinference.org/">AABI 2019</a>
 		</h4>
 		<ul>
 			<li>

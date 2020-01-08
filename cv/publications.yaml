@@ -1,4 +1,13 @@
-- title: "Regional Tree Regularization for Interpretability in Black Box Models"
+- title: "POPCORN: Partially Observed Prediction-Constrained Reinforcement Learning"
+  authors: "Joseph Futoma, Michael C. Hughes, and Finale Doshi-Velez"
+  key: futoma2020popcorn
+  year: 2020
+  venuetype: conference
+  venue: "To Appear at AISTATS 2020"
+  url: ""
+  displaytype: highlight
+
+- title: "Regional Tree Regularization for Interpretability in Deep Neural Networks"
   authors: "Mike Wu\\textsuperscript{d}, Sonali Parbhoo, Michael C. Hughes, Ryan Kindle, Leo Celi, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
   key: wu2020regional
   year: 2020
@@ -12,7 +21,7 @@
   key: zhang2019rapid
   year: 2019
   venuetype: workshop
-  venue: "To Appear at Second Symposium on Advances in Approximate Bayesian Inference (AABI 2019)"
+  venue: "Second Symposium on Advances in Approximate Bayesian Inference (AABI 2019)"
   url: https://www.michaelchughes.com/papers/ZhangHughes_AABI_2019.pdf
   displaytype: highlight
 
@@ -21,7 +30,7 @@
   key: visani2019enzyme
   year: 2019
   venuetype: workshop
-  venue: "To Appear at Machine Learning in Computational Biology Workshop (MLCB)"
+  venue: "Machine Learning in Computational Biology Workshop (MLCB)"
   url: ""
 
 - title: "MIMIC-Extract: A Data Extraction, Preprocessing, and Representation Pipeline for MIMIC-III"
@@ -46,25 +55,17 @@
   authors: "Michael C. Hughes, Leah Weiner\\textsuperscript{d}, Gabriel Hope\\textsuperscript{d}, Thomas H. McCoy, Roy H. Perlis, Erik B. Sudderth, and Finale Doshi-Velez"
   key: arxiv2017
   year: 2017
-  venuetype: ""
-  venue: arXiv e-print
+  venuetype: preprint
+  venue: arXiv
   url: https://arxiv.org/pdf/1707.07341.pdf
 
 - title: Fast Learning of Clusters and Topics via Sparse Posteriors
   authors: Michael C. Hughes and Erik B. Sudderth
   key: arxiv2016
   year: 2016
-  venuetype: ""
-  venue: arXiv e-print
+  venuetype: preprint
+  venue: arXiv
   url: https://www.michaelchughes.com/papers/HughesSudderth_arXiv_2016.pdf
-
-- title: "BNPy: Reliable and scalable variational inference for Bayesian nonparametric models"
-  authors: Michael C. Hughes and Erik B. Sudderth
-  key: nipsworkshop2014
-  year: 2014
-  venuetype: ""
-  venue: 3rd NIPS Workshop on Probabilistic Programming
-  url: https://www.michaelchughes.com/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf
 
 - title: "Feature Robustness in Non-stationary Health Records: Caveats to Deployable Model Performance in Common Clinical Machine Learning Tasks"
   authors: "Bret Nestor\\textsuperscript{d}, Matthew B. A. McDermott, Willie Boag, Gabriela Berner, Tristan Naumann, Michael C. Hughes, Anna Goldenberg, and Marzyeh Ghassemi"
@@ -100,7 +101,7 @@
   venuetype: workshop
   venue: "Reinforcement Learning under Partial Observability (RLPO) workshop at NeurIPS 2018"
   url: https://www.michaelchughes.com/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf
-  displaytype: highlight
+  displaytype: none
 
 - title: "Rethinking clinical prediction: Why machine learning must consider year of care and feature aggregation"
   authors: "Bret Nestor\\textsuperscript{d}, Matthew B. A. McDermott, Geeticka Chauhan, Tristan Naumann, Michael C. Hughes, Anna Goldenberg, Marzyeh Ghassemi"
@@ -214,7 +215,7 @@
   authors: Michael C. Hughes and Erik B. Sudderth
   key: nipsworkshop2014
   year: 2014
-  venuetype: "workshop"
+  venuetype: workshop
   venue: 3rd NIPS Workshop on Probabilistic Programming
   url: https://www.michaelchughes.com/papers/HughesSudderth_NIPSProbabilisticProgrammingWorkshop_2014.pdf
   displaytype: none

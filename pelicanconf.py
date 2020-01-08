@@ -48,6 +48,8 @@ ABOUT_ME = '''<strong>Mike Hughes</strong>
     <br /><a href="https://www.tufts.edu/">Tufts University</a>
     <br />
     <br />Office: Halligan 210
+    <br />
+    <br /><a href="https://www.cs.tufts.edu/research/ml/">Tufts ML Research Group</a>
 	'''
 
 HIDE_SIDEBAR = True

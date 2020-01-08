@@ -61,7 +61,9 @@ help:
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
 
-cv: cv/resume.yaml cv/publications.yaml cv/pubs_highlight.yaml
+cv: content/pages/cv.md
+
+content/pages/cv.md: cv/resume.yaml cv/publications.yaml
 	cd cv/;	make all; cd ../ 
 
 html: cv

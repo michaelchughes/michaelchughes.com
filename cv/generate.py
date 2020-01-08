@@ -100,7 +100,8 @@ class RenderContext(object):
             body += rendered_section.rstrip() + '\n\n\n'
 
         yaml_data['body'] = body
-        # Grab the timestamp of the last commit
+
+        # Grab the timestamp of the last git repo commit
         timestamp = Repo('..').head.commit.committed_date
         yaml_data['generated'] = strftime("%B %d %Y", localtime(timestamp))
         return self._render_template(

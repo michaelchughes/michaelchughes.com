@@ -12,10 +12,37 @@ See also the complete list in my [Curriculum Vitae]({static}/cv.html)
 
 ### 2020
 
+
+<div class="list-group-item">
+  <a href="#">
+    <h4 class="list-group-item-heading">
+        POPCORN: Partially Observed Prediction-Constrained Reinforcement Learning
+    </h4>
+    <p class="list-group-item-text">
+        Joseph Futoma, Michael C. Hughes, and Finale Doshi-Velez"
+      </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://www.aistats.org/">
+           To Appear in AISTATS 2020
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="#">
+        [paper PDF coming soon!]
+        </a>
+        &#8226;
+        <a href="{static}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">
+        [previous workshop paper PDF]
+        </a>
+    </p>
+</div>
+
 <div class="list-group-item">
   <a href="{static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf">
     <h4 class="list-group-item-heading">
-        Regional Tree Regularization for Interpretability in Black Box Models
+        Regional Tree Regularization for Interpretability in Deep Neural Networks
     </h4>
     <p class="list-group-item-text">
         Mike Wu, Sonali Parbhoo, Michael C. Hughes, Ryan Kindle, Leo Celi, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"

@@ -61,9 +61,11 @@ help:
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
 
+## Remember, CV "last updated" uses the git log timestamp
+## To encourage frequent backing up
 cv: content/pages/cv.md
 
-content/pages/cv.md: cv/resume.yaml cv/publications.yaml
+content/pages/cv.md: cv/resume.yaml cv/publications.yaml .git/logs/HEAD
 	cd cv/;	make all; cd ../ 
 
 html: cv

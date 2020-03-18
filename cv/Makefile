@@ -26,10 +26,10 @@ all: $(PDF) $(MD)
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
 
-$(TEX): $(BUILD_DIR) $(YAML) generate.py
+$(TEX): $(BUILD_DIR) $(YAML) generate.py ../.git/logs/HEAD
 	python generate.py -b publications.yaml resume.yaml --latex
 
-$(MD): $(BUILD_DIR) $(YAML) generate.py
+$(MD): $(BUILD_DIR) $(YAML) generate.py ../.git/logs/HEAD
 	python generate.py -b publications.yaml resume.yaml --markdown
 
 # Try quite mode... if it fails run in verbose mode

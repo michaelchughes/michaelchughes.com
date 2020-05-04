@@ -152,8 +152,9 @@ sections:
     items:
       - date: "11/15/19 - 8/31/22"
         topic: "ACT-NOW: Autonomous Cognitive Technologies for Novelty in Open Worlds"
-        about: "DARPA: \\href{https://www.darpa.mil/program/science-of-artificial-intelligence-and-learning-for-open-world-novelty}{SAIL-ON: Science of Artificial Intelligence and Learning for Open-world Novelty }"
+        about: "DARPA SAIL-ON Program"
         notes:
+          - "\\href{https://www.darpa.mil/program/science-of-artificial-intelligence-and-learning-for-open-world-novelty}{SAIL-ON Program: Science of Artificial Intelligence and Learning for Open-world Novelty}"
           - "Team at Tufts: Matthias Scheutz (PI, CS), Liping Liu (CS), Jivko Sinapov (CS)"
           - "Team at Arizone State: Chitta Baral (CSE), Subbarao Kambhampati (CSE)"
 
@@ -175,7 +176,7 @@ sections:
 
       - date: "6/24/19 - 6/23/20"
         topic: "MASTR-E: Machine Learning for Human Performance Prediction"
-        about: "U.S. Army NSRDEC, Natick"
+        about: "U.S. Army NSRDEC, Natick, MA"
         notes:
           - "Co-Investigators: Eric Miller (PI, Tufts ECE) and Shuchin Aeron (Tufts ECE)"
           - "Total Amount: \\$252,348"
@@ -189,14 +190,31 @@ sections:
     type: experience
     items:
       
-      - date: "2019"
-        about: Invited Talk at BNP 2019
+      - date: "02/2020"
+        about: Invited Talk at U. Arizona
         notes:
-          - "Title: Scalable and Reliable Variational Inference for Dirichlet Process Clustering with Sparse Assignments"
-          - "Venue: \\href{https://www.stats.ox.ac.uk/bnp12/programme.html}{12th International Conference on Bayesian Nonparametrics}"
-          - "Summarizes the effective learning methods behind our \\href{https://github.com/bnpy/bnpy/}{BNPy toolbox}"
+          - "Title: \\href{https://www.michaelchughes.com/talks/20200228_Talk_UnivArizona_PC.pdf}{Overcoming model misspecification in structured clustering and reinforcement learning with prediction constrained training}"
+          - "Event: \\href{https://sites.google.com/math.arizona.edu/tripods-rwg6/group-meeting}{Regular meeting of a research working group at U. Arizona} funded by NSF TRIPODS award" 
+          - "Summarizes our recent AISTATS 2020 paper"
 
-      - date: "2019"
+      - date: "01/2020"
+        about: Invited Short Talk at Duke Clinical Research Institute Think Tank meeting
+        notes:
+          - "Talk: \\href{https://www.michaelchughes.com/talks/20200130_Talk_PreferredQualityMetrics_DukeDCRIThinkTank.pdf}{Preferred Quality Metrics for Clinical Prediction Models}"
+          - "Event: \\href{https://dcri.org/insights/think-tanks/}{Leveraging Artificial Intelligence and Machine Learning Methods and Approaches to Transform Clinical Trial Design, Planning, and Execution}"
+          - "Host Organization: \\href{https://dcri.org/}{Duke Clinical Research Institute}"
+          - "An invitation-only event in Washington D.C. gathering ~40 ML experts, clinical experts, and policy makers"
+
+      - date: "01/2020"
+        about: Invited Talk at Meeting of Critical Care Directors in Madrid, Spain
+        notes:
+          - "Talk Title: Optimizing Machine Learning Models for Interpretable, Actionable Predictions"
+          - "Event: Reunión Sobre Nuevas Tecnologías en el Tratamiento de Datos Clínicos Electrónicos"
+          - "Translation: Meeting on New Technologies for Processing Electronic Health Records"
+          - "Hosts: RGI Informatics (Dr. Richard Goldstein, CEO) and Fuenlabrada University Hospital (Joaquin Álvarez, head of ICU)."
+          - "An invitation-only hosted event in Madrid for ~30 directors of intensive care units around Madrid, Spain"
+
+      - date: "11/2019"
         about: "Invited Mentor at 2019 PLA General Hospital - MIT Critical Data Datathon"
         notes:
           - "\\href{http://www.plagh-mit-datathon.com/col.jsp?id=138}{4th annual PLAGH-MIT Datathon}"
@@ -205,13 +223,20 @@ sections:
           - "Event goal: Develop local teams' skills via intense practice with expert oversight"
           - "My role: Advise teams toward principled and clinically-useful analysis"
 
-      - date: "2018"
+      - date: "06/2019"
+        about: Invited Talk at BNP 2019
+        notes:
+          - "Title: Scalable and Reliable Variational Inference for Dirichlet Process Clustering with Sparse Assignments"
+          - "Venue: \\href{https://www.stats.ox.ac.uk/bnp12/programme.html}{12th International Conference on Bayesian Nonparametrics}"
+          - "Summarizes the effective learning methods behind our \\href{https://github.com/bnpy/bnpy/}{BNPy toolbox}"
+
+      - date: "08/2018"
         about: Invited Tutorial at MLHC 2018
         notes:
           - "\\href{https://www.michaelchughes.com/mlhc2018_tutorial.html}{Machine Learning for Clinicians: Advances for Multi-Modal Health Data} at \\href{https://www.mlforhc.org/2018}{MLHC '18}"
           - "Designed to help clinicians understand enough modern machine learning to collaborate successfully with ML researchers."
 
-      - date: "2016"
+      - date: "12/2016"
         about: Invited Panelist
         notes:
          - "Software panel at \\href{http://approximateinference.org/2016}{Advances in Approximate Bayesian Inference workshop} at NIPS '16."
@@ -229,7 +254,7 @@ sections:
       - date: ""
         about: Program Committee / Reviewer
         notes:
-          - "2020 - AISTATS, ICLR, AMIA CRI"
+          - "2020 - NeurIPS, AISTATS, ICLR, MLHC, AMIA CRI"
           - "2019 - NeurIPS (\\href{https://neurips.cc/Conferences/2019/Reviewers}{reviewer award}), AISTATS, ICLR"
           - "2018 - NeurIPS (\\href{https://neurips.cc/Conferences/2018/Reviewers}{reviewer award}), AAAI, AISTATS, ICLR, AMIA CRI"
           - "2017 - NeurIPS, ICML, AAAI"

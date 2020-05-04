@@ -1,10 +1,19 @@
+- title: "MIMIC-Extract: A Data Extraction, Preprocessing, and Representation Pipeline for MIMIC-III"
+  authors: "Shirly Wang\\textsuperscript{m}, Matthew B. A. McDermott, Geeticka Chauhan, Marzyeh Ghassemi, Michael C. Hughes, and Tristan Naumann"
+  key: wang2020mimicExtract
+  year: 2020
+  venuetype: conference
+  venue: "To Appear at CHIL 2020: The ACM Conference on Health, Inference, and Learning"
+  url: "https://www.michaelchughes.com/papers/WangMcDermottEtAl_CHIL_2020.pdf"
+  displaytype: highlight
+
 - title: "POPCORN: Partially Observed Prediction-Constrained Reinforcement Learning"
   authors: "Joseph Futoma, Michael C. Hughes, and Finale Doshi-Velez"
   key: futoma2020popcorn
   year: 2020
   venuetype: conference
   venue: "To Appear at AISTATS 2020"
-  url: ""
+  url: "https://www.michaelchughes.com/papers/FutomaHughesDoshiVelez_AISTATS_2020.pdf"
   displaytype: highlight
 
 - title: "Regional Tree Regularization for Interpretability in Deep Neural Networks"
@@ -12,9 +21,18 @@
   key: wu2020regional
   year: 2020
   venuetype: conference
-  venue: "To Appear at AAAI 2020"
-  url: https://www.michaelchughes.com/papers/WuParbhooHughes_AAAI_2020.pdf
+  venue: "AAAI 2020"
+  url: https://www.michaelchughes.com/papers/WuParbhooHughesEtAl_AAAI_2020.pdf
   displaytype: highlight
+
+- title: "Predicting Treatment Discontinuation after Antidepressant Initiation"
+  authors: "Melanie F. Pradier, Thomas H. McCoy, Michael C. Hughes, Roy H. Perlis, and Finale Doshi-Velez"
+  key: pradier2020predicting
+  year: 2020
+  venuetype: journal
+  venue: "Translational Psychiatry"
+  url: "https://www.nature.com/articles/s41398-020-0716-y"
+  displaytype: none
 
 - title: "Rapid Model Comparison by Amortizing Across Models"
   authors: "Lily H. Zhang\\textsuperscript{b}, and Michael C. Hughes"
@@ -33,24 +51,6 @@
   venue: "Machine Learning in Computational Biology Workshop (MLCB)"
   url: ""
 
-- title: "MIMIC-Extract: A Data Extraction, Preprocessing, and Representation Pipeline for MIMIC-III"
-  authors: "Shirly Wang\\textsuperscript{m}, Matthew B. A. McDermott, Geeticka Chauhan, Michael C. Hughes, Tristan Naumann, and Marzyeh Ghassemi"
-  key: wang2019extract
-  year: 2019
-  venuetype: preprint
-  venue: "In Preparation for Journal Submission"
-  url: https://arxiv.org/abs/1907.08322
-  displaytype: preprint
-
-- title: "Predicting Treatment Discontinuation after Antidepressant Initiation."
-  authors: "Melanie F. Pradier, Thomas H. McCoy, Michael C. Hughes, Roy H. Perlis, and Finale Doshi-Velez"
-  key: pradier2019predicting
-  year: 2019
-  venuetype: journal
-  venue: "To Appear in Translational Psychiatry"
-  url: ""
-  displaytype: ""
-
 - title: Prediction-Constrained Training for Semi-Supervised Mixture and Topic Models
   authors: "Michael C. Hughes, Leah Weiner\\textsuperscript{d}, Gabriel Hope\\textsuperscript{d}, Thomas H. McCoy, Roy H. Perlis, Erik B. Sudderth, and Finale Doshi-Velez"
   key: arxiv2017
@@ -58,6 +58,7 @@
   venuetype: preprint
   venue: arXiv
   url: https://arxiv.org/pdf/1707.07341.pdf
+  displaytype: preprint
 
 - title: Fast Learning of Clusters and Topics via Sparse Posteriors
   authors: Michael C. Hughes and Erik B. Sudderth
@@ -66,6 +67,7 @@
   venuetype: preprint
   venue: arXiv
   url: https://www.michaelchughes.com/papers/HughesSudderth_arXiv_2016.pdf
+  displaytype: preprint
 
 - title: "Feature Robustness in Non-stationary Health Records: Caveats to Deployable Model Performance in Common Clinical Machine Learning Tasks"
   authors: "Bret Nestor\\textsuperscript{d}, Matthew B. A. McDermott, Willie Boag, Gabriela Berner, Tristan Naumann, Michael C. Hughes, Anna Goldenberg, and Marzyeh Ghassemi"

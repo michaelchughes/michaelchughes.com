@@ -14,7 +14,33 @@ See also the complete list in my [Curriculum Vitae]({static}/cv.html)
 
 
 <div class="list-group-item">
-  <a href="#">
+  <a href="{static}/papers/WangMcDermottEtAl_CHIL_2020.pdf">
+    <h4 class="list-group-item-heading">
+        MIMIC-Extract: A Data Extraction, Preprocessing, and Representation Pipeline for MIMIC-III
+    </h4>
+    <p class="list-group-item-text">
+        Shirly Wang, Matthew B. A. McDermott, Geeticka Chauhan, Marzyeh Ghassemi, Michael C. Hughes, and Tristan Naumann
+      </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://www.aistats.org/">
+            CHIL 2020: Proceedings of the ACM Conference on Health, Inference, and Learning
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/WangMcDermottEtAl_CHIL_2020.pdf">
+        [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://dl.acm.org/doi/abs/10.1145/3368555.3384469">
+        [listing on acm.org]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+  <a href="{static}/papers/FutomaHughesDoshiVelez_AISTATS_2020.pdf">
     <h4 class="list-group-item-heading">
         POPCORN: Partially Observed Prediction-Constrained Reinforcement Learning
     </h4>
@@ -23,14 +49,18 @@ See also the complete list in my [Curriculum Vitae]({static}/cv.html)
       </p>
     <p class="list-group-item-text"><i>
         <a href="https://www.aistats.org/">
-           To Appear in AISTATS 2020
+           AISTATS 2020
         </a>
     </i></p>
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="#">
-        [paper PDF coming soon!]
+        <a href="{static}/papers/FutomaHughesDoshiVelez_AISTATS_2020.pdf">
+        [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/abs/2001.04032">
+        [arXiv]
         </a>
         &#8226;
         <a href="{static}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">
@@ -49,7 +79,7 @@ See also the complete list in my [Curriculum Vitae]({static}/cv.html)
       </p>
     <p class="list-group-item-text"><i>
         <a href="https://aaai.org/Conferences/AAAI-20/">
-           To Appear in AAAI 2020
+           AAAI 2020
         </a>
     </i></p>
     </a>

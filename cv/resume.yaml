@@ -61,8 +61,9 @@ sections:
         about: "\\href{www.cs.tufts.edu}{Tufts University}, Medford, MA"
         notes:
           - "Research statistical machine learning methods and applications to health informatics."
-          - "Advise Ph.D., M.S., and B.S. students in machine learning research projects."
-          - "Teach machine learning courses targeted at advanced undergraduates (\\href{https://www.cs.tufts.edu/comp/135/2019s/}{COMP 135 Intro to ML}) and graduate students (\\href{https://www.cs.tufts.edu/comp/150BDL/2018f/}{COMP 150 Bayesian Deep Learning})."
+          - "Advised Ph.D., M.S., and B.S. students in machine learning research projects."
+          - "Taught advanced undergraduate courses: \\href{https://www.cs.tufts.edu/comp/135/2019s/}{COMP 135 Intro to ML} and \\href{https://www.cs.tufts.edu/comp/136/2020s/}{COMP 136 Statistical Pattern Recog.}"
+          - "Developed new course for graduate students with research interests: \\href{https://www.cs.tufts.edu/comp/150BDL/2018f/}{COMP 150 Bayesian Deep Learning})."
           - "Appointed as the \\href{https://engineering.tufts.edu/news/2019/08/pickering-and-hughes-named-new-professorships}{Ann W. Lambertus and Peter Lambertus Assistant Professor} in 2019"
 
       - date: 2016 - 2018
@@ -189,7 +190,16 @@ sections:
   - name: Invited Talks
     type: experience
     items:
-      
+     
+      - date: "07/2020"
+        about: Invited Talk at Northwell Health ML group
+        notes:
+          - "Title: \\href{https://www.michaelchughes.com/talks/20200721_Talk_Northwell_MLforEHR.pdf}{Optimizing Machine Learning Models for Interpretable, Actionable Predictions on Electronic Health Records}"
+          - "Event: Regular meeting of a ML research working group at Northwell Health (large healthcare provider in NYC)"
+          - "Summarizes recent MLHC 2019, CHIL 2020, AISTATS 2020, and JAMA Netw. Open 2020 papers"
+
+
+
       - date: "02/2020"
         about: Invited Talk at U. Arizona
         notes:

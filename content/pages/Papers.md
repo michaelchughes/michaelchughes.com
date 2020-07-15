@@ -12,6 +12,46 @@ See also the complete list in my [Curriculum Vitae]({static}/cv.html)
 
 ### 2020
 
+<div class="list-group-item">
+  <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2766073">
+    <h4 class="list-group-item-heading">
+        Assessment of a Prediction Model for Antidepressant Treatment Stability Using Supervised Topic Models
+    </h4>
+    <p class="list-group-item-text">
+        Michael C. Hughes, Melanie F. Pradier, Andrew Slavin Ross, Thomas H. McCoy Jr, Roy H. Perlis, Finale Doshi-Velez
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://www.chilconference.org/">
+            JAMA Network Open
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/HughesPradierRossEtAl_JAMANetworkOpen_2020.pdf">
+        [paper PDF]
+        </a>
+        &#8226;
+        <a href="{static}/papers/HughesEtAl_medRxiv2020_Supplement.pdf">
+        [supplement PDF]
+        </a>
+        &#8226;
+        <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2766073">
+        [listing on jamanetwork.com]
+        </a>
+        &#8226;
+        <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2766073#supplemental-tab">
+        [supplement on jamanetwork.com]
+        </a>
+        &#8226;
+        <a href="https://www.medrxiv.org/content/10.1101/2020.03.18.20038232v1">
+        [earlier draft on medRxiv]
+        </a>
+    </p>
+</div>
+
+
+
 
 <div class="list-group-item">
   <a href="{static}/papers/WangMcDermottEtAl_CHIL_2020.pdf">
@@ -22,7 +62,7 @@ See also the complete list in my [Curriculum Vitae]({static}/cv.html)
         Shirly Wang, Matthew B. A. McDermott, Geeticka Chauhan, Marzyeh Ghassemi, Michael C. Hughes, and Tristan Naumann
       </p>
     <p class="list-group-item-text"><i>
-        <a href="https://www.aistats.org/">
+        <a href="https://www.chilconference.org/">
             CHIL 2020: Proceedings of the ACM Conference on Health, Inference, and Learning
         </a>
     </i></p>
@@ -69,13 +109,44 @@ See also the complete list in my [Curriculum Vitae]({static}/cv.html)
     </p>
 </div>
 
+
+<div class="list-group-item">
+  <a href="{static}/papers/ChengAeronHughesEtAl_ICASSP_2020.pdf">
+    <h4 class="list-group-item-heading">
+        Optimal Transport Based Change Point Detection and Time Series Clustering
+    </h4>
+    <p class="list-group-item-text">
+        Kevin Cheng, Shuchin Aeron, Michael C. Hughes, Erika Hussey, and Eric Miller
+  </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://2020.ieeeicassp.org/">
+           ICASSP 2020: IEEE International Conference on Acoustics, Speech and Signal Processing
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/ChengAeronHughesEtAl_ICASSP_2020.pdf">
+        [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://ieeexplore.ieee.org/document/9053344">
+        [IEEE Xplore listing]
+        </a>
+        &#8226;
+        <a href="https://2020.ieeeicassp-virtual.org/presentation/poster/optimal-transport-based-change-point-detection-and-time-series-segment">
+        [Virtual Presentation]
+        </a>
+    </p>
+</div>
+
 <div class="list-group-item">
   <a href="{static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf">
     <h4 class="list-group-item-heading">
         Regional Tree Regularization for Interpretability in Deep Neural Networks
     </h4>
     <p class="list-group-item-text">
-        Mike Wu, Sonali Parbhoo, Michael C. Hughes, Ryan Kindle, Leo Celi, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
+        Mike Wu, Sonali Parbhoo, Michael C. Hughes, Ryan Kindle, Leo Celi, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez
       </p>
     <p class="list-group-item-text"><i>
         <a href="https://aaai.org/Conferences/AAAI-20/">

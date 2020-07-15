@@ -1,9 +1,18 @@
+- title: "Assessment of a Prediction Model for Antidepressant Treatment Stability Using Supervised Topic Models"
+  authors: "Michael C. Hughes, Melanie F. Pradier, Andrew Slavin Ross, Thomas H. McCoy Jr, Roy H. Perlis, Finale Doshi-Velez"
+  key: hughes2020supervisedTopicsForAntidepressants
+  year: 2020
+  venuetype: journal
+  venue: JAMA Network Open
+  url: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2766073"
+  displaytype: highlight
+
 - title: "MIMIC-Extract: A Data Extraction, Preprocessing, and Representation Pipeline for MIMIC-III"
   authors: "Shirly Wang\\textsuperscript{m}, Matthew B. A. McDermott, Geeticka Chauhan, Marzyeh Ghassemi, Michael C. Hughes, and Tristan Naumann"
   key: wang2020mimicExtract
   year: 2020
   venuetype: conference
-  venue: "To Appear at CHIL 2020: The ACM Conference on Health, Inference, and Learning"
+  venue: "CHIL 2020: The ACM Conference on Health, Inference, and Learning"
   url: "https://www.michaelchughes.com/papers/WangMcDermottEtAl_CHIL_2020.pdf"
   displaytype: highlight
 
@@ -12,8 +21,17 @@
   key: futoma2020popcorn
   year: 2020
   venuetype: conference
-  venue: "To Appear at AISTATS 2020"
+  venue: "AISTATS 2020"
   url: "https://www.michaelchughes.com/papers/FutomaHughesDoshiVelez_AISTATS_2020.pdf"
+  displaytype: highlight
+
+- title: "Optimal Transport Based Change Point Detection and Time Series Clustering"
+  authors: "Kevin Cheng\\textsuperscript{d}, Shuchin Aeron, Michael C. Hughes, Erika Hussey, and Eric Miller"
+  key: cheng2020changepoint
+  year: 2020
+  venuetype: conference
+  venue: "IEEE ICASSP 2020"
+  url: "https://www.michaelchughes.com/papers/ChengAeronHughesEtAl_ICASSP_2020.pdf"
   displaytype: highlight
 
 - title: "Regional Tree Regularization for Interpretability in Deep Neural Networks"

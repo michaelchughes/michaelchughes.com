@@ -65,7 +65,7 @@ help:
 ## To encourage frequent backing up
 cv: content/pages/cv.md
 
-content/pages/cv.md: cv/resume.yaml cv/publications.yaml .git/logs/HEAD
+content/pages/cv.md: cv/resume.yaml cv/publications.yaml cv/templates/latex/*.tex cv/templates/markdown/*.md .git/logs/HEAD
 	cd cv/;	make all; cd ../ 
 
 html: cv

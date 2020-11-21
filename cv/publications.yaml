@@ -1,3 +1,22 @@
+
+- title: "A Framework for Sensorimotor Cross-Perception and Cross-Behavior Knowledge Transfer for Object Categorization"
+  authors: "Gyan Tatiya\\textsuperscript{d}, Ramtin Hosseini\\textsuperscript{d}, Michael C. Hughes, and Jivko Sinapov"
+  key: tatiya2020crossbehaviorKnowledgeTransfer
+  year: 2020
+  venuetype: journal
+  venue: "Frontiers in Robotics and AI"
+  url: https://www.frontiersin.org/articles/10.3389/frobt.2020.522141/full
+  displaytype: none
+
+- title: Using Hierarchy-Informed Multi-Label Classification for  Enzyme Promiscuity Prediction
+  authors: "Gian Marco Visani\\textsuperscript{u}, Michael C. Hughes, and Soha Hassoun"
+  key: visani2020hierarchy
+  year: 2020
+  venuetype: workshop
+  venue: "Machine Learning in Computational Biology Workshop (MLCB)"
+  url: "https://sites.google.com/cs.washington.edu/mlcb2020/"
+  displaytype: none
+
 - title: "Assessment of a Prediction Model for Antidepressant Treatment Stability Using Supervised Topic Models"
   authors: "Michael C. Hughes, Melanie F. Pradier, Andrew Slavin Ross, Thomas H. McCoy Jr, Roy H. Perlis, Finale Doshi-Velez"
   key: hughes2020supervisedTopicsForAntidepressants
@@ -42,6 +61,16 @@
   venue: "AAAI 2020"
   url: https://www.michaelchughes.com/papers/WuParbhooHughesEtAl_AAAI_2020.pdf
   displaytype: highlight
+
+
+- title: "Predicting change in diagnosis from major depression to bipolar disorder after antidepressant initiation"
+  authors: "Melanie F. Pradier, Michael C. Hughes, Thomas H. McCoy Jr, Sergio A. Barroilhet, Finale Doshi-Velez, and Roy H. Perlis"
+  key: pradier2020depressionToBipolar
+  year: 2020
+  venuetype: journal
+  venue: "Neuropsychopharmacology"
+  url: "https://www.nature.com/articles/s41386-020-00838-x"
+  displaytype: none
 
 - title: "Predicting Treatment Discontinuation after Antidepressant Initiation"
   authors: "Melanie F. Pradier, Thomas H. McCoy, Michael C. Hughes, Roy H. Perlis, and Finale Doshi-Velez"

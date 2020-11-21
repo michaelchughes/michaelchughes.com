@@ -4,11 +4,11 @@ save_as: join.html
 
 Join my research team at Tufts CS! Become part of the growing and energetic [Tufts ML Research Group](https://www.cs.tufts.edu/research/ml/).
 
-In Fall-Winter 2019-2020, I am actively recruiting:
+In Fall-Winter 2020-2021, I am actively recruiting:
 
-* 1 **postdoc** for an exiting funded project on time-series analysis [Job Ad / Application Instructions](https://groups.google.com/d/msg/ml-news/DWI0sZtSBpU/p3wrL682BAAJ)
-* 1-2 **new Ph.D. students** to join in Spring or Fall 2020
-* current undergrad and masters students
+* 1 **postdoc** for an exiting funded project on open-world AI and novelty accomodation
+* Up to 1 **new Ph.D. student** to join in Fall 2021 (exceptionally qualified students please apply!)
+* Current undergrad and masters students
 
 Keep reading below for the skills I'm looking for, some possible high-level project ideas, etc.
 
@@ -36,8 +36,6 @@ Possible project ideas, based on what I've done in the past with links to sample
 * **Intensive Care Interventions** [[My AMIA CRI 2017 paper]({static}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf)], [[MIMIC dataset](https://mimic.physionet.org/)]: Patients in the intensive care units of hospitals are evolving all the time. Can we predict when they will need mechanical ventilators based on sensor readings? Could we do so far enough in advance that we might helpfully change clinical workflow? 
 
 * **Depression**: Patients who suffer from depression often look to antidepressant drugs, but currently psychiatrists have trouble knowing which of many drugs will work for that patient. Can we use probabilistic ML to predict which drug will work for a patient based on their history?
-
-* **Fertility Medicine**: Couples who struggle to get pregnant look to in-vitro fertilization (IVF), which requires several medication-based interventions. Can we learn from previous records to predict which drugs will give patients the best chance? Can our models give insight into the science behind why predictions might work?
 
 
 <a name="current_tufts_students"> </a>

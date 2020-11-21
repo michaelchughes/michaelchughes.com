@@ -10,12 +10,6 @@ Previously, I was a postdoctoral fellow in computer science at Harvard SEAS, adv
 <a href="https://finale.seas.harvard.edu/">Prof. Finale Doshi-Velez</a>. 
 I did my Ph.D. in CS at Brown University in May 2016, advised by <a href="https://www.ics.uci.edu/~sudderth/">Prof. Erik Sudderth</a> (now at UC-Irvine).
 
-### Hiring 2019-2020
-
-I'm looking for motivated Ph.D. students and postdocs. See <a href="{static}/join.html">Join My Lab</a>
-
-Looking for a faculty position? Tufts CS is hiring tenure-track faculty in Computational Statistics. See <a href="https://apply.interfolio.com/66978">Interfolio Job Ad</a>.
-
 ### Research Highlights
 
 My lab pursues advances to core machine learning methods as well as high-impact applications.
@@ -23,16 +17,16 @@ My lab pursues advances to core machine learning methods as well as high-impact 
 First, I'm interested in fundamental problems in statistical machine learning:
 
 * probabilistic models for multivariate time-series with irregular or missing data
-* scalable probabilistic modeling and model checking (see our [AABI 2019 paper]({static}/papers/ZhangHughes_AABI_2019.pdf))
-* semi-supervised learning with latent variable models (see our [AISTATS 2018 paper]({static}/papers/HughesEtAl_AISTATS_2018.pdf))
-* Bayesian nonparametric approaches to growing model complexity as data demands (see our [BNPy Python package](https://github.com/bnpy/bnpy))
-* model-based reinforcement learning with open-world, partially-observable state (see our AISTATS 2020 paper)
+* scalable inference for latent variable models (see our [AABI 2019 paper]({static}/papers/ZhangHughes_AABI_2019.pdf))
+* effective semi-supervised learning with latent variable models (see our [AISTATS 2018 paper]({static}/papers/HughesEtAl_AISTATS_2018.pdf))
+* Bayesian nonparametric approaches to growing model complexity as data demands (see our [BNPy Python package](https://github.com/bnpy/bnpy) and [NeurIPS 2015 paper]({static}/papers/HughesStephensonSudderth_NIPS_2015.pdf))
+* model-based reinforcement learning with open-world, partially-observable state (see our [AISTATS 2020 paper]({static}/papers/FutomaHughesDoshiVelez_AISTATS_2020.pdf))
 * optimizing deep learning models to be more interpretable (see our [AAAI 2020]({static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf) and [AAAI 2018](https://arxiv.org/pdf/1711.06178.pdf) papers)
 
 Second, I'm interested in several exciting clinical applications of these techniques:
 
 * antidepressant drug recommendations for patients with major depression
-* forecasting need for interventions in the Intensive Care Unit (ICU)
+* forecasting deterioration and need for interventions in the Intensive Care Unit (ICU)
 * forecasting chemotherapy risks for acute myeloid leukemia patients
 
 For more, see my [Research page]({static}/research.html)
@@ -44,15 +38,52 @@ For more, see my [Research page]({static}/research.html)
 
 	<li class="list-group-item">
 		<h4 class="list-group-item-heading">
-		[Jan 2019] Paper accepted at <a href="https://www.aistats.org/">AISTATS 2020</a>
+		[Dec 2020] Invited Talk at I Can't Believe It's Not Better Workshop at NeurIPS 2020</a>
 		</h4>
 		<ul>
 			<li>
-				POPCORN: Partially Observed Prediction-Constrained Reinforcement Learning,
-				by Joseph Futoma, Michael C. Hughes, and Finale Doshi-Velez
+				I'll be an invited speaker at the <a href="https://i-cant-believe-its-not-better.github.io/schedule/">I Can't Believe It's Not Better! Workshop</a> at NeurIPS 2020
 			</li>
 			<li>
-				Final version coming soon, for now see our <a href="{static}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">previous workshop paper from RLPO 2018</a>, which this newer paper builds on.
+				I'll talk about our recent work on Prediction Constrained training, covering in progress work as well as recent publications at AISTATS 2018 and AISTATS 2020.
+			</li>
+			<li>
+				Slides: <a href="{static}/talks/20201211_Talk_TheCaseForPredictionConstrainedTraining_CantBelieveNotBetterWorkshop.pdf"> The Case For Prediction Constrained Training [PDF] </a>
+			</li>
+		</ul>
+	</li>
+
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[May 2020] Paper applying our latest ML methods to psychiatry accepted to JAMA Network Open </a>
+		</h4>
+		<ul>
+			<li>
+				<a href="{static}/papers/HughesPradierRossEtAl_JAMANetworkOpen_2020.pdf">
+		        Assessment of a Prediction Model for Antidepressant Treatment Stability Using Supervised Topic Models
+				</a>
+			</li>
+			<li>
+		        Read this to understand how to use our latest prediction-constrained topic models to recommending personalized antidepressants.
+			</li>
+			<li>
+		        <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2766073"> Full paper and supplement available at jamanetwork.com </a>
+			</li>
+			<li>
+				Special thanks to awesome clinical collaborators Roy Perlis MD and Tom McCoy MD.
+			</li>
+		</ul>
+	</li>
+
+	<li class="list-group-item">
+		<h4 class="list-group-item-heading">
+		[Jan 2020] Paper accepted at <a href="https://www.aistats.org/">AISTATS 2020</a>
+		</h4>
+		<ul>
+			<li>
+				<a href="{static}/papers/FutomaHughesDoshiVelez_AISTATS_2020.pdf">
+                POPCORN: Partially Observed Prediction-Constrained Reinforcement Learning
+                </a> by Joseph Futoma, Michael C. Hughes, and Finale Doshi-Velez
 			</li>
 		</ul>
 	</li>

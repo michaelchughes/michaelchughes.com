@@ -23,18 +23,20 @@ sections:
       - date: 2012-
         about: "Machine Learning"
         notes:
-          - "Probabilistic models, Bayesian nonparametrics, approximate inference, semi-supervised learning"
-
+          - "Unsupervised learning, Semi-supervised learning, Supervised learning"
+          - "Probabilistic models: Bayesian nonparametrics, topic models, hidden Markov models, deep generative models"
+          - "Posterior estimation methods: variational methods, Markov chain Monte Carlo"
 
       - date: 2017-
         about: "Clinical Informatics"
         notes:
-          - "Personalized risk and treatment prediction, phenotype discovery"
+          - "Psychiatry Appplications: treatment prediction, phenotype discovery"
+          - "Intensive Care Applications: treatment prediction, phenotype discovery"
 
       - date: 2012-
-        about: "Data Analysis"
+        about: "Human Activity Analysis"
         notes:
-          - "Multivariate time series, images and videos, electronic health records"
+          - "Sensor time-series, motion capture, video, images"
 
 
   - name: Education
@@ -60,7 +62,7 @@ sections:
         topic: "Assistant Professor of Computer Science"
         about: "\\href{www.cs.tufts.edu}{Tufts University}, Medford, MA"
         notes:
-          - "Research statistical machine learning methods and applications to health informatics."
+          - "Research on statistical machine learning methods and applications to health informatics."
           - "Advised Ph.D., M.S., and B.S. students in machine learning research projects."
           - "Taught advanced undergraduate courses: \\href{https://www.cs.tufts.edu/comp/135/2019s/}{COMP 135 Intro to ML} and \\href{https://www.cs.tufts.edu/comp/136/2020s/}{COMP 136 Statistical Pattern Recog.}"
           - "Developed new course for graduate students with research interests: \\href{https://www.cs.tufts.edu/comp/150BDL/2018f/}{COMP 150 Bayesian Deep Learning})."
@@ -117,6 +119,11 @@ sections:
   - name: Honors and Awards
     type: experience
     items:
+      - date: 2020
+        about: "Top 10 Percent Reviewer Award, \\href{https://nips.cc/Conferences/2020/Reviewers}{NeurIPS 2020}"
+        notes:
+          - "Recognized as one of top 10 percent of more than 3500 expert reviewers at the top international machine learning conference."
+
       - date: 2019
         about: "Top 400 Reviewer Award, \\href{https://nips.cc/Conferences/2019/Reviewers}{NeurIPS 2019}"
         notes:
@@ -166,6 +173,36 @@ sections:
           - "Co-Investigators: Liping Liu (PI, Tufts CS) and Thomas Stopka (Tufts Public Health)"
           - "Total Amount: \\$399,923"
 
+      - date: "9/1/20 - 8/31/20"
+        topic: "Machine Learning Models for Human Performance Prediction"
+        about: "U.S. Army NSRDEC, Natick, MA (via Tufts CABCS)"
+        notes:
+          - "Full title: Statistical and Machine Learning Models for Data Reduction and Human Performance Prediction"
+          - "Co-Investigators: Eric Miller (PI, Tufts ECE) and Shuchin Aeron (Tufts ECE)"
+          - "Total Amount: \\$496,098"
+          - "Part of larger cross-institution \\href{https://www.army.mil/article/205789/natick_leads_first_of_its_kind_soldier_readiness_study}{MASTR-E project} funded by US Army"
+
+      - date: "8/1/20 - 7/30/20"
+        topic: "The value of predictive analytics during the COVID epidemic"
+        about: "Tufts Springboard Award (Tufts Univ. Provost's Office)"
+        notes:
+          - "Full title: Demonstrating the value of a proposed Tufts-led predictive analytics and comparative effectiveness research network during the COVID epidemic"
+          - "Co-Investigators: David Kent (Tufts Medical) and Jessica Paulus (Tufts Medical)"
+          - "Total Amount: \\$50,000"
+
+
+  - name: Past Funding Support
+    type: experience
+    items:
+
+      - date: "6/24/19 - 6/23/20"
+        topic: "Machine Learning Models for Human Performance Prediction"
+        about: "U.S. Army NSRDEC, Natick, MA (via Tufts CABCS)"
+        notes:
+          - "Full title: Statistical and Machine Learning Models for Data Reduction and Human Performance Prediction"
+          - "Co-Investigators: Eric Miller (PI, Tufts ECE) and Shuchin Aeron (Tufts ECE)"
+          - "Total Amount: \\$252,348"
+          - "Part of larger cross-institution \\href{https://www.army.mil/article/205789/natick_leads_first_of_its_kind_soldier_readiness_study}{MASTR-E project} funded by US Army"
 
       - date: "7/1/19 - 6/30/20"
         topic: "Estimating Individual Treatment Effects"
@@ -174,13 +211,6 @@ sections:
           - "Title: 'Estimating Individual Treatment Effects from Randomized Clinical Trials using Machine Learning'"
           - "Co-Investigators: David Kent (Tufts Medical Center)"
           - "Total Amount: \\$50,251"
-
-      - date: "6/24/19 - 6/23/20"
-        topic: "MASTR-E: Machine Learning for Human Performance Prediction"
-        about: "U.S. Army NSRDEC, Natick, MA"
-        notes:
-          - "Co-Investigators: Eric Miller (PI, Tufts ECE) and Shuchin Aeron (Tufts ECE)"
-          - "Total Amount: \\$252,348"
 
 #  - name: Pending Grant Applications
 #    type: experience
@@ -191,14 +221,20 @@ sections:
     type: experience
     items:
      
+      - date: "12/2020"
+        about: Invited Talk at "I Can't Believe it's not Better" workshop at NeurIPS 2020
+        notes:
+          - "Title: \\href{https://www.michaelchughes.com/talks/20201211_Talk_TheCaseForPredictionConstrainedTraining_CantBelieveNotBetterWorkshop.pdf}{I Can't Believe Supervision for Latent Variable Models is not Better: The Case for Prediction constrained training}"
+          - "Event: \\href{https://i-cant-believe-its-not-better.github.io/schedule/}{I Can't Believe It's Not Better! Workshop (ICBINB at NeurIPS 2020)}"
+          - "Workshop summary: Bridging the gap between theory and empiricism in probabilistic machine learning"
+          - "Talk summary: Makes case for our recent work on prediction constrained training, from AISTATS 2018, AISTATS 2020, and in preparation work"
+
       - date: "07/2020"
         about: Invited Talk at Northwell Health ML group
         notes:
           - "Title: \\href{https://www.michaelchughes.com/talks/20200721_Talk_Northwell_MLforEHR.pdf}{Optimizing Machine Learning Models for Interpretable, Actionable Predictions on Electronic Health Records}"
-          - "Event: Regular meeting of a ML research working group at Northwell Health (large healthcare provider in NYC)"
+          - "Event: Regular virtual meeting of a ML research working group at Northwell Health (large healthcare provider in NYC)"
           - "Summarizes recent MLHC 2019, CHIL 2020, AISTATS 2020, and JAMA Netw. Open 2020 papers"
-
-
 
       - date: "02/2020"
         about: Invited Talk at U. Arizona
@@ -255,16 +291,21 @@ sections:
   - name: Professional Service
     type: experience
     items:
+      - date: ""
+        about: Area Chair
+        notes:
+          - "2021 - ACM CHIL and MLHC"
 
       - date: ""
         about: Senior Program Committee / Meta-Reviewer
         notes:
+          - "2021 - AAAI"
           - "2020 - AAAI"
 
       - date: ""
         about: Program Committee / Reviewer
         notes:
-          - "2020 - NeurIPS, AISTATS, ICLR, MLHC, AMIA CRI"
+          - "2020 - NeurIPS, AISTATS, ICLR, MLHC"
           - "2019 - NeurIPS (\\href{https://neurips.cc/Conferences/2019/Reviewers}{reviewer award}), AISTATS, ICLR"
           - "2018 - NeurIPS (\\href{https://neurips.cc/Conferences/2018/Reviewers}{reviewer award}), AAAI, AISTATS, ICLR, AMIA CRI"
           - "2017 - NeurIPS, ICML, AAAI"
@@ -305,6 +346,21 @@ sections:
   - name: Teaching and Mentorship
     type: experience
     items:
+
+      - date: "Fall 2020"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/135/2020f/}{COMP 135 Intro to Machine Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught core principles of machine learning to 95 students"
+          - "Course format: 3 open-ended projects, 5 homeworks (conceptual and code questions), and 5 quizzes"
+
+      - date: "Spring 2020"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/136/2020s/}{COMP 136 Statistical Pattern Recognition}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced statistical learning course to 35 students"
+          - "Course format: 5 math-intensive homeworks, 5 coding-intensive homeworks, 5 short quizzes, 2 exams"
+
       - date: "Fall 2019"
         about: "Course: \\href{https://www.cs.tufts.edu/comp/150BDL/2019f/}{COMP 150 Bayesian Deep Learning}"
         employer: Tufts CS Dept.
@@ -331,9 +387,15 @@ sections:
         about: Research Mentor
         employer: Tufts University
         notes:
+          - "Mentored masters student projects:"
+          - "-- Yu Liu. 2020-21 CS DS thesis: An Evaluation Pipeline for Heterogeneous Treatment Effect Prediction"
+          - "-- Xi Chen. 2020 MS project: Bayesian Nonparametric Mixture Models for Missing Data"
+          - "Mentored projects for post-bacc students:"
+          - "-- Ally Lee. 2020: Bayesian Analysis of Autoregressive Models for Multi-Site Hospital Admission Forecasting"
+          - "-- Lily H. Zhang 2019-20: Any Parameter Encoders for Topic Models: Variational Encoders that amortize across models as well as data"
           - "Mentored undergraduate projects:"
+          - "-- Hezekiah Branch. 2020-21 \\href{http://stemdiversity.tufts.edu/undergraduate/LSAMP}{Tufts LSAMP fellow}: Supervised Learning for Clinical Multivariate Time-series"
           - "-- Manh Duc Nguyen. 2019 CS honors thesis: {Particle-based algorithms for Bayesian Neural Networks - Hamiltonian Monte Carlo and Stein Variational Gradient Descent}"
-
 
       - date: 2016-2017
         about: Research Mentor

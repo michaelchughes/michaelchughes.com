@@ -8,7 +8,7 @@ External links:
 &#8226;
 [[My ORCID iD Profile](https://orcid.org/0000-0003-4859-7400)]
 
-See also the complete list in my [Curriculum Vitae]({static}/cv.html)
+This page contains *highlighted* publications from my group. See the complete list in my [Curriculum Vitae]({static}/cv.html)
 
 ### 2020
 

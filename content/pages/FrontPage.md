@@ -47,6 +47,7 @@ For more, see my [Research page]({static}/research.html)
 			<li>
 				I'll talk about our recent work on Prediction Constrained training, covering in progress work as well as recent publications at AISTATS 2018 and AISTATS 2020.
 			</li>
+            <li> <a href="https://slideslive.com/38938369/i-cant-believe-supervision-for-latent-variable-models-is-not-better-the-case-for-prediction-constrained-training"> Video recording </a>
 			<li>
 				Slides: <a href="{static}/talks/20201211_Talk_TheCaseForPredictionConstrainedTraining_CantBelieveNotBetterWorkshop.pdf"> The Case For Prediction Constrained Training [PDF] </a>
 			</li>

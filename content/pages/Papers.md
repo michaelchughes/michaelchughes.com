@@ -10,6 +10,28 @@ External links:
 
 This page contains *highlighted* publications from my group. See the complete list in my [Curriculum Vitae]({static}/cv.html)
 
+### 2021
+
+<div class="list-group-item">
+  <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2766073">
+    <h4 class="list-group-item-heading">
+        Enzyme Promiscuity Prediction Using Hierarchy-Informed Multi-Label Classification
+    </h4>
+    <p class="list-group-item-text">
+        Gian Marco Visani, Michael C. Hughes, and Soha Hassoun
+    </p>
+    <p class="list-group-item-text"><i>
+        Bioinformatics
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://doi.org/10.1093/bioinformatics/btab054">
+        [paper]
+        </a>
+    </p>
+</div>
+
 ### 2020
 
 <div class="list-group-item">
@@ -21,7 +43,7 @@ This page contains *highlighted* publications from my group. See the complete li
         Michael C. Hughes, Melanie F. Pradier, Andrew Slavin Ross, Thomas H. McCoy Jr, Roy H. Perlis, Finale Doshi-Velez
     </p>
     <p class="list-group-item-text"><i>
-        <a href="https://www.chilconference.org/">
+        <a href="https://jamanetwork.com/journals/jamanetworkopen/">
             JAMA Network Open
         </a>
     </i></p>

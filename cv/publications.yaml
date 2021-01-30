@@ -1,4 +1,31 @@
 
+- title: Enzyme Promiscuity Prediction Using Hierarchy-Informed Multi-Label Classification
+  authors: "Gian Marco Visani\\textsuperscript{u}, Michael C. Hughes, and Soha Hassoun"
+  key: visani2021enzyme
+  year: 2021
+  venuetype: journal
+  venue: "Bioinformatics"
+  url: "https://doi.org/10.1093/bioinformatics/btab054"
+  displaytype: highlight
+
+- title: Learning Consistent Deep Generative Models from Sparse Data via Prediction Constraints
+  authors: "Gabriel Hope\\textsuperscript{d}, Madina Abdrakhmanova, Xiaoyin Chen, Michael C. Hughes, Erik B. Sudderth"
+  key: hope2020consistent
+  year: 2020
+  venuetype: preprint
+  venue: arXiv
+  url: https://arxiv.org/pdf/2012.06718.pdf
+  displaytype: preprint
+
+- title: "On Matched Filtering for Statistical Change Point Detection"
+  authors: "Kevin Cheng\\textsuperscript{d}, Eric L Miller, Michael C Hughes, and Shuchin Aeron"
+  key: cheng2020matched
+  year: 2020
+  venuetype: journal
+  venue: "IEEE Open Journal of Signal Processing"
+  url: "https://ieeexplore.ieee.org/abstract/document/9246231"
+  displaytype: highlight
+
 - title: "A Framework for Sensorimotor Cross-Perception and Cross-Behavior Knowledge Transfer for Object Categorization"
   authors: "Gyan Tatiya\\textsuperscript{d}, Ramtin Hosseini\\textsuperscript{d}, Michael C. Hughes, and Jivko Sinapov"
   key: tatiya2020crossbehaviorKnowledgeTransfer

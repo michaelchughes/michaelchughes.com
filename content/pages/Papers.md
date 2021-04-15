@@ -12,18 +12,65 @@ This page contains *highlighted* publications from my group. See the complete li
 
 ### 2021
 
+
 <div class="list-group-item">
-  <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2766073">
+    <a href="{static}/papers/VisaniEtAl_arXiv_2021.pdf">
+    <h4 class="list-group-item-heading">
+        Approximate Bayesian Computation for an Explicit-Duration Hidden Markov Model of COVID-19 Hospital Trajectories
+    </h4>
+    <p class="list-group-item-text">
+        Gian Marco Visani, Alexandra Hope Lee, Cuong Nguyen, David M. Kent, John B. Wong, Joshua T. Cohen, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        unpublished preprint
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/VisaniEtAl_arXiv_2021.pdf">
+            [paper PDF]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="{static}/papers/LeeEtAl_ICLRWorkshopMLPreventingCombatingPandemics_2021.pdf">
+    <h4 class="list-group-item-heading">
+        Forecasting COVID-19 Counts At A Single Hospital: A Hierarchical Bayesian Approach 
+    </h4>
+    <p class="list-group-item-text">
+        Alexandra Hope Lee, Panagiotis Lymperopoulos, Joshua T. Cohen, John B. Wong, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://mlpcp21.github.io/pages/Accepted%20Paper.html">
+            ICLR 2021 Workshop: Machine Learning for Preventing and Combating Pandemics
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/LeeEtAl_ICLRWorkshopMLPreventingCombatingPandemics_2021.pdf">
+            [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/single-hospital-count-forecasting/">
+            [code]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="https://doi.org/10.1093/bioinformatics/btab054">
     <h4 class="list-group-item-heading">
         Enzyme Promiscuity Prediction Using Hierarchy-Informed Multi-Label Classification
     </h4>
     <p class="list-group-item-text">
         Gian Marco Visani, Michael C. Hughes, and Soha Hassoun
     </p>
+    </a>
     <p class="list-group-item-text"><i>
         Bioinformatics
     </i></p>
-    </a>
     <p class="list-group-item-text"><span>
         &#8226;
         <a href="https://doi.org/10.1093/bioinformatics/btab054">
@@ -33,6 +80,27 @@ This page contains *highlighted* publications from my group. See the complete li
 </div>
 
 ### 2020
+
+
+<div class="list-group-item">
+    <a href="https://arxiv.org/pdf/2012.06718.pdf">
+    <h4 class="list-group-item-heading">
+        Learning Consistent Deep Generative Models from Sparse Data via Prediction Constraints
+    </h4>
+    <p class="list-group-item-text">
+        Gabriel Hope, Madina Abdrakhmanova, Xiaoyin Chen, Michael C. Hughes, and Erik B. Sudderth
+    </p>
+    <p class="list-group-item-text"><i>
+        unpublished preprint
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://arxiv.org/pdf/2012.06718.pdf">
+            [paper PDF on arXiv]
+        </a>
+    </p>
+</div>
 
 <div class="list-group-item">
   <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2766073">
@@ -667,7 +735,7 @@ Fast Learning of Clusters and Topics via Sparse Posteriors
         Erik B. Sudderth
     </p>
     <p class="list-group-item-text"><i>
-        preprint
+        unpublished preprint
     </i></p>
     </a>
     <p class="list-group-item-text"><span>

@@ -1,4 +1,31 @@
 
+- title: Approximate Bayesian Computation for an Explicit-DurationHidden Markov Model of COVID-19 Hospital Trajectories
+  authors: "Gian Marco Visani\\textsuperscript{u}, Alexandra Hope Lee\\textsuperscript{b}, Cuong Nguyen\\textsuperscript{m}, David M. Kent, John B. Wong, Joshua T. Cohen, and Michael C. Hughes"
+  key: visani2021abc
+  year: 2021
+  venuetype: preprint
+  venue: "arXiv"
+  url: "https://www.michaelchughes.com/papers/VisaniEtAl_arXiv_2021.pdf"
+  displaytype: preprint
+
+- title: "Forecasting COVID-19 Counts At A Single Hospital: A Hierarchical Bayesian Approach"
+  authors: "Alexandra Hope Lee\\textsuperscript{b}, Panagiotis Lymperopoulos\\textsuperscript{m}, Joshua T. Cohen, John B. Wong, and Michael C. Hughes"
+  key: lee2021count
+  year: 2021
+  venuetype: workshop
+  venue: "ICLR Workshop on Machine Learning for Preventing and Combating Pandemics"
+  url: "https://www.michaelchughes.com/papers/LeeEtAl_ICLRWorkshopMLPreventingCombatingPandemics_2021.pdf"
+  displaytype: highlight
+
+- title: Modeling Graph Node Correlations with Neighbor Mixture Models
+  authors: "Linfeng Liu\\textsuperscript{d}, Michael C. Hughes, and Liping Liu"
+  key: liu2021neighbor
+  year: 2021
+  venuetype: preprint
+  venue: "arXiv"
+  url: "https://arxiv.org/pdf/2103.15966.pdf"
+  displaytype: preprint
+
 - title: Enzyme Promiscuity Prediction Using Hierarchy-Informed Multi-Label Classification
   authors: "Gian Marco Visani\\textsuperscript{u}, Michael C. Hughes, and Soha Hassoun"
   key: visani2021enzyme

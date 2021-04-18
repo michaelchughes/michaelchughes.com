@@ -41,9 +41,10 @@ For more, see my [Research page]({static}/research.html)
         [Apr 2021] New work on probabilistic models for COVID-19 forecasting, with collaborators from Tufts Medical Center
         </h4>
         <ul>
-            <li> Preprint on a new <a href="<{static}/papers/VisaniEtAl_arXiv_2021.pdf>"> ACED-HMM model for COVID-19 hospitalized patient trajectories </a>, led by first author Gian Marco Visani (Tufts CS undergrad '21)
+            <li>
+                Preprint on a new <a href="{static}/papers/VisaniEtAl_arXiv_2021.pdf"> ACED-HMM model for COVID-19 hospitalized patient trajectories </a>, led by first author Gian Marco Visani (Tufts CS undergrad '21)
             </li>
-            <li> Workshop paper on <a href="{static}/papers/LeeEtAl_ICLRWorkshopMLPreventingCombatingPandemics_2021.pdf"> COVID-19 patient count forecasting at a single hospital <a>, led by first author Alexandra Lee (Tufts CS undergrad '20)
+            <li> Workshop paper on <a href="{static}/papers/LeeEtAl_ICLRWorkshopMLPreventingCombatingPandemics_2021.pdf"> COVID-19 patient count forecasting at a single hospital</a>, led by first author Alexandra Lee (Tufts CS undergrad '20)
             </li>
         </ul>
     </li>
@@ -57,7 +58,7 @@ For more, see my [Research page]({static}/research.html)
                 I'll be an invited speaker at the <a href="https://i-cant-believe-its-not-better.github.io/schedule/">I Can't Believe It's Not Better! Workshop</a> at NeurIPS 2020
             </li>
             <li>
-                I'll talk about our recent work on Prediction Constrained training, covering in progress work as well as recent publications at AISTATS 2018 and AISTATS 2020.
+                I'll talk about our recent work on Prediction Constrained training, covering in progress work <a href="https://arxiv.org/pdf/2012.06718.pdf">(Hope et al. arXiv 2020)</a> as well as recent publications at AISTATS 2018 and AISTATS 2020.
             </li>
             <li> <a href="https://slideslive.com/38938369/i-cant-believe-supervision-for-latent-variable-models-is-not-better-the-case-for-prediction-constrained-training"> Video recording </a>
             <li>

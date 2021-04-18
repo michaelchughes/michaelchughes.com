@@ -30,6 +30,10 @@ This page contains *highlighted* publications from my group. See the complete li
         <a href="{static}/papers/VisaniEtAl_arXiv_2021.pdf">
             [paper PDF]
         </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/aced-hmm-hospitalized-patient-trajectory-model/">
+            [code on GitHub: aced-hmm-hospitalized-patient-trajectory-model]
+        </a>        
     </p>
 </div>
 
@@ -54,7 +58,7 @@ This page contains *highlighted* publications from my group. See the complete li
         </a>
         &#8226;
         <a href="https://github.com/tufts-ml/single-hospital-count-forecasting/">
-            [code]
+            [code on GitHub: single-hospital-count-forecasting]
         </a>
     </p>
 </div>
@@ -79,8 +83,27 @@ This page contains *highlighted* publications from my group. See the complete li
     </p>
 </div>
 
-### 2020
+<div class="list-group-item">
+    <a href="https://arxiv.org/pdf/2103.15966.pdf">
+    <h4 class="list-group-item-heading">
+        Modeling Graph Node Correlations with Neighbor Mixture Models
+    </h4>
+    <p class="list-group-item-text">
+        Linfeng Liu, Michael C. Hughes, and Liping Liu
+    </p>
+    </a>
+    <p class="list-group-item-text"><i>
+        unpublished preprint
+    </i></p>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://arxiv.org/pdf/2103.15966.pdf">
+        [PDF on arXiV]
+        </a>
+    </p>
+</div>
 
+### 2020
 
 <div class="list-group-item">
     <a href="https://arxiv.org/pdf/2012.06718.pdf">
@@ -140,9 +163,6 @@ This page contains *highlighted* publications from my group. See the complete li
     </p>
 </div>
 
-
-
-
 <div class="list-group-item">
   <a href="{static}/papers/WangMcDermottEtAl_CHIL_2020.pdf">
     <h4 class="list-group-item-heading">
@@ -165,6 +185,10 @@ This page contains *highlighted* publications from my group. See the complete li
         &#8226;
         <a href="https://dl.acm.org/doi/abs/10.1145/3368555.3384469">
         [listing on acm.org]
+        </a>
+        &#8826;
+        <a href="https://github.com/MLforHealth/MIMIC_Extract">
+        [code on GitHub: MLforHealth/MIMIC_Extract]
         </a>
     </p>
 </div>
@@ -199,6 +223,31 @@ This page contains *highlighted* publications from my group. See the complete li
     </p>
 </div>
 
+<div class="list-group-item">
+  <a href="https://arxiv.org/pdf/2006.05539.pdf">
+    <h4 class="list-group-item-heading">
+        On Matched Filtering for Statistical Change Point Detection
+    </h4>
+    <p class="list-group-item-text">
+        Kevin C. Cheng, Eric L. Miller, Michael C. Hughes, and Shuchin Aeron
+      </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://signalprocessingsociety.org/publications-resources/ieee-open-journal-signal-processing/information-authors-ojsp">
+            IEEE Open Journal of Signal Processing
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://arxiv.org/pdf/2006.05539.pdf">
+        [PDF on arXiv]
+        </a>
+        &#8226;
+        <a href="https://ieeexplore.ieee.org/abstract/document/9246231">
+        [IEEE Xplore listing]
+        </a>
+    </p>
+</div>
 
 <div class="list-group-item">
   <a href="{static}/papers/ChengAeronHughesEtAl_ICASSP_2020.pdf">
@@ -206,7 +255,7 @@ This page contains *highlighted* publications from my group. See the complete li
         Optimal Transport Based Change Point Detection and Time Series Clustering
     </h4>
     <p class="list-group-item-text">
-        Kevin Cheng, Shuchin Aeron, Michael C. Hughes, Erika Hussey, and Eric Miller
+        Kevin C. Cheng, Shuchin Aeron, Michael C. Hughes, Erika Hussey, and Eric L. Miller
   </p>
     <p class="list-group-item-text"><i>
         <a href="https://2020.ieeeicassp.org/">

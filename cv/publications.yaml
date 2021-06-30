@@ -1,12 +1,57 @@
 
+- title: "Optimizing for Interpretability in Deep Neural Networks with Simulable Decision Trees"
+  authors: "Mike Wu\\textsuperscript{d}, Sonali Parbhoo, Michael C. Hughes, Volker Roth, and Finale Doshi-Velez"
+  key: wu2021simulable
+  year: 2021
+  venuetype: journal
+  venue: "To appear in Journal of Artificial Intelligence Research (JAIR)"
+  url: ""
+  displaytype: none
+
+- title: Prediction-Constrained Hidden Markov Models for Semi-Supervised Classification 
+  authors: "Gabriel Hope\\textsuperscript{d}, Michael C. Hughes, Finale Doshi-Velez, and Erik B. Sudderth"
+  key: hope2021pchmm
+  year: 2021
+  venuetype: workshop
+  venue: Time Series Workshop at ICML
+  url: ""
+  displaytype: none
+
+- title: Taming fNIRS-based BCI Input
+  authors: "Liang Wang\\textsuperscript{d}, Zhe Huang \\textsuperscript{d}, Ziyu Zhou, Devon McKeon, Giles Blaney, Michael C. Hughes, and Robert J. K. Jacob"
+  key: wang2021fnirs
+  year: 2021
+  venuetype: conference
+  venue: "ACM Symposium on User Interface Software and Technology (UIST)"
+  url: ""
+  displaytype: highlight
+
+- title: A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aortic Stenosis from Echocardiograms
+  authors: "Zhe Huang\\textsuperscript{d}, Gary Long, Benjamin Wessler, and Michael C. Hughes"
+  key: huang2021echo
+  year: 2021
+  venuetype: conference
+  venue: "Machine Learning for Healthcare (MLHC)"
+  url: "https://www.michaelchughes.com/papers/HuangEtAl_MLHC_2021.pdf"
+  displaytype: highlight
+
 - title: Approximate Bayesian Computation for an Explicit-DurationHidden Markov Model of COVID-19 Hospital Trajectories
   authors: "Gian Marco Visani\\textsuperscript{u}, Alexandra Hope Lee\\textsuperscript{b}, Cuong Nguyen\\textsuperscript{m}, David M. Kent, John B. Wong, Joshua T. Cohen, and Michael C. Hughes"
   key: visani2021abc
   year: 2021
-  venuetype: preprint
-  venue: "arXiv"
+  venuetype: conference
+  venue: "Machine Learning for Healthcare (MLHC)"
   url: "https://www.michaelchughes.com/papers/VisaniEtAl_arXiv_2021.pdf"
-  displaytype: preprint
+  displaytype: highlight
+
+- title:  Stochastic Iterative Graph Matching 
+  authors: "Linfeng Liu\\textsuperscript{d}, Michael C. Hughes, Soha Hassoun, and Li-Ping Liu"
+  key: liu2021sigma
+  year: 2021
+  venuetype: conference
+  venue: "International Conference of Machine Learning (ICML)"
+  url: "https://arxiv.org/pdf/2106.02206.pdf"
+  displaytype: highlight
 
 - title: "Forecasting COVID-19 Counts At A Single Hospital: A Hierarchical Bayesian Approach"
   authors: "Alexandra Hope Lee\\textsuperscript{b}, Panagiotis Lymperopoulos\\textsuperscript{m}, Joshua T. Cohen, John B. Wong, and Michael C. Hughes"
@@ -18,7 +63,7 @@
   displaytype: highlight
 
 - title: Modeling Graph Node Correlations with Neighbor Mixture Models
-  authors: "Linfeng Liu\\textsuperscript{d}, Michael C. Hughes, and Liping Liu"
+  authors: "Linfeng Liu\\textsuperscript{d}, Michael C. Hughes, and Li-Ping Liu"
   key: liu2021neighbor
   year: 2021
   venuetype: preprint
@@ -94,7 +139,7 @@
   key: futoma2020popcorn
   year: 2020
   venuetype: conference
-  venue: "AISTATS 2020"
+  venue: "AISTATS"
   url: "https://www.michaelchughes.com/papers/FutomaHughesDoshiVelez_AISTATS_2020.pdf"
   displaytype: highlight
 
@@ -105,16 +150,16 @@
   venuetype: conference
   venue: "IEEE ICASSP 2020"
   url: "https://www.michaelchughes.com/papers/ChengAeronHughesEtAl_ICASSP_2020.pdf"
-  displaytype: highlight
+  displaytype: none
 
 - title: "Regional Tree Regularization for Interpretability in Deep Neural Networks"
   authors: "Mike Wu\\textsuperscript{d}, Sonali Parbhoo, Michael C. Hughes, Ryan Kindle, Leo Celi, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
   key: wu2020regional
   year: 2020
   venuetype: conference
-  venue: "AAAI 2020"
+  venue: "AAAI"
   url: https://www.michaelchughes.com/papers/WuParbhooHughesEtAl_AAAI_2020.pdf
-  displaytype: highlight
+  displaytype: none
 
 
 - title: "Predicting change in diagnosis from major depression to bipolar disorder after antidepressant initiation"

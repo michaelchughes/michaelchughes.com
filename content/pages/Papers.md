@@ -57,6 +57,10 @@ This page contains *highlighted* publications from my group. See the complete li
             [paper PDF]
         </a>
         &#8226;
+        <a href="https://arxiv.org/pdf/2104.09327.pdf">
+            [PDF on arXiV]
+        </a>
+        &#8226;
         <a href="https://github.com/tufts-ml/single-hospital-count-forecasting/">
             [code on GitHub: single-hospital-count-forecasting]
         </a>

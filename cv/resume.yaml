@@ -30,8 +30,9 @@ sections:
       - date: 2017-
         about: "Clinical Informatics"
         notes:
-          - "Psychiatry Appplications: treatment prediction, phenotype discovery"
-          - "Intensive Care Applications: treatment prediction, phenotype discovery"
+          - "Tasks: Phenotype discovery, personalized outcome prediction, automated assisted diagnosis"
+          - "Data Types: Time series of vitals and lab results from EHR, diagnosis and procedure codes, sociodemographics, imaging (esp. echocardiograms)"
+          - "Applications: intensive care early warning systems, suggesting treatments for depression, heart disease diagnosis"
 
       - date: 2012-
         about: "Human Activity Analysis"
@@ -158,6 +159,13 @@ sections:
   - name: Current Funding Support
     type: experience
     items:
+      - date: "9/1/19 - 8/31/22"
+        topic: "Amortized Inference for Large-Scale Graphical Models"
+        about: "NSF CISE: Robust Intelligence: Small"
+        notes:
+          - "Co-Investigators: Liping Liu (PI, Tufts CS) and Thomas Stopka (Tufts Public Health)"
+          - "Total Amount: \\$399,923"
+
       - date: "11/15/19 - 8/31/22"
         topic: "ACT-NOW: Autonomous Cognitive Technologies for Novelty in Open Worlds"
         about: "DARPA SAIL-ON Program"
@@ -166,14 +174,19 @@ sections:
           - "Team at Tufts: Matthias Scheutz (PI, CS), Liping Liu (CS), Jivko Sinapov (CS)"
           - "Team at Arizone State: Chitta Baral (CSE), Subbarao Kambhampati (CSE)"
 
-      - date: "9/1/19 - 8/31/22"
-        topic: "Amortized Inference for Large-Scale Graphical Models"
-        about: "NSF CISE: Robust Intelligence: Small"
+      - date: "5/1/21 - 4/30/22"
+        topic: "A Benchmark De-identified Echocardiogram Database for Studying Automated Diagnoses"
+        about: "Pilot Grant from Tufts Clinical and Translational Science Institute (CTSI)"
         notes:
-          - "Co-Investigators: Liping Liu (PI, Tufts CS) and Thomas Stopka (Tufts Public Health)"
-          - "Total Amount: \\$399,923"
+          - "Co-Investigators: Benjamin Wessler (PI)"
 
-      - date: "9/1/20 - 8/31/20"
+      - date: "1/1/21 - 12/31/21"
+        topic: "Estimating the societal value of COVID-19 therapeutics"
+        about: "Tufts Medical Center (Originating Sponsor: Pfizer)"
+        notes:
+          - "Co-Investigators: Peter Neumann (Tufts CEVR) and Joshua Cohen (Tufts CEVR)"
+
+      - date: "9/1/20 - 8/31/21"
         topic: "Machine Learning Models for Human Performance Prediction"
         about: "U.S. Army NSRDEC, Natick, MA (via Tufts CABCS)"
         notes:
@@ -182,27 +195,18 @@ sections:
           - "Total Amount: \\$496,098"
           - "Part of larger cross-institution \\href{https://www.army.mil/article/205789/natick_leads_first_of_its_kind_soldier_readiness_study}{MASTR-E project} funded by US Army"
 
-      - date: "8/1/20 - 7/30/20"
+
+  - name: Past Funding Support
+    type: experience
+    items:
+
+      - date: "7/1/20 - 6/30/21"
         topic: "The value of predictive analytics during the COVID epidemic"
         about: "Tufts Springboard Award (Tufts Univ. Provost's Office)"
         notes:
           - "Full title: Demonstrating the value of a proposed Tufts-led predictive analytics and comparative effectiveness research network during the COVID epidemic"
           - "Co-Investigators: David Kent (Tufts Medical) and Jessica Paulus (Tufts Medical)"
           - "Total Amount: \\$50,000"
-
-
-  - name: Past Funding Support
-    type: experience
-    items:
-
-      - date: "6/24/19 - 6/23/20"
-        topic: "Machine Learning Models for Human Performance Prediction"
-        about: "U.S. Army NSRDEC, Natick, MA (via Tufts CABCS)"
-        notes:
-          - "Full title: Statistical and Machine Learning Models for Data Reduction and Human Performance Prediction"
-          - "Co-Investigators: Eric Miller (PI, Tufts ECE) and Shuchin Aeron (Tufts ECE)"
-          - "Total Amount: \\$252,348"
-          - "Part of larger cross-institution \\href{https://www.army.mil/article/205789/natick_leads_first_of_its_kind_soldier_readiness_study}{MASTR-E project} funded by US Army"
 
       - date: "7/1/19 - 6/30/20"
         topic: "Estimating Individual Treatment Effects"
@@ -347,6 +351,13 @@ sections:
     type: experience
     items:
 
+      - date: "Spring 2021"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/136/2021s/}{COMP 136 Statistical Pattern Recognition}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced statistical learning course to 29 students"
+          - "Course format: 5 math-intensive homeworks, 5 coding-intensive homeworks, 5 short quizzes, 2 exams"
+
       - date: "Fall 2020"
         about: "Course: \\href{https://www.cs.tufts.edu/comp/135/2020f/}{COMP 135 Intro to Machine Learning}"
         employer: Tufts CS Dept.
@@ -394,7 +405,7 @@ sections:
           - "-- Ally Lee. 2020: Bayesian Analysis of Autoregressive Models for Multi-Site Hospital Admission Forecasting"
           - "-- Lily H. Zhang 2019-20: Any Parameter Encoders for Topic Models: Variational Encoders that amortize across models as well as data"
           - "Mentored undergraduate projects:"
-          - "-- Hezekiah Branch. 2020-21 \\href{http://stemdiversity.tufts.edu/undergraduate/LSAMP}{Tufts LSAMP fellow}: Supervised Learning for Clinical Multivariate Time-series"
+          - "-- Hezekiah Branch. 2020 \\href{http://stemdiversity.tufts.edu/undergraduate/LSAMP}{Tufts LSAMP fellow}: Supervised Learning for Clinical Multivariate Time-series"
           - "-- Manh Duc Nguyen. 2019 CS honors thesis: {Particle-based algorithms for Bayesian Neural Networks - Hamiltonian Monte Carlo and Stein Variational Gradient Descent}"
 
       - date: 2016-2017
@@ -424,6 +435,14 @@ sections:
   - name: Outreach Experience
     type: experience
     items:
+
+      - date: 2021
+        about: Research Mentor
+        employer: Tufts DIAMONDS Program
+        location: Medford, MA
+        notes:
+          - "Mentored two students in data science research projects."
+
       - date: 2014-2016
         about: Volunteer AP Computer Science Instructor
         employer: TEALS and Boston Latin Academy

@@ -12,15 +12,26 @@
 
 \AtBeginDocument{
 	\hypersetup{
-		colorlinks=true,
-		linkbordercolor={blue!80!black},
-		linkcolor={blue!80!black},
-		urlcolor={blue!80!black},
+    colorlinks=true,
+    citecolor={blue},
+    filecolor={blue},
+    linkcolor={blue},
+    urlcolor={blue},
+    linkbordercolor={blue},
+    urlbordercolor={blue},
     baseurl={},
-		pdfborder = 0 0 1}}
+    pdfborderstyle={/U 1},
+  	pdfborder = 0 0 0,
+    pdftitle={Michael C. Hughes -- CV},
+    }}
+\AtEndPreamble{
+  \hypersetup{
+    pdfborderstyle={/U 1},
+    pdfborder = 0 0 0,
+    pdftitle={Michael C. Hughes -- CV},
+    }}
 
 \name{<< name.first >>}{<< name.last >>}
-\AtEndPreamble{\hypersetup{pdftitle={Michael C. Hughes -- CV}}}
 
 ~<if address is defined >~
   \address{<< address.street >>}

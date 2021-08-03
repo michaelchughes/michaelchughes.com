@@ -12,9 +12,44 @@ This page contains *highlighted* publications from my group. See the complete li
 
 ### 2021
 
+<div class="list-group-item">
+    <a href="{static}/papers/HuangEtAl_MLHC_2021.pdf">
+    <h4 class="list-group-item-heading">
+A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aortic Stenosis from Echocardiograms
+    </h4>
+    <p class="list-group-item-text">
+        Zhe Huang, Gary Long, Benjamin Wessler, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        Machine Learning for Healthcare (MLHC)
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/HuangEtAl_MLHC_2021.pdf">
+            [paper PDF]
+        </a> 
+        &#8226;
+        <a href="https://TMED.cs.tufts.edu">
+            [dataset: TMED.cs.tufts.edu]
+        </a>
+        &#8226;
+        <a href="https://www.youtube.com/watch?v=VcuSMH_LEzw">
+            [spotlight video on Youtube]
+        </a>    
+        &#8226;
+        <a href="https://github.com/tufts-ml/ssl-for-echocardiograms//">
+            [code on GitHub]
+        </a>
+        &#8226;
+        <a href="{static}/papers/HuangEtAl_MLHC_2021_poster.pdf">
+            [poster PDF]
+        </a> 
+    </p>
+</div>
 
 <div class="list-group-item">
-    <a href="{static}/papers/VisaniEtAl_arXiv_2021.pdf">
+    <a href="{static}/papers/VisaniEtAl_MLHC_2021.pdf">
     <h4 class="list-group-item-heading">
         Approximate Bayesian Computation for an Explicit-Duration Hidden Markov Model of COVID-19 Hospital Trajectories
     </h4>
@@ -22,18 +57,130 @@ This page contains *highlighted* publications from my group. See the complete li
         Gian Marco Visani, Alexandra Hope Lee, Cuong Nguyen, David M. Kent, John B. Wong, Joshua T. Cohen, and Michael C. Hughes
     </p>
     <p class="list-group-item-text"><i>
-        unpublished preprint
+        Machine Learning for Healthcare (MLHC)
     </i></p>
     </a>
     <p class="list-group-item-text"><span>
         &#8226;
-        <a href="{static}/papers/VisaniEtAl_arXiv_2021.pdf">
+        <a href="{static}/papers/VisaniEtAl_MLHC_2021.pdf">
             [paper PDF]
+        </a> 
+        &#8226;
+        <a href="https://arxiv.org/abs/2105.00773">
+            [arXiv]
         </a>
         &#8226;
         <a href="https://github.com/tufts-ml/aced-hmm-hospitalized-patient-trajectory-model/">
             [code on GitHub: aced-hmm-hospitalized-patient-trajectory-model]
         </a>        
+        &#8226;
+        <a href="{static}/papers/VisaniEtAl_MLHC_2021_poster.pdf">
+            [poster PDF]
+        </a> 
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="{static}/papers/WojnowiczEtAl_TPM_2021.pdf">
+    <h4 class="list-group-item-heading">
+        Easy Variational Inference for Categorical Observations via a New View of Diagonal Orthant Probit Models
+    </h4>
+    <p class="list-group-item-text">
+        Michael Wojnowicz, Shuchin Aeron, Eric Miller, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        Tractable Probabilistic Modeling workshop at UAI 2021
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/WojnowiczEtAl_TPM_2021.pdf">
+            [paper PDF]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="{static}/papers/LiuEtAl_ICML_2021.pdf">
+    <h4 class="list-group-item-heading">
+    Stochastic Iterative Graph Matching
+    </h4>
+    <p class="list-group-item-text">
+        Linfeng Liu, Michael C. Hughes, Soha Hassoun, and Liping Liu
+    </p>
+    <p class="list-group-item-text"><i>
+        International Conference of Machine Learning (ICML)
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/LiuEtAl_ICML_2021.pdf">
+            [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/sigma/">
+            [code on GitHub]
+        </a>        
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="{static}/papers/RathHughes_IMLH_2021.pdf">
+    <h4 class="list-group-item-heading">
+     Optimizing Clinical Early Warning Systems to Meet False Alarm Constraints
+    </h4>
+    <p class="list-group-item-text">
+        Preetish Rath and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        Interpretable Machine Learning for Healthcare (IMLH) workshop at ICML 2021
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/RathHughes_IMLH_2021.pdf">
+            [paper PDF]
+        </a>      
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="{static}/papers/FeeneyHughes_UDL_2021.pdf">
+    <h4 class="list-group-item-heading">
+    Evaluating the Use of Reconstruction Error for Novelty Localization
+    </h4>
+    <p class="list-group-item-text">
+        Patrick Feeney and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        Uncertainty and Robustness in Deep Learning (UDL) workshop at ICML 2021
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/FeeneyHughes_UDL_2021.pdf">
+            [paper PDF]
+        </a>  
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="{static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf">
+    <h4 class="list-group-item-heading">
+        Prediction-Constrained Hidden Markov Models for Semi-Supervised Classification
+    </h4>
+    <p class="list-group-item-text">
+        Gabriel Hope, Michael C. Hughes, Finale Doshi-Velez, and Erik Sudderth
+    </p>
+    <p class="list-group-item-text"><i>
+        Time Series Workshop at ICML 2021
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf">
+            [paper PDF]
+        </a>
     </p>
 </div>
 

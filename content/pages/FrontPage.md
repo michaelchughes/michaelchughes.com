@@ -18,16 +18,18 @@ First, I'm interested in fundamental problems in statistical machine learning:
 
 * probabilistic models for multivariate time-series with irregular or missing data
 * scalable inference for latent variable models (see our [AABI 2019 paper]({static}/papers/ZhangHughes_AABI_2019.pdf))
-* effective semi-supervised learning with latent variable models (see our [AISTATS 2018 paper]({static}/papers/HughesEtAl_AISTATS_2018.pdf))
+* effective semi-supervised learning with latent variable models (see our [AISTATS 2018 paper]({static}/papers/HughesEtAl_AISTATS_2018.pdf), [Time Series Workshop 2021 paper]({static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf)), and [arXiv preprint from 2020](https://arxiv.org/pdf/2012.06718.pdf))
 * Bayesian nonparametric approaches to growing model complexity as data demands (see our [BNPy Python package](https://github.com/bnpy/bnpy) and [NeurIPS 2015 paper]({static}/papers/HughesStephensonSudderth_NIPS_2015.pdf))
 * model-based reinforcement learning with open-world, partially-observable state (see our [AISTATS 2020 paper]({static}/papers/FutomaHughesDoshiVelez_AISTATS_2020.pdf))
 * optimizing deep learning models to be more interpretable (see our [AAAI 2020]({static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf) and [AAAI 2018](https://arxiv.org/pdf/1711.06178.pdf) papers)
 
 Second, I'm interested in several exciting clinical applications of these techniques:
 
-* antidepressant drug recommendations for patients with major depression
-* forecasting deterioration and need for interventions in the Intensive Care Unit (ICU)
-* forecasting chemotherapy risks for acute myeloid leukemia patients
+* predicting deterioration and need for interventions in the Intensive Care Unit (ICU) (see our [CHIL 2020 paper]({static}/papers/WangMcDermottEtAl_CHIL_2020.pdf) and [IMLH 2021 workshop paper]({static}/papers/RathHughes_IMLH_2021.pdf))
+* forecasting demand for hospital resources during the COVID-19 pandemic (see our [MLHC 2021 paper]({static}/papers/VisaniEtAl_MLHC_2021.pdf))
+* automating preliminary diagnosis of heart disease using echocardiograms (see our [MLHC 2021 paper]({static}/papers/HuangEtAl_MLHC_2021.pdf))
+* training models that generalize well as underlying data systems change (see our [MLHC 2019 paper]({static}/papers/NestorEtAl_MLHC_2019.pdf))
+* recommending stable antidepressants personalized to patients with major depression (see our [JAMA Network Open 2020 journal paper]({static}/papers/HughesPradierRossEtAl_JAMANetworkOpen_2020.pdf))
 
 For more, see my [Research page]({static}/research.html)
 
@@ -35,7 +37,75 @@ For more, see my [Research page]({static}/research.html)
 ### News
 
 <ul class="list-group">
-
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Aug 2021] Two papers from HughesLab appearing at MLHC 2021
+        </h4>
+        <ul>
+            <li> <a href="{static}/papers/VisaniEtAl_MLHC_2021.pdf">Approximate Bayesian Computation for an Explicit-Duration Hidden Markov Model of COVID-19 Hospital Trajectories [PDF] </a>
+            </li>
+            <ul>
+                <li> This is a new model for forecasting daily demand for hospital beds from COVID-19 patients.
+                </li>
+                <li> Led by first author Gian Marco Visani (Tufts CS undergrad '21)
+                </li>
+                <li> With key help two other student co-authors: Ally Lee and Cuong Nguyen
+                </li>
+                <li> With two collaborators from Tufts Medical Center: David Kent, MD and John Wong, MD (both clinician-researchers) 
+                </li>
+                <li> With one collaborator from the Center for the Evaluation of Value and Risk in Health at TMC: <a href="https://www.tuftsmedicalcenter.org/physiciandirectory/joshua-cohen"> Josh Cohen </a>, a researcher in applied math/decision sciences/health economics
+                </li>
+            </ul>
+        </ul>
+        <ul>
+            <li> <a href="{static}/papers/HuangEtAl_MLHC_2021.pdf"> A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aortic Stenosis from Echocardiograms [PDF] </a>
+            </li>
+            <ul>
+                <li> This is a new dataset release in pursuit of two goals: (1) improved early detection of heart disease (aortic stenosis) and (2) improved methods that can learn from both limited labeled datasets and abundant uncurated unlabeled data via semi-supervised learning
+                <li> 
+                    Data and code available at <a href="https://TMED.cs.tufts.edu">https://TMED.cs.tufts.edu</a>
+                </li>
+                <li> Led by first author Zhe Huang (Tufts CS Ph.D. student)
+                </li>
+                <li> With co-PI and key collaborator from Tufts Medical Center: <a href="https://www.tuftsmedicalcenter.org/physiciandirectory/benjamin-wessler">Dr. Ben Wessler, MD</a>
+                </li>
+            </ul>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [July 2021] New preprint on easy conjugate Bayesian methods for categorical data
+        </h4>
+        <ul>
+            <li> Will be at the <a href="https://sites.google.com/view/tpm2021/">Tractable Probabilistic Modeling (TPM) workshop </a> (co-located with UAI) to present our <a href="{static}/papers/WojnowiczEtAl_TPM_2021.pdf">paper on Easy Variational Inference for Categorical Observations via a New View of Diagonal Orthant Probit Models</a>, 
+            led by <a href="https://scholar.google.com/citations?user=5O4vP3EAAAAJ&hl=en">Mike Wojnowicz (Tufts DISC)</a>
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [July 2021] Three papers accepted to workshops at ICML
+        </h4>
+        <ul>
+            <li> Will be at the <a href="https://sites.google.com/view/imlh2021/">Interpretable Machine Learning for Healthcare (IMLH)</a> workshop to present our <a href="{static}/papers/RathHughes_IMLH_2021.pdf">paper on Optimizing Clinical Early Warning Systems to Meet False Alarm Constraints</a>, led by Ph.D. student Preetish Rath
+            </li>
+            <li> Will be at the <a href="https://sites.google.com/view/udlworkshop2021/home">Uncertainty and Robustness in Deep Learning (UDL) workshop</a> to present our <a href="{static}/papers/FeeneyHughes_UDL_2021.pdf">paper on Evaluating the Use of Reconstruction Error for Novelty Localization</a>, led by Ph.D. student Patrick Feeney
+            </li>
+            <li> Will be at the <a href="http://roseyu.com/time-series-workshop/#introduction">Time Series Workshop (TWS) </a> to present our <a href="{static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf">paper on Prediction-Constrained Hidden Markov Models for Semi-Supervised Classification</a>, led by UC-Irvine Ph.D. student Gabe Hope. <mark>UPDATE: Gabe's poster received the Best Poster award at the TWS workshop</mark>
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [July 2021] Work on Graph Matching accepted at ICML 2021
+        </h4>
+        <ul>
+            <li> Check out our <a href="{static}/papers/LiuEtAl_ICML_2021.pdf">paper on Stochastic Iterative Graph Matching (SIGMA)</a> a probabilistic approach to finding a correspondence between the nodes of two similar graphs, with several collaborators from Tufts CS: Ph.D. student Linfeng Liu and faculty colleagues Soha Hassoun and Liping Liu
+            </li>
+            <li> Cool evaluations on applications from systems biology and computer vision
+            </li>
+        </ul>
+    </li>
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Apr 2021] New work on probabilistic models for COVID-19 forecasting, with collaborators from Tufts Medical Center
@@ -48,7 +118,6 @@ For more, see my [Research page]({static}/research.html)
             </li>
         </ul>
     </li>
-    
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Dec 2020] Invited Talk at I Can't Believe It's Not Better Workshop at NeurIPS 2020
@@ -66,7 +135,6 @@ For more, see my [Research page]({static}/research.html)
             </li>
         </ul>
     </li>
-
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [May 2020] Paper applying our latest ML methods to psychiatry accepted to JAMA Network Open
@@ -88,7 +156,6 @@ For more, see my [Research page]({static}/research.html)
             </li>
         </ul>
     </li>
-
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Jan 2020] Paper accepted at <a href="https://www.aistats.org/">AISTATS 2020</a>
@@ -101,7 +168,6 @@ For more, see my [Research page]({static}/research.html)
             </li>
         </ul>
     </li>
-
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Dec 2019] Two papers accepted at <a href="http://www.approximateinference.org/">AABI 2019</a>
@@ -117,11 +183,8 @@ For more, see my [Research page]({static}/research.html)
                 Challenges in Computing and Optimizing Upper Bounds of Marginal Likelihood based on Chi-Square Divergences 
                 </a>, with Melanie F. Pradier and Finale Doshi-Velez
             </li>
-
         </ul>
-
     </li>
-
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Nov 2019] Paper Accepted at <a href="">AAAI 2020</a>
@@ -134,8 +197,6 @@ For more, see my [Research page]({static}/research.html)
             </li>
         </ul>
     </li>
-
-
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Aug 2019] Paper Accepted at <a href="">MLHC 2019</a>
@@ -149,8 +210,6 @@ For more, see my [Research page]({static}/research.html)
             </li>
         </ul>
     </li>
-
-
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [June 2019] Invited Talk at <a href="">BNP 12</a>
@@ -163,7 +222,6 @@ For more, see my [Research page]({static}/research.html)
             </li>
         </ul>
     </li>
-
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Dec 2018] Two short papers accepted to workshops at NeurIPS 2018
@@ -181,7 +239,6 @@ For more, see my [Research page]({static}/research.html)
             </li>
         </ul>
     </li>
-
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Aug 2018] I'm organizing 2 Workshops at NeurIPS 2018:
@@ -201,7 +258,6 @@ For more, see my [Research page]({static}/research.html)
         <p> Please consider submitting a short paper!
         </p>
     </li>
-
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Aug 2018] I'll present a tutorial -- 
@@ -219,8 +275,6 @@ For more, see my [Research page]({static}/research.html)
             (with outline, slides, and full bibliography).
         </p>
     </li>
-
-
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Aug 2018] I have joined the faculty at Tufts' Computer Science Department!
@@ -229,9 +283,6 @@ For more, see my [Research page]({static}/research.html)
             I'm actively looking for students (ugrad and Ph.D.) for various research projects. Please contact me if interested.
         </p>
     </li>
-
-
-
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Apr 2018] <a href="{static}/images/SoCalNLPBestPaperCertificate.jpg">Best Paper Award</a> at <a href="https://socalnlp.github.io/symp18/index.html">SoCalNLP 2018</a>
@@ -241,8 +292,6 @@ For more, see my [Research page]({static}/research.html)
             Thanks to co-author Gabe for presenting the work, to the SoCal NLP organizers for hosting, and to Amazon for sponsoring the award.
         </p>
     </li>
-
-
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Jan 2018] Paper accepted to AISTATS 2018.
@@ -251,7 +300,6 @@ For more, see my [Research page]({static}/research.html)
             Our paper -- <a href="{static}/papers/HughesEtAl_AISTATS_2018.pdf">Semi-Supervised Prediction-Constrained Topic Models</a> -- describes a new framework for training topic models and other latent variable models to improve <i>supervised</i> predictions while still providing good generative models with interpretable topics. The new approach fixes core issues with past methods like sLDA, and shines especially in semi-supervised tasks, when only a small fraction of training examples are labeled.
         </p>
     </li>
-
     <li class="list-group-item">
     <h4 class="list-group-item-heading">
     [Dec 2017] Presenting at NIPS 2017 Workshops

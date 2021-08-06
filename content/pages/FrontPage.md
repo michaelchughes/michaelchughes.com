@@ -91,7 +91,7 @@ For more, see my [Research page]({static}/research.html)
             </li>
             <li> Will be at the <a href="https://sites.google.com/view/udlworkshop2021/home">Uncertainty and Robustness in Deep Learning (UDL) workshop</a> to present our <a href="{static}/papers/FeeneyHughes_UDL_2021.pdf">paper on Evaluating the Use of Reconstruction Error for Novelty Localization</a>, led by Ph.D. student Patrick Feeney
             </li>
-            <li> Will be at the <a href="http://roseyu.com/time-series-workshop/#introduction">Time Series Workshop (TWS) </a> to present our <a href="{static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf">paper on Prediction-Constrained Hidden Markov Models for Semi-Supervised Classification</a>, led by UC-Irvine Ph.D. student Gabe Hope. <mark>UPDATE: Gabe's poster received the Best Poster award at the TWS workshop</mark>
+            <li> Will be at the <a href="http://roseyu.com/time-series-workshop/#introduction">Time Series Workshop (TSW) </a> to present our <a href="{static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf">paper on Prediction-Constrained Hidden Markov Models for Semi-Supervised Classification</a>, led by UC-Irvine Ph.D. student Gabe Hope. <b>UPDATE: Gabe's poster received the Best Poster award at the TWS workshop!</b>
             </li>
         </ul>
     </li>

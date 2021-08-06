@@ -34,6 +34,10 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
             [dataset: TMED.cs.tufts.edu]
         </a>
         &#8226;
+        <a href="https://arxiv.org/abs/2108.00080">
+            [arXiv]
+        </a>
+        &#8226;
         <a href="https://www.youtube.com/watch?v=VcuSMH_LEzw">
             [spotlight video on Youtube]
         </a>    
@@ -45,6 +49,10 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
         <a href="{static}/papers/HuangEtAl_MLHC_2021_poster.pdf">
             [poster PDF]
         </a> 
+        &#8226;        
+        <a href="https://twitter.com/mike_c_hughes/status/1423667495232319492">
+            [Twitter thread]
+        </a>
     </p>
 </div>
 
@@ -70,13 +78,21 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
             [arXiv]
         </a>
         &#8226;
+        <a href="https://www.youtube.com/watch?v=tWYjlMm5G8k">
+            [spotlight video on Youtube]
+        </a> 
+        &#8226;
         <a href="https://github.com/tufts-ml/aced-hmm-hospitalized-patient-trajectory-model/">
-            [code on GitHub: aced-hmm-hospitalized-patient-trajectory-model]
+            [code on GitHub]
         </a>        
         &#8226;
         <a href="{static}/papers/VisaniEtAl_MLHC_2021_poster.pdf">
             [poster PDF]
         </a> 
+        &#8226;
+        <a href="https://twitter.com/mike_c_hughes/status/1423659261993885701">
+            [Twitter thread]
+        </a>        
     </p>
 </div>
 

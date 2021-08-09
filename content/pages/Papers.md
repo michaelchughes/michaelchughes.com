@@ -96,6 +96,34 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
     </p>
 </div>
 
+
+<div class="list-group-item">
+    <a href="{static}/papers/WangHuangEtAl_UIST_2021.pdf">
+    <h4 class="list-group-item-heading">
+    </h4>
+    <p class="list-group-item-text">
+        Liang Wang, Zhe Huang, Ziyu Zhou, Devon McKeon, Giles Blaney, Michael C. Hughes, and Robert J. K. Jacob
+    </p>
+    <p class="list-group-item-text"><i>
+        ACM Symposium on User Interface Software and Technology (UIST)
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="{static}/papers/WangHuangEtAl_UIST_2021.pdf">
+            [paper PDF]
+        </a> 
+        &#8226;
+        <a href="https://TMED.cs.tufts.edu">
+            [dataset: coming soon]
+        </a>
+        &#8226;        
+        <a href="#">
+            [official listing on ACM: coming soon]
+        </a>
+    </p>
+</div>
+
 <div class="list-group-item">
     <a href="{static}/papers/WojnowiczEtAl_TPM_2021.pdf">
     <h4 class="list-group-item-heading">

@@ -28,7 +28,7 @@ Second, I'm interested in several exciting clinical applications of these techni
 * predicting deterioration and need for interventions in the Intensive Care Unit (ICU) (see our [CHIL 2020 paper]({static}/papers/WangMcDermottEtAl_CHIL_2020.pdf) and [IMLH 2021 workshop paper]({static}/papers/RathHughes_IMLH_2021.pdf))
 * forecasting demand for hospital resources during the COVID-19 pandemic (see our [MLHC 2021 paper]({static}/papers/VisaniEtAl_MLHC_2021.pdf))
 * automating preliminary diagnosis of heart disease using echocardiograms (see our [MLHC 2021 paper]({static}/papers/HuangEtAl_MLHC_2021.pdf))
-* training models that generalize well as underlying data systems change (see our [MLHC 2019 paper]({static}/papers/NestorEtAl_MLHC_2019.pdf))
+* training models that generalize well across dataset shift or across subjects (see our [MLHC 2019 paper]({static}/papers/NestorEtAl_MLHC_2019.pdf) or a non-medical take in our [UIST 2021 paper]({static}/papers/WangHuangEtAl_UIST_2021.pdf))
 * recommending stable antidepressants personalized to patients with major depression (see our [JAMA Network Open 2020 journal paper]({static}/papers/HughesPradierRossEtAl_JAMANetworkOpen_2020.pdf))
 
 For more, see my [Research page]({static}/research.html)

@@ -8,6 +8,24 @@
   url: ""
   displaytype: none
 
+- title: Easy Variational Inference for Categorical Observations via a New View of Diagonal Orthant Probit Models
+  authors: "Michael T. Wojnowicz, Shuchin Aeron, Eric Miller, and Michael C. Hughes"
+  key: wojnowicz2021easy
+  year: 2021
+  venuetype: workshop
+  venue: Tractable Probabilistic Modeling workshop at UAI
+  url: "https://www.michaelchughes.com/papers/WojnowiczEtAl_TPM_2021.pdf"
+  displaytype: preprint
+
+- title: Optimizing Clinical Early Warning Systems to Meet False Alarm Constraints
+  authors: "Preetish Rath and Michael C. Hughes"
+  key: rath2021falsealarm
+  year: 2021
+  venuetype: workshop
+  venue: Interpretable Machine Learning for Healthcare (IMLH) workshop at ICML 2021
+  url: "https://www.michaelchughes.com/papers/RathHughes_IMLH_2021.pdf"
+  displaytype: preprint
+
 - title: Prediction-Constrained Hidden Markov Models for Semi-Supervised Classification 
   authors: "Gabriel Hope\\textsuperscript{d}, Michael C. Hughes, Finale Doshi-Velez, and Erik B. Sudderth"
   key: hope2021pchmm
@@ -17,13 +35,22 @@
   url: ""
   displaytype: none
 
-- title: Taming fNIRS-based BCI Input
+- title: Evaluating the Use of Reconstruction Error for Novelty Localization
+  authors: "Patrick Feeney\\textsuperscript{d} and Michael C. Hughes"
+  key: feeney2021saliency
+  year: 2021
+  venuetype: workshop
+  venue: Uncertainty and Robustness in Deep Learning (UDL) workshop at ICML 2021
+  url: "https://www.michaelchughes.com/papers/FeeneyHughes_UDL_2021.pdf"
+  displaytype: none
+
+- title: Taming fNIRS-based BCI Input for Beter Calibration and Broader Use
   authors: "Liang Wang\\textsuperscript{d}, Zhe Huang \\textsuperscript{d}, Ziyu Zhou, Devon McKeon, Giles Blaney, Michael C. Hughes, and Robert J. K. Jacob"
   key: wang2021fnirs
   year: 2021
   venuetype: conference
   venue: "ACM Symposium on User Interface Software and Technology (UIST)"
-  url: ""
+  url: "https://www.michaelchughes.com/papers/WangHuangEtAl_UIST_2021.pdf"
   displaytype: highlight
 
 - title: A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aortic Stenosis from Echocardiograms
@@ -41,7 +68,7 @@
   year: 2021
   venuetype: conference
   venue: "Machine Learning for Healthcare (MLHC)"
-  url: "https://www.michaelchughes.com/papers/VisaniEtAl_arXiv_2021.pdf"
+  url: "https://www.michaelchughes.com/papers/VisaniEtAl_MLHC_2021.pdf"
   displaytype: highlight
 
 - title:  Stochastic Iterative Graph Matching 

@@ -175,10 +175,12 @@ sections:
           - "Team at Arizone State: Chitta Baral (CSE), Subbarao Kambhampati (CSE)"
 
       - date: "5/1/21 - 4/30/22"
-        topic: "A Benchmark De-identified Echocardiogram Database for Studying Automated Diagnoses"
-        about: "Pilot Grant from Tufts Clinical and Translational Science Institute (CTSI)"
+        topic: "\\href{https://www.tuftsctsi.org/funding-opportunities/tufts-ctsi-pilot-studies-program/pilot-studies-grant-awardees/}{A Benchmark De-identified Echocardiogram Database}"
+        about: "Pilot Grant from Tufts CTSI"
         notes:
+          - "Full title: A Benchmark De-identified Echocardiogram Database for Studying Automated Diagnoses"
           - "Co-Investigators: Benjamin Wessler (PI)"
+          - "Tufts CTSI = Clinical and Translational Science Institute"
 
       - date: "1/1/21 - 12/31/21"
         topic: "Estimating the societal value of COVID-19 therapeutics"

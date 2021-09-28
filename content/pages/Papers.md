@@ -12,6 +12,32 @@ This page contains *highlighted* publications from my group. See the complete li
 
 ### 2021
 
+
+<div class="list-group-item">
+    <a href="#">
+    <h4 class="list-group-item-heading">
+        Dynamical Wasserstein Barycenters for Time-series Modeling
+    </h4>
+    <p class="list-group-item-heading">
+        Kevin C Cheng, Shuchin Aeron, Michael C. Hughes, and Eric Miller
+    </p>
+    <p class="list-group-item-text"><i>
+        To appear in Neural Information Processing Systems (NeurIPS), 2021
+    </i></p>
+    <p class="list-group-item-text"><span>
+        Coming soon:
+        &#8226;
+        <a href="#">
+            [paper PDF]
+        </a> 
+        &#8226;
+        <a href="https://openreview.net/forum?id=QE_h_FgqdEu">
+            [OpenReview]
+        </a>
+    </p>
+</div>
+
+
 <div class="list-group-item">
     <a href="{static}/papers/HuangEtAl_MLHC_2021.pdf">
     <h4 class="list-group-item-heading">
@@ -100,6 +126,7 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
 <div class="list-group-item">
     <a href="{static}/papers/WangHuangEtAl_UIST_2021.pdf">
     <h4 class="list-group-item-heading">
+        Taming fNIRS-based BCI Input for Beter Calibration and Broader Use
     </h4>
     <p class="list-group-item-text">
         Liang Wang, Zhe Huang, Ziyu Zhou, Devon McKeon, Giles Blaney, Michael C. Hughes, and Robert J. K. Jacob
@@ -114,7 +141,7 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
             [paper PDF]
         </a> 
         &#8226;
-        <a href="https://TMED.cs.tufts.edu">
+        <a href="https://tufts-hci-lab.github.io/code_and_datasets/">
             [dataset: coming soon]
         </a>
         &#8226;        

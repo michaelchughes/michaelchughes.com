@@ -1,11 +1,28 @@
+- title: Dynamical Wasserstein Barycenters for Time-series Modeling
+  authors: "Kevin C Cheng, Shuchin Aeron, Michael C. Hughes, and Eric Miller"
+  key: chengDynamicalWassersteinBarycenters2021
+  year: 2021
+  venuetype: conference
+  venue: To appear in Neural Information Processing Systems (NeurIPS)
+  url: ""
+  displaytype: highlight
+
+- title: "The role of machine learning in clinical research: transforming the future of evidence generation"
+  authors: "E. Hope Weissler, Tristan Naumann, Tomas Andersson, Rajesh Ranganath, Olivier Elemento, Yuan Luo, Daniel F. Freitag, James Benoit, Michael C. Hughes, Faisal Khan, Paul Slater, Khader Shameer, Matthew Roe, Emmette Hutchison, Scott H. Kollins, Uli Broedl, Zhaoling Meng, Jennifer L. Wong, Lesley Curtis, Erich Huang and Marzyeh Ghassemi"
+  key: weissler2021trials
+  year: 2021
+  venuetype: journal
+  venue: Trials
+  url: "https://doi.org/10.1186/s13063-021-05489-x"
+  displaytype: none
 
 - title: "Optimizing for Interpretability in Deep Neural Networks with Simulable Decision Trees"
   authors: "Mike Wu\\textsuperscript{d}, Sonali Parbhoo, Michael C. Hughes, Volker Roth, and Finale Doshi-Velez"
   key: wu2021simulable
   year: 2021
   venuetype: journal
-  venue: "To appear in Journal of Artificial Intelligence Research (JAIR)"
-  url: ""
+  venue: "Journal of Artificial Intelligence Research (JAIR)"
+  url: "https://www.jair.org/index.php/jair/article/view/12558"
   displaytype: none
 
 - title: Easy Variational Inference for Categorical Observations via a New View of Diagonal Orthant Probit Models

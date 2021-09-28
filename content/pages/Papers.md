@@ -132,7 +132,7 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
         Liang Wang, Zhe Huang, Ziyu Zhou, Devon McKeon, Giles Blaney, Michael C. Hughes, and Robert J. K. Jacob
     </p>
     <p class="list-group-item-text"><i>
-        ACM Symposium on User Interface Software and Technology (UIST)
+        ACM Symposium on User Interface Software and Technology (UIST), 2021
     </i></p>
     </a>
     <p class="list-group-item-text"><span>
@@ -180,7 +180,7 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
         Linfeng Liu, Michael C. Hughes, Soha Hassoun, and Liping Liu
     </p>
     <p class="list-group-item-text"><i>
-        International Conference of Machine Learning (ICML)
+        International Conference of Machine Learning (ICML), 2021
     </i></p>
     </a>
     <p class="list-group-item-text"><span>

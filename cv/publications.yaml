@@ -1,5 +1,14 @@
+- title: "The Tufts fNIRS Mental Workload Dataset \\& Benchmark for Brain-Computer Interfaces that Generalize"
+  authors: "Zhe Huang\\textsuperscript{d}, Liang Wang\\textsuperscript{d}, Giles Blaney, Christopher Slaughter\\textsuperscript{u}, Devon McKeon, Ziyu Zhou, Robert Jacob, and Michael C. Hughes"
+  key: huangTuftsFNIRS2MW2021
+  year: 2021
+  venuetype: conference
+  venue: "To appear in Neural Information Processing Systems (NeurIPS) Track on Datasets and Benchmarks"
+  url: "https://openreview.net/pdf?id=QzNHE7QHhut"
+  displaytype: highlight
+
 - title: Dynamical Wasserstein Barycenters for Time-series Modeling
-  authors: "Kevin C Cheng, Shuchin Aeron, Michael C. Hughes, and Eric Miller"
+  authors: "Kevin C Cheng\\textsuperscript{d}, Shuchin Aeron, Michael C. Hughes, and Eric Miller"
   key: chengDynamicalWassersteinBarycenters2021
   year: 2021
   venuetype: conference

@@ -14,10 +14,11 @@ This page contains *highlighted* publications from my group. See the complete li
 
 
 <div class="list-group-item">
-    <a href="#">
+    <a href="https://arxiv.org/abs/2110.06741">
     <h4 class="list-group-item-heading">
         Dynamical Wasserstein Barycenters for Time-series Modeling
     </h4>
+    </a>
     <p class="list-group-item-heading">
         Kevin C Cheng, Shuchin Aeron, Michael C. Hughes, and Eric Miller
     </p>
@@ -25,14 +26,49 @@ This page contains *highlighted* publications from my group. See the complete li
         To appear in Neural Information Processing Systems (NeurIPS), 2021
     </i></p>
     <p class="list-group-item-text"><span>
-        Coming soon:
         &#8226;
-        <a href="#">
-            [paper PDF]
+        <a href="https://arxiv.org/abs/2110.06741">
+            [arXiv]
         </a> 
+        &#8226;
+        <a href="https://neurips.cc/Conferences/2021/ScheduleMultitrack?event=27360">
+            [link to event on NeurIPS.cc]
+        </a>
         &#8226;
         <a href="https://openreview.net/forum?id=QE_h_FgqdEu">
             [OpenReview]
+        </a>
+        &#8226;
+        <a href="https://github.com/kevin-c-cheng/DynamicalWassBarycenters_Gaussian">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="https://openreview.net/pdf?id=QzNHE7QHhut">
+    <h4 class="list-group-item-heading">
+        The Tufts fNIRS Mental Workload Dataset & Benchmark for Brain-Computer Interfaces that Generalize
+    </h4>
+    </a>
+    <p class="list-group-item-heading">
+Zhe Huang, <a href="https://tufts-hci-lab.github.io/people/Leon_Wang.html">Liang Wang</a>, Giles Blaney, <a href="https://www.linkedin.com/in/christopher-slaughter-bb51591a3/">Christopher Slaughter</a>, Devon McKeon, Ziyu Zhou, <a href="https://tufts-hci-lab.github.io/">Robert Jacob</a>, Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        To appear in <a href="https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks">Neural Information Processing Systems Track on Datasets and Benchmarks (NeurIPS D&B)</a>, 2021
+    </i></p>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://openreview.net/pdf?id=QzNHE7QHhut">
+            [PDF on OpenReview]
+        </a>
+        &#8226;
+        <a href="https://tufts-hci-lab.github.io/code_and_datasets/fNIRS2MW.html">
+            [Dataset]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/fNIRS-mental-workload-classifiers">
+            [code on GitHub]
         </a>
     </p>
 </div>

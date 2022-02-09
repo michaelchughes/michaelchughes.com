@@ -120,6 +120,11 @@ sections:
   - name: Honors and Awards
     type: experience
     items:
+      - date: 2021
+        about: "Best Poster Award \\href{http://roseyu.com/time-series-workshop/}{Time Series Workshop @ ICML 2021}"
+        notes:
+          - "Awarded for \\href{https://www.michaelchughes.com/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf}{our work on Prediction-Constrained Hidden markov models}"
+
       - date: 2020
         about: "Top 10 Percent Reviewer Award, \\href{https://nips.cc/Conferences/2020/Reviewers}{NeurIPS 2020}"
         notes:

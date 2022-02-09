@@ -1,9 +1,27 @@
+- title: "Optimizing Early Warning Classifiers to Control False Alarms via a Minimum Precision Constraint"
+  authors: "Preetish Rath\\textsuperscript{d} and Michael C. Hughes"
+  key: rathOptimizingEarlyWarning2022
+  year: 2022
+  venuetype: conference
+  venue: "Artificial Intelligence and Statistics (AISTATS)"
+  url: "#"
+  displaytype: highlight
+
+- title: "Learning Consistent Deep Generative Models from Sparsely Labeled Data"
+  authors: "Gabriel Hope\\textsuperscript{d}, Madina Abdrakhmanova, Xiaoyin Chen, Michael C. Hughes, and Erik B. Sudderth"
+  key: hopeConsistentDeepGenerative2022
+  year: 2022
+  venuetype: workshop
+  venue: "Advances in Approximate Bayesian Inference (AABI)"
+  url: "https://openreview.net/pdf?id=QE_h_FgqdEu"
+  displaytype: none
+
 - title: "The Tufts fNIRS Mental Workload Dataset \\& Benchmark for Brain-Computer Interfaces that Generalize"
   authors: "Zhe Huang\\textsuperscript{d}, Liang Wang\\textsuperscript{d}, Giles Blaney, Christopher Slaughter\\textsuperscript{u}, Devon McKeon, Ziyu Zhou, Robert Jacob, and Michael C. Hughes"
   key: huangTuftsFNIRS2MW2021
   year: 2021
   venuetype: conference
-  venue: "To appear in Neural Information Processing Systems (NeurIPS) Track on Datasets and Benchmarks"
+  venue: "Neural Information Processing Systems (NeurIPS) Track on Datasets and Benchmarks"
   url: "https://openreview.net/pdf?id=QzNHE7QHhut"
   displaytype: highlight
 
@@ -12,7 +30,7 @@
   key: chengDynamicalWassersteinBarycenters2021
   year: 2021
   venuetype: conference
-  venue: To appear in Neural Information Processing Systems (NeurIPS)
+  venue: Neural Information Processing Systems (NeurIPS)
   url: ""
   displaytype: highlight
 

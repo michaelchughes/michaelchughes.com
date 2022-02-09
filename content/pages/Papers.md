@@ -8,10 +8,62 @@ External links:
 &#8226;
 [[My ORCID iD Profile](https://orcid.org/0000-0003-4859-7400)]
 
-This page contains *highlighted* publications from my group. See the complete list in my [Curriculum Vitae]({static}/cv.html)
+This page contains most publications from my group. See the complete list in my [Curriculum Vitae]({static}/cv.html)
+
+### 2022
+
+<div class="list-group-item">
+    <a href="#">
+    <h4 class="list-group-item-heading">
+        Optimizing Early Warning Classifiers to Control False Alarms via a Minimum Precision Constraint 
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Preetish Rath and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="http://www.approximateinference.org/accepted/">
+            To appear at Artificial Intelligence & Statistics (AISTATS), 2021.
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="#">
+            <i>PDF coming soon</i>
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="https://openreview.net/forum?id=QE_h_FgqdEu">
+    <h4 class="list-group-item-heading">
+        Learning Consistent Deep Generative Models from Sparsely Labeled Data
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Gabriel Hope, Madina Abdrakhmanova, Xiaoyin Chen, Michael C. Hughes, and Erik B. Sudderth
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="http://www.approximateinference.org/accepted/">
+        4th Symposium on Advances in Approximate Bayesian Inference (AABI 2022)
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="https://openreview.net/forum?id=QE_h_FgqdEu">
+            [PDF on OpenReview]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/pdf/2012.06718.pdf">
+            [older version on arXiv]
+        </a>
+        <a href="https://drive.google.com/file/d/1KMH79LLqe5Agoj7Roc4awwjqKFLiiyi8/view">
+            [poster PDF on GDrive]
+        </a>
+    </p>
+</div>
 
 ### 2021
-
 
 <div class="list-group-item">
     <a href="https://arxiv.org/abs/2110.06741">
@@ -23,24 +75,24 @@ This page contains *highlighted* publications from my group. See the complete li
         Kevin C Cheng, Shuchin Aeron, Michael C. Hughes, and Eric Miller
     </p>
     <p class="list-group-item-text"><i>
-        To appear in Neural Information Processing Systems (NeurIPS), 2021
+        Neural Information Processing Systems (NeurIPS), 2021
     </i></p>
     <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://papers.nips.cc/paper/2021/file/ebb71045453f38676c40deb9864f811d-Paper.pdf">
+            [PDF in NeurIPS proceedings]
+        </a>
+        &#8226;
+        <a href="https://github.com/kevin-c-cheng/DynamicalWassBarycenters_Gaussian">
+            [Code on GitHub]
+        </a>
         &#8226;
         <a href="https://arxiv.org/abs/2110.06741">
             [arXiv]
         </a> 
         &#8226;
-        <a href="https://neurips.cc/Conferences/2021/ScheduleMultitrack?event=27360">
-            [link to event on NeurIPS.cc]
-        </a>
-        &#8226;
         <a href="https://openreview.net/forum?id=QE_h_FgqdEu">
-            [OpenReview]
-        </a>
-        &#8226;
-        <a href="https://github.com/kevin-c-cheng/DynamicalWassBarycenters_Gaussian">
-            [code on GitHub]
+            [PDF on OpenReview]
         </a>
     </p>
 </div>
@@ -55,7 +107,7 @@ This page contains *highlighted* publications from my group. See the complete li
 Zhe Huang, <a href="https://tufts-hci-lab.github.io/people/Leon_Wang.html">Liang Wang</a>, Giles Blaney, <a href="https://www.linkedin.com/in/christopher-slaughter-bb51591a3/">Christopher Slaughter</a>, Devon McKeon, Ziyu Zhou, <a href="https://tufts-hci-lab.github.io/">Robert Jacob</a>, Michael C. Hughes
     </p>
     <p class="list-group-item-text"><i>
-        To appear in <a href="https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks">Neural Information Processing Systems Track on Datasets and Benchmarks (NeurIPS D&B)</a>, 2021
+        <a href="https://neurips.cc/Conferences/2021/CallForDatasetsBenchmarks">Neural Information Processing Systems Track on Datasets and Benchmarks (NeurIPS D&B)</a>, 2021
     </i></p>
     <p class="list-group-item-text"><span>
         &#8226;
@@ -68,7 +120,18 @@ Zhe Huang, <a href="https://tufts-hci-lab.github.io/people/Leon_Wang.html">Liang
         </a>
         &#8226;
         <a href="https://github.com/tufts-ml/fNIRS-mental-workload-classifiers">
-            [code on GitHub]
+            [Code on GitHub]
+        </a>
+        &#8226;
+        <a href="https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/bd686fd640be98efaae0091fa301e613-Paper-round2.pdf">
+            [PDF in NeurIPS proceedings]
+        </a>
+        &#8226;
+        <a href="{static}/papers/HuangWangEtAl_NeurIPSDB_2021_poster.pdf">
+            [poster PDF]
+        </a> 
+        <a href="https://twitter.com/mike_c_hughes/status/1469333435466539014">
+            [Twitter thread]
         </a>
     </p>
 </div>
@@ -362,26 +425,6 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
 </div>
 
 ### 2020
-
-<div class="list-group-item">
-    <a href="https://arxiv.org/pdf/2012.06718.pdf">
-    <h4 class="list-group-item-heading">
-        Learning Consistent Deep Generative Models from Sparse Data via Prediction Constraints
-    </h4>
-    <p class="list-group-item-text">
-        Gabriel Hope, Madina Abdrakhmanova, Xiaoyin Chen, Michael C. Hughes, and Erik B. Sudderth
-    </p>
-    <p class="list-group-item-text"><i>
-        unpublished preprint
-    </i></p>
-    </a>
-    <p class="list-group-item-text"><span>
-        &#8226;
-        <a href="https://arxiv.org/pdf/2012.06718.pdf">
-            [paper PDF on arXiv]
-        </a>
-    </p>
-</div>
 
 <div class="list-group-item">
   <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2766073">

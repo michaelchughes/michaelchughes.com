@@ -16,19 +16,18 @@ My lab pursues advances to core machine learning methods as well as high-impact 
 
 First, I'm interested in fundamental problems in statistical machine learning:
 
-* probabilistic models for multivariate time-series with irregular or missing data
-* scalable inference for latent variable models (see our [AABI 2019 paper]({static}/papers/ZhangHughes_AABI_2019.pdf))
-* effective semi-supervised learning with latent variable models (see our [AISTATS 2018 paper]({static}/papers/HughesEtAl_AISTATS_2018.pdf), [Time Series Workshop 2021 paper]({static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf)), and [arXiv preprint from 2020](https://arxiv.org/pdf/2012.06718.pdf))
-* Bayesian nonparametric approaches to growing model complexity as data demands (see our [BNPy Python package](https://github.com/bnpy/bnpy) and [NeurIPS 2015 paper]({static}/papers/HughesStephensonSudderth_NIPS_2015.pdf))
-* model-based reinforcement learning with open-world, partially-observable state (see our [AISTATS 2020 paper]({static}/papers/FutomaHughesDoshiVelez_AISTATS_2020.pdf))
-* optimizing deep learning models to be more interpretable (see our [AAAI 2020]({static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf) and [AAAI 2018](https://arxiv.org/pdf/1711.06178.pdf) papers)
+* probabilistic models for multivariate time-series (see papers from [NeurIPS 2021](https://papers.nips.cc/paper/2021/file/ebb71045453f38676c40deb9864f811d-Paper.pdf) or [AOAS 2014](https://www.michaelchughes.com/papers/FoxHughesSudderthJordan_AOAS_2014.pdf))
+* semi-supervised learning with generative models (see papers from [AISTATS 2018]({static}/papers/HughesEtAl_AISTATS_2018.pdf), [Time Series Workshop 2021]({static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf), and [AABI 2022](https://openreview.net/pdf?id=pmLjKZsCvPt))
+* optimizing deep learning to be more task-oriented (see our [AISTATS 2022 paper]({static/papers/RathHughes_AISTATS_2022.pdf})) and interpretable (see our [AAAI 2020]({static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf) and [AAAI 2018](https://arxiv.org/pdf/1711.06178.pdf) papers)
+* generalizing across subjects given limited data (see papers at [UIST 2021 paper]({static}/papers/WangHuangEtAl_UIST_2021.pdf) and [NeurIPS 2021 D&B](https://openreview.net/pdf?id=QzNHE7QHhut))
+* generalizing across dataset shift (see our [MLHC 2019 paper]({static}/papers/NestorEtAl_MLHC_2019.pdf))
+* Bayesian nonparametrics for adapting model complexity (see our [BNPy Python package](https://github.com/bnpy/bnpy) and [NeurIPS 2015 paper]({static}/papers/HughesStephensonSudderth_NIPS_2015.pdf))
 
-Second, I'm interested in several exciting clinical applications of these techniques:
+Second, I pursue clinical and scientific applications of these techniques:
 
-* predicting deterioration and need for interventions in the Intensive Care Unit (ICU) (see our [CHIL 2020 paper]({static}/papers/WangMcDermottEtAl_CHIL_2020.pdf) and [IMLH 2021 workshop paper]({static}/papers/RathHughes_IMLH_2021.pdf))
 * forecasting demand for hospital resources during the COVID-19 pandemic (see our [MLHC 2021 paper]({static}/papers/VisaniEtAl_MLHC_2021.pdf))
 * automating preliminary diagnosis of heart disease using echocardiograms (see our [MLHC 2021 paper]({static}/papers/HuangEtAl_MLHC_2021.pdf))
-* training models that generalize well across dataset shift or across subjects (see our [MLHC 2019 paper]({static}/papers/NestorEtAl_MLHC_2019.pdf) or a non-medical take in our [UIST 2021 paper]({static}/papers/WangHuangEtAl_UIST_2021.pdf))
+* predicting deterioration and need for interventions in the Intensive Care Unit (ICU) (see our [CHIL 2020 paper]({static}/papers/WangMcDermottEtAl_CHIL_2020.pdf) and [MIMIC-Extract GitHub code release](https://github.com/MLforHealth/MIMIC_Extract))
 * recommending stable antidepressants personalized to patients with major depression (see our [JAMA Network Open 2020 journal paper]({static}/papers/HughesPradierRossEtAl_JAMANetworkOpen_2020.pdf))
 
 For more, see my [Research page]({static}/research.html)
@@ -37,6 +36,32 @@ For more, see my [Research page]({static}/research.html)
 ### News
 
 <ul class="list-group">
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Feb 2021] Paper to appear at AISTATS 2022
+        </h4>
+        <ul>
+            <li> <a href="#">
+            Optimizing Early Warning Classifiers to Control False Alarms via a Minimum Precision Constraint</a>
+            </li>
+            <ul>
+                <li> Led by PhD student Preetish Rath
+                </li>
+            </ul>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Dec 2021] Two papers on time-series appearing at NeurIPS 2021
+        </h4>
+        <ul>
+            <li> <a href="https://papers.nips.cc/paper/2021/file/ebb71045453f38676c40deb9864f811d-Paper.pdf">
+                Dynamical Wasserstein Barycenters for Time-Series Modeling [PDF]
+            </a></li>
+            <li> In the Datasets Track: <a href="https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/bd686fd640be98efaae0091fa301e613-Paper-round2.pdf">The Tufts fNIRS Mental Workload Dataset & Benchmark for Brain-Computer Interfaces that Generalize [PDF] </a>
+            </li>
+        </ul>
+    </li>
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
         [Aug 2021] Two papers from HughesLab appearing at MLHC 2021
@@ -218,7 +243,7 @@ For more, see my [Research page]({static}/research.html)
             <li>"Scalable and Reliable Variational Inference for Dirichlet Process Clustering with Sparse Assignments"
             </li>
             <li>
-            "Venue: \\href{https://www.stats.ox.ac.uk/bnp12/programme.html}{12th International Conference on Bayesian Nonparametrics}"
+            Venue: <a href="https://www.stats.ox.ac.uk/bnp12/programme.html">12th International Conference on Bayesian Nonparametrics</a>
             </li>
         </ul>
     </li>

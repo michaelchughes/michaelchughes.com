@@ -120,6 +120,11 @@ sections:
   - name: Honors and Awards
     type: experience
     items:
+      - date: 2022
+        about: "Top 10 Percent Reviewer Award, \\href{https://virtual.aistats.org/Conferences/2022/Reviewers}{AISTATS 2022}"
+        notes:
+          - "Recognized as one of top 10 percent of all 2500 expert reviewers at a top-tier international machine learning conference."
+
       - date: 2021
         about: "Best Poster Award \\href{http://roseyu.com/time-series-workshop/}{Time Series Workshop @ ICML 2021}"
         notes:

@@ -8,12 +8,12 @@ External links:
 &#8226;
 [[My ORCID iD Profile](https://orcid.org/0000-0003-4859-7400)]
 
-This page contains most publications from my group. See the complete list in my [Curriculum Vitae]({static}/cv.html)
+This page contains select publications from my group. See the complete list in my [Curriculum Vitae]({static}/cv.html)
 
 ### 2022
 
 <div class="list-group-item">
-    <a href="#">
+    <a href="{static}/papers/RathHughes_AISTATS_2022.pdf">
     <h4 class="list-group-item-heading">
         Optimizing Early Warning Classifiers to Control False Alarms via a Minimum Precision Constraint 
     </h4>
@@ -22,20 +22,28 @@ This page contains most publications from my group. See the complete list in my 
         Preetish Rath and Michael C. Hughes
     </p>
     <p class="list-group-item-text"><i>
-        <a href="http://www.approximateinference.org/accepted/">
-            To appear at Artificial Intelligence & Statistics (AISTATS), 2021.
+        <a href="https://aistats.org/aistats2022/">
+            To appear at Artificial Intelligence & Statistics (AISTATS), 2022.
         </a>
     </i></p>
     </a>
     <p class="list-group-item-text"><span>
-        <a href="#">
-            <i>PDF coming soon</i>
+        <a href="{static}/papers/RathHughes_AISTATS_2022.pdf">
+            <i>[paper PDF]</i>
         </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/false-alarm-control/">
+            [code on GitHub]
+        </a>
+        &#8226;
+        <a href="{static}/papers/RathHughes_IMLH_2021.pdf">
+            [earlier workshop paper from IMLH 2021]
+        </a>      
     </p>
 </div>
 
 <div class="list-group-item">
-    <a href="https://openreview.net/forum?id=QE_h_FgqdEu">
+    <a href="https://openreview.net/forum?id=pmLjKZsCvPt">
     <h4 class="list-group-item-heading">
         Learning Consistent Deep Generative Models from Sparsely Labeled Data
     </h4>
@@ -50,13 +58,14 @@ This page contains most publications from my group. See the complete list in my 
     </i></p>
     </a>
     <p class="list-group-item-text"><span>
-        <a href="https://openreview.net/forum?id=QE_h_FgqdEu">
+        <a href="https://openreview.net/forum?id=pmLjKZsCvPt">
             [PDF on OpenReview]
         </a>
         &#8226;
         <a href="https://arxiv.org/pdf/2012.06718.pdf">
             [older version on arXiv]
         </a>
+        &#8226;
         <a href="https://drive.google.com/file/d/1KMH79LLqe5Agoj7Roc4awwjqKFLiiyi8/view">
             [poster PDF on GDrive]
         </a>
@@ -84,7 +93,7 @@ This page contains most publications from my group. See the complete list in my 
         </a>
         &#8226;
         <a href="https://github.com/kevin-c-cheng/DynamicalWassBarycenters_Gaussian">
-            [Code on GitHub]
+            [code on GitHub]
         </a>
         &#8226;
         <a href="https://arxiv.org/abs/2110.06741">
@@ -291,26 +300,6 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
         <a href="https://github.com/tufts-ml/sigma/">
             [code on GitHub]
         </a>        
-    </p>
-</div>
-
-<div class="list-group-item">
-    <a href="{static}/papers/RathHughes_IMLH_2021.pdf">
-    <h4 class="list-group-item-heading">
-     Optimizing Clinical Early Warning Systems to Meet False Alarm Constraints
-    </h4>
-    <p class="list-group-item-text">
-        Preetish Rath and Michael C. Hughes
-    </p>
-    <p class="list-group-item-text"><i>
-        Interpretable Machine Learning for Healthcare (IMLH) workshop at ICML 2021
-    </i></p>
-    </a>
-    <p class="list-group-item-text"><span>
-        &#8226;
-        <a href="{static}/papers/RathHughes_IMLH_2021.pdf">
-            [paper PDF]
-        </a>      
     </p>
 </div>
 

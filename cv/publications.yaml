@@ -4,7 +4,7 @@
   year: 2022
   venuetype: conference
   venue: "Artificial Intelligence and Statistics (AISTATS)"
-  url: "#"
+  url: "https://www.michaelchughes.com/papers/RathHughes_AISTATS_2022.pdf"
   displaytype: highlight
 
 - title: "Learning Consistent Deep Generative Models from Sparsely Labeled Data"

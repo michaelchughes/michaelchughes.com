@@ -12,23 +12,22 @@ I did my Ph.D. in CS at Brown University in May 2016, advised by <a href="https:
 
 ### Research Highlights
 
-My lab pursues advances to core machine learning methods as well as high-impact applications.
-
-First, I'm interested in fundamental problems in statistical machine learning:
+First, my lab pursues methodological advances in statistical machine learning:
 
 * probabilistic models for multivariate time-series (see papers from [NeurIPS 2021](https://papers.nips.cc/paper/2021/file/ebb71045453f38676c40deb9864f811d-Paper.pdf) or [AOAS 2014](https://www.michaelchughes.com/papers/FoxHughesSudderthJordan_AOAS_2014.pdf))
-* semi-supervised learning with generative models (see papers from [AISTATS 2018]({static}/papers/HughesEtAl_AISTATS_2018.pdf), [Time Series Workshop 2021]({static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf), and [AABI 2022](https://openreview.net/pdf?id=pmLjKZsCvPt))
-* optimizing deep learning to be more task-oriented (see our [AISTATS 2022 paper]({static/papers/RathHughes_AISTATS_2022.pdf})) and interpretable (see our [AAAI 2020]({static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf) and [AAAI 2018](https://arxiv.org/pdf/1711.06178.pdf) papers)
-* generalizing across subjects given limited data (see papers at [UIST 2021 paper]({static}/papers/WangHuangEtAl_UIST_2021.pdf) and [NeurIPS 2021 D&B](https://openreview.net/pdf?id=QzNHE7QHhut))
-* generalizing across dataset shift (see our [MLHC 2019 paper]({static}/papers/NestorEtAl_MLHC_2019.pdf))
+* semi-supervised learning with generative models ([AISTATS 2018]({static}/papers/HughesEtAl_AISTATS_2018.pdf), [Time Series Workshop 2021]({static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf), and [AABI 2022](https://openreview.net/pdf?id=pmLjKZsCvPt))
+* optimizing early warning classifiers to control false alarms ([AISTATS 2022]({static}/papers/RathHughes_AISTATS_2022.pdf}))
+* optimizing deep learning to be more interpretable ([AAAI 2020]({static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf) and [AAAI 2018](https://arxiv.org/pdf/1711.06178.pdf))
+* generalizing to new subjects given limited data ([UIST 2021]({static}/papers/WangHuangEtAl_UIST_2021.pdf) and [NeurIPS datasets track 2021](https://openreview.net/pdf?id=QzNHE7QHhut))
+* generalizing across dataset shifts (see our [MLHC 2019 paper]({static}/papers/NestorEtAl_MLHC_2019.pdf))
 * Bayesian nonparametrics for adapting model complexity (see our [BNPy Python package](https://github.com/bnpy/bnpy) and [NeurIPS 2015 paper]({static}/papers/HughesStephensonSudderth_NIPS_2015.pdf))
 
-Second, I pursue clinical and scientific applications of these techniques:
+Second, I pursue high-impact clinical and scientific applications of these techniques:
 
-* forecasting demand for hospital resources during the COVID-19 pandemic (see our [MLHC 2021 paper]({static}/papers/VisaniEtAl_MLHC_2021.pdf))
-* automating preliminary diagnosis of heart disease using echocardiograms (see our [MLHC 2021 paper]({static}/papers/HuangEtAl_MLHC_2021.pdf))
-* predicting deterioration and need for interventions in the Intensive Care Unit (ICU) (see our [CHIL 2020 paper]({static}/papers/WangMcDermottEtAl_CHIL_2020.pdf) and [MIMIC-Extract GitHub code release](https://github.com/MLforHealth/MIMIC_Extract))
-* recommending stable antidepressants personalized to patients with major depression (see our [JAMA Network Open 2020 journal paper]({static}/papers/HughesPradierRossEtAl_JAMANetworkOpen_2020.pdf))
+* forecasting demand for hospital resources during the COVID-19 pandemic ([MLHC 2021 paper]({static}/papers/VisaniEtAl_MLHC_2021.pdf))
+* automating preliminary diagnosis of heart disease using echocardiograms ([MLHC 2021 paper]({static}/papers/HuangEtAl_MLHC_2021.pdf))
+* predicting patient risks in the Intensive Care Unit (ICU) ([CHIL 2020 paper]({static}/papers/WangMcDermottEtAl_CHIL_2020.pdf) and [MIMIC-Extract code release](https://github.com/MLforHealth/MIMIC_Extract))
+* recommending stable antidepressants personalized to patients ([JAMA Network Open 2020]({static}/papers/HughesPradierRossEtAl_JAMANetworkOpen_2020.pdf))
 
 For more, see my [Research page]({static}/research.html)
 
@@ -38,10 +37,10 @@ For more, see my [Research page]({static}/research.html)
 <ul class="list-group">
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
-        [Feb 2021] Paper to appear at AISTATS 2022
+        [Feb 2022] Paper to appear at AISTATS 2022
         </h4>
         <ul>
-            <li> <a href="#">
+            <li> <a href="{static}/papers/RathHughes_AISTATS_2022.pdf">
             Optimizing Early Warning Classifiers to Control False Alarms via a Minimum Precision Constraint</a>
             </li>
             <ul>

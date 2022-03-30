@@ -46,19 +46,31 @@ For more, see my [Research page]({static}/research.html)
             <ul>
                 <li> Led by PhD student Preetish Rath
                 </li>
+                <li> See this <a href="https://twitter.com/mike_c_hughes/status/1509177256836489222">Twitter thread overview</a>
+                </li>
             </ul>
         </ul>
     </li>
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
-        [Dec 2021] Two papers on time-series appearing at NeurIPS 2021
+        [Dec 2021] Two papers on time series appearing at NeurIPS 2021
         </h4>
         <ul>
             <li> <a href="https://papers.nips.cc/paper/2021/file/ebb71045453f38676c40deb9864f811d-Paper.pdf">
                 Dynamical Wasserstein Barycenters for Time-Series Modeling [PDF]
             </a></li>
+            <ul>
+                <li> Led by Tufts EE PhD student Kevin Cheng (co-advised)
+                </li>
+            </ul>
             <li> In the Datasets Track: <a href="https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/bd686fd640be98efaae0091fa301e613-Paper-round2.pdf">The Tufts fNIRS Mental Workload Dataset & Benchmark for Brain-Computer Interfaces that Generalize [PDF] </a>
             </li>
+            <ul>
+                <li> Led by Tufts CS PhD student Zhe Huang
+                </li>
+                <li> Featured in <a href="https://now.tufts.edu/articles/getting-better-performance-brains-and-computers">an article on Tufts Now (Feb '22)</a>
+                </li>
+            </ul>
         </ul>
     </li>
     <li class="list-group-item">

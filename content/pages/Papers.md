@@ -29,16 +29,24 @@ This page contains select publications from my group. See the complete list in m
     </a>
     <p class="list-group-item-text"><span>
         <a href="{static}/papers/RathHughes_AISTATS_2022.pdf">
-            <i>[paper PDF]</i>
+            [paper PDF]
         </a>
         &#8226;
         <a href="https://github.com/tufts-ml/false-alarm-control/">
             [code on GitHub]
         </a>
         &#8226;
+        <a href="https://twitter.com/mike_c_hughes/status/1509177256836489222">
+            [Twitter thread]
+        </a>
+        &#8226;
+        <a href="https://virtual.aistats.org/media/aistats-2022/Slides/3351.pdf">
+            [slides PDF]
+        </a>
+        &#8226;
         <a href="{static}/papers/RathHughes_IMLH_2021.pdf">
             [earlier workshop paper from IMLH 2021]
-        </a>      
+        </a>
     </p>
 </div>
 

@@ -16,7 +16,7 @@ First, my lab pursues methodological advances in statistical machine learning:
 
 * probabilistic models for multivariate time-series (see papers from [NeurIPS 2021](https://papers.nips.cc/paper/2021/file/ebb71045453f38676c40deb9864f811d-Paper.pdf) or [AOAS 2014](https://www.michaelchughes.com/papers/FoxHughesSudderthJordan_AOAS_2014.pdf))
 * semi-supervised learning with generative models ([AISTATS 2018]({static}/papers/HughesEtAl_AISTATS_2018.pdf), [Time Series Workshop 2021]({static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf), and [AABI 2022](https://openreview.net/pdf?id=pmLjKZsCvPt))
-* optimizing early warning classifiers to control false alarms ([AISTATS 2022]({static}/papers/RathHughes_AISTATS_2022.pdf}))
+* optimizing early warning classifiers to control false alarms ([AISTATS 2022]({static}/papers/RathHughes_AISTATS_2022.pdf))
 * optimizing deep learning to be more interpretable ([AAAI 2020]({static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf) and [AAAI 2018](https://arxiv.org/pdf/1711.06178.pdf))
 * generalizing to new subjects given limited data ([UIST 2021]({static}/papers/WangHuangEtAl_UIST_2021.pdf) and [NeurIPS datasets track 2021](https://openreview.net/pdf?id=QzNHE7QHhut))
 * generalizing across dataset shifts (see our [MLHC 2019 paper]({static}/papers/NestorEtAl_MLHC_2019.pdf))

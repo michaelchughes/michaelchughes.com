@@ -37,6 +37,23 @@ For more, see my [Research page]({static}/research.html)
 <ul class="list-group">
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
+        [May 2022] Paper to appear at ICML 2022
+        </h4>
+        <ul>
+            <li> <a href="{static}/papers/RathHughes_AISTATS_2022.pdf"> Easy Variational Inference for Categorical Models via an Independent Binary Approximation
+            </li>
+            <ul>
+                <li> Led by <a href="https://scholar.google.com/citations?user=5O4vP3EAAAAJ&hl=en">Mike Wojnowicz</a>, a <a href="https://disc.tufts.edu/">data scientist at Tufts DISC</a>
+                </li>
+                <li><p>
+                    Linear models with categorical outcomes can be tough to fit in Bayesian fashion, especially when number of categories are large. We show how classic Bayesian auxiliary variable methods (probit, logit) for one-hot binary models can be <i>justified</i> via a principled likelihood bound and used to predict truly one-of-K categorical data quickly and accurately.
+                </p>
+                </li>
+            </ul>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
         [Feb 2022] Paper to appear at AISTATS 2022
         </h4>
         <ul>

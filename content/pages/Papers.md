@@ -13,6 +13,37 @@ This page contains select publications from my group. See the complete list in m
 ### 2022
 
 <div class="list-group-item">
+    <a href="{static}/papers/WojnowiczEtAl_ICML_2022.pdf">
+    <h4 class="list-group-item-heading">
+        Easy Variational Inference for Categorical Models via an Independent Binary Approximation
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Michael T. Wojnowicz, Shuchin Aeron, Eric L. Miller, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://icml.cc/Conferences/2022/AcceptedPapersInitial">
+            To appear at International Conference on Machine Learning (ICML), 2022
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="{static}/papers/WojnowiczEtAl_ICML_2022.pdf">
+            [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/categorical-from-binary">
+            [code on GitHub]
+        </a>
+        &#8226;
+        <a href="{static}/papers/WojnowiczEtAl_TPM_2021.pdf">
+            [related workshop paper from UAI TPM 2021]
+        </a>
+    </p>
+</div>
+
+
+<div class="list-group-item">
     <a href="{static}/papers/RathHughes_AISTATS_2022.pdf">
     <h4 class="list-group-item-heading">
         Optimizing Early Warning Classifiers to Control False Alarms via a Minimum Precision Constraint 
@@ -23,7 +54,7 @@ This page contains select publications from my group. See the complete list in m
     </p>
     <p class="list-group-item-text"><i>
         <a href="https://aistats.org/aistats2022/">
-            To appear at Artificial Intelligence & Statistics (AISTATS), 2022.
+            Artificial Intelligence & Statistics (AISTATS), 2022.
         </a>
     </i></p>
     </a>
@@ -89,7 +120,7 @@ This page contains select publications from my group. See the complete list in m
     </h4>
     </a>
     <p class="list-group-item-heading">
-        Kevin C Cheng, Shuchin Aeron, Michael C. Hughes, and Eric Miller
+        Kevin C. Cheng, Shuchin Aeron, Michael C. Hughes, and Eric L. Miller
     </p>
     <p class="list-group-item-text"><i>
         Neural Information Processing Systems (NeurIPS), 2021
@@ -180,6 +211,10 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
             [arXiv]
         </a>
         &#8226;
+        <a href="https://proceedings.mlr.press/v149/huang21a.html">
+            [PMLR]
+        </a>
+        &#8226;
         <a href="https://www.youtube.com/watch?v=VcuSMH_LEzw">
             [spotlight video on Youtube]
         </a>    
@@ -218,6 +253,10 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
         &#8226;
         <a href="https://arxiv.org/abs/2105.00773">
             [arXiv]
+        </a>
+        &#8226;
+        <a href="https://proceedings.mlr.press/v149/visani21a.html">
+            [PMLR]
         </a>
         &#8226;
         <a href="https://www.youtube.com/watch?v=tWYjlMm5G8k">
@@ -273,7 +312,7 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
         Easy Variational Inference for Categorical Observations via a New View of Diagonal Orthant Probit Models
     </h4>
     <p class="list-group-item-text">
-        Michael Wojnowicz, Shuchin Aeron, Eric Miller, and Michael C. Hughes
+        Michael T. Wojnowicz, Shuchin Aeron, Eric L. Miller, and Michael C. Hughes
     </p>
     <p class="list-group-item-text"><i>
         Tractable Probabilistic Modeling workshop at UAI 2021
@@ -296,7 +335,7 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
         Linfeng Liu, Michael C. Hughes, Soha Hassoun, and Liping Liu
     </p>
     <p class="list-group-item-text"><i>
-        International Conference of Machine Learning (ICML), 2021
+        International Conference on Machine Learning (ICML), 2021
     </i></p>
     </a>
     <p class="list-group-item-text"><span>

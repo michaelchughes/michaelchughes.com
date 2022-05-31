@@ -1,3 +1,12 @@
+- title: "Easy Variational Inference for Categorical Models via an Independent Binary Approximation"
+  authors: "Michael T. Wojnowicz, Shuchin Aeron, Eric L. Miller, and Michael C. Hughes"
+  key: wojnowiczEasyVariationalInference2022
+  year: 2022
+  venuetype: conference
+  venue: "International Conference on Machine Learning (ICML)"
+  url: "https://www.michaelchughes.com/papers/WojnowiczEtAl_ICML_2022.pdf"
+  displaytype: highlight
+
 - title: "Optimizing Early Warning Classifiers to Control False Alarms via a Minimum Precision Constraint"
   authors: "Preetish Rath\\textsuperscript{d} and Michael C. Hughes"
   key: rathOptimizingEarlyWarning2022
@@ -53,7 +62,7 @@
   displaytype: none
 
 - title: Easy Variational Inference for Categorical Observations via a New View of Diagonal Orthant Probit Models
-  authors: "Michael T. Wojnowicz, Shuchin Aeron, Eric Miller, and Michael C. Hughes"
+  authors: "Michael T. Wojnowicz, Shuchin Aeron, Eric L. Miller, and Michael C. Hughes"
   key: wojnowicz2021easy
   year: 2021
   venuetype: workshop

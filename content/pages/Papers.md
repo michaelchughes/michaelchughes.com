@@ -32,6 +32,10 @@ This page contains select publications from my group. See the complete list in m
             [paper PDF]
         </a>
         &#8226;
+        <a href="https://arxiv.org/abs/2206.00093">
+            [arXiv]
+        </a> 
+        &#8226;
         <a href="https://github.com/tufts-ml/categorical-from-binary">
             [code on GitHub]
         </a>

@@ -40,7 +40,7 @@ For more, see my [Research page]({static}/research.html)
         [May 2022] Paper to appear at ICML 2022
         </h4>
         <ul>
-            <li> <a href="{static}/papers/RathHughes_AISTATS_2022.pdf"> Easy Variational Inference for Categorical Models via an Independent Binary Approximation
+            <li> <a href="{static}/papers/WojnowiczEtAl_ICML_2022.pdf"> Easy Variational Inference for Categorical Models via an Independent Binary Approximation
             </li>
             <ul>
                 <li> Led by <a href="https://scholar.google.com/citations?user=5O4vP3EAAAAJ&hl=en">Mike Wojnowicz</a>, a <a href="https://disc.tufts.edu/">data scientist at Tufts DISC</a>

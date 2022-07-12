@@ -48,6 +48,36 @@ This page contains select publications from my group. See the complete list in m
 
 
 <div class="list-group-item">
+    <a href="{static}/papers/HuangEtAl_TMED2_DataPerf_2022.pdf">
+    <h4 class="list-group-item-heading">
+        TMED 2: A Dataset for Semi-Supervised Classification of Echocardiograms
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Zhe Huang, Gary Long, Benjamin S. Wessler, and Michael C. Hughes 
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://sites.google.com/view/dataperf2022/home">
+            To appear at "DataPerf: Benchmarking Data for Data-Centric AI" workshop, co-located with ICML 2022
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="{static}/papers/HuangEtAl_TMED2_DataPerf_2022.pdf">
+            [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://TMED.cs.tufts.edu">
+            [dataset: TMED.cs.tufts.edu]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/tmed2-echocardiogram-classifiers">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
     <a href="{static}/papers/RathHughes_AISTATS_2022.pdf">
     <h4 class="list-group-item-heading">
         Optimizing Early Warning Classifiers to Control False Alarms via a Minimum Precision Constraint 
@@ -84,6 +114,36 @@ This page contains select publications from my group. See the complete list in m
         </a>
     </p>
 </div>
+
+
+<div class="list-group-item">
+    <a href="https://arxiv.org/abs/2206.11736">
+    <h4 class="list-group-item-heading">
+        NovelCraft: A Dataset for Novelty Detection and Discovery in Open Worlds
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Patrick Feeney, Sarah Schneider, Panagiotis Lymperopoulos, Liping Liu, Matthias Scheutz, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        Unpublished preprint
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="https://arxiv.org/abs/2206.11736">
+            [paper on arxiv]
+        </a>
+        &#8226;
+        <a href="https://NovelCraft.cs.tufts.edu">
+            [dataset: NovelCraft.cs.tufts.edu]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ai-robotics-group/polycraft-novelty-data/tree/neurips2022">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
+
 
 <div class="list-group-item">
     <a href="https://openreview.net/forum?id=pmLjKZsCvPt">

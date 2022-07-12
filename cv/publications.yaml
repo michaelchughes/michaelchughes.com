@@ -1,3 +1,21 @@
+- title: "TMED 2: A Dataset for Semi-Supervised Classification of Echocardiograms"
+  authors: "Zhe Huang\\textsuperscript{d}, Gary Long, Benjamin S. Wessler, and Michael C. Hughes"
+  key: huangTMED2Dataset2022
+  year: 2022
+  venuetype: workshop
+  venue: "DataPerf: Benchmarking Data for Data-Centric AI, a workshop at ICML 2022 "
+  url: "https://www.michaelchughes.com/papers/HuangEtAl_TMED2_DataPerf_2022.pdf"
+  displaytype: highlight
+
+- title: "NovelCraft: A Dataset for Novelty Detection and Discovery in Open Worlds"
+  authors: "Patrick Feeney\\textsuperscript{d}, Sarah Schneider\\textsuperscript{d}, Panagiotis Lymperopoulos, Liping Liu, Matthias Scheutz, and Michael C. Hughes"
+  key: feeneyNovelCraftDataset2022
+  year: 2022
+  venuetype: preprint
+  venue: "arXiv"
+  url: "https://arxiv.org/pdf/2206.11736.pdf"
+  displaytype: preprint
+
 - title: "Easy Variational Inference for Categorical Models via an Independent Binary Approximation"
   authors: "Michael T. Wojnowicz, Shuchin Aeron, Eric L. Miller, and Michael C. Hughes"
   key: wojnowiczEasyVariationalInference2022
@@ -68,7 +86,7 @@
   venuetype: workshop
   venue: Tractable Probabilistic Modeling workshop at UAI
   url: "https://www.michaelchughes.com/papers/WojnowiczEtAl_TPM_2021.pdf"
-  displaytype: preprint
+  displaytype: none
 
 - title: Optimizing Clinical Early Warning Systems to Meet False Alarm Constraints
   authors: "Preetish Rath and Michael C. Hughes"
@@ -77,7 +95,7 @@
   venuetype: workshop
   venue: Interpretable Machine Learning for Healthcare (IMLH) workshop at ICML 2021
   url: "https://www.michaelchughes.com/papers/RathHughes_IMLH_2021.pdf"
-  displaytype: preprint
+  displaytype: none
 
 - title: Prediction-Constrained Hidden Markov Models for Semi-Supervised Classification 
   authors: "Gabriel Hope\\textsuperscript{d}, Michael C. Hughes, Finale Doshi-Velez, and Erik B. Sudderth"

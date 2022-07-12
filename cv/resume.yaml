@@ -120,6 +120,12 @@ sections:
   - name: Honors and Awards
     type: experience
     items:
+
+      - date: 2022
+        about: "Highlighted Reviewer Award, \\href{https://iclr.cc/Conferences/2022/Reviewers}{ICLR 2022}"
+        notes:
+          - "Recognized as a top reviewer at ICLR, a top-tier international machine learning conference."
+
       - date: 2022
         about: "Top 10 Percent Reviewer Award, \\href{https://virtual.aistats.org/Conferences/2022/Reviewers}{AISTATS 2022}"
         notes:

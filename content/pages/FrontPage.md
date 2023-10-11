@@ -24,10 +24,10 @@ First, my lab pursues methodological advances in statistical machine learning:
 
 Second, I pursue high-impact clinical and scientific applications of these techniques:
 
-* forecasting demand for hospital resources during the COVID-19 pandemic ([MLHC 2021 paper]({static}/papers/VisaniEtAl_MLHC_2021.pdf))
-* automating preliminary diagnosis of heart disease using echocardiograms ([MLHC 2021 paper]({static}/papers/HuangEtAl_MLHC_2021.pdf))
+* automating preliminary diagnosis of heart disease using echocardiograms ([MLHC 2021 paper]({static}/papers/HuangEtAl_MLHC_2021.pdf), [J Am Soc Echo '23](https://www.onlinejase.com/article/S0894-7317\(23\)00014-7/pdf))
 * predicting patient risks in the Intensive Care Unit (ICU) ([CHIL 2020 paper]({static}/papers/WangMcDermottEtAl_CHIL_2020.pdf) and [MIMIC-Extract code release](https://github.com/MLforHealth/MIMIC_Extract))
 * recommending stable antidepressants personalized to patients ([JAMA Network Open 2020]({static}/papers/HughesPradierRossEtAl_JAMANetworkOpen_2020.pdf))
+* forecasting demand for hospital resources during the COVID-19 pandemic ([MLHC 2021 paper]({static}/papers/VisaniEtAl_MLHC_2021.pdf))
 
 For more, see my [Research page]({static}/research.html)
 
@@ -37,7 +37,57 @@ For more, see my [Research page]({static}/research.html)
 <ul class="list-group">
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
-        [May 2022] Paper to appear at ICML 2022
+        [Apr 2023] Fix-A-Step paper selected for oral presentation at AISTATS '23 (top 2% of 1500 reviewed papers)
+        </h4>
+        <ul>
+            <li>Paper: <a href="https://arxiv.org/abs/2208.11870">Fix-A-Step: Effective Semi-supervised Learning from Uncurated Data</a>
+            </li>
+            <li> Led by PhD student Zhe Huang
+            </li>
+            <li> Key contributions from undergraduate Mary-Joy Sidhom
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Jan 2023] Clinical journal publication on automated diagnosis of heart valve disease
+        </h4>
+        <ul>
+            <li> We present a deep learning method for predicting the severity of a common heart valve disease called aortic stenosis given images from a routine echocardiogram
+            </li>
+            <li> We have careful validation both in a new temporal cohort at Tufts and another external cohort of 8500+ images
+            </li>
+            <li> We've also released an open-access dataset: <a href="https://tmed.cs.tufts.edu">TMED-2</a>
+            </li>
+            <li> Among many great co-authors, I especially credit
+                <ul>
+                    <li> Zhe Huang, PhD student : lead the computational aspects</li>
+                    <li> Ben Wessler, MD: cardiologist leading the project
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Nov 2022] Three papers at upcoming workshops at NeurIPS '22
+        </h4>
+        <ul>
+            <li> Kyle Heuton presents a <a href="{static}/papers/HeutonEtAl_GPSpatiotemporalWorkshop_2022.pdf">new Gaussian process model for spatiotemporal forecasting of opioid-related overdose deaths</a>
+            </li>
+            <li> Preetish Rath presents a <a href="{static}/papers/RathEtAl_TS4HWorkshop_2022.pdf">new probabilistic approach for predicting patient outcomes from semi-supervised medical time series with missing features</a>
+            </li>
+            <li> Zhe Huang presents a <a href="{static}/papers/HuangSidhomEtAl_MedNeurIPS_2022.pdf">new way to train semi-supervised deep classifiers for medical images</a> even when unlabeled data differs from labeled data
+            </li>
+                <ul>
+                    <li> Our method, Fix-A-Step, is described in a <a href="https://arxiv.org/abs/2208.11870">longer preprint on arXiv</a></li>
+                    <li> Includes new Heart2Heart benchmark for evaluating models trained in US on patients from France/UK</li>
+                </ul>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [July 2022] Paper at ICML 2022
         </h4>
         <ul>
             <li> <a href="{static}/papers/WojnowiczEtAl_ICML_2022.pdf"> Easy Variational Inference for Categorical Models via an Independent Binary Approximation
@@ -46,7 +96,7 @@ For more, see my [Research page]({static}/research.html)
                 <li> Led by <a href="https://scholar.google.com/citations?user=5O4vP3EAAAAJ&hl=en">Mike Wojnowicz</a>, a <a href="https://disc.tufts.edu/">data scientist at Tufts DISC</a>
                 </li>
                 <li><p>
-                    Linear models with categorical outcomes can be tough to fit in Bayesian fashion, especially when number of categories are large. We show how classic Bayesian auxiliary variable methods (probit, logit) for one-hot binary models can be <i>justified</i> via a principled likelihood bound and used to predict truly one-of-K categorical data quickly and accurately.
+                    Linear models with categorical outcomes can be tough to fit in Bayesian fashion, especially when number of categories are large. We show how classic Bayesian auxiliary variable methods (probit, logit) for one-hot binary models can be <i>justified</i> as principled surrogates of a new class of truly one-of-K categorical models via a likelihood bound. While it has been common for decades to train many simple binary classifiers via a "one vs rest" (aka one vs all) paradigm, the statistical justification for this choice has often been questioned. This work offers a firm foundation for why this independent binary approximation may be successful.
                 </p>
                 </li>
             </ul>
@@ -54,7 +104,7 @@ For more, see my [Research page]({static}/research.html)
     </li>
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
-        [Feb 2022] Paper to appear at AISTATS 2022
+        [Feb 2022] Paper at AISTATS 2022
         </h4>
         <ul>
             <li> <a href="{static}/papers/RathHughes_AISTATS_2022.pdf">

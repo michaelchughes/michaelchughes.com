@@ -1,3 +1,112 @@
+- title: "SINCERE: Supervised Information Noise-Contrastive Estimation REvisited"
+  authors: "Patrick Feeney\\textsuperscript{d} and Michael C. Hughes"
+  key: feeneySINCERE2023
+  year: 2023
+  venuetype: preprint
+  venue: "arXiv"
+  url: "https://arxiv.org/pdf/2309.14277.pdf"
+  displaytype: preprint
+
+- title: "Detecting Heart Disease from Multi-View Ultrasound Images via Supervised Attention Multiple Instance Learning"
+  authors: "Zhe Huang\\textsuperscript{d}, Benjamin S. Wessler, and Michael C. Hughes"
+  key: chengNonParametricDynamicWasserstein2023
+  year: 2023
+  venuetype: conference
+  venue: "Machine Learning for Healthcare Conference (MLHC)"
+  url: "https://arxiv.org/abs/2306.00003"
+  displaytype: highlight
+
+- title: "Non-Parametric and Regularized Dynamical Wasserstein Barycenters for Sequential Observations"
+  authors: "Kevin C. Cheng\\textsuperscript{d}, Shuchin Aeron, Michael C. Hughes, Eric L. Miller"
+  key: chengNonParametricDynamicWasserstein2023
+  year: 2023
+  venuetype: journal
+  venue: "IEEE Transactions on Signal Processing"
+  url: "https://doi.org/10.1109/TSP.2023.3303616"
+  displaytype: highlight
+
+- title: "Approximate inference by broadening the support of the likelihood"
+  authors: "Michael T. Wojnowicz,  Martin D. Buck, Michael C. Hughes"
+  key: wojnowiczSupportBroadening2023
+  year: 2023
+  venuetype: conference
+  venue: "Symposium on Advances in Approximate Bayesian Inference (AABI)"
+  url: "https://openreview.net/forum?id=wSZrMV2akW"
+  displaytype: highlight
+
+- title: "Learning where to intervene with a differentiable top-k operator: Towards data-driven strategies to prevent fatal opioid overdoses"
+  authors: "Kyle Heuton\\textsuperscript{d}, Shikhar Shrestha, Thomas J. Stopka, Michael C Hughes"
+  key: heutonWhereToIntervene2023
+  year: 2023
+  venuetype: workshop
+  venue: "Workshop on Interpretable Machine Learning in Healthcare (IMLH)"
+  url: "https://openreview.net/forum?id=433sWsn7zI"
+  displaytype: none
+
+- title: "Semi-supervised Ordinal Regression via Cumulative Link Models for Predicting In-Hospital Length-of-Stay"
+  authors: "Alexander Arjun Lobo\\textsuperscript{m}, Preetish Rath\\textsuperscript{d}, Michael C Hughes"
+  key: loboOrdinal2023
+  year: 2023
+  venuetype: workshop
+  venue: "Workshop on Interpretable Machine Learning in Healthcare (IMLH)"
+  url: "https://openreview.net/forum?id=pDDKtCklZy"
+  displaytype: none
+
+- title: "NovelCraft: A Dataset for Novelty Detection and Discovery in Open Worlds"
+  authors: "Patrick Feeney\\textsuperscript{d}, Sarah Schneider\\textsuperscript{d}, Panagiotis Lymperopoulos, Liping Liu, Matthias Scheutz, and Michael C. Hughes"
+  key: feeneyNovelCraftDataset2023
+  year: 2023
+  venuetype: journal
+  venue: "Transactions on Machine Learning Research (TMLR)"
+  url: "https://arxiv.org/pdf/2206.11736.pdf"
+  displaytype: highlight
+
+- title: "Fix-A-Step: Semi-supervised Learning from Uncurated Unlabeled Data"
+  authors: "Zhe Huang\\textsuperscript{d}, Mary-Joy Sidhom\\textsuperscript{u}, Benjamin S. Wessler, and Michael C. Hughes"
+  key: huangFixAStep2023
+  year: 2023
+  venuetype: conference
+  venue: "Artificial Intelligence and Statistics (AISTATS)"
+  url: "https://www.michaelchughes.com/papers/HuangSidhomEtAl_AISTATS_2023.pdf"
+  displaytype: highlight
+
+- title: "Automated Detection of Aortic Stenosis using Machine Learning"
+  authors: "Benjamin S. Wessler, Zhe Huang\\textsuperscript{d}, Gary Long, ... and Michael C. Hughes"
+  key: wesslerAorticStenosisML2023
+  year: 2023
+  venuetype: journal
+  venue: "Journal of the American Society of Echocardiography"
+  url: "https://doi.org/10.1016/j.echo.2023.01.006"
+  displaytype: highlight
+
+- title: "Predicting Spatiotemporal Counts of Opioid-related Fatal Overdoses via Zero-Inflated Gaussian Processes"
+  authors: "Kyle Heuton\\textsuperscript{d}, Shikhar Shrestha, Thomas J. Stopka, Jennifer Pustz, Li-Ping Liu, and Michael C. Hughes"
+  key: heutonPredictingSpatiotemporalCounts2022
+  year: 2022
+  venuetype: workshop
+  venue: "NeurIPS Workshop on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems"
+  url: "https://www.michaelchughes.com/papers/HeutonEtAl_GPSpatiotemporalWorkshop_2022.pdf"
+  displaytype: highlight
+
+- title: "Semi-supervised Learning from Uncurated Echocardiogram Images with Fix-A-Step"
+  authors: "Zhe Huang\\textsuperscript{d}, Mary-Joy Sidhom\\textsuperscript{u}, Benjamin S. Wessler, Michael C. Hughes"
+  key: huangSSLUncurated2022
+  year: 2022
+  venuetype: workshop
+  venue: "Medical Imaging Meets Neurips Workshop, 2022"
+  url: "https://www.michaelchughes.com/papers/HuangSidhomEtAl_MedNeurIPS_2022.pdf"
+  displaytype: none
+
+- title: "Prediction-Constrained Markov Models for Medical Time Series with Missing Data and Few Labels"
+  authors: "Preetish Rath\\textsuperscript{d}, Gabriel Hope\\textsuperscript{d}, Kyle Heuton\\textsuperscript{d}, Erik B. Sudderth, and Michael C. Hughes"
+  key: rathPCHMM2022
+  year: 2022
+  venuetype: workshop
+  venue: "Learning from Time Series For Health (TS4H) Workshop at NeurIPS"
+  url: "https://www.michaelchughes.com/papers/RathEtAl_TS4HWorkshop_2022.pdf"
+  displaytype: highlight
+
+
 - title: "TMED 2: A Dataset for Semi-Supervised Classification of Echocardiograms"
   authors: "Zhe Huang\\textsuperscript{d}, Gary Long, Benjamin S. Wessler, and Michael C. Hughes"
   key: huangTMED2Dataset2022
@@ -5,16 +114,8 @@
   venuetype: workshop
   venue: "DataPerf: Benchmarking Data for Data-Centric AI, a workshop at ICML 2022 "
   url: "https://www.michaelchughes.com/papers/HuangEtAl_TMED2_DataPerf_2022.pdf"
-  displaytype: highlight
+  displaytype: none
 
-- title: "NovelCraft: A Dataset for Novelty Detection and Discovery in Open Worlds"
-  authors: "Patrick Feeney\\textsuperscript{d}, Sarah Schneider\\textsuperscript{d}, Panagiotis Lymperopoulos, Liping Liu, Matthias Scheutz, and Michael C. Hughes"
-  key: feeneyNovelCraftDataset2022
-  year: 2022
-  venuetype: preprint
-  venue: "arXiv"
-  url: "https://arxiv.org/pdf/2206.11736.pdf"
-  displaytype: preprint
 
 - title: "Easy Variational Inference for Categorical Models via an Independent Binary Approximation"
   authors: "Michael T. Wojnowicz, Shuchin Aeron, Eric L. Miller, and Michael C. Hughes"
@@ -122,7 +223,7 @@
   venuetype: conference
   venue: "ACM Symposium on User Interface Software and Technology (UIST)"
   url: "https://www.michaelchughes.com/papers/WangHuangEtAl_UIST_2021.pdf"
-  displaytype: highlight
+  displaytype: none
 
 - title: A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aortic Stenosis from Echocardiograms
   authors: "Zhe Huang\\textsuperscript{d}, Gary Long, Benjamin Wessler, and Michael C. Hughes"
@@ -149,7 +250,7 @@
   venuetype: conference
   venue: "International Conference of Machine Learning (ICML)"
   url: "https://arxiv.org/pdf/2106.02206.pdf"
-  displaytype: highlight
+  displaytype: none
 
 - title: "Forecasting COVID-19 Counts At A Single Hospital: A Hierarchical Bayesian Approach"
   authors: "Alexandra Hope Lee\\textsuperscript{b}, Panagiotis Lymperopoulos\\textsuperscript{m}, Joshua T. Cohen, John B. Wong, and Michael C. Hughes"
@@ -158,7 +259,7 @@
   venuetype: workshop
   venue: "ICLR Workshop on Machine Learning for Preventing and Combating Pandemics"
   url: "https://www.michaelchughes.com/papers/LeeEtAl_ICLRWorkshopMLPreventingCombatingPandemics_2021.pdf"
-  displaytype: highlight
+  displaytype: none
 
 - title: Modeling Graph Node Correlations with Neighbor Mixture Models
   authors: "Linfeng Liu\\textsuperscript{d}, Michael C. Hughes, and Li-Ping Liu"
@@ -176,7 +277,7 @@
   venuetype: journal
   venue: "Bioinformatics"
   url: "https://doi.org/10.1093/bioinformatics/btab054"
-  displaytype: highlight
+  displaytype: none
 
 - title: Learning Consistent Deep Generative Models from Sparse Data via Prediction Constraints
   authors: "Gabriel Hope\\textsuperscript{d}, Madina Abdrakhmanova, Xiaoyin Chen, Michael C. Hughes, Erik B. Sudderth"
@@ -194,7 +295,7 @@
   venuetype: journal
   venue: "IEEE Open Journal of Signal Processing"
   url: "https://ieeexplore.ieee.org/abstract/document/9246231"
-  displaytype: highlight
+  displaytype: none
 
 - title: "A Framework for Sensorimotor Cross-Perception and Cross-Behavior Knowledge Transfer for Object Categorization"
   authors: "Gyan Tatiya\\textsuperscript{d}, Ramtin Hosseini\\textsuperscript{d}, Michael C. Hughes, and Jivko Sinapov"
@@ -228,7 +329,7 @@
   key: wang2020mimicExtract
   year: 2020
   venuetype: conference
-  venue: "CHIL 2020: The ACM Conference on Health, Inference, and Learning"
+  venue: "The ACM Conference on Health, Inference, and Learning (CHIL)"
   url: "https://www.michaelchughes.com/papers/WangMcDermottEtAl_CHIL_2020.pdf"
   displaytype: highlight
 
@@ -239,7 +340,7 @@
   venuetype: conference
   venue: "AISTATS"
   url: "https://www.michaelchughes.com/papers/FutomaHughesDoshiVelez_AISTATS_2020.pdf"
-  displaytype: highlight
+  displaytype: none
 
 - title: "Optimal Transport Based Change Point Detection and Time Series Clustering"
   authors: "Kevin Cheng\\textsuperscript{d}, Shuchin Aeron, Michael C. Hughes, Erika Hussey, and Eric Miller"
@@ -285,7 +386,7 @@
   venuetype: workshop
   venue: "Second Symposium on Advances in Approximate Bayesian Inference (AABI 2019)"
   url: https://www.michaelchughes.com/papers/ZhangHughes_AABI_2019.pdf
-  displaytype: highlight
+  displaytype: none
 
 - title: Classification of Enzyme Promiscuity Using Positive, Unlabeled, and Hard Negative Examples
   authors: "Gian Marco Visani, Michael C. Hughes and Soha Hassoun"
@@ -329,7 +430,7 @@
   venuetype: conference
   venue: "Proceedings of 61st Annual Meeting of the American Hematology Society"
   url: https://ashpublications.org/blood/article-abstract/134/Supplement_1/3435/428173/Supervised-Machine-Learning-Algorithms-Using
-  displaytype: highlight
+  displaytype: none
 
 - title: "Sensorimotor Cross-Behavior Knowledge Transfer for Grounded Category Recognition"
   authors: "Gyan Tatiya\\textsuperscript{d}, Ramtin Hosseini\\textsuperscript{d}, Michael C. Hughes, and Jivko Sinapov"
@@ -365,7 +466,7 @@
   venuetype: conference
   venue: "Artificial Intelligence and Statistics (AISTATS)"
   url: https://www.michaelchughes.com/papers/HughesEtAl_AISTATS_2018.pdf
-  displaytype: highlight
+  displaytype: none
 
 - title: "Beyond Sparsity: Tree Regularization of Deep Models for Interpretability"
   authors: "Mike Wu\\textsuperscript{u}, Michael C. Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
@@ -374,7 +475,7 @@
   venuetype: conference
   venue: "Association for Advancement of Artificial Intelligence (AAAI)"
   url: https://arxiv.org/pdf/1711.06178.pdf
-  displaytype: highlight
+  displaytype: none
 
 - title: "Prediction-Constrained Topic Models for Antidepressant Prediction"
   authors: "Michael C. Hughes, Gabriel Hope\\textsuperscript{d}, Leah Weiner\\textsuperscript{d}, Thomas H. McCoy, Roy H. Perlis, Erik B. Sudderth, and Finale Doshi-Velez"
@@ -392,7 +493,7 @@
   venuetype: conference
   venue: International Conference on Machine Learning (ICML)
   url: https://www.michaelchughes.com/papers/JiHughesSudderth_ICML_2017.pdf
-  displaytype: highlight
+  displaytype: none
 
 - title: "Right for the Right Reasons: Training Differentiable Models by Constraining their Explanations"
   authors: "Andrew Slavin Ross\\textsuperscript{m}, Michael C. Hughes, and Finale Doshi-Velez"

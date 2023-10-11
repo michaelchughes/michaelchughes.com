@@ -10,7 +10,333 @@ External links:
 
 This page contains select publications from my group. See the complete list in my [Curriculum Vitae]({static}/cv.html)
 
+### 2023
+
+<div class="list-group-item">
+    <a href="{static}/papers/HuangEtAl_MLHC_2023.pdf">
+    <h4 class="list-group-item-heading">
+        Detecting Heart Disease from Multi-View Ultrasound Images via Supervised Attention Multiple Instance Learning
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Zhe Huang, Benjamin S. Wessler, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        Machine Learning for Healthcare Conference (MLHC), 2023
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="{static}/papers/HuangEtAl_MLHC_2023.pdf">
+            [PDF]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/abs/2306.00003">
+            [arXiv]
+        </a>
+        &#8226;
+        <a href="https://www.mlforhc.org/2023-accepted-papers">
+            [MLHC accepted papers]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/SAMIL">
+            [code on GitHub: SAMIL]
+        </a>
+        &#8226;
+        <a href="https://recorder-v3.slideslive.com/#/share?share=84631&s=d82b8419-29e8-456e-a745-f57af49a0210">
+            [video on SlidesLive]
+        </a>
+    </p>
+</div>
+
+
+<div class="list-group-item">
+    <a href="{static}/papers/ChengEtAl_TSP_2023.pdf">
+    <h4 class="list-group-item-heading">
+        Non-Parametric and Regularized Dynamical Wasserstein Barycenters for Sequential Observations
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Kevin C. Cheng, Shuchin Aeron, Michael C. Hughes, Eric L. Miller
+    </p>
+    <p class="list-group-item-text"><i>
+        IEEE Transactions on Signal Processing (to appear), 2023
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="https://doi.org/10.1109/TSP.2023.3303616">
+            [IEEE official link]
+        </a>
+        &#8226;
+        <a href="{static}/papers/ChengEtAl_TSP_2023.pdf">
+            [PDF]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/abs/2210.01918">
+            [arXiv]
+        </a>
+        &#8226;
+        <a href="https://github.com/kevin-c-cheng/DWB_Nonparametric">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
+
+
+<div class="list-group-item">
+    <a href="{static}/papers/WojnowiczEtAl_AABI_2023.pdf">
+    <h4 class="list-group-item-heading">
+        Approximate inference by broadening the support of the likelihood 
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Michael T. Wojnowicz,  Martin D. Buck, Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        Symposium on Advances in Approximate Bayesian Inference (AABI), 2023
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="{static}/papers/WojnowiczEtAl_AABI_2023.pdf">
+            [PDF]
+        </a>
+        &#8226;
+        <a href="https://openreview.net/forum?id=wSZrMV2akW">
+            [OpenReview]
+        </a>
+    </p>
+</div>
+
+
+
+<div class="list-group-item">
+    <a href="{static}/papers/HeutonEtAl_IMLH_2023.pdf">
+    <h4 class="list-group-item-heading">
+Learning where to intervene with a differentiable top-k operator: Towards data-driven strategies to prevent fatal opioid overdoses
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Kyle Heuton, Shikhar Shrestha, Thomas J. Stopka, Michael C Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        Workshop on Interpretable Machine Learning in Healthcare (IMLH), 2023
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="{static}/papers/HeutonEtAl_IMLH_2023.pdf">
+            [PDF]
+        </a>
+        &#8226;
+        <a href="https://openreview.net/forum?id=433sWsn7zI">
+            [OpenReview]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/differentiable-top-k">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
+
+
+
+<div class="list-group-item">
+    <a href="{static}/papers/LoboEtAl_IMLH_2023.pdf">
+    <h4 class="list-group-item-heading">
+Semi-supervised Ordinal Regression via Cumulative Link Models for Predicting In-Hospital Length-of-Stay
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Alexander Arjun Lobo, Preetish Rath, Michael C Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        Workshop on Interpretable Machine Learning in Healthcare (IMLH), 2023
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="{static}/papers/LoboEtAl_IMLH_2023.pdf">
+            [PDF]
+        </a>
+        &#8226;
+        <a href="https://openreview.net/forum?id=pDDKtCklZy">
+            [OpenReview]
+        &#8226;
+        <a href="https://github.com/tufts-ml/cumulative-link-models">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
+
+
+<div class="list-group-item">
+    <a href="https://arxiv.org/abs/2206.11736">
+    <h4 class="list-group-item-heading">
+        NovelCraft: A Dataset for Novelty Detection and Discovery in Open Worlds
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Patrick Feeney, Sarah Schneider, Panagiotis Lymperopoulos, Li-Ping Liu, Matthias Scheutz, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        Transactions on Machine Learning Research (TMLR), 03/2023
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="https://openreview.net/forum?id=4eL6z9ziw7">
+            [OpenReview]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/abs/2206.11736">
+            [arXiv]
+        </a>
+        &#8226;
+        <a href="https://NovelCraft.cs.tufts.edu">
+            [dataset: NovelCraft.cs.tufts.edu]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ai-robotics-group/polycraft-novelty-data/tree/TMLR">
+            [code on GitHub]
+        </a>
+        &#8226;
+        <a href="https://youtu.be/d0AAH_eMPoQ">
+            [video on YouTube]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="{static}/papers/HuangSidhomEtAl_AISTATS_2023.pdf">
+    <h4 class="list-group-item-heading">
+        Fix-A-Step: Semi-supervised Learning from Uncurated Unlabeled Data
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+    Zhe Huang, Mary-Joy Sidhom, Benjamin S. Wessler, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://aistats.org/aistats2022/">
+            Artificial Intelligence and Statistics (AISTATS), 2023
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="{static}/papers/HuangSidhomEtAl_AISTATS_2023.pdf">
+            [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/abs/2208.11870">
+            [arXiv]
+        </a> 
+        &#8226;
+        <a href="https://github.com/tufts-ml/fix-a-step">
+            [code on GitHub]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/fix-a-step">
+            [Heart2Heart data on GitHub]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="https://doi.org/10.1016/j.echo.2023.01.006">
+    <h4 class="list-group-item-heading">
+        Automated Detection of Aortic Stenosis using Machine Learning
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+    Benjamin S. Wessler, Zhe Huang, Gary Long, Stefano Pacifici, Nishant Prashar, Samuel Karmiy, Roman A. Sandler, Joseph Sokol, Daniel B. Sokol, Monica M. Dehn, Luisa Maslon, Eileen Mai, Ayan R. Patel, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://www.onlinejase.com/inpress">
+            Journal of the American Society of Echocardiography
+        </a>, 2023
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="https://doi.org/10.1016/j.echo.2023.01.006">
+            [paper PDF]
+        </a>
+    </p>
+</div>
+
 ### 2022
+
+<div class="list-group-item">
+    <a href="{static}/papers/HeutonEtAl_GPSpatiotemporalWorkshop_2022.pdf">
+    <h4 class="list-group-item-heading">
+        Predicting Spatiotemporal Counts of Opioid-related Fatal Overdoses via Zero-Inflated Gaussian Processes
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Kyle Heuton, Shikhar Shrestha, Thomas J. Stopka, Jennifer Pustz, Li-Ping Liu, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://gp-seminar-series.github.io/neurips-2022/">
+            Workshop on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems, at NeurIPS 2022
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="{static}/papers/HeutonEtAl_GPSpatiotemporalWorkshop_2022.pdf">
+            [paper PDF]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="{static}/papers/HuangSidhomEtAl_MedNeurIPS_2022.pdf">
+    <h4 class="list-group-item-heading">
+        Semi-supervised Learning from Uncurated Echocardiogram Images with Fix-A-Step
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Zhe Huang, Mary-Joy Sidhom, Benjamin S. Wessler, Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://sites.google.com/view/med-neurips-2022">
+            Medical Imaging Meets Neurips Workshop, 2022
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="{static}/papers/HuangSidhomEtAl_MedNeurIPS_2022.pdf">
+            [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/fix-a-step">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="{static}/papers/RathEtAl_TS4HWorkshop_2022.pdf">
+    <h4 class="list-group-item-heading">
+        Prediction-Constrained Markov Models for Medical Time Series with Missing Data and Few Labels
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Preetish Rath, Gabriel Hope, Kyle Heuton, Erik B. Sudderth, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        <a href="https://timeseriesforhealth.github.io/schedule">
+            Learning from Time Series For Health (TS4H) Workshop at NeurIPS 2022
+        </a>
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="{static}/papers/RathEtAl_TS4HWorkshop_2022.pdf">
+            [paper PDF]
+        </a>
+        &#8226;
+        <a href="https://slideslive.com/38993407/predictionconstrained-markov-models-for-medical-time-series-with-missing-data-and-few-labels">
+            [video on SlidesLive]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/pchmm-missing-data-limited-labels">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
 
 <div class="list-group-item">
     <a href="{static}/papers/WojnowiczEtAl_ICML_2022.pdf">
@@ -23,7 +349,7 @@ This page contains select publications from my group. See the complete list in m
     </p>
     <p class="list-group-item-text"><i>
         <a href="https://icml.cc/Conferences/2022/AcceptedPapersInitial">
-            To appear at International Conference on Machine Learning (ICML), 2022
+            International Conference on Machine Learning (ICML), 2022
         </a>
     </i></p>
     </a>
@@ -36,8 +362,16 @@ This page contains select publications from my group. See the complete list in m
             [arXiv]
         </a> 
         &#8226;
+        <a href="https://proceedings.mlr.press/v162/wojnowicz22a.html">
+            [ICML proceedings on PMLR]
+        </a>
+        &#8226;
         <a href="https://github.com/tufts-ml/categorical-from-binary">
             [code on GitHub]
+        </a>
+        &#8226;
+        <a href="https://slideslive.com/38983566/easy-variational-inference-for-categorical-models-via-an-independent-binary-approximation">
+            [video on SlidesLive]
         </a>
         &#8226;
         <a href="{static}/papers/WojnowiczEtAl_TPM_2021.pdf">
@@ -58,7 +392,7 @@ This page contains select publications from my group. See the complete list in m
     </p>
     <p class="list-group-item-text"><i>
         <a href="https://sites.google.com/view/dataperf2022/home">
-            To appear at "DataPerf: Benchmarking Data for Data-Centric AI" workshop, co-located with ICML 2022
+            "DataPerf: Benchmarking Data for Data-Centric AI" workshop, co-located with ICML 2022
         </a>
     </i></p>
     </a>
@@ -69,6 +403,10 @@ This page contains select publications from my group. See the complete list in m
         &#8226;
         <a href="https://TMED.cs.tufts.edu">
             [dataset: TMED.cs.tufts.edu]
+        </a>
+        &#8226;
+        <a href="https://slideslive.com/38986357/tmed-2-a-dataset-for-semisupervised-classification-of-echocardiograms">
+            [video on SlidesLive]
         </a>
         &#8226;
         <a href="https://github.com/tufts-ml/tmed2-echocardiogram-classifiers">
@@ -109,40 +447,16 @@ This page contains select publications from my group. See the complete list in m
             [slides PDF]
         </a>
         &#8226;
+        <a href="https://slideslive.com/38980574/optimizing-early-warning-classifiers-to-control-false-alarms-via-a-minimum-precision-constraint">
+            [video on SlidesLive]
+        </a>
+        &#8226;
         <a href="{static}/papers/RathHughes_IMLH_2021.pdf">
             [earlier workshop paper from IMLH 2021]
         </a>
     </p>
 </div>
 
-
-<div class="list-group-item">
-    <a href="https://arxiv.org/abs/2206.11736">
-    <h4 class="list-group-item-heading">
-        NovelCraft: A Dataset for Novelty Detection and Discovery in Open Worlds
-    </h4>
-    </a>
-    <p class="list-group-item-text">
-        Patrick Feeney, Sarah Schneider, Panagiotis Lymperopoulos, Liping Liu, Matthias Scheutz, and Michael C. Hughes
-    </p>
-    <p class="list-group-item-text"><i>
-        Unpublished preprint
-    </i></p>
-    </a>
-    <p class="list-group-item-text"><span>
-        <a href="https://arxiv.org/abs/2206.11736">
-            [paper on arxiv]
-        </a>
-        &#8226;
-        <a href="https://NovelCraft.cs.tufts.edu">
-            [dataset: NovelCraft.cs.tufts.edu]
-        </a>
-        &#8226;
-        <a href="https://github.com/tufts-ai-robotics-group/polycraft-novelty-data/tree/neurips2022">
-            [code on GitHub]
-        </a>
-    </p>
-</div>
 
 
 <div class="list-group-item">
@@ -205,6 +519,10 @@ This page contains select publications from my group. See the complete list in m
         &#8226;
         <a href="https://openreview.net/forum?id=QE_h_FgqdEu">
             [PDF on OpenReview]
+        </a>
+        &#8226;
+        <a href="https://slideslive.com/38967197/dynamical-wasserstein-barycenters-for-timeseries-modeling">
+            [video on SlidesLive]
         </a>
     </p>
 </div>
@@ -361,11 +679,11 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
         </a> 
         &#8226;
         <a href="https://tufts-hci-lab.github.io/code_and_datasets/">
-            [dataset: coming soon]
+            [dataset]
         </a>
         &#8226;        
-        <a href="#">
-            [official listing on ACM: coming soon]
+        <a href="https://dl.acm.org/doi/10.1145/3472749.3474743">
+            [official listing on ACM]
         </a>
     </p>
 </div>
@@ -591,6 +909,10 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
         <a href="https://github.com/MLforHealth/MIMIC_Extract">
         [code on GitHub: MLforHealth/MIMIC_Extract]
         </a>
+        &#8826;
+        <a href="https://slideslive.com/38931934/mimicextract-a-data-extraction-preprocessing-and-representation-pipeline-for-mimiciii">
+        [video on SlidesLive]
+        </a>
     </p>
 </div>
 
@@ -616,6 +938,10 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
         &#8226;
         <a href="https://arxiv.org/abs/2001.04032">
         [arXiv]
+        </a>
+        &#8226;
+        <a href="https://slideslive.com/38930277/popcorn-partially-observed-prediction-constrained-reinforcement-learning">
+        [video on SlidesLive]
         </a>
         &#8226;
         <a href="{static}/papers/FutomaHughesDoshi_RLPOWorkshop2018.pdf">

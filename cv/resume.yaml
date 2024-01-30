@@ -197,17 +197,22 @@ sections:
         about: "U.S. Army NSRDEC, Natick, MA (via Tufts CABCS)"
         notes:
           - "Full title: Statistical and Machine Learning Models for Data Reduction and Human Performance Prediction"
-          - "Co-Investigators: Eric Miller (PI, Tufts ECE) and Shuchin Aeron (Tufts ECE)"
+          - "Co-Investigators: Eric Miller (co-PI, Tufts ECE) and Shuchin Aeron (co-PI, Tufts ECE)"
           - "Total Amount: roughly \\$496,098 per year"
+          - "1 year contract renewed each year for 4 years in a row"
           - "Part of larger cross-institution \\href{https://www.army.mil/article/205789/natick_leads_first_of_its_kind_soldier_readiness_study}{MASTR-E project} funded by US Army"
 
+  - name: Pending Grant Applications
+    type: experience
+    displaytype: private
+    yaml_file: private_content/grants_underreview.yaml
 
   - name: Past Funding Support
     type: experience
     items:
 
       - date: "11/15/19 - 5/15/23"
-        topic: "ACT-NOW: Autonomous Cognitive Technologies for Novelty in Open Worlds"
+        topic: "Autonomous Cognitive Technologies for Novelty in Open Worlds"
         about: "DARPA SAIL-ON Program"
         notes:
           - "\\href{https://www.darpa.mil/program/science-of-artificial-intelligence-and-learning-for-open-world-novelty}{SAIL-ON Program: Science of Artificial Intelligence and Learning for Open-world Novelty}"
@@ -251,18 +256,13 @@ sections:
           - "Co-Investigators: David Kent (Tufts Medical Center)"
           - "Total Amount: \\$50,251"
 
-#  - name: Pending Grant Applications
-#    type: experience
-#    displaytype: private
-#    yaml_file: private_content/grants_underreview.yaml
-
   - name: Invited Talks
     type: experience
     items:
       - date: "10/2023"
-        about: Invited Talk at Takeda"
+        about: Invited Talk at Takeda
         notes:
-          - "Overcoming the Limited Availability of Labeled Data for Medical Image Classification"
+          - "Title: Overcoming the Limited Availability of Labeled Data for Medical Image Classification"
 
       - date: "07/2023"
         about: Invited Talk at PACE Research Group meeting, Tufts Medical Center"
@@ -279,6 +279,11 @@ sections:
         notes:
           - "Title: Diagnosing Heart Disease and Preventing Fatal Overdoses via Probabilistic Machine Learning"
  
+      - date: "07/2022"
+        about: Invited Talk, Apple Inc.
+        notes:
+          - "Title: Challenges in Time Series - False Alarm Control and Gradual State Transitions"
+
       - date: "12/2020"
         about: Invited Talk at "I Can't Believe it's not Better" workshop at NeurIPS 2020
         notes:
@@ -488,9 +493,6 @@ sections:
           - "Hezekiah Branch, BS CS at Tufts, in 2020"
           - "-- \\href{https://stemdiversity.tufts.edu/undergraduate/LSAMP}{Tufts LSAMP fellow}"
           - "-- Topic: Supervised Learning for Clinical Multivariate Time Series"
-          - "\\href{https://dnguyen1196.github.io/}{Manh Duc Nguyen}, BS CS with honors thesis, in 2019"
-          - "-- Thesis topic: Particle-based algorithms for Bayesian Neural Networks - Hamiltonian Monte Carlo and Stein Variational Gradient Descent"
-          - "-- Next Position: PhD candidate in CS at Univ. Pennsylvania"
 
       - date: 2016-2017
         about: Research Mentor
@@ -514,6 +516,26 @@ sections:
   - name: Teaching
     type: experience
     items:
+      - date: "Fall 2023"
+        about: "Course: \\href{https://www.cs.tufts.edu/cs/135/2023f/}{CS 135 Intro to Machine Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught core principles of machine learning to 101 students"
+          - "Course format: 3 open-ended projects, 5 homeworks (conceptual and code questions), 2 exams"
+
+      - date: "Spring 2023"
+        about: "Course: \\href{https://www.cs.tufts.edu/cs/136/2023s/}{CS 136 Statistical Pattern Recognition}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced statistical learning course to 36 students"
+          - "Course format: 5 math-intensive homeworks, 5 coding-intensive homeworks, 5 quizzes"
+
+      - date: "Fall 2022"
+        about: "Course: \\href{https://www.cs.tufts.edu/cs/152BDL/2022f/}{CS 152 Bayesian Deep Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught special topics course to 26 students"
+          - "Course format: weekly homeworks for first month, then 2-month open-ended team project"
 
       - date: "Spring 2021"
         about: "Course: \\href{https://www.cs.tufts.edu/comp/136/2021s/}{COMP 136 Statistical Pattern Recognition}"

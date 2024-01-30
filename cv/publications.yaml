@@ -1,3 +1,21 @@
+- title: "Spatiotemporal Forecasting of Opioid-related Fatal Overdoses: Towards Best Practices for Modeling and Evaluation"
+  authors: "Kyle Heuton\\textsuperscript{d}, Jyontika Kapoor\\textsuperscript{u}, Shikhar Shrestha, Thomas J. Stopka, and Michael C. Hughes"
+  key: heutonForecasting2024
+  year: 2024
+  venuetype: preprint
+  venue: "medRxiv"
+  url: "https://doi.org/10.1101/2024.01.03.24300803"
+  displaytype: preprint
+
+- title: "A Probabilistic Method to Predict Classifier Accuracy on Larger Datasets given Small Pilot Data"
+  authors: "Ethan Harvey\\textsuperscript{d}, Wansu Chen, David M. Kent, and Michael C. Hughes"
+  key: harveyProbabilistic2023
+  year: 2023
+  venuetype: conference
+  venue: "Machine Learning for Health Symposium (ML4H)"
+  url: "https://proceedings.mlr.press/v225/harvey23a.html"
+  displaytype: none
+
 - title: "SINCERE: Supervised Information Noise-Contrastive Estimation REvisited"
   authors: "Patrick Feeney\\textsuperscript{d} and Michael C. Hughes"
   key: feeneySINCERE2023
@@ -66,7 +84,7 @@
   key: huangFixAStep2023
   year: 2023
   venuetype: conference
-  venue: "Artificial Intelligence and Statistics (AISTATS)"
+  venue: "Artificial Intelligence and Statistics (AISTATS) [oral, top 2\\% of 1500+ submissions]"
   url: "https://www.michaelchughes.com/papers/HuangSidhomEtAl_AISTATS_2023.pdf"
   displaytype: highlight
 

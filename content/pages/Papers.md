@@ -10,7 +10,112 @@ External links:
 
 This page contains select publications from my group. See the complete list in my [Curriculum Vitae]({static}/cv.html)
 
+### 2024
+
+<div class="list-group-item">
+    <a href="https://arxiv.org/abs/2307.08919">
+        <h4 class="list-group-item-heading">
+ Systematic comparison of semi-supervised and self-supervised learning for medical image classification 
+     </h4>
+    </a>
+    <p class="list-group-item-text">
+        Zhe Huang, Ruijie Jiang, Shuchin Aeron, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        To appear at IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="#">
+            [camera-ready PDF coming soon]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/abs/2307.08919">
+            [arXiv]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/SSL-vs-SSL-benchmark">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
+
+
+
+<div class="list-group-item">
+    <a href="#">
+        <h4 class="list-group-item-heading">
+Spatiotemporal Forecasting of Opioid-related Fatal Overdoses: Towards Best Practices for Modeling and Evaluation
+     </h4>
+    </a>
+    <p class="list-group-item-text">
+Kyle Heuton, Jyontika Kapoor, Shikhar Shrestha, Thomas J Stopka, Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        preprint on medRxiv
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="https://www.medrxiv.org/content/10.1101/2024.01.03.24300803v1">
+            [medRxiv]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/opioid-overdose-models">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="#">
+        <h4 class="list-group-item-heading">
+A Neurosymbolic Cognitive Architecture Framework for Handling Novelties in Open Worlds
+         </h4>
+    </a>
+    <p class="list-group-item-text">
+Shivam Goel, Panagiotis Lymperopoulos, Ravenna Thielstrom, Evan Krause,
+Patrick Feeney, Pierrick Lorang, Sarah Schneider, Yichen Wei, Eric Kildebeck, Stephen Goss, Michael C. Hughes, Liping Liu, Jivko Sinapov and Matthias Scheutz
+    </p>
+    <p class="list-group-item-text">
+        To appear in <i>Artificial Intelligence</i>, 2024
+    </p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="#">
+            [camera-ready PDF coming soon]
+        </a>
+    </p>
+</div>
+
 ### 2023
+
+<div class="list-group-item">
+    <a href="#">
+    <h4 class="list-group-item-heading">
+A Probabilistic Method to Predict Classifier Accuracy on Larger Datasets given Small Pilot Data
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Ethan Harvey, Wansu Chen, David M. Kent, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        Machine Learning for Health (ML4H), 2023
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="#">
+            [PDF]
+        </a>
+        &#8226;
+        <a href="https://proceedings.mlr.press/v225/harvey23a/harvey23a.pdf">
+            [PMLR]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/extrapolating-classifier-accuracy-to-larger-datasets">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
 
 <div class="list-group-item">
     <a href="{static}/papers/HuangEtAl_MLHC_2023.pdf">
@@ -34,8 +139,8 @@ This page contains select publications from my group. See the complete list in m
             [arXiv]
         </a>
         &#8226;
-        <a href="https://www.mlforhc.org/2023-accepted-papers">
-            [MLHC accepted papers]
+        <a href="https://proceedings.mlr.press/v219/huang23a.html">
+            [PMLR]
         </a>
         &#8226;
         <a href="https://github.com/tufts-ml/SAMIL">
@@ -59,7 +164,7 @@ This page contains select publications from my group. See the complete list in m
         Kevin C. Cheng, Shuchin Aeron, Michael C. Hughes, Eric L. Miller
     </p>
     <p class="list-group-item-text"><i>
-        IEEE Transactions on Signal Processing (to appear), 2023
+        IEEE Transactions on Signal Processing, 2023
     </i></p>
     </a>
     <p class="list-group-item-text"><span>

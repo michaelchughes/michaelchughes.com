@@ -1,3 +1,12 @@
+- title: "Systematic comparison of semi-supervised and self-supervised learning for medical image classification"
+  authors: "Zhe Huang\\textsuperscript{d}, Ruijie Jiang, Shuchin Aeron, and Michael C. Hughes"
+  key: huangSystematicComparisonSSL2024
+  year: 2024
+  venuetype: conference
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  url: "https://arxiv.org/abs/2307.08919"
+  displaytype: highlight
+
 - title: "Spatiotemporal Forecasting of Opioid-related Fatal Overdoses: Towards Best Practices for Modeling and Evaluation"
   authors: "Kyle Heuton\\textsuperscript{d}, Jyontika Kapoor\\textsuperscript{u}, Shikhar Shrestha, Thomas J. Stopka, and Michael C. Hughes"
   key: heutonForecasting2024
@@ -104,7 +113,7 @@
   venuetype: workshop
   venue: "NeurIPS Workshop on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems"
   url: "https://www.michaelchughes.com/papers/HeutonEtAl_GPSpatiotemporalWorkshop_2022.pdf"
-  displaytype: highlight
+  displaytype: none
 
 - title: "Semi-supervised Learning from Uncurated Echocardiogram Images with Fix-A-Step"
   authors: "Zhe Huang\\textsuperscript{d}, Mary-Joy Sidhom\\textsuperscript{u}, Benjamin S. Wessler, Michael C. Hughes"
@@ -250,9 +259,9 @@
   venuetype: conference
   venue: "Machine Learning for Healthcare (MLHC)"
   url: "https://www.michaelchughes.com/papers/HuangEtAl_MLHC_2021.pdf"
-  displaytype: highlight
+  displaytype: none
 
-- title: Approximate Bayesian Computation for an Explicit-DurationHidden Markov Model of COVID-19 Hospital Trajectories
+- title: Approximate Bayesian Computation for an Explicit-Duration Hidden Markov Model of COVID-19 Hospital Trajectories
   authors: "Gian Marco Visani\\textsuperscript{u}, Alexandra Hope Lee\\textsuperscript{b}, Cuong Nguyen\\textsuperscript{m}, David M. Kent, John B. Wong, Joshua T. Cohen, and Michael C. Hughes"
   key: visani2021abc
   year: 2021

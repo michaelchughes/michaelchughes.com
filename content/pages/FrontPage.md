@@ -37,7 +37,44 @@ For more, see my [Research page]({static}/research.html)
 <ul class="list-group">
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
-        [Apr 2023] Fix-A-Step paper selected for oral presentation at AISTATS '23 (top 2% of 1500 reviewed papers)
+        [Mar 2024] Paper on semi-supervised and self-supervised learning accepted at CVPR 2024
+        </h4>
+        <ul>
+            <li>arXiv paper: <a href="https://arxiv.org/abs/2307.08919">
+                </a>
+            </li>
+            <li> Led by PhD students Zhe Huang (Tufts CS) and Ruijie Jiang (Tufts ECE)
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Dec 2023] Work on extrapolating classifier performance at ML4H 2023
+        </h4>
+        <ul>
+            <li>Paper: <a href="https://proceedings.mlr.press/v225/harvey23a.html">
+                </a>
+            </li>
+            <li> Led by PhD student Ethan Harvey
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Aug 2023] Work on multiple instance learning at MLHC 2023
+        </h4>
+        <ul>
+            <li>Paper: <a href="https://arxiv.org/abs/2306.00003">
+                Detecting Heart Disease from Multi-View Ultrasound Images via Supervised Attention Multiple Instance Learning
+                </a>
+            </li>
+            <li> Led by PhD student Zhe Huang
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Apr 2023] Fix-A-Step paper selected for oral presentation at AISTATS '23 (top 2% of 1500+ reviewed papers)
         </h4>
         <ul>
             <li>Paper: <a href="https://arxiv.org/abs/2208.11870">Fix-A-Step: Effective Semi-supervised Learning from Uncurated Data</a>

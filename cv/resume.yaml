@@ -202,10 +202,10 @@ sections:
           - "1 year contract renewed each year for 4 years in a row"
           - "Part of larger cross-institution \\href{https://www.army.mil/article/205789/natick_leads_first_of_its_kind_soldier_readiness_study}{MASTR-E project} funded by US Army"
 
-  - name: Pending Grant Applications
-    type: experience
-    displaytype: private
-    yaml_file: private_content/grants_underreview.yaml
+#  - name: Pending Grant Applications
+#    type: experience
+#    displaytype: private
+#    yaml_file: private_content/grants_underreview.yaml
 
   - name: Past Funding Support
     type: experience

@@ -59,7 +59,7 @@
   venuetype: conference
   venue: "Symposium on Advances in Approximate Bayesian Inference (AABI)"
   url: "https://openreview.net/forum?id=wSZrMV2akW"
-  displaytype: highlight
+  displaytype: none
 
 - title: "Learning where to intervene with a differentiable top-k operator: Towards data-driven strategies to prevent fatal opioid overdoses"
   authors: "Kyle Heuton\\textsuperscript{d}, Shikhar Shrestha, Thomas J. Stopka, Michael C Hughes"
@@ -98,7 +98,7 @@
   displaytype: highlight
 
 - title: "Automated Detection of Aortic Stenosis using Machine Learning"
-  authors: "Benjamin S. Wessler, Zhe Huang\\textsuperscript{d}, Gary Long, ... and Michael C. Hughes"
+  authors: "Benjamin S. Wessler, Zhe Huang\\textsuperscript{d}, ... and Michael C. Hughes"
   key: wesslerAorticStenosisML2023
   year: 2023
   venuetype: journal
@@ -131,7 +131,7 @@
   venuetype: workshop
   venue: "Learning from Time Series For Health (TS4H) Workshop at NeurIPS"
   url: "https://www.michaelchughes.com/papers/RathEtAl_TS4HWorkshop_2022.pdf"
-  displaytype: highlight
+  displaytype: none
 
 
 - title: "TMED 2: A Dataset for Semi-Supervised Classification of Echocardiograms"
@@ -358,7 +358,7 @@
   venuetype: conference
   venue: "The ACM Conference on Health, Inference, and Learning (CHIL)"
   url: "https://www.michaelchughes.com/papers/WangMcDermottEtAl_CHIL_2020.pdf"
-  displaytype: highlight
+  displaytype: none
 
 - title: "POPCORN: Partially Observed Prediction-Constrained Reinforcement Learning"
   authors: "Joseph Futoma, Michael C. Hughes, and Finale Doshi-Velez"
@@ -448,7 +448,7 @@
   venuetype: conference
   venue: "Machine Learning for Healthcare"
   url: https://www.michaelchughes.com/papers/NestorEtAl_MLHC_2019.pdf
-  displaytype: highlight
+  displaytype: none
 
 - title: "Supervised Machine Learning Algorithms Using Patient Related Factors to Predict in-Hospital Mortality Following Acute Myeloid Leukemia Therapy"
   authors: "Nauman Saleem Siddiqui\\textsuperscript{c}, Andreas Klein, Amandeep Godara, Cindy Varga, Rachel J. Buchsbaum, and Michael C. Hughes"

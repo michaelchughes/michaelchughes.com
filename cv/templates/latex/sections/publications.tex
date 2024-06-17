@@ -1,6 +1,9 @@
 ~< extends "section.tex" >~
 
 ~< block body >~
+  ~< if footnote is defined >~
+   {\scriptsize \emph{<< footnote >>} }
+  ~< endif >~
   \begin{enumerate}
     ~< for pub in items >~
       \item{
@@ -15,7 +18,4 @@
       }
     ~< endfor >~
   \end{enumerate}
-  ~< if footnote is defined >~
-   {\hspace*{10mm} \scriptsize << footnote >> }
-  ~< endif >~
 ~< endblock body >~

@@ -4,11 +4,10 @@ save_as: join.html
 
 Join my research team at Tufts CS! Become part of the growing and energetic [Tufts ML Research Group](https://www.cs.tufts.edu/research/ml/).
 
-In Fall-Winter 2020-2021, I am actively recruiting:
+In Fall 2024, I am actively recruiting:
 
-* 1 **postdoc** for an exiting funded project on open-world AI and novelty accomodation
-* Up to 1 **new Ph.D. student** to join in Fall 2021 (exceptionally qualified students please apply!)
-* Current undergrad and masters students
+* Up to 1 **new Ph.D. student** to join in Fall 2025 to help with an NSF-funded project (exceptionally qualified students please apply to Tufts!)
+* Up to 2 hourly RAs (current undergrad/masters students at Tufts, please reach out)
 
 Keep reading below for the skills I'm looking for, some possible high-level project ideas, etc.
 
@@ -18,30 +17,12 @@ Jump to: [Project Ideas](#project_ideas) &#8226; [Current Tufts Students](#curre
 <a name="project_ideas"></a>
 ## Possible projects/topics
 
-Possible project ideas, based on what I've done in the past with links to sample research papers:
-
-#### Statistical Machine Learning
-
-* **Semi-supervised training of latent variable models** [[My AISTATS 2018 paper]({static}/papers/HughesEtAl_AISTATS_2018.pdf)]: How do we learn from datasets when labeled measurements are rare but unlabeled measurements are easy? Labels we wish to predict are often expensive, time-consuming, or dangerous to collect (e.g. does a patient respond to this medication?), but we have many thousands of *unlabeled* data measurements that might be useful (patient records). How can we make sure this works even when our model is wrong?
-
-* **Bayesian nonparametric models** [[My NIPS 2015 paper]]({static}/papers/HughesStephensonSudderth_NIPS_2015.pdf), [[Bayesian Nonparametrics in Python (BNPy) package]](https://bnpy.readthedocs.io) : Many clustering algorithms require the number of clusters to be chosen in advance before any model fitting. Can we apply Bayesian nonparametric models to 'let the data speak' and learn a posterior distribution over possible clusterings that adapts to the complexity of the data at hand? How do we avoid the local optima that might result?
-
-* **Latent Variable Models with Neural Networks for Recognition**: I'm excited about [deep generative models](https://www.shakirm.com/slides/DeepGenModelsTutorial.pdf) and variational autoencoders as ways to do fast inference for flexible model families. See my [[AABI 2019 paper]({static}/papers/ZhangHughes_AABI_2019.pdf)] with Lily Zhang on amortized VI for model comparison for some ideas of directions here.
-
-* **Models that are Robust to Missing Data**: How do we make good statistical predictions when some measurements are missing, or measurements happen at many different frequencies (some every minute, some irregularly every dozen hours or so)? 
-
-
-#### Machine Learning applications in Healthcare
-
-* **Intensive Care Interventions** [[My AMIA CRI 2017 paper]({static}/papers/GhassemiWuHughesEtAl_AMIACRI2017.pdf)], [[MIMIC dataset](https://mimic.physionet.org/)]: Patients in the intensive care units of hospitals are evolving all the time. Can we predict when they will need mechanical ventilators based on sensor readings? Could we do so far enough in advance that we might helpfully change clinical workflow? 
-
-* **Depression**: Patients who suffer from depression often look to antidepressant drugs, but currently psychiatrists have trouble knowing which of many drugs will work for that patient. Can we use probabilistic ML to predict which drug will work for a patient based on their history?
-
+For possible project topics, see my [Research](research.html) page.
 
 <a name="current_tufts_students"> </a>
 ## Current students at Tufts
 
-I'm excited to work with strong undergraduate, Masters, and Ph.D. students to make exciting machine learning research happen. I don't generally pursue research projects with students who are brand new to probabilistic machine learning or data analysis, but if you have even a small bit of prior experience I would love for you to join the team. See below for a quick recap of skills I hope students have before joining a project.
+I'm excited to work with strong undergraduate, Masters, and Ph.D. students to make exciting machine learning research happen. I don't generally pursue research projects with students who are brand new to probabilistic machine learning or data analysis, but if you some prior experience or relevant coursework (looking for completion of CS 136 or similar), I am happy to chat about possibilities. See below for a quick recap of skills I hope students have before joining a project.
 
 If you think you have the right background and are willing to commit **at least** two semesters (or at least 1 semester + summer) to research, please send me an email with:
 
@@ -51,7 +32,7 @@ If you think you have the right background and are willing to commit **at least*
 * statement confirming you're willing to give several hours a week for multiple semesters (or a semester + summer)
 
 I know this is not a casual commitment, but I will work hard with you to deliver a meaningful experience that results in some kind of open-source software release and/or publication in a workshop or conference.
-If you look at [my CV](/cv.html), you'll see all the students marked with ^u (for ugrad), ^m (for masters), or ^d (for doctoral) that I've mentored in the past, so I have a pretty decent track record.
+If you look at [my CV](/cv.html), you'll see all the students marked with ^u (for ugrad), ^m (for masters), or ^d (for doctoral) that I've mentored in the past.
 
 <a name="prospective_students"> </a>
 ## Prospective students
@@ -92,7 +73,7 @@ My group's work in statistical machine learning requires some prior understandin
 
 * Evidence that you can complete a self-directed research project involving fitting a probabilistic model to data and interpreting its results. This might be a self-study project or a project from previous coursework. The key skill here is to be able to translate inference algorithm pseudocode from a research paper into a concrete code implementation without much guidance.
 
-* Successful completion of ML coursework at Tufts or another university, including at least a course like COMP 135 (Intro to ML), but preferably a course with more mathematical content like COMP 136 (Statistical Pattern Recognition) or other special-topics-level courses taught by ML faculty. If you did a final project for that course, sending me your report/slides would be a great litmus test.
+* Successful completion of ML coursework at Tufts or another university, including at least a course like CS 135 (Intro to ML), but preferably also a course with more mathematical content like CS 136 (Statistical Pattern Recognition) or other special-topics-level courses taught by ML faculty. If you did a final project for that course, sending me your report/slides would be a great litmus test.
 
 
 #### Python Data Science Development Skills

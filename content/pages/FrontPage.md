@@ -8,26 +8,25 @@ I am an Assistant Professor in the Dept. of Computer Science at Tufts University
 [Tufts Machine Learning research group](https://www.cs.tufts.edu/research/ml/).
 Previously, I was a postdoctoral fellow in computer science at Harvard SEAS, advised by 
 <a href="https://finale.seas.harvard.edu/">Prof. Finale Doshi-Velez</a>. 
-I did my Ph.D. in CS at Brown University in May 2016, advised by <a href="https://www.ics.uci.edu/~sudderth/">Prof. Erik Sudderth</a> (now at UC-Irvine).
+I completed my Ph.D. in Computer Science at Brown University, advised by <a href="https://www.ics.uci.edu/~sudderth/">Prof. Erik Sudderth</a> (now at UC-Irvine).
 
 ### Research Highlights
 
 First, my lab pursues methodological advances in statistical machine learning:
 
-* probabilistic models for multivariate time-series (see papers from [NeurIPS 2021](https://papers.nips.cc/paper/2021/file/ebb71045453f38676c40deb9864f811d-Paper.pdf) or [AOAS 2014](https://www.michaelchughes.com/papers/FoxHughesSudderthJordan_AOAS_2014.pdf))
+* probabilistic models for time-series (see papers from [arXiv 2024](https://arxiv.org/abs/2401.14973), [NeurIPS 2021](https://papers.nips.cc/paper/2021/file/ebb71045453f38676c40deb9864f811d-Paper.pdf) or [AOAS 2014](https://www.michaelchughes.com/papers/FoxHughesSudderthJordan_AOAS_2014.pdf))
+* probabilistic approaches to transfer learning ([TMLR 2024](https://openreview.net/forum?id=BbvSU02jLg)) or supervised contrastive learning ([arXiv 2024](https://arxiv.org/abs/2309.14277))
+* semi-supervised learning with discriminative neural networks ([ICML 2024](https://proceedings.mlr.press/v235/huang24af.html), [CVPR 2024](https://arxiv.org/abs/2307.08919), [AISTATS 2023](https://www.michaelchughes.com/papers/HuangSidhomEtAl_AISTATS_2023.pdf))
 * semi-supervised learning with generative models ([AISTATS 2018]({static}/papers/HughesEtAl_AISTATS_2018.pdf), [Time Series Workshop 2021]({static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf), and [AABI 2022](https://openreview.net/pdf?id=pmLjKZsCvPt))
 * optimizing early warning classifiers to control false alarms ([AISTATS 2022]({static}/papers/RathHughes_AISTATS_2022.pdf))
-* optimizing deep learning to be more interpretable ([AAAI 2020]({static}/papers/WuParbhooHughesEtAl_AAAI_2020.pdf) and [AAAI 2018](https://arxiv.org/pdf/1711.06178.pdf))
-* generalizing to new subjects given limited data ([UIST 2021]({static}/papers/WangHuangEtAl_UIST_2021.pdf) and [NeurIPS datasets track 2021](https://openreview.net/pdf?id=QzNHE7QHhut))
-* generalizing across dataset shifts (see our [MLHC 2019 paper]({static}/papers/NestorEtAl_MLHC_2019.pdf))
-* Bayesian nonparametrics for adapting model complexity (see our [BNPy Python package](https://github.com/bnpy/bnpy) and [NeurIPS 2015 paper]({static}/papers/HughesStephensonSudderth_NIPS_2015.pdf))
 
 Second, I pursue high-impact clinical and scientific applications of these techniques:
 
-* automating preliminary diagnosis of heart disease using echocardiograms ([MLHC 2021 paper]({static}/papers/HuangEtAl_MLHC_2021.pdf), [J Am Soc Echo '23](https://www.onlinejase.com/article/S0894-7317\(23\)00014-7/pdf))
-* predicting patient risks in the Intensive Care Unit (ICU) ([CHIL 2020 paper]({static}/papers/WangMcDermottEtAl_CHIL_2020.pdf) and [MIMIC-Extract code release](https://github.com/MLforHealth/MIMIC_Extract))
+* automating preliminary diagnosis of heart disease using echocardiograms ([MLHC '21]({static}/papers/HuangEtAl_MLHC_2021.pdf), [J Am Soc Echo '23](https://www.onlinejase.com/article/S0894-7317\(23\)00014-7/pdf))
+* spatiotemporal forecasting of the opioid overdose epidemic ([Am. Journal of Epi. '24](https://doi.org/10.1093/aje/kwae343))
+* predicting patient risks in the Intensive Care Unit (ICU) ([CHIL '20 paper]({static}/papers/WangMcDermottEtAl_CHIL_2020.pdf) and [MIMIC-Extract code](https://github.com/MLforHealth/MIMIC_Extract))
 * recommending stable antidepressants personalized to patients ([JAMA Network Open 2020]({static}/papers/HughesPradierRossEtAl_JAMANetworkOpen_2020.pdf))
-* forecasting demand for hospital resources during the COVID-19 pandemic ([MLHC 2021 paper]({static}/papers/VisaniEtAl_MLHC_2021.pdf))
+* forecasting demand for hospital resources during the COVID-19 pandemic ([MLHC '21]({static}/papers/VisaniEtAl_MLHC_2021.pdf))
 
 For more, see my [Research page]({static}/research.html)
 
@@ -37,13 +36,52 @@ For more, see my [Research page]({static}/research.html)
 <ul class="list-group">
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
-        [Mar 2024] Paper on semi-supervised and self-supervised learning accepted at CVPR 2024
+        [Sep 2024] Paper on spatiotemporal forecasting of opioid overdose epidemic
         </h4>
         <ul>
-            <li>arXiv paper: <a href="https://arxiv.org/abs/2307.08919">
-                </a>
+            <li><a href="https://doi.org/10.1093/aje/kwae343">
+                [paper at Am J. Epi.]</a>, Led by PhD student Kyle Heuton (Tufts CS)
             </li>
-            <li> Led by PhD students Zhe Huang (Tufts CS) and Ruijie Jiang (Tufts ECE)
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Jul 2024] Grateful to receive an NSF CAREER award to fund our lab's work
+        </h4>
+        <ul>
+            <li><a href="https://engineering.tufts.edu/news-events/news/hughes-receives-nsf-career-award">
+                Article on Tufts SoE News website</a>
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [May 2024] Paper on a new semi-supervised learning method at ICML 2024 in Vienna
+        </h4>
+        <ul>
+            <li><a href="https://proceedings.mlr.press/v235/huang24af.html">
+                [PDF]</a>, Led by PhD student Zhe Huang (Tufts CS)
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Mar 2024] Paper for benchmarking semi- and self-supervised learning at CVPR 2024 in Seattle
+        </h4>
+        <ul>
+            <li><a href="https://arxiv.org/abs/2307.08919">
+                [arXiv]
+                </a>,  Led by PhD students Zhe Huang (Tufts CS) and Ruijie Jiang (Tufts ECE)
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Feb 2024] Grateful to be part of a NIH-funded R01 project on neuroimaging
+        </h4>
+        <ul>
+            <li><a href="https://www.tuftsmedicine.org/about-us/news/3-million-dollar-grant-cerebrovascular-research-expanding-research-across-tufts-medicine">
+                Tufts Med news article</a>
             </li>
         </ul>
     </li>
@@ -52,10 +90,21 @@ For more, see my [Research page]({static}/research.html)
         [Dec 2023] Work on extrapolating classifier performance at ML4H 2023
         </h4>
         <ul>
-            <li>Paper: <a href="https://proceedings.mlr.press/v225/harvey23a.html">
-                </a>
+            <li><a href="https://proceedings.mlr.press/v225/harvey23a.html">
+                [Link to Paper PDF]
+                </a>, Led by PhD student Ethan Harvey
             </li>
-            <li> Led by PhD student Ethan Harvey
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Oct 2023] Grateful for support from Alzheimer's Drug Discovery Foundation 
+        </h4>
+        <ul>
+            <li><a href="https://www.alzdiscovery.org/research-and-grants/portfolio-details/21977527">
+                [Award Page]</a> This is a collaboration between Tufts U./ Tufts Med. / Kaiser Permente.
+            </li>
+            <li> Hughes Lab will lead development of deep learning to detect early signs of stroke/dementia
             </li>
         </ul>
     </li>
@@ -64,11 +113,9 @@ For more, see my [Research page]({static}/research.html)
         [Aug 2023] Work on multiple instance learning at MLHC 2023
         </h4>
         <ul>
-            <li>Paper: <a href="https://arxiv.org/abs/2306.00003">
-                Detecting Heart Disease from Multi-View Ultrasound Images via Supervised Attention Multiple Instance Learning
-                </a>
-            </li>
-            <li> Led by PhD student Zhe Huang
+            <li><a href="https://arxiv.org/abs/2306.00003">
+                [arXiv]
+                </a>, Led by PhD student Zhe Huang
             </li>
         </ul>
     </li>
@@ -79,9 +126,7 @@ For more, see my [Research page]({static}/research.html)
         <ul>
             <li>Paper: <a href="https://arxiv.org/abs/2208.11870">Fix-A-Step: Effective Semi-supervised Learning from Uncurated Data</a>
             </li>
-            <li> Led by PhD student Zhe Huang
-            </li>
-            <li> Key contributions from undergraduate Mary-Joy Sidhom
+            <li> Led by PhD student Zhe Huang, Key contributions from undergraduate Mary-Joy Sidhom
             </li>
         </ul>
     </li>

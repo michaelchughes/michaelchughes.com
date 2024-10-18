@@ -68,7 +68,10 @@ cv: content/pages/cv.md
 content/pages/cv.md: cv/resume.yaml cv/publications.yaml cv/templates/latex/*.tex cv/templates/markdown/*.md .git/logs/HEAD
 	cd cv/;	make all; cd ../ 
 
-html: cv
+headshots:
+	cd $(INPUTDIR)/images/ && bash create_folder_of_square_crops.sh headshots_raw/ headshots_200x200/ 200
+
+html: cv headshots
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:

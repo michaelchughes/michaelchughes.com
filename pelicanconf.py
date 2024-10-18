@@ -47,7 +47,7 @@ ABOUT_ME = '''<strong>Mike Hughes</strong>
     <br /><a href="https://www.cs.tufts.edu/">Dept. of Computer Science</a>
     <br /><a href="https://www.tufts.edu/">Tufts University</a>
     <br />
-    <br />Office: Halligan 210
+    <br />Office: <a href="https://maps.app.goo.gl/S9RHFBkwdHwUfGaP9">JCC</a> 353
     <br />
     <br /><a href="https://www.cs.tufts.edu/research/ml/">Tufts ML Research Group</a>
 	'''
@@ -59,10 +59,11 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = [
 	('Papers', '/papers.html'),
 	('CV', '/cv.html'),
-	('Bio', '/bio.html'),
     ('Research', '/research.html'),
-    ('Courses', '/courses.html'),
+    ('Team', '/team.html'),
     ('Join my Lab', '/join.html'),
+    ('Courses', '/courses.html'),
+    ('Bio', '/bio.html'),
 	]
 
 DISPLAY_TAGS_ON_SIDEBAR = False

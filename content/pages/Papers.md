@@ -13,37 +13,53 @@ This page contains select publications from my group. See the complete list in m
 ### 2024
 
 <div class="list-group-item">
-    <a href="https://arxiv.org/abs/2307.08919">
-        <h4 class="list-group-item-heading">
- Systematic comparison of semi-supervised and self-supervised learning for medical image classification 
-     </h4>
-    </a>
+    <a href="#">
+    <h4 class="list-group-item-heading">
+        Learning the Regularization Strength for Deep Fine-Tuning via a Data-Emphasized Variational Objective
+    </h4>
     <p class="list-group-item-text">
-        Zhe Huang, Ruijie Jiang, Shuchin Aeron, and Michael C. Hughes
+        Ethan Harvey, Mikhail Petrov, and Michael C. Hughes
     </p>
-    <p class="list-group-item-text"><i>
-        To appear at IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
-    </i></p>
     </a>
+    <p class="list-group-item-text"><i>
+        <a href="https://sites.google.com/view/neurips2024-ftw/home">
+        Workshop on Fine-Tuning in Modern Machine Learning (FITML)</a>, 
+        co-located with NeurIPS 2024
+    </i></p>
     <p class="list-group-item-text"><span>
         <a href="#">
-            [camera-ready PDF coming soon]
+        [PDF coming soon]
         </a>
         &#8226;
-        <a href="https://arxiv.org/abs/2307.08919">
-            [arXiv]
-        </a>
-        &#8226;
-        <a href="https://github.com/tufts-ml/SSL-vs-SSL-benchmark">
-            [code on GitHub]
+        <a href="https://github.com/tufts-ml/data-emphasized-ELBo">
+        [code on GitHub]
         </a>
     </p>
 </div>
 
 
+<div class="list-group-item">
+    <a href="https://www.jacc.org/doi/full/10.1016/S0735-1097%2824%2903562-9">
+    <h4 class="list-group-item-heading">
+        Validation of System for Automated Screening for Aortic Stenosis
+    </h4>
+    <p class="list-group-item-text">
+Samuel Karmiy, Zhe Huang, Eileen Mai, Jing Li, Monica Dehn, Davinder Ramsingh, John Martin, Ayan R. Patel, Michael C. Hughes, and Benjamin S. Wessler
+    </p>
+    </a>
+    <p class="list-group-item-text"><i>
+        Abstract accepted for poster presentation at American College of Cardiology (ACC)
+    </i></p>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://www.jacc.org/doi/full/10.1016/S0735-1097%2824%2903562-9">
+        [abstract]
+        </a>
+    </p>
+</div>
 
 <div class="list-group-item">
-    <a href="#">
+    <a href="https://doi.org/10.1093/aje/kwae343">
         <h4 class="list-group-item-heading">
 Spatiotemporal Forecasting of Opioid-related Fatal Overdoses: Towards Best Practices for Modeling and Evaluation
      </h4>
@@ -52,10 +68,18 @@ Spatiotemporal Forecasting of Opioid-related Fatal Overdoses: Towards Best Pract
 Kyle Heuton, Jyontika Kapoor, Shikhar Shrestha, Thomas J Stopka, Michael C. Hughes
     </p>
     <p class="list-group-item-text"><i>
-        preprint on medRxiv
+        American Journal of Epidemiology
     </i></p>
     </a>
     <p class="list-group-item-text"><span>
+        <a href="https://doi.org/10.1093/aje/kwae343">
+            [page at AJE]
+        </a>
+        &#8226;
+        <a href="https://academic.oup.com/aje/advance-article-pdf/doi/10.1093/aje/kwae343/59113947/kwae343.pdf">
+            [PDF at AJE]
+        </a>
+        &#8226;
         <a href="https://www.medrxiv.org/content/10.1101/2024.01.03.24300803v1">
             [medRxiv]
         </a>
@@ -66,8 +90,160 @@ Kyle Heuton, Jyontika Kapoor, Shikhar Shrestha, Thomas J Stopka, Michael C. Hugh
     </p>
 </div>
 
+
 <div class="list-group-item">
-    <a href="#">
+    <a href="https://arxiv.org/abs/2309.14277">
+    <h4 class="list-group-item-heading">
+        SINCERE: Supervised Information Noise-Contrastive Estimation REvisited
+    </h4>
+    <p class="list-group-item-text">
+        Patrick Feeney and Michael C. Hughes
+    </p>
+    </a>
+    <p class="list-group-item-text"><i>
+        unpublished preprint, 2024
+    </i></p>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://arxiv.org/abs/2309.14277">
+        [arXiv]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="https://arxiv.org/abs/2401.14973">
+    <h4 class="list-group-item-heading">
+Discovering group dynamics in synchronous time series via hierarchical recurrent switching-state models
+    </h4>
+    <p class="list-group-item-text">
+        Michael Wojnowicz, Preetish Rath, Eric Miller, Jeffrey Miller, Clifford Hancock, Meghan O'Donovan, Seth Elkin-Frankston, Thaddeus Brunye, and Michael C. Hughes
+    </p>
+    </a>
+    <p class="list-group-item-text"><i>
+        unpublished preprint, 2024
+    </i></p>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://arxiv.org/abs/2401.14973">
+        [arXiv]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="https://proceedings.mlr.press/v235/huang24af.html">
+        <h4 class="list-group-item-heading">
+InterLUDE: Interactions between Labeled and Unlabeled Data to Enhance Semi-Supervised Learning
+        </h4>
+    </a>
+    <p class="list-group-item-text">
+        Zhe Huang, Xiaowei Yu, Dajiang Zhu, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        International Conference on Machine Learning (ICML), 2024
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="https://proceedings.mlr.press/v235/huang24af.html">
+            [PMLR]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/abs/2403.10658v1">
+            [arXiv]
+        </a>        
+        &#8226;
+        <a href="https://github.com/tufts-ml/InterLUDE/">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="https://arxiv.org/abs/2307.08919">
+        <h4 class="list-group-item-heading">
+ Systematic comparison of semi-supervised and self-supervised learning for medical image classification 
+     </h4>
+    </a>
+    <p class="list-group-item-text">
+        Zhe Huang, Ruijie Jiang, Shuchin Aeron, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="https://arxiv.org/abs/2307.08919">
+            [arXiv]
+        </a>
+        &#8226;
+        <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_Systematic_Comparison_of_Semi-supervised_and_Self-supervised_Learning_for_Medical_Image_CVPR_2024_paper.pdf">
+            [PDF]
+        </a>
+        &#8226;
+        <a href="https://openaccess.thecvf.com/content/CVPR2024/supplemental/Huang_Systematic_Comparison_of_CVPR_2024_supplemental.pdf">
+            [Supp PDF]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/SSL-vs-SSL-benchmark">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
+
+
+<div class="list-group-item">
+    <a href="https://openreview.net/forum?id=BbvSU02jLg">
+    <h4 class="list-group-item-heading">
+Transfer Learning with Informative Priors: Simple Baselines Better than Previously Reported
+    </h4>
+    </a>
+    <p class="list-group-item-text">
+        Ethan Harvey, Mikhail Petrov, and Michael C. Hughes
+    </p>
+    <p class="list-group-item-text"><i>
+        Transactions on Machine Learning Research (TMLR)
+    </i></p>
+    </a>
+    <p class="list-group-item-text"><span>
+        <a href="https://openreview.net/forum?id=BbvSU02jLg">
+            [OpenReview]
+        </a>
+        &#8226;
+        <a href="https://arxiv.org/abs/2405.15583">
+            [arXiv]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/bdl-transfer-learning">
+            [code on GitHub]
+        </a>
+    </p>
+</div>
+
+
+<div class="list-group-item">
+    <a href="https://arxiv.org/abs/2403.06024">
+    <h4 class="list-group-item-heading">
+Semi-Supervised Multimodal Multi-Instance Learning for Aortic Stenosis Diagnosis
+    </h4>
+    <p class="list-group-item-text">
+    Zhe Huang, Xiaowei Yu, Benjamin S. Wessler, Michael C. Hughes
+    </p>
+    </a>
+    <p class="list-group-item-text"><i>
+        unpublished preprint, 2024
+    </i></p>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://arxiv.org/abs/2403.06024">
+        [arXiv]
+        </a>
+    </p>
+</div>
+
+
+<div class="list-group-item">
+    <a href="https://hrilab.tufts.edu/publications/goeletal24aij.pdf">
         <h4 class="list-group-item-heading">
 A Neurosymbolic Cognitive Architecture Framework for Handling Novelties in Open Worlds
          </h4>
@@ -77,15 +253,20 @@ Shivam Goel, Panagiotis Lymperopoulos, Ravenna Thielstrom, Evan Krause,
 Patrick Feeney, Pierrick Lorang, Sarah Schneider, Yichen Wei, Eric Kildebeck, Stephen Goss, Michael C. Hughes, Liping Liu, Jivko Sinapov and Matthias Scheutz
     </p>
     <p class="list-group-item-text">
-        To appear in <i>Artificial Intelligence</i>, 2024
+        <i>Artificial Intelligence</i>, 2024
     </p>
     </a>
     <p class="list-group-item-text"><span>
-        <a href="#">
-            [camera-ready PDF coming soon]
+        <a href="https://doi.org/10.1016/j.artint.2024.104111">
+            [publisher link]
+        </a>
+        &#8226;
+        <a href="https://hrilab.tufts.edu/publications/goeletal24aij.pdf">
+            [PDF]
         </a>
     </p>
 </div>
+
 
 ### 2023
 
@@ -103,8 +284,8 @@ A Probabilistic Method to Predict Classifier Accuracy on Larger Datasets given S
     </i></p>
     </a>
     <p class="list-group-item-text"><span>
-        <a href="#">
-            [PDF]
+        <a href="https://arxiv.org/abs/2311.18025">
+            [arXiv]
         </a>
         &#8226;
         <a href="https://proceedings.mlr.press/v225/harvey23a/harvey23a.pdf">
@@ -898,7 +1079,7 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
         </a>
         &#8226;
         <a href="https://arxiv.org/pdf/2104.09327.pdf">
-            [PDF on arXiV]
+            [PDF on arXiv]
         </a>
         &#8226;
         <a href="https://github.com/tufts-ml/single-hospital-count-forecasting/">
@@ -942,7 +1123,7 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
     <p class="list-group-item-text"><span>
         &#8226;
         <a href="https://arxiv.org/pdf/2103.15966.pdf">
-        [PDF on arXiV]
+        [PDF on arXiv]
         </a>
     </p>
 </div>

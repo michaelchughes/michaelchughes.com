@@ -1,3 +1,30 @@
+- title: "Learning the Regularization Strength for Deep Fine-Tuning via a Data-Emphasized Variational Objective"
+  authors: "Ethan Harvey\\textsuperscript{d}, Mikhail Petrov, and Michael C. Hughes"
+  key: harveyLearnRegularization2024
+  year: 2024
+  venuetype: workshop
+  venue: "Workshop on Fine-Tuning in Modern Machine Learning (FITML)"
+  url: "#"
+  displaytype: none
+
+- title: "Validation of System for Automated Screening for Aortic Stenosis"
+  authors: "Samuel Karmiy, Zhe Huang\\textsuperscript{d}, Eileen Mai, Jing Li, Monica Dehn, Davinder Ramsingh, John Martin, Ayan R. Patel, Michael C. Hughes, and Benjamin S. Wessler"
+  key: karmiy2024
+  year: 2024
+  venuetype: workshop
+  venue: "Abstract accepted for poster presentation at American College of Cardiology (ACC)"
+  url: "https://www.jacc.org/doi/full/10.1016/S0735-1097%2824%2903562-9"
+  displaytype: none  
+
+- title: "InterLUDE: Interactions between Labeled and Unlabeled Data to Enhance Semi-Supervised Learning"
+  authors: "Zhe Huang\\textsuperscript{d}, Xiaowei Yu, Dajiang Zhu, and Michael C. Hughes"
+  key: huangInterLUDE2024
+  year: 2024
+  venuetype: conference
+  venue: "International Conference on Machine Learning (ICML)"
+  url: "https://proceedings.mlr.press/v235/huang24af.html"
+  displaytype: highlight
+
 - title: "Systematic comparison of semi-supervised and self-supervised learning for medical image classification"
   authors: "Zhe Huang\\textsuperscript{d}, Ruijie Jiang, Shuchin Aeron, and Michael C. Hughes"
   key: huangSystematicComparisonSSL2024
@@ -11,10 +38,19 @@
   authors: "Kyle Heuton\\textsuperscript{d}, Jyontika Kapoor\\textsuperscript{u}, Shikhar Shrestha, Thomas J. Stopka, and Michael C. Hughes"
   key: heutonForecasting2024
   year: 2024
-  venuetype: preprint
-  venue: "medRxiv"
-  url: "https://doi.org/10.1101/2024.01.03.24300803"
-  displaytype: preprint
+  venuetype: journal
+  venue: "American Journal of Epidemiology"
+  url: "https://doi.org/10.1093/aje/kwae343"
+  displaytype: highlight
+
+- title: "Transfer Learning with Informative Priors: Simple Baselines Better than Previously Reported"
+  authors: "Ethan Harvey\\textsuperscript{d}, Mikhail Petrov, and Michael C. Hughes"
+  key: harveyTransferInformative2024
+  year: 2024
+  venuetype: journal
+  venue: "Transactions on Machine Learning Research (TMLR)"
+  url: "https://openreview.net/forum?id=BbvSU02jLg"
+  displaytype: highlight
 
 - title: "A Probabilistic Method to Predict Classifier Accuracy on Larger Datasets given Small Pilot Data"
   authors: "Ethan Harvey\\textsuperscript{d}, Wansu Chen, David M. Kent, and Michael C. Hughes"
@@ -25,10 +61,19 @@
   url: "https://proceedings.mlr.press/v225/harvey23a.html"
   displaytype: none
 
+- title: "Discovering group dynamics in synchronous time series via hierarchical recurrent switching-state models"
+  authors: "Michael Wojnowicz, Preetish Rath, Eric Miller, Jeffrey Miller, Clifford Hancock, Meghan O'Donovan, Seth Elkin-Frankston, Thaddeus Brunye, and Michael C. Hughes"
+  key: wojnowiczGroupDynamics2024
+  year: 2024
+  venuetype: preprint
+  venue: "arXiv"
+  url: "https://arxiv.org/abs/2401.14973"
+  displaytype: preprint
+
 - title: "SINCERE: Supervised Information Noise-Contrastive Estimation REvisited"
   authors: "Patrick Feeney\\textsuperscript{d} and Michael C. Hughes"
-  key: feeneySINCERE2023
-  year: 2023
+  key: feeneySINCERE2024
+  year: 2024
   venuetype: preprint
   venue: "arXiv"
   url: "https://arxiv.org/pdf/2309.14277.pdf"

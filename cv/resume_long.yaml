@@ -1,0 +1,746 @@
+---
+name:
+  first: Michael C.
+  last: Hughes
+
+
+website: www.michaelchughes.com
+github: michaelchughes
+email: mike@michaelchughes.com
+linkedin: michaelchughesLI
+mobile: +1-617-371-76 one one
+
+# Markdown details
+pdf: /papers/MichaelCHughes_CurriculumVitae.pdf
+source: https://github.com/michaelchughes/michaelchughes.com/
+
+sections:
+
+  - name: Current Role
+    type: experience
+
+    items:
+      - date: 2018 - present
+        topic: "Assistant Professor of Computer Science"
+        about: "\\href{www.cs.tufts.edu}{Tufts University}, Medford, MA"
+        notes:
+          - "Tenure-track role involving research as well as teaching, mentorship, and service"
+          - "Research in statistical methods for machine learning, published in AISTATS, NeurIPS, ICML"
+          - "Research in applications of ML to health, published in MLHC, CHIL, clinical journals"
+          - "Research in applications of ML to STEM education"
+          - "Mentorship: Actively advise 4 full-time Ph.D. students and 1 post-doc"
+          - "Teaching: Taught core data science courses: \\href{https://www.cs.tufts.edu/cs/135/2023f/}{CS 135 Intro to ML} and \\href{https://www.cs.tufts.edu/cs/136/2024s/}{CS 136 Statistical Pattern Recog.}"
+          - "Teaching: Developed new courses for graduate students: \\href{https://www.cs.tufts.edu/comp/150BDL/2022f/}{CS 152 Bayesian Deep Learning} and \\href{https://www.cs.tufts.edu/comp/152L3D/2024f/}{CS 152 Learning from Limited Labeled Data}"
+
+  - name: Research Expertise
+    type: experience
+
+    items:
+      - date: 2012-
+        about: "Machine Learning"
+        notes:
+          - "Unsupervised learning, Semi-supervised learning, Supervised learning"
+          - "Probabilistic models: Bayesian nonparametrics, topic models, hidden Markov models, deep generative models"
+          - "Estimation methods for posterior distributions: variational methods, Markov chain Monte Carlo"
+
+      - date: 2017-
+        about: "Applications of ML to Healthcare"
+        notes:
+          - "Early warning systems for predicting mortality/deterioration in hospitalized patients"
+          - "--- Consume EHR time series of labs, vitals, diagnosis and procedure codes"
+          - "Image analysis / computer vision for heart disease and cerebrovascular disease"
+          - "--- Predicting aortic stenosis (valve disease) from echocardiograms (ultrasound of the heart)"
+          - "--- Predicting risk of stroke/dementia from CT/MRI images"
+          - "Spatiotemporal forecasting of opioid overdose events"
+          - "Modeling demand for hospital resources over time due to COVID-19 pandemic"
+
+      - date: 2012-
+        about: "Human Activity Analysis"
+        notes:
+          - "Sensor time-series, motion capture, video, images"
+
+
+  - name: Education
+    type: education
+    items:
+      - date: 2016
+        school: Brown University
+        major: Ph.D., Computer Science
+        about: "Ph.D. thesis: \\href{https://cs.brown.edu/research/pubs/theses/phd/2016/hughes.michael.pdf}{Reliable and scalable variational inference for Bayesian nonparametrics}"
+
+      - date: 2012
+        school: Brown University
+        major: M.S., Computer Science
+
+      - date: 2010
+        school: Olin College of Engineering
+        major: B.S. Electrical \& Computer Engineering
+
+  - name: Highlighted Publications
+    type: publications
+    yaml_file: build/publications_highlight.yaml
+    footnote: "Superscripts indicate mentored student's status: u = undergraduate, m = masters, d = Ph.D. student, b = post-bacc, c = medical student. \\ Complete publication list at end of this document."
+
+  - name: Highlighted Preprints
+    type: publications
+    yaml_file: build/publications_preprint.yaml
+
+#  - name: Highlighted Manuscripts Under Review
+#    type: publications
+#.   displaytype: private
+#    yaml_file: build/publications_underreview.yaml
+
+  - name: Honors and Awards for Research
+    type: experience
+    items:
+
+      - date: 2024
+        about: "Sunrise Award, \\href{https://engineering.tufts.edu/news-events/news/faculty-win-tufts-research-awards}{Tufts University}"
+        notes:
+          - "Awarded to one junior faculty each year in Tufts' School of Engineering for research excellence"
+
+      - date: 2021
+        about: "Best Poster Award \\href{http://roseyu.com/time-series-workshop/}{Time Series Workshop @ ICML 2021}"
+        notes:
+          - "Awarded for \\href{https://www.michaelchughes.com/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf}{our work on Prediction-Constrained Hidden markov models}"
+
+      - date: 2018
+        about: "Best Paper Award, \\href{https://socalnlp.github.io/symp18/index.html}{SoCal NLP Symposium 2018}"
+        notes:
+          - "Awarded for \\href{https://www.michaelchughes.com/papers/HughesHopeWeinerEtAl_SoCalNLP_2018.pdf}{2 page summary} of our \\href{https://www.michaelchughes.com/papers/HughesEtAl_AISTATS_2018.pdf}{AISTATS 2018 paper}."
+
+      - date: 2017
+        about: Nominee for AMIA Clinical Informatics Research Award 
+        notes:
+          - "1 of 7 papers nominated at \\href{https://www.amia.org/jointsummits2017}{AMIA's 2017 Joint Summits on Translational Science}, out of >50 papers."
+
+      - date: 2011
+        about: NSF Graduate Research Fellowship Award
+        notes:
+          - "Three year award to fund Ph.D. studies. Covers tuition and provides research stipend."
+
+      - date: 2011
+        about: NDSEG Graduate Research Fellowship Award
+        notes:
+          - "Three year funding award. Declined to accept NSF fellowship."
+
+  - name: Honors and Awards for Peer Review
+    type: experience
+    items:
+
+      - date: 2023
+        about: "Top 10 Percent Reviewer Award, \\href{https://virtual.aistats.org/Conferences/2023/Reviewers}{AISTATS 2023}"
+        notes:
+          - "Recognized as one of top 10 percent of all 2500 expert reviewers at a top international machine learning conference."
+
+      - date: 2022
+        about: "Highlighted Reviewer Award, \\href{https://iclr.cc/Conferences/2022/Reviewers}{ICLR 2022}"
+        notes:
+          - "Recognized as a top reviewer at ICLR, a top-tier international machine learning conference."
+
+      - date: 2022
+        about: "Top 10 Percent Reviewer Award, \\href{https://virtual.aistats.org/Conferences/2022/Reviewers}{AISTATS 2022}"
+        notes:
+          - "Recognized as one of top 10 percent of all 2500 expert reviewers at a top-tier international machine learning conference."
+
+      - date: 2020
+        about: "Top 10 Percent Reviewer Award, \\href{https://nips.cc/Conferences/2020/Reviewers}{NeurIPS 2020}"
+        notes:
+          - "Recognized as one of top 10 percent of more than 3500 expert reviewers at the top international machine learning conference."
+
+      - date: 2019
+        about: "Top 400 Reviewer Award, \\href{https://nips.cc/Conferences/2019/Reviewers}{NeurIPS 2019}"
+        notes:
+          - "Recognized as one of top 400 of more than 3500 expert reviewers at the top international machine learning conference."
+
+      - date: 2018
+        about: "Top 200 Reviewer Award, \\href{https://nips.cc/Conferences/2018/Reviewers}{NeurIPS 2018}"
+        notes:
+          - "Recognized as one of top 200 of more than 3500 expert reviewers at the top international machine learning conference."
+
+
+  - name: Current Funding Support
+    type: experience
+    items:
+
+      - date: "09/15/24 - 09/14/29"
+        topic: "\\href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=2428640}{Convergent Understanding of Dynamics of Uncertainty in STEM Education}"
+        about: "NSF Growing Convergence Research award \\#2428640"
+        notes:
+          - "Full title: Towards a Convergent Understanding of the Dynamics of Uncertainty In Individuals and Groups with a Focus on STEM Education"
+          - "Goal: Develop ML methods to help students embrance uncertainty constructively in STEM education"
+          - "My role: co-Investigator, along with 9 other Tufts faculty"
+          - "News Article: \\href{https://now.tufts.edu/2024/10/23/national-science-foundation-grant-awarded-cross-disciplinary-research-team}{Tufts Now}"
+          - "Total Amount: \\$1,200,000 per year for 2 years, chance to renew"
+
+      - date: "07/01/24 - 06/30/29"
+        topic: "\\href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=2338962}{Decision-Aware Adaptive Probabilistic Models from Limited Supervision}"
+        about: "NSF CAREER award \\#2338962"
+        notes:
+          - "Title: Decision-Aware Learning of Adaptive Probabilistic Models from Limited Supervision"
+          - "Goal: Develop improved ML methods to help make decisions under uncertainty in health applications"
+          - "My role: Principal Investigator (solo)"
+          - "News Article: \\href{https://engineering.tufts.edu/news-events/news/hughes-receives-nsf-career-award}{Tufts SoE News}"
+          - "Total Amount: \\$599,998 for 5 years"
+          
+      - date: "04/01/24 - 03/31/25"
+        topic: "ML to Identify Opioid-Related Incidents in EMS Patient Care Reports"
+        about: "Americal Public Health Association (APHA)"
+        notes:
+          - "Title: Using Natural Language Processing and Machine Learning to Improve Identification of Opioid-Related Incidents in EMS Patient Care Reports"
+          - "Context: \\href{https://app.smarterselect.com/programs/89459-Public-Health-Practice--Apha}{Injury and Violence Prevention Data Science Demonstration Project}"
+          - "Goal: Develop improved alert systems for opioid overdose events in Lowell, MA"
+          - "Team: Shikhar Shrestha (PI, Tufts Public Health) and Tom Stopka (co-I, Tufts Public Health)"
+          - "My role: Lead of ML methods to identify opioid events from written EMS reports"
+          - "Total Amount: \\$200,000 for one year"
+
+      - date: "02/15/24 - 01/31/28"
+        topic: "\\href{https://reporter.nih.gov/search/5_-w30o8c0ebqzo4i-m_PQ/project-details/10780892}{Covert Cerbrovascular Disease detected by AI}"
+        about: "NIH R01"
+        notes:
+          - "Full title: Pragmatic neuroimaging biomarkers for future stroke and dementia risk"
+          - "Goal: Develop biomarkers for brain disease from large dataset of CT and MRI images"
+          - "Team: David Kent (PI, Tufts Medical) and Wansu Chen (co-I, Kaiser Permanente)"
+          - "My role: Lead investigator of ML methods to predict risk of stroke and dementia" 
+          - "Total Amount: \\$790,627 for first year"
+
+      - date: "10/15/23 - 4/15/25"
+        topic: "\\href{https://www.alzdiscovery.org/research-and-grants/portfolio-details/21977527}{C2D2AI: Pilot Investigation for Neuroimaging Biomarkers}"
+        about: "Alzheimer's Drug Discovery Foundation (ADDF)"
+        notes:
+          - "Full title: Covert Cerebrovascular Disease Detected by Artificial Intelligence (C2D2AI): Pilot Investigation for Pragmatic Neuroimaging Biomarkers for Future Stroke and Dementia Risk"
+          - "Goal: Develop biomarkers for brain disease from pilot dataset of MRI images"
+          - "My role: Lead investigator of ML methods to predict risk of stroke and dementia" 
+          - "Team: David Kent (PI, Tufts Medical) and Wansu Chen (co-I, Kaiser Permanente)"
+          - "Total Amount: \\$599,788 over 1.5 years"
+            
+      - date: "9/1/20 - present"
+        topic: "MASTR-E: Machine Learning Models for Human Performance Prediction"
+        about: "U.S. Army NSRDEC, Natick, MA (via Tufts CABCS)"
+        notes:
+          - "Full title: Statistical and Machine Learning Models for Data Reduction and Human Performance Prediction"
+          - "Part of larger cross-institution \\href{https://www.army.mil/article/205789/natick_leads_first_of_its_kind_soldier_readiness_study}{MASTR-E project} funded by US Army"
+          - "Team: Eric Miller (co-PI, Tufts ECE) and Shuchin Aeron (co-PI, Tufts ECE)"
+          - "My role: Lead investigator of variable selection methods and team dynamics time-series modeling"
+          - "Total Amount: Roughly \\$496,098 per year for 5 years (yearly renewal of 1 year contract)"
+
+#  - name: Pending Grant Applications
+#    type: experience
+#    displaytype: private
+#    yaml_file: private_content/grants_underreview.yaml
+
+  - name: Past Funding Support
+    type: experience
+    items:
+
+      - date: "11/15/19 - 5/15/23"
+        topic: "Autonomous Cognitive Technologies for Novelty in Open Worlds"
+        about: "DARPA SAIL-ON Program"
+        notes:
+          - "\\href{https://www.darpa.mil/program/science-of-artificial-intelligence-and-learning-for-open-world-novelty}{SAIL-ON Program: Science of Artificial Intelligence and Learning for Open-world Novelty}"
+          - "Team at Tufts: Matthias Scheutz (PI, CS), Liping Liu (CS), Jivko Sinapov (CS)"
+          - "Team at Arizone State: Chitta Baral (CSE), Subbarao Kambhampati (CSE)"
+
+      - date: "9/1/19 - 8/31/22"
+        topic: "Amortized Inference for Large-Scale Graphical Models"
+        about: "NSF CISE: Robust Intelligence: Small"
+        notes:
+          - "Co-Investigators: Liping Liu (PI, Tufts CS) and Thomas Stopka (Tufts Public Health)"
+          - "Total Amount: \\$399,923"
+      
+      - date: "5/1/21 - 4/30/22"
+        topic: "\\href{https://www.tuftsctsi.org/funding-opportunities/tufts-ctsi-pilot-studies-program/pilot-studies-grant-awardees/}{A Benchmark De-identified Echocardiogram Database}"
+        about: "Pilot Grant from Tufts CTSI"
+        notes:
+          - "Full title: A Benchmark De-identified Echocardiogram Database for Studying Automated Diagnoses"
+          - "Co-Investigators: Benjamin Wessler (PI)"
+          - "Tufts CTSI = Clinical and Translational Science Institute"
+
+      - date: "1/1/21 - 12/31/21"
+        topic: "Estimating the societal value of COVID-19 therapeutics"
+        about: "Tufts Medical Center (Originating Sponsor: Pfizer)"
+        notes:
+          - "Co-Investigators: Peter Neumann (Tufts CEVR) and Joshua Cohen (Tufts CEVR)"
+
+      - date: "7/1/20 - 6/30/21"
+        topic: "The value of predictive analytics during the COVID epidemic"
+        about: "Tufts Springboard Award (Tufts Univ. Provost's Office)"
+        notes:
+          - "Full title: Demonstrating the value of a proposed Tufts-led predictive analytics and comparative effectiveness research network during the COVID epidemic"
+          - "Co-Investigators: David Kent (Tufts Medical) and Jessica Paulus (Tufts Medical)"
+          - "Total Amount: \\$50,000"
+
+      - date: "7/1/19 - 6/30/20"
+        topic: "Estimating Individual Treatment Effects"
+        about: "Tufts Collaborates Award (Internal)"
+        notes:
+          - "Title: 'Estimating Individual Treatment Effects from Randomized Clinical Trials using Machine Learning'"
+          - "Co-Investigators: David Kent (Tufts Medical Center)"
+          - "Total Amount: \\$50,251"
+
+
+  - name: Invited Talks
+    type: experience
+    items:
+      - date: "01/2024"
+        about: "Invited Talk at \\href{https://web.northeastern.edu/spiral/events/}{SPIRAL seminar series}, Dept of ECE, Northeastern University"
+        notes:
+          - "Title: Improved Methods for Supervised Contrastive Learning and Semi-Supervised Learning"
+
+      - date: "10/2023"
+        about: Invited Talk at Takeda
+        notes:
+          - "Title: Overcoming the Limited Availability of Labeled Data for Medical Image Classification"
+
+      - date: "07/2023"
+        about: Invited Talk at PACE Research Group meeting, Tufts Medical Center"
+        notes:
+          - "Title: Towards deployable automatic screening of aortic stenosis from echocardiograms"
+
+      - date: "11/2022"
+        about: Invited Talk, WPI ECE Dept. Online Graduate Seminar
+        notes:
+          - "Title: Diagnosing Heart Disease and Preventing Fatal Overdoses via Probabilistic Machine Learning"
+ 
+      - date: "11/2022"
+        about: Invited Talk, UMass Dartmouth CS Dept. Graduate Seminar
+        notes:
+          - "Title: Diagnosing Heart Disease and Preventing Fatal Overdoses via Probabilistic Machine Learning"
+ 
+      - date: "07/2022"
+        about: Invited Talk, Apple Inc.
+        notes:
+          - "Title: Challenges in Time Series - False Alarm Control and Gradual State Transitions"
+
+      - date: "12/2020"
+        about: Invited Talk at "I Can't Believe it's not Better" workshop at NeurIPS 2020
+        notes:
+          - "Title: \\href{https://www.michaelchughes.com/talks/20201211_Talk_TheCaseForPredictionConstrainedTraining_CantBelieveNotBetterWorkshop.pdf}{I Can't Believe Supervision for Latent Variable Models is not Better: The Case for Prediction constrained training}"
+          - "Event: \\href{https://i-cant-believe-its-not-better.github.io/schedule/}{I Can't Believe It's Not Better! Workshop (ICBINB at NeurIPS 2020)}"
+          - "Workshop summary: Bridging the gap between theory and empiricism in probabilistic machine learning"
+          - "Talk summary: Makes case for our recent work on prediction constrained training, from AISTATS 2018, AISTATS 2020, and in preparation work"
+
+      - date: "07/2020"
+        about: Invited Talk at Northwell Health ML group
+        notes:
+          - "Title: \\href{https://www.michaelchughes.com/talks/20200721_Talk_Northwell_MLforEHR.pdf}{Optimizing Machine Learning Models for Interpretable, Actionable Predictions on Electronic Health Records}"
+          - "Event: Regular virtual meeting of a ML research working group at Northwell Health (large healthcare provider in NYC)"
+          - "Summarizes recent MLHC 2019, CHIL 2020, AISTATS 2020, and JAMA Netw. Open 2020 papers"
+
+      - date: "02/2020"
+        about: Invited Talk at U. Arizona
+        notes:
+          - "Title: \\href{https://www.michaelchughes.com/talks/20200228_Talk_UnivArizona_PC.pdf}{Overcoming model misspecification in structured clustering and reinforcement learning with prediction constrained training}"
+          - "Event: \\href{https://sites.google.com/math.arizona.edu/tripods-rwg6/group-meeting}{Regular meeting of a research working group at U. Arizona} funded by NSF TRIPODS award" 
+          - "Summarizes our recent AISTATS 2020 paper"
+
+      - date: "01/2020"
+        about: Invited Short Talk at Duke Clinical Research Institute Think Tank meeting
+        notes:
+          - "Talk: \\href{https://www.michaelchughes.com/talks/20200130_Talk_PreferredQualityMetrics_DukeDCRIThinkTank.pdf}{Preferred Quality Metrics for Clinical Prediction Models}"
+          - "Event: \\href{https://dcri.org/insights/think-tanks/}{Leveraging Artificial Intelligence and Machine Learning Methods and Approaches to Transform Clinical Trial Design, Planning, and Execution}"
+          - "Host Organization: \\href{https://dcri.org/}{Duke Clinical Research Institute}"
+          - "An invitation-only event in Washington D.C. gathering ~40 ML experts, clinical experts, and policy makers"
+
+      - date: "01/2020"
+        about: Invited Talk at Meeting of Critical Care Directors in Madrid, Spain
+        notes:
+          - "Talk Title: Optimizing Machine Learning Models for Interpretable, Actionable Predictions"
+          - "Event: Reunión Sobre Nuevas Tecnologías en el Tratamiento de Datos Clínicos Electrónicos"
+          - "Translation: Meeting on New Technologies for Processing Electronic Health Records"
+          - "Hosts: RGI Informatics (Dr. Richard Goldstein, CEO) and Fuenlabrada University Hospital (Joaquin Álvarez, head of ICU)."
+          - "An invitation-only hosted event in Madrid for ~30 directors of intensive care units around Madrid, Spain"
+
+      - date: "11/2019"
+        about: "Invited Mentor at 2019 PLA General Hospital - MIT Critical Data Datathon"
+        notes:
+          - "\\href{http://www.plagh-mit-datathon.com/col.jsp?id=138}{4th annual PLAGH-MIT Datathon}"
+          - "Event held in Beijing, China with 25 teams of local clinicians and computational scientists"
+          - "Team goal: Answer clinical question on historical public dataset (\\href{https://mimic.physionet.org/}{MIMIC}) over 1 weekend"
+          - "Event goal: Develop local teams' skills via intense practice with expert oversight"
+          - "My role: Advise teams toward principled and clinically-useful analysis"
+
+      - date: "06/2019"
+        about: Invited Talk at BNP 2019
+        notes:
+          - "Title: Scalable and Reliable Variational Inference for Dirichlet Process Clustering with Sparse Assignments"
+          - "Venue: \\href{https://www.stats.ox.ac.uk/bnp12/programme.html}{12th International Conference on Bayesian Nonparametrics}"
+          - "Summarizes the effective learning methods behind our \\href{https://github.com/bnpy/bnpy/}{BNPy toolbox}"
+
+      - date: "08/2018"
+        about: Invited Tutorial at MLHC 2018
+        notes:
+          - "\\href{https://www.michaelchughes.com/mlhc2018_tutorial.html}{Machine Learning for Clinicians: Advances for Multi-Modal Health Data} at \\href{https://www.mlforhc.org/2018}{MLHC '18}"
+          - "Designed to help clinicians understand enough modern machine learning to collaborate successfully with ML researchers."
+
+      - date: "12/2016"
+        about: Invited Panelist
+        notes:
+         - "Software panel at \\href{http://approximateinference.org/2016}{Advances in Approximate Bayesian Inference workshop} at NIPS '16."
+
+
+  - name: Past Research Experience
+    type: experience
+
+    items:
+      - date: 2018 - present
+        topic: "Assistant Professor of Computer Science"
+        about: "\\href{www.cs.tufts.edu}{Tufts University}, Medford, MA"
+        notes:
+          - "Research on statistical machine learning methods and applications to health informatics."
+          - "Advised Ph.D., M.S., and B.S. students in machine learning research projects."
+          - "Taught advanced undergraduate courses: \\href{https://www.cs.tufts.edu/comp/135/2019s/}{COMP 135 Intro to ML} and \\href{https://www.cs.tufts.edu/comp/136/2020s/}{COMP 136 Statistical Pattern Recog.}"
+          - "Developed new course for graduate students with research interests: \\href{https://www.cs.tufts.edu/comp/150BDL/2018f/}{COMP 150 Bayesian Deep Learning})."
+          - "Appointed as the \\href{https://engineering.tufts.edu/news/2019/08/pickering-and-hughes-named-new-professorships}{Ann W. Lambertus and Peter Lambertus Assistant Professor} in 2019"
+
+      - date: 2016 - 2018
+        topic: "Postdoctoral fellow: Machine learning to improve clinical  decisions in healthcare"
+        about: "Adviser: \\href{https://finale.seas.harvard.edu/}{Prof. Finale Doshi-Velez} (Harvard)"
+        notes:
+          - "Developed semi-supervised models for characterizing and treating depression (with \\href{https://cgm.massgeneral.org/faculty/roy-h-perlis/}{Dr. Perlis} and \\href{https://www.cdi.pitt.edu/people/thomas-mccoy-md}{Dr. McCoy})."
+          - "Applied time-series models to predict ventilator interventions in the ICU for \\href{https://mimic.physionet.org/}{public dataset} of >36,000 patients."
+          - "Created methods for training deep models so they are more interpretable to clinicians or other users."
+
+      - date: 2016
+        topic: "Postdoc project: Estimating carbon biomass from LiDAR waveforms"
+        about: "Adviser:  \\href{https://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth} \\& \\href{https://kellnerlab.org/}{Prof. Jim Kellner} (Brown U., Ecology \\& Evolutionary Biology)"
+        notes:
+          - "Predicted forest biomass from LiDAR waveforms to better understand land use and climate change."
+          - "Modeled waveforms and biomass predictions jointly via nonparametric regression using our \\href{https://www.github.com/bnpy/bnpy}{BNPy toolbox.}" 
+          - "Intended for use in NASA's upcoming \\href{https://science.nasa.gov/missions/gedi}{Global Ecosystem Dynamics Investigation (GEDI)}."
+
+      - date: 2016
+        topic: "Ph.D. thesis: \\href{https://cs.brown.edu/research/pubs/theses/phd/2016/hughes.michael.pdf}{Reliable and scalable variational inference for Bayesian nonparametrics}"
+        about: "Adviser: \\href{https://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth}"
+        notes:
+          - "Thesis Title: Reliable and scalable variational inference for nonparametric mixtures, topics, and sequences"
+          - "Developed optimization algorithms for Bayesian nonparametric models that scale to millions of examples."
+          - "Optimized lower bound on marginal likelihood, thus penalizing too simple and too complex explanations."
+          - "Escaped local optima via data-driven proposals that add useful new clusters and remove redundant ones."
+          - "Applied to topic models of 2 million NY Times articles and  sequential models of the whole human genome."
+          - "Implemented algorithms in \\href{https://www.github.com/bnpy/bnpy}{open-source package: Bayesian Nonparametrics for Python (BNPy)}."
+
+      - date: 2012
+        topic: "Master's project: Sequential Models for Video and Motion Capture"
+        about: "Adviser:  \\href{https://www.ics.uci.edu/~sudderth/}{Prof. Erik Sudderth}"
+        notes:
+          - "Developed methods to discover common actions from many videos of humans performing household exercises."
+          - "Improved existing inference algorithms with data-driven Metropolis-Hastings proposals."
+
+
+  - name: Professional Service
+    type: experience
+    items:
+      - date: ""
+        about: Senior Area Chair
+        notes:
+          - "2024 - CHIL"
+          - "2023 - CHIL"
+
+      - date: ""
+        about: Area Chair
+        notes:
+          - "2024 - MLHC"
+          - "2023 - MLHC and ML4H"
+          - "2022 - CHIL and MLHC"
+          - "2021 - CHIL and MLHC"
+
+      - date: ""
+        about: Senior Program Committee / Meta-Reviewer
+        notes:
+          - "2021 - AAAI"
+          - "2020 - AAAI"
+
+      - date: ""
+        about: Program Committee / Reviewer
+        notes:
+          - "2024 - AISTATS, ICML"
+          - "2023 - NeurIPS, NeurIPS Datasets\\&Benchmarks, AISTATS, ICLR"
+          - "2022 - NeurIPS, NeurIPS Datasets\\&Benchmarks, AISTATS, ICLR"          
+          - "2020 - NeurIPS, AISTATS, ICLR, MLHC"
+          - "2019 - NeurIPS (\\href{https://neurips.cc/Conferences/2019/Reviewers}{reviewer award}), AISTATS, ICLR"
+          - "2018 - NeurIPS (\\href{https://neurips.cc/Conferences/2018/Reviewers}{reviewer award}), AAAI, AISTATS, ICLR, AMIA CRI"
+          - "2017 - NeurIPS, ICML, AAAI"
+          - "2016 - NeurIPS"
+          - "2015 - NeurIPS, ICML"
+          - "2014 - NeurIPS, ICML"
+          - "2013 - NeurIPS (\\href{https://neurips.cc/Conferences/2013/Awards}{reviewer award})"
+
+      - date: "2023-2024"
+        about: "Organizer: Conference on Health, Inference, and Learning (CHIL)"
+        notes:
+          - "Two-day up-and-coming conference with proceedings published in PMLR"
+          - "My role: Organize paper review process, serve as Senior Area Chair"
+          - "Served same role to provide continuity at both \\href{https://chilconference.org/2023/highlights.html}{CHIL 2023} and CHIL '24"
+
+      - date: "2018"
+        about: "Workshop Organizer: ML4H at NeurIPS 2018"
+        notes:
+          - "\\href{https://ml4health.github.io/2018/}{Machine Learning for Health workshop} at NeurIPS '18 (NeurIPS ML4H 2018)."
+          - "Full-day workshop with invited keynotes, accepted papers/posters, and lively panel discussions."
+          - "Provided a forum for interdisciplinary interaction between clinicians, statisticians, and computer scientists."
+          - "Helped with website, PR, and continuity in peer-review process from previous years."
+
+      - date: "2018"
+        about: "Workshop Organizer: BNP at NeurIPS 2018"
+        notes:
+          - "\\href{https://sites.google.com/view/nipsbnp2018/}{All of Bayesian Nonparametrics workshop} at NeurIPS '18 (NeurIPS BNP 2018)."
+          - "Full-day workshop with invited keynotes, accepted papers/posters, and lively panel discussions."
+          - "Helped with peer-review process for accepted posters, \\href{hosted a panel discussion on cutting-edge software for BNP}{https://sites.google.com/view/nipsbnp2018/schedule}."
+
+      - date: "2017"
+        about: "Workshop Organizer: ML4H at NeurIPS 2017"
+        notes:
+          - "\\href{https://ml4health.github.io/2017/}{Machine Learning for Health workshop} at NIPS '17 (NIPS ML4H 2017)"
+          - "Full-day workshop with invited keynotes and panels involving clinicians, statisticians, and computer scientists."
+          - "Organized peer-review process for 118 submitted papers."
+
+      - date: "2016"
+        about: "Workshop Organizer: BNP at NeurIPS 2016"
+        notes:
+          - "\\href{https://sites.google.com/site/nipsbnp2016/}{Practical Bayesian Nonparametrics workshop} at NIPS '16."
+          - "Full-day workshop with invited speakers, contributed talks, two panel discussions, and lively poster session."
+          - "Led decisions on >25 submitted papers based on peer review."
+
+
+  - name: Mentorship
+    type: experience
+    items:
+
+      - date: ""
+        about: Tufts University
+        employer: Postdoctoral Mentees
+        notes:
+          - "Michael T. Wojnowicz, from 2020 - 2023"
+          - "-- Tufts DISC Data Scientist, primary adviser M. C. Hughes"
+          - "-- Papers: ICML '22"
+          - "-- Next position: Research associate at Harvard Univ., Dept. of Biostatistics, advised by Jeff Miller"
+
+      - date: ""
+        about: Tufts University
+        employer: Doctoral Mentees
+        notes:
+          - "Zhe Huang, CS, from 2019 - present" 
+          - "-- Topic: Deep Learning with Limited Labeled Data: New Methods and Applications to Echocardiography"
+          - "-- Awards: Outstanding Academic Scholarship Award from Tufts School of Engineering (one per year)"
+          - "-- Papers: CVPR '24, AISTATS '23 (oral), MLHC '23, MLHC '21, NeurIPS D\\&B '21"
+          - "Preetish Rath, CS, from 2019 - present" 
+          - "-- Topic: Addressing False Alarms and Missingness in Clinical Prediction Models"
+          - "-- Papers: AISTATS '22, IMLH workshop '23"
+          - "Patrick Feeney, CS, from 2020 - present"
+          - "-- Topic: Self-supervised and Supervised Contrastive Learning in Open Worlds"
+          - "-- Papers: TMLR '23, arXiv '23"
+          - "Kyle Heuton, CS, from 2020 - present"
+          - "-- Topic: Training spatiotemporal models to learn where to intervene"
+          - "-- Papers: IMLH workshop '23"
+          - "Ethan Harvey, CS, from 2023 - present"
+          - "-- Topic: Time-to-event prediction of dementia from neuroimages"
+          - "Mira Moukheiber, CS, from 2024 - present"
+          - "-- Topic: Uncertainty in medical image classification"
+
+      - date: ""
+        about: Tufts University
+        employer: Co-advised Doctoral Research Mentees
+        notes:
+          - "Kevin Cheng, ECE, from 2019 - fall 2022"
+          - "-- Primary adviser: Eric Miller (Tufts ECE)"
+          - "-- Topic: Optimal Transport methods for Time Series modeling"
+          - "-- Papers: NeurIPS '21, IEEE Trans Signal Proc. '23, ICASSP '20"
+          - "-- Next position: Takeda, Principal AI/ML Research Scientist"
+
+      - date: ""
+        about: Tufts University
+        employer: Masters Program Research Mentees
+        notes:
+          - "Yu Liu, MS DS with thesis, from 2020 - 2021"
+          - "-- Topic: An Evaluation Pipeline for Heterogeneous Treatment Effect Prediction"
+          - "-- Next Position: Merck"
+          - "Xi Chen, MS CS with project, from 2020 - 2021"
+          - "-- Topic: Bayesian Nonparametric Mixture Models for Missing Data"
+          - "-- Next Position: CS PhD student at Rutgers"
+
+      - date: ""
+        about: Tufts University
+        employer: Post-bacc Research Mentees
+        notes:
+          - "Ally Lee, BS CS from Tufts, in 2020"
+          - "-- Topic: Bayesian Analysis of Autoregressive Models for Multi-Site Hospital Admission Forecasting"
+          - "-- Next Position: Software Engineer at Hubspot, Boston, MA"
+          - "Lily H. Zhang, BS from Harvard, from 2019 - 2020"
+          - "-- Topic: 'Any Parameter Encoders for Topic Models: Variational Encoders that amortize across models as well as data'"
+          - "-- Next Position: PhD candidate in CS at NYU, advised by Rajesh Ranganath"
+
+      - date: ""
+        about: Tufts University
+        employer: Undergraduate Research Mentees
+        notes:
+          - "Mary-Joy Sidhom, BS CS with honors thesis, in 2022"
+          - "-- Topic: Deep Learning for Doppler Echocardiography from Limited Labeled Data"
+          - "-- Papers: \\href{https://tmed.cs.tufts.edu/papers/HuangSidhomEtAl_AISTATS_2023.pdf}{AISTATS '23 (oral)}"
+          - "-- Next Position: Software Engineer II at ASML"
+          - "Hezekiah Branch, BS CS at Tufts, in 2020"
+          - "-- \\href{https://stemdiversity.tufts.edu/undergraduate/LSAMP}{Tufts LSAMP fellow}"
+          - "-- Topic: Supervised Learning for Clinical Multivariate Time Series"
+
+      - date: 2016-2017
+        about: Research Mentor
+        employer: Harvard University SEAS
+        notes:
+          - "Mentored undergraduate senior thesis projects on Bayesian nonparametric inference."
+          - "Frederick Widjaja. 2017 honors thesis: {Streaming Variational Inference for the Indian Buffet Process}."
+          - "Madhu Vijay. 2017 honors thesis: {Characterizing Posterior Uncertainty for the Indian Buffet Process}."
+
+      - date: 2014-2016
+        about: Research Mentor
+        employer: Brown University
+        notes:
+          - "Mentored students on projects related to Bayesian nonparametric clustering and the BNPy Python package."
+          - "William Stephenson. 2015 undergraduate honors thesis: \\href{https://cs.brown.edu/research/pubs/theses/ugrad/2015/stephenson.will.pdf}{Variational Inference for Hierarchical Dirichlet Process based Nonparametric Models}."
+          - "Sonia Phene. 2015 undergraduate honors thesis: \\href{https://cs.brown.edu/research/pubs/theses/ugrad/2015/phene.sonia.pdf}{Multiprocessor Parallelization of Variational Inference for Bayesian Nonparametric Topic Models}."
+          - "Mengrui Ni. 2015 masters project: \\href{https://cs.brown.edu/research/pubs/theses/masters/2015/ni.mengrui.pdf}{Variational Inference for Beta-Bernoulli Dirichlet Process Mixture Models}."
+          - "Mert Terzihan. 2015 masters project."
+
+
+  - name: Teaching
+    type: experience
+    items:
+      - date: "Spring 2024"
+        about: "Course: \\href{https://www.cs.tufts.edu/cs/136/2024s/}{CS 136 Statistical Pattern Recognition}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced statistical learning course to 31 students"
+          - "Format: 4 units on fundamentals (math-intensive homeworks, coding assignments, and quizzes) plus project"
+
+      - date: "Fall 2023"
+        about: "Course: \\href{https://www.cs.tufts.edu/cs/135/2023f/}{CS 135 Intro to Machine Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught core principles of machine learning to 101 students"
+          - "Format: 3 open-ended projects, 5 homeworks (conceptual and code questions), 2 exams"
+
+      - date: "Spring 2023"
+        about: "Course: \\href{https://www.cs.tufts.edu/cs/136/2023s/}{CS 136 Statistical Pattern Recognition}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced statistical learning course to 36 students"
+          - "Format: 5 math-intensive homeworks, 5 coding-intensive homeworks, 5 quizzes"
+
+      - date: "Fall 2022"
+        about: "Course: \\href{https://www.cs.tufts.edu/cs/152BDL/2022f/}{CS 152 Bayesian Deep Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught special topics course to 26 students"
+          - "Format: weekly homeworks for first month, then 2-month open-ended team project"
+
+      - date: "Spring 2021"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/136/2021s/}{COMP 136 Statistical Pattern Recognition}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced statistical learning course to 29 students"
+          - "Format: 5 math-intensive homeworks, 5 coding-intensive homeworks, 5 short quizzes, 2 exams"
+
+      - date: "Fall 2020"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/135/2020f/}{COMP 135 Intro to Machine Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught core principles of machine learning to 95 students"
+          - "Format: 3 open-ended projects, 5 homeworks (conceptual and code questions), and 5 quizzes"
+
+      - date: "Spring 2020"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/136/2020s/}{COMP 136 Statistical Pattern Recognition}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced statistical learning course to 35 students"
+          - "Format: 5 math-intensive homeworks, 5 coding-intensive homeworks, 5 short quizzes, 2 exams"
+
+      - date: "Fall 2019"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/150BDL/2019f/}{COMP 150 Bayesian Deep Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced topics seminar to 23 students"
+          - "Format: weekly homeworks for first month, then 2-month open-ended team project"
+
+      - date: Spring 2019
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/135/2019s/}{COMP 135 Introduction to Machine Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught core principles of machine learning to about 50 students"
+          - "Format: 3 open-ended projects, weekly homeworks, and 2 exams"
+
+      - date: "Fall 2018"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/150BDL/2018f/}{COMP 150 Bayesian Deep Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced topics seminar to about 18 students"
+          - "Format: weekly homeworks for first month, then 2-month open-ended team project"
+          - "One project resulted in publication at IEEE conference (ICDL-EpiRob 2019)" 
+
+      - date: Fall 2013
+        about: "Lead Graduate TA for \\href{https://cs.brown.edu/courses/cs142/fall2013/}{CS 142: Intro to Machine Learning}"
+        notes:
+          - "Led weekly 1 hour recitation session to review key concepts for 50+ students."
+          - "Designed homework assignments and exam questions."
+
+  - name: Outreach Experience
+    type: experience
+    items:
+
+      - date: 2021-2024
+        about: Research Mentor
+        employer: Tufts DIAMONDS Program
+        location: Medford, MA
+        notes:
+          - "Mentored two undergraduate students per summer in data science research projects."
+          - "Outcomes from '23: mentee Jyontika Kapoor admitted to Northwestern PhD program in Statistics"
+          - "Outcomes from '21: mentee Christopher Slaughter wins Goldwater Scholarship, Gates Fellowship"
+
+      - date: 2014-2016
+        about: Volunteer AP Computer Science Instructor
+        employer: TEALS and Boston Latin Academy
+        location: Roxbury, MA
+        notes:
+          - "Taught 1-2 classes / week for 2 years via \\href{https://www.tealsk12.org/}{TEALS \"CS in every high school\"} initiative sponsored by Microsoft."
+          - "Developed hands-on lessons to excite students from diverse backgrounds about computational thinking."
+          - "Mentored full-time teacher Ingrid Roche as she transitioned from media arts to AP computer science (Java)."
+
+      - date: 2014
+        about: Signal Program Fellow
+        employer: Harvard Humanitarian Initiative
+        location: Cambridge, MA
+        notes:
+          - "Developed prototype detector for common housing structures in sub-Saharan Africa from satellite images."
+          - "Intended for humanitarian oversight of conflict areas where burning structures is common attack pattern."
+          - "Featured in TEDx talk \\href{https://youtu.be/u7l9rBwOnwU}{available on YouTube}"
+
+      - date: 2007-2010
+        about: Co-Founder and Curriculum Director
+        employer: Olin College Engineering Discovery
+        location: Needham, MA
+        notes:
+          - "Managed 15 undergrads in developing hands-on lessons for 4th-8th graders."
+          - "Hosted workshops for 30 children to design, build, and launch bottle rockets."
+          - "Pioneered green energy workshop which earned over \\$750 in outside funding."
+
+  - name: Industry Experience
+    type: experience
+    items:
+      - date: Summer 2013
+        about: Software Engineering Intern
+        employer: Google
+        location: Mountain View, CA
+        notes:
+          - "Improved walking/biking/running classifier using smartphone accelerometer data."
+          - "Led collection of dataset from dozens of individuals for classifier evaluation via custom Android app."
+
+  - name: All Conference Publications (in reverse chronological order)
+    type: publications
+    yaml_file: build/publications_conference.yaml
+
+  - name: All Journal Publications (in reverse chronological order)
+    type: publications
+    yaml_file: build/publications_journal.yaml
+
+  - name: All Workshop Papers (in reverse chronological order)
+    type: publications
+    yaml_file: build/publications_workshop.yaml
+

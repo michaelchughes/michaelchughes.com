@@ -114,10 +114,10 @@ Kyle Heuton, Jyontika Kapoor, Shikhar Shrestha, Thomas J Stopka, Michael C. Hugh
 <div class="list-group-item">
     <a href="https://arxiv.org/abs/2401.14973">
     <h4 class="list-group-item-heading">
-Discovering group dynamics in synchronous time series via hierarchical recurrent switching-state models
+Discovering group dynamics in coordinated time series via hierarchical recurrent switching-state models
     </h4>
     <p class="list-group-item-text">
-        Michael Wojnowicz, Preetish Rath, Eric Miller, Jeffrey Miller, Clifford Hancock, Meghan O'Donovan, Seth Elkin-Frankston, Thaddeus Brunye, and Michael C. Hughes
+        Michael T. Wojnowicz, Kaitlin Gili, Preetish Rath, Eric Miller, Jeffrey Miller, Clifford Hancock, Meghan O'Donovan, Seth Elkin-Frankston, Tad T. Brunyé, and Michael C. Hughes
     </p>
     </a>
     <p class="list-group-item-text"><i>
@@ -127,6 +127,10 @@ Discovering group dynamics in synchronous time series via hierarchical recurrent
         &#8226;
         <a href="https://arxiv.org/abs/2401.14973">
         [arXiv]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/team-dynamics-time-series/">
+        [code on GitHub]
         </a>
     </p>
 </div>

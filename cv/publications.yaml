@@ -61,8 +61,8 @@
   url: "https://proceedings.mlr.press/v225/harvey23a.html"
   displaytype: none
 
-- title: "Discovering group dynamics in synchronous time series via hierarchical recurrent switching-state models"
-  authors: "Michael Wojnowicz, Preetish Rath, Eric Miller, Jeffrey Miller, Clifford Hancock, Meghan O'Donovan, Seth Elkin-Frankston, Thaddeus Brunye, and Michael C. Hughes"
+- title: "Discovering group dynamics in coordinated time series via hierarchical recurrent switching-state models"
+  authors: "Michael Wojnowicz\\textsuperscript{p}, Kaitlin Gili\\textsuperscript{p}, Preetish Rath\\textsuperscript{d}, Eric Miller, Jeffrey Miller, Clifford Hancock, Meghan O'Donovan, Seth Elkin-Frankston, Tad T. Brunyé, and Michael C. Hughes"
   key: wojnowiczGroupDynamics2024
   year: 2024
   venuetype: preprint
@@ -95,10 +95,10 @@
   venuetype: journal
   venue: "IEEE Transactions on Signal Processing"
   url: "https://doi.org/10.1109/TSP.2023.3303616"
-  displaytype: highlight
+  displaytype: preprint
 
 - title: "Approximate inference by broadening the support of the likelihood"
-  authors: "Michael T. Wojnowicz,  Martin D. Buck, Michael C. Hughes"
+  authors: "Michael T. Wojnowicz\\textsuperscript{p},  Martin D. Buck, Michael C. Hughes"
   key: wojnowiczSupportBroadening2023
   year: 2023
   venuetype: conference
@@ -190,7 +190,7 @@
 
 
 - title: "Easy Variational Inference for Categorical Models via an Independent Binary Approximation"
-  authors: "Michael T. Wojnowicz, Shuchin Aeron, Eric L. Miller, and Michael C. Hughes"
+  authors: "Michael T. Wojnowicz\\textsuperscript{p}, Shuchin Aeron, Eric L. Miller, and Michael C. Hughes"
   key: wojnowiczEasyVariationalInference2022
   year: 2022
   venuetype: conference
@@ -340,7 +340,7 @@
   venuetype: preprint
   venue: "arXiv"
   url: "https://arxiv.org/pdf/2103.15966.pdf"
-  displaytype: preprint
+  displaytype: none
 
 - title: Enzyme Promiscuity Prediction Using Hierarchy-Informed Multi-Label Classification
   authors: "Gian Marco Visani\\textsuperscript{u}, Michael C. Hughes, and Soha Hassoun"
@@ -358,7 +358,7 @@
   venuetype: preprint
   venue: arXiv
   url: https://arxiv.org/pdf/2012.06718.pdf
-  displaytype: preprint
+  displaytype: none
 
 - title: "On Matched Filtering for Statistical Change Point Detection"
   authors: "Kevin Cheng\\textsuperscript{d}, Eric L Miller, Michael C Hughes, and Shuchin Aeron"
@@ -475,7 +475,7 @@
   venuetype: preprint
   venue: arXiv
   url: https://arxiv.org/pdf/1707.07341.pdf
-  displaytype: preprint
+  displaytype: none
 
 - title: Fast Learning of Clusters and Topics via Sparse Posteriors
   authors: Michael C. Hughes and Erik B. Sudderth
@@ -484,7 +484,7 @@
   venuetype: preprint
   venue: arXiv
   url: https://www.michaelchughes.com/papers/HughesSudderth_arXiv_2016.pdf
-  displaytype: preprint
+  displaytype: none
 
 - title: "Feature Robustness in Non-stationary Health Records: Caveats to Deployable Model Performance in Common Clinical Machine Learning Tasks"
   authors: "Bret Nestor\\textsuperscript{d}, Matthew B. A. McDermott, Willie Boag, Gabriela Berner, Tristan Naumann, Michael C. Hughes, Anna Goldenberg, and Marzyeh Ghassemi"
@@ -538,7 +538,7 @@
   venuetype: conference
   venue: "Artificial Intelligence and Statistics (AISTATS)"
   url: https://www.michaelchughes.com/papers/HughesEtAl_AISTATS_2018.pdf
-  displaytype: none
+  displaytype: preprint
 
 - title: "Beyond Sparsity: Tree Regularization of Deep Models for Interpretability"
   authors: "Mike Wu\\textsuperscript{u}, Michael C. Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
@@ -683,3 +683,12 @@
   venue: CVPR Workshop on Perceptual Organization in Computer Vision (POCV)
   url: https://www.michaelchughes.com/papers/HughesSudderth_POCV_2012.pdf
   displaytype: none
+
+- title: String formatting considered harmful for novice programmers
+  authors: Michael C. Hughes, Matthew C. Jadud, Ma. Mercedes T. Rodrigo
+  key: cse2010
+  year: 2010
+  venuetype: journal
+  venue: Comput. Sci. Educ.
+  url: https://doi.org/10.1080/08993408.2010.507335
+  displaytype: preprint

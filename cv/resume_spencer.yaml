@@ -1,0 +1,373 @@
+---
+name:
+  first: Michael C.
+  last: Hughes
+
+
+website: www.michaelchughes.com
+github: michaelchughes
+email: mike@michaelchughes.com
+linkedin: michaelchughesLI
+mobile: "\\href{https://scholar.google.com/citations?hl=en&user=ugSmcnoAAAAJ}{Google Scholar}"
+
+# Markdown details
+pdf: /papers/MichaelCHughes_CurriculumVitae.pdf
+source: https://github.com/michaelchughes/michaelchughes.com/
+
+sections:
+
+  - name: Current Role
+    type: experience
+
+    items:
+      - date: 2018 - present
+        topic: "Assistant Professor of Computer Science"
+        about: "\\href{www.cs.tufts.edu}{Tufts University}, Medford, MA"
+        notes:
+          - "Tenure-track role involving research as well as teaching, mentorship, and service"
+          - "Research in statistical methods for machine learning, published in AISTATS, NeurIPS, ICML"
+          - "Research in applications of ML to health, published in MLHC, CHIL, clinical journals"
+          - "Research in applications of ML to STEM education"
+          - "Mentorship: Advise 4 full-time Ph.D. students and 1 post-doc"
+          - "Teaching: Core data science courses: \\href{https://www.cs.tufts.edu/cs/135/2023f/}{CS 135 Intro to ML} and \\href{https://www.cs.tufts.edu/cs/136/2024s/}{CS 136 Statistical Pattern Recog.}"
+          - "Teaching: Advanced ML courses for grad. students: \\href{https://www.cs.tufts.edu/comp/152BDL/2022f/}{CS 152 Bayesian Deep Learning} and \\href{https://www.cs.tufts.edu/comp/152L3D/2024f/}{CS 152 Learning from Limited Labeled Data}"
+
+  - name: Education
+    type: education
+    items:
+      - date: 2016
+        school: Brown University
+        major: Ph.D., Computer Science
+        about: "Ph.D. thesis: \\href{https://cs.brown.edu/research/pubs/theses/phd/2016/hughes.michael.pdf}{Reliable and scalable variational inference for Bayesian nonparametrics}"
+
+      - date: 2012
+        school: Brown University
+        major: M.S., Computer Science
+
+      - date: 2010
+        school: Olin College of Engineering
+        major: B.S. Electrical \& Computer Engineering
+
+  - name: Highlighted Preprints and Publications
+    type: publications
+    yaml_file: build/publications_preprint.yaml
+    footnote: "Superscripts indicate mentee status: u = undergraduate, m = masters, d = Ph.D. student, p = post-doc, b = post-bacc, c = medical student."
+
+  - name: Other Select Publications
+    type: publications
+    yaml_file: build/publications_highlight.yaml
+
+#  - name: Highlighted Manuscripts Under Review
+#    type: publications
+#.   displaytype: private
+#    yaml_file: build/publications_underreview.yaml
+
+  - name: Honors and Awards for Research
+    type: experience
+    items:
+
+      - date: 2024
+        about: "Sunrise Award, \\href{https://engineering.tufts.edu/news-events/news/faculty-win-tufts-research-awards}{Tufts University}"
+        notes:
+          - "Awarded to one junior faculty each year in Tufts' School of Engineering for research excellence"
+
+      - date: 2021
+        about: "Best Poster Award \\href{http://roseyu.com/time-series-workshop/}{Time Series Workshop @ ICML 2021}"
+        notes:
+          - "Awarded for \\href{https://www.michaelchughes.com/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf}{our work on Prediction-Constrained Hidden markov models}"
+
+      - date: 2018
+        about: "Best Paper Award, \\href{https://socalnlp.github.io/symp18/index.html}{SoCal NLP Symposium 2018}"
+        notes:
+          - "Awarded for \\href{https://www.michaelchughes.com/papers/HughesHopeWeinerEtAl_SoCalNLP_2018.pdf}{2 page summary} of our \\href{https://www.michaelchughes.com/papers/HughesEtAl_AISTATS_2018.pdf}{AISTATS 2018 paper}."
+
+      - date: 2017
+        about: Nominee for AMIA Clinical Informatics Research Award 
+        notes:
+          - "1 of 7 papers nominated at \\href{https://www.amia.org/jointsummits2017}{AMIA's 2017 Joint Summits on Translational Science}, out of >50 papers."
+
+      - date: 2011
+        about: NSF Graduate Research Fellowship Award
+        notes:
+          - "Three year award to fund Ph.D. studies. Covers tuition and provides research stipend."
+
+      - date: 2011
+        about: NDSEG Graduate Research Fellowship Award
+        notes:
+          - "Three year funding award. Declined to accept NSF fellowship."
+
+  - name: Honors and Awards for Peer Review
+    type: experience
+    items:
+
+      - date: 2023
+        about: "Top 10 Percent Reviewer Award, \\href{https://virtual.aistats.org/Conferences/2023/Reviewers}{AISTATS 2023}"
+        notes:
+          - "Recognized as one of top 10 percent of all 2500 expert reviewers at a top international machine learning conference."
+
+      - date: 2022
+        about: "Highlighted Reviewer Award, \\href{https://iclr.cc/Conferences/2022/Reviewers}{ICLR 2022}"
+        notes:
+          - "Recognized as a top reviewer at ICLR, a top-tier international machine learning conference."
+
+      - date: 2022
+        about: "Top 10 Percent Reviewer Award, \\href{https://virtual.aistats.org/Conferences/2022/Reviewers}{AISTATS 2022}"
+        notes:
+          - "Recognized as one of top 10 percent of all 2500 expert reviewers at a top-tier international machine learning conference."
+
+      - date: 2020
+        about: "Top 10 Percent Reviewer Award, \\href{https://nips.cc/Conferences/2020/Reviewers}{NeurIPS 2020}"
+        notes:
+          - "Recognized as one of top 10 percent of more than 3500 expert reviewers at the top international machine learning conference."
+
+
+  - name: Current Funding Support
+    type: experience
+    items:
+
+      - date: "09/15/24 - 09/14/29"
+        topic: "\\href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=2428640}{Convergent Understanding of Dynamics of Uncertainty in STEM Education}"
+        about: "NSF Growing Convergence Research award \\#2428640"
+        notes:
+          - "Full title: Towards a Convergent Understanding of the Dynamics of Uncertainty In Individuals and Groups with a Focus on STEM Education"
+          - "Goal: Develop ML methods to help students embrance uncertainty constructively in STEM education"
+          - "My role: co-Investigator, along with 9 other Tufts faculty"
+          - "News Article: \\href{https://now.tufts.edu/2024/10/23/national-science-foundation-grant-awarded-cross-disciplinary-research-team}{Tufts Now}"
+          - "Total Amount: \\$1,200,000 per year for 2 years, chance to renew"
+
+      - date: "07/01/24 - 06/30/29"
+        topic: "\\href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=2338962}{Decision-Aware Adaptive Probabilistic Models from Limited Supervision}"
+        about: "NSF CAREER award \\#2338962"
+        notes:
+          - "Title: Decision-Aware Learning of Adaptive Probabilistic Models from Limited Supervision"
+          - "Goal: Develop improved ML methods to help make decisions under uncertainty in health applications"
+          - "My role: Principal Investigator (solo)"
+          - "News Article: \\href{https://engineering.tufts.edu/news-events/news/hughes-receives-nsf-career-award}{Tufts SoE News}"
+          - "Total Amount: \\$599,998 for 5 years"
+
+      - date: "04/01/24 - 03/31/25"
+        topic: "ML to Identify Opioid-Related Incidents in EMS Patient Care Reports"
+        about: "Americal Public Health Association (APHA)"
+        notes:
+          - "Title: Using Natural Language Processing and Machine Learning to Improve Identification of Opioid-Related Incidents in EMS Patient Care Reports"
+          - "Context: \\href{https://app.smarterselect.com/programs/89459-Public-Health-Practice--Apha}{Injury and Violence Prevention Data Science Demonstration Project}"
+          - "Goal: Develop improved alert systems for opioid overdose events in Lowell, MA"
+          - "Team: Shikhar Shrestha (PI, Tufts Public Health) and Tom Stopka (co-I, Tufts Public Health)"
+          - "My role: Lead of ML methods to identify opioid events from written EMS reports"
+          - "Total Amount: \\$200,000 for one year"
+
+      - date: "02/15/24 - 01/31/28"
+        topic: "\\href{https://reporter.nih.gov/search/5_-w30o8c0ebqzo4i-m_PQ/project-details/10780892}{Covert Cerbrovascular Disease detected by AI}"
+        about: "NIH R01"
+        notes:
+          - "Full title: Pragmatic neuroimaging biomarkers for future stroke and dementia risk"
+          - "Goal: Develop biomarkers for brain disease from large dataset of CT and MRI images"
+          - "Team: David Kent (PI, Tufts Medical) and Wansu Chen (co-I, Kaiser Permanente)"
+          - "My role: Lead investigator of ML methods to predict risk of stroke and dementia" 
+          - "Total Amount: \\$790,627 for first year"
+
+      - date: "10/15/23 - 4/15/25"
+        topic: "\\href{https://www.alzdiscovery.org/research-and-grants/portfolio-details/21977527}{C2D2AI: Pilot Investigation for Neuroimaging Biomarkers}"
+        about: "Alzheimer's Drug Discovery Foundation (ADDF)"
+        notes:
+          - "Full title: Covert Cerebrovascular Disease Detected by Artificial Intelligence (C2D2AI): Pilot Investigation for Pragmatic Neuroimaging Biomarkers for Future Stroke and Dementia Risk"
+          - "Goal: Develop biomarkers for brain disease from pilot dataset of MRI images"
+          - "My role: Lead investigator of ML methods to predict risk of stroke and dementia" 
+          - "Team: David Kent (PI, Tufts Medical) and Wansu Chen (co-I, Kaiser Permanente)"
+          - "Total Amount: \\$599,788 over 1.5 years"
+            
+#  - name: Pending Grant Applications
+#    type: experience
+#    displaytype: private
+#    yaml_file: private_content/grants_underreview.yaml
+
+  - name: Past Funding Support
+    type: experience
+    items:
+
+      - date: "9/1/20 - 8/31/24"
+        topic: "MASTR-E: Machine Learning Models for Human Performance Prediction"
+        about: "U.S. Army NSRDEC, Natick, MA (via Tufts CABCS)"
+        notes:
+          - "Full title: Statistical and Machine Learning Models for Data Reduction and Human Performance Prediction"
+          - "Part of larger cross-institution \\href{https://www.army.mil/article/205789/natick_leads_first_of_its_kind_soldier_readiness_study}{MASTR-E project} funded by US Army"
+          - "Team: Eric Miller (co-PI, Tufts ECE) and Shuchin Aeron (co-PI, Tufts ECE)"
+          - "My role: Lead investigator of variable selection methods and team dynamics time-series modeling"
+          - "Total Amount: Roughly \\$496,098 per year for 5 years (yearly renewal of 1 year contract)"
+
+      - date: "11/15/19 - 5/15/23"
+        topic: "Autonomous Cognitive Technologies for Novelty in Open Worlds"
+        about: "DARPA SAIL-ON Program"
+        notes:
+          - "\\href{https://www.darpa.mil/program/science-of-artificial-intelligence-and-learning-for-open-world-novelty}{SAIL-ON Program: Science of Artificial Intelligence and Learning for Open-world Novelty}"
+          - "Team at Tufts: Matthias Scheutz (PI, CS), Liping Liu (CS), Jivko Sinapov (CS)"
+          - "Team at Arizone State: Chitta Baral (CSE), Subbarao Kambhampati (CSE)"
+
+      - date: "9/1/19 - 8/31/22"
+        topic: "Amortized Inference for Large-Scale Graphical Models"
+        about: "NSF CISE: Robust Intelligence: Small"
+        notes:
+          - "Co-Investigators: Liping Liu (PI, Tufts CS) and Thomas Stopka (Tufts Public Health)"
+          - "Total Amount: \\$399,923"
+      
+      - date: "5/1/21 - 4/30/22"
+        topic: "\\href{https://www.tuftsctsi.org/funding-opportunities/tufts-ctsi-pilot-studies-program/pilot-studies-grant-awardees/}{A Benchmark De-identified Echocardiogram Database}"
+        about: "Pilot Grant from Tufts CTSI"
+        notes:
+          - "Full title: A Benchmark De-identified Echocardiogram Database for Studying Automated Diagnoses"
+          - "Co-Investigators: Benjamin Wessler (PI)"
+          - "Tufts CTSI = Clinical and Translational Science Institute"
+
+      - date: "1/1/21 - 12/31/21"
+        topic: "Estimating the societal value of COVID-19 therapeutics"
+        about: "Tufts Medical Center (Originating Sponsor: Pfizer)"
+        notes:
+          - "Co-Investigators: Peter Neumann (Tufts CEVR) and Joshua Cohen (Tufts CEVR)"
+
+      - date: "7/1/20 - 6/30/21"
+        topic: "The value of predictive analytics during the COVID epidemic"
+        about: "Tufts Springboard Award (Tufts Univ. Provost's Office)"
+        notes:
+          - "Full title: Demonstrating the value of a proposed Tufts-led predictive analytics and comparative effectiveness research network during the COVID epidemic"
+          - "Co-Investigators: David Kent (Tufts Medical) and Jessica Paulus (Tufts Medical)"
+          - "Total Amount: \\$50,000"
+
+      - date: "7/1/19 - 6/30/20"
+        topic: "Estimating Individual Treatment Effects"
+        about: "Tufts Collaborates Award (Internal)"
+        notes:
+          - "Title: 'Estimating Individual Treatment Effects from Randomized Clinical Trials using Machine Learning'"
+          - "Co-Investigators: David Kent (Tufts Medical Center)"
+          - "Total Amount: \\$50,251"
+
+  - name: Teaching
+    type: experience
+    items:
+      - date: "Spring 2024"
+        about: "Course: \\href{https://www.cs.tufts.edu/cs/136/2024s/}{CS 136 Statistical Pattern Recognition}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced statistical learning course to 31 students"
+          - "Format: 4 units on fundamentals (math-intensive homeworks, coding assignments, and quizzes) plus project"
+
+      - date: "Fall 2023"
+        about: "Course: \\href{https://www.cs.tufts.edu/cs/135/2023f/}{CS 135 Intro to Machine Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught core principles of machine learning to 101 students"
+          - "Format: 3 open-ended projects, 5 homeworks (conceptual and code questions), 2 exams"
+
+      - date: "Spring 2023"
+        about: "Course: \\href{https://www.cs.tufts.edu/cs/136/2023s/}{CS 136 Statistical Pattern Recognition}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced statistical learning course to 36 students"
+          - "Format: 5 math-intensive homeworks, 5 coding-intensive homeworks, 5 quizzes"
+
+      - date: "Fall 2022"
+        about: "Course: \\href{https://www.cs.tufts.edu/cs/152BDL/2022f/}{CS 152 Bayesian Deep Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught special topics course to 26 students"
+          - "Format: weekly homeworks for first month, then 2-month open-ended team project"
+
+      - date: "Spring 2021"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/136/2021s/}{COMP 136 Statistical Pattern Recognition}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced statistical learning course to 29 students"
+          - "Format: 5 math-intensive homeworks, 5 coding-intensive homeworks, 5 short quizzes, 2 exams"
+
+      - date: "Fall 2020"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/135/2020f/}{COMP 135 Intro to Machine Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught core principles of machine learning to 95 students"
+          - "Format: 3 open-ended projects, 5 homeworks (conceptual and code questions), and 5 quizzes"
+
+      - date: "Spring 2020"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/136/2020s/}{COMP 136 Statistical Pattern Recognition}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced statistical learning course to 35 students"
+          - "Format: 5 math-intensive homeworks, 5 coding-intensive homeworks, 5 short quizzes, 2 exams"
+
+      - date: "Fall 2019"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/150BDL/2019f/}{COMP 150 Bayesian Deep Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced topics seminar to 23 students"
+          - "Format: weekly homeworks for first month, then 2-month open-ended team project"
+
+      - date: Spring 2019
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/135/2019s/}{COMP 135 Introduction to Machine Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught core principles of machine learning to about 50 students"
+          - "Format: 3 open-ended projects, weekly homeworks, and 2 exams"
+
+      - date: "Fall 2018"
+        about: "Course: \\href{https://www.cs.tufts.edu/comp/150BDL/2018f/}{COMP 150 Bayesian Deep Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught advanced topics seminar to about 18 students"
+          - "Format: weekly homeworks for first month, then 2-month open-ended team project"
+          - "One project resulted in publication at IEEE conference (ICDL-EpiRob 2019)" 
+
+      - date: Fall 2013
+        about: "Lead Graduate TA for \\href{https://cs.brown.edu/courses/cs142/fall2013/}{CS 142: Intro to Machine Learning}"
+        notes:
+          - "Led weekly 1 hour recitation session to review key concepts for 50+ students."
+          - "Designed homework assignments and exam questions."
+
+  - name: Outreach Experience
+    type: experience
+    items:
+
+      - date: 2021-2024
+        about: Research Mentor
+        employer: Tufts DIAMONDS REU Program
+        location: Medford, MA
+        notes:
+          - "Mentored two undergraduate students per summer in data science research projects."
+          - "Outcomes from '23: mentee Jyontika Kapoor admitted to Northwestern PhD program in Statistics"
+          - "Outcomes from '21: mentee Christopher Slaughter wins Goldwater Scholarship, Gates Fellowship"
+
+      - date: 2014-2016
+        about: Volunteer AP Computer Science Instructor
+        employer: TEALS and Boston Latin Academy
+        location: Roxbury, MA
+        notes:
+          - "Taught 1-2 classes / week for 2 years via \\href{https://www.tealsk12.org/}{TEALS \"CS in every high school\"} initiative sponsored by Microsoft."
+          - "Developed hands-on lessons to excite students from diverse backgrounds about computational thinking."
+          - "Mentored full-time teacher Ingrid Roche as she transitioned from media arts to AP computer science (Java)."
+
+      - date: 2014
+        about: Signal Program Fellow
+        employer: Harvard Humanitarian Initiative
+        location: Cambridge, MA
+        notes:
+          - "Developed prototype detector for common housing structures in sub-Saharan Africa from satellite images."
+          - "Intended for humanitarian oversight of conflict areas where burning structures is common attack pattern."
+          - "Featured in TEDx talk \\href{https://youtu.be/u7l9rBwOnwU}{available on YouTube}"
+
+      - date: 2007-2010
+        about: Co-Founder and Curriculum Director
+        employer: Olin College Engineering Discovery
+        location: Needham, MA
+        notes:
+          - "Managed 15 undergrads in developing hands-on lessons for 4th-8th graders."
+          - "Hosted workshops for 30 children to design, build, and launch bottle rockets."
+          - "Pioneered green energy workshop which earned over \\$750 in outside funding."
+
+  - name: Industry Experience
+    type: experience
+    items:
+      - date: Summer 2013
+        about: Software Engineering Intern
+        employer: Google
+        location: Mountain View, CA
+        notes:
+          - "Improved walking/biking/running classifier using smartphone accelerometer data."
+          - "Led collection of dataset from dozens of individuals for classifier evaluation via custom Android app."
+

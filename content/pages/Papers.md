@@ -10,10 +10,51 @@ External links:
 
 This page contains select publications from my group. See the complete list in my [Curriculum Vitae]({static}/cv.html)
 
+### 2025
+
+<div class="list-group-item">
+    <a href="https://arxiv.org/abs/2403.06024">
+    <h4 class="list-group-item-heading">
+        Semi-Supervised Multimodal Multi-Instance Learning for Aortic Stenosis Diagnosis
+    </h4>
+    <p class="list-group-item-text">
+        Zhe Huang, Xiaowei Yu, Benjamin S. Wessler, Michael C. Hughes
+    </p>
+    </a>
+    <p class="list-group-item-text"><i>
+        To appear, <a href="https://biomedicalimaging.org/2025/">
+        IEEE International Symposium on Biomedical Imaging (ISBI)</a>, 2025
+    </i></p>
+    <p class="list-group-item-text"><span>
+        <a href="https://arxiv.org/abs/2403.06024">
+        [arXiv]
+        </a>
+    </p>
+</div>
+
+<div class="list-group-item">
+    <a href="https://arxiv.org/abs/2502.01861">
+    <h4 class="list-group-item-heading">
+        Learning Hyperparameters via a Data-Emphasized Variational Objective
+    </h4>
+    <p class="list-group-item-text">
+        Ethan Harvey, Mikhail Petrov, and Michael C. Hughes
+    </p>
+    </a>
+    <p class="list-group-item-text"><i>
+        Preprint
+    </i></p>
+    <p class="list-group-item-text"><span>
+        <a href="https://arxiv.org/abs/2502.01861">
+        [arXiv]
+        </a>
+    </p>
+</div>
+
 ### 2024
 
 <div class="list-group-item">
-    <a href="#">
+    <a href="https://arxiv.org/abs/2410.19675">
     <h4 class="list-group-item-heading">
         Learning the Regularization Strength for Deep Fine-Tuning via a Data-Emphasized Variational Objective
     </h4>
@@ -27,8 +68,8 @@ This page contains select publications from my group. See the complete list in m
         co-located with NeurIPS 2024
     </i></p>
     <p class="list-group-item-text"><span>
-        <a href="#">
-        [PDF coming soon]
+        <a href="https://arxiv.org/abs/2410.19675">
+        [arXiv]
         </a>
         &#8226;
         <a href="https://github.com/tufts-ml/data-emphasized-ELBo">

@@ -168,31 +168,6 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 </div><!-- end col -->
 
 
-
-<div class="col-xs-6 col-md-3 d-flex align-items-stretch">
-<div class="panel bg-light" style="border=0px;">
-<img class="panel-img-top"
-  src="images/headshots_200x200/mira_moukheiber.jpg"
-  alt="Mira headshot">
-<div class="panel-body">
-	<h3 style="padding-top: 0; margin-top: 0">Mira Moukheiber</h3>
-	<p class="panel-text">
-		PhD student, Tufts CS
-	</p>
-	<p class="panel-text">
-		Interests:
-		<ul>
-			<li>Transfer Learning</li>
-			<li>Abstention Classifiers</li>
-		</ul>
-	</p>
-	<p class="panel-text">
-		Joined Jun 2024
-	</p>
-</div><!-- end panel body -->
-</div><!-- end panel -->
-</div><!-- end col -->
-
 </div><!-- end row -->
 </div>
 
@@ -296,7 +271,7 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 		Next Positions: 
 		<ul>
 		<li>'23: Postdoc at Harvard Biostats</li>
-		<li>'25: Faculty at Montana State</li>
+		<li>'25: <a href="https://mikewojnowicz.github.io/">Faculty at Montana State</a></li>
 		</ul>
 	</p>
 </div><!-- end panel body -->
@@ -350,7 +325,7 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 		</a>
 	</h3>
 	<p class="panel-text">
-		post-bacc researcher 
+		post-bacc researcher in 2019
 	</p>
 	<p class="panel-text">
 		Interests:
@@ -361,7 +336,7 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 	<p class="panel-text">
 		Next Positions: 
 		<ul>
-		<li>'23: PhD student in CS at NYU</li>
+		<li>'23: PhD student in CS at NYU (with Prof. Rajesh Ranganath)</li>
 		</ul>
 	</p>
 </div><!-- end panel body -->
@@ -421,6 +396,37 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 </div><!-- end panel body -->
 </div><!-- end panel -->
 </div><!-- end col -->
+
+
+<div class="col-xs-6 col-md-3 d-flex align-items-stretch">
+<div class="panel bg-light" style="border=0px;">
+<div class="panel-body">
+	<h3 style="padding-top: 0; margin-top: 0">
+		<a href="https://stat.columbia.edu/department-directory/current-doctoral-students/name/binh-irene-chang/">
+		Binh N. Chang ("Irene")
+		</a>
+	</h3>
+	<p class="panel-text">
+		2023 Tufts BS in DS and Math
+	</p>
+	<p class="panel-text">
+		Interests:
+		<ul>
+			<li>supervised domain adaptation</li>
+			<li>style transfer</li>
+		</ul>
+	</p>
+	<p class="panel-text">
+		Next Positions: 
+		<ul>
+		<li>'23: PhD Student in Statistics at Columbia</a> (with Prof. Dave Blei)</li>
+		</ul>
+	</p>
+</div><!-- end panel body -->
+</div><!-- end panel -->
+</div><!-- end col -->
+
+https://stat.columbia.edu/people/name/binh-irene-chang/
 
 </div><!-- end row -->
 </div>

@@ -1,3 +1,21 @@
+- title: "Semi-Supervised Multimodal Multi-Instance Learning for Aortic Stenosis Diagnosis"
+  authors: "Zhe Huang\\textsuperscript{d}, Xiaowei Yu, Benjamin S. Wessler, Michael C. Hughes"
+  key: huangMultimodal2025
+  year: 2025
+  venuetype: conference
+  venue: "IEEE ISBI [selected for oral]"
+  url: "https://arxiv.org/abs/2403.06024"
+  displaytype: highlight
+
+- title: "Learning Hyperparameters via a Data-Emphasized Variational Objective"
+  authors: "Ethan Harvey\\textsuperscript{d}, Mikhail Petrov, and Michael C. Hughes"
+  key: harveyLearnHyperparameters2025
+  year: 2024
+  venuetype: preprint
+  venue: "arXiv"
+  url: "https://arxiv.org/abs/2502.01861"
+  displaytype: preprint
+
 - title: "Learning the Regularization Strength for Deep Fine-Tuning via a Data-Emphasized Variational Objective"
   authors: "Ethan Harvey\\textsuperscript{d}, Mikhail Petrov, and Michael C. Hughes"
   key: harveyLearnRegularization2024
@@ -95,7 +113,7 @@
   venuetype: journal
   venue: "IEEE Transactions on Signal Processing"
   url: "https://doi.org/10.1109/TSP.2023.3303616"
-  displaytype: preprint
+  displaytype: none
 
 - title: "Approximate inference by broadening the support of the likelihood"
   authors: "Michael T. Wojnowicz\\textsuperscript{p},  Martin D. Buck, Michael C. Hughes"
@@ -231,7 +249,7 @@
   year: 2021
   venuetype: conference
   venue: Neural Information Processing Systems (NeurIPS)
-  url: ""
+  url: "https://papers.nips.cc/paper/2021/file/ebb71045453f38676c40deb9864f811d-Paper.pdf"
   displaytype: highlight
 
 - title: "The role of machine learning in clinical research: transforming the future of evidence generation"
@@ -394,7 +412,7 @@
   venuetype: journal
   venue: JAMA Network Open
   url: "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2766073"
-  displaytype: highlight
+  displaytype: none
 
 - title: "MIMIC-Extract: A Data Extraction, Preprocessing, and Representation Pipeline for MIMIC-III"
   authors: "Shirly Wang\\textsuperscript{m}, Matthew B. A. McDermott, Geeticka Chauhan, Marzyeh Ghassemi, Michael C. Hughes, and Tristan Naumann"
@@ -538,7 +556,7 @@
   venuetype: conference
   venue: "Artificial Intelligence and Statistics (AISTATS)"
   url: https://www.michaelchughes.com/papers/HughesEtAl_AISTATS_2018.pdf
-  displaytype: preprint
+  displaytype: none
 
 - title: "Beyond Sparsity: Tree Regularization of Deep Models for Interpretability"
   authors: "Mike Wu\\textsuperscript{u}, Michael C. Hughes, Sonali Parbhoo, Maurizio Zazzi, Volker Roth, and Finale Doshi-Velez"
@@ -691,4 +709,4 @@
   venuetype: journal
   venue: Comput. Sci. Educ.
   url: https://doi.org/10.1080/08993408.2010.507335
-  displaytype: preprint
+  displaytype: none

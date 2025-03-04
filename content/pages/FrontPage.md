@@ -36,11 +36,49 @@ For more, see my [Research page]({static}/research.html)
 <ul class="list-group">
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
+        [Mar 2024] Paper at IEEE ISBI '25
+        </h4>
+        <ul>
+            <li><a href="https://arxiv.org/abs/2403.06024">
+                [Paper]</a> led by recent PhD grad Zhe Huang
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Dec 2024] Poster at NeurIPS, plus more at FITML workshop and ML4H symposium
+        </h4>
+        <ul>
+            <li><a href="https://openreview.net/forum?id=BbvSU02jLg">
+                [Paper]</a> led by PhD student Ethan Harvey, selected for poster presentation at main NeurIPS conference as part of the journal-to-conference track.
+            </li>
+            <li><a href="https://openreview.net/forum?id=wzvP0CJ8h4">
+                [Paper]</a> at <a href="https://sites.google.com/view/neurips2024-ftw/home">FITML workshop</a>, led by PhD student Ethan Harvey
+            </li>
+            <li><a href="https://ahli.cc/ml4h/">
+                [ML4H symposium]</a>, co-organized by PhD student Kyle Heuton
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
         [Sep 2024] Paper on spatiotemporal forecasting of opioid overdose epidemic
         </h4>
         <ul>
             <li><a href="https://doi.org/10.1093/aje/kwae343">
                 [paper at Am J. Epi.]</a>, Led by PhD student Kyle Heuton (Tufts CS)
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Sep 2024] Awarded <a href="https://new.nsf.gov/news/nsf-growing-convergence-research-awards-advance-innovation">NSF GCR grant</a> as part of a multi-investigator team at Tufts
+        </h4>
+        <ul>
+            <li> Goal: Explore how uncertainty and confusion in STEM education can be embraced constructively to improve individual and group learning
+            </li>
+            <li><a href="https://now.tufts.edu/2024/10/23/national-science-foundation-grant-awarded-cross-disciplinary-research-team">
+                Article on Tufts Now website</a>
             </li>
         </ul>
     </li>

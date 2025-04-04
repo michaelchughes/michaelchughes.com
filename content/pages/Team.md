@@ -419,14 +419,14 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 	<p class="panel-text">
 		Next Positions: 
 		<ul>
-		<li>'23: PhD Student in Statistics at Columbia</a> (with Prof. Dave Blei)</li>
+		<li>'23: <a href="https://stat.columbia.edu/people/name/binh-irene-chang/
+">PhD Student in Statistics at Columbia</a> (with Prof. Dave Blei)</li>
 		</ul>
 	</p>
 </div><!-- end panel body -->
 </div><!-- end panel -->
 </div><!-- end col -->
 
-https://stat.columbia.edu/people/name/binh-irene-chang/
 
 </div><!-- end row -->
 </div>

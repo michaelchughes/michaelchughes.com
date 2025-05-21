@@ -12,6 +12,32 @@ This page contains select publications from my group. See the complete list in m
 
 ### 2025
 
+
+<div class="list-group-item">
+    <a href="https://arxiv.org/abs/2503.05622">
+    <h4 class="list-group-item-heading">
+        Decision-aware training of spatiotemporal forecasting models to select a top K subset of sites for intervention
+    </h4>
+    <p class="list-group-item-text">
+        Kyle Heuton, F. Samuel Muench, Shikhar Shrestha, Thomas Stopka, and Michael C. Hughes
+    </p>
+    </a>
+    <p class="list-group-item-text"><i>
+        To appear, International Conference on Machine Learning (ICML), 2025
+    </i></p>
+    <p class="list-group-item-text"><span>
+        [camera ready coming soon]
+        &#8226;
+        <a href="https://arxiv.org/abs/2503.05622">
+        [arXiv]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/decision-aware-topk">
+        [code on GitHub]
+        </a>
+    </p>
+</div>
+
 <div class="list-group-item">
     <a href="https://arxiv.org/abs/2403.06024">
     <h4 class="list-group-item-heading">
@@ -22,7 +48,8 @@ This page contains select publications from my group. See the complete list in m
     </p>
     </a>
     <p class="list-group-item-text"><i>
-        To appear, <a href="https://biomedicalimaging.org/2025/">
+        Selected for oral presentation,
+        <a href="https://biomedicalimaging.org/2025/">
         IEEE International Symposium on Biomedical Imaging (ISBI)</a>, 2025
     </i></p>
     <p class="list-group-item-text"><span>
@@ -31,6 +58,7 @@ This page contains select publications from my group. See the complete list in m
         </a>
     </p>
 </div>
+
 
 <div class="list-group-item">
     <a href="https://arxiv.org/abs/2502.01861">
@@ -48,6 +76,34 @@ This page contains select publications from my group. See the complete list in m
         <a href="https://arxiv.org/abs/2502.01861">
         [arXiv]
         </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/data-emphasized-ELBo">
+        [code on GitHub]
+        </a>
+    </p>
+</div>
+
+
+<div class="list-group-item">
+    <a href="https://arxiv.org/abs/2503.15638">
+    <h4 class="list-group-item-heading">
+        Using machine learning to measure evidence of students' sensemaking in physics courses
+    </h4>
+    <p class="list-group-item-text">
+        Kaitlin Gili, Kyle Heuton, Astha Shah, and Michael C. Hughes
+    </p>
+    </a>
+    <p class="list-group-item-text"><i>
+        Preprint
+    </i></p>
+    <p class="list-group-item-text"><span>
+        <a href="https://arxiv.org/abs/2503.15638">
+        [arXiv]
+        </a>
+        <a href="https://github.com/tufts-ml/AuSeM">
+        [code on GitHub]
+        </a>
+    </p>
     </p>
 </div>
 
@@ -266,25 +322,6 @@ Transfer Learning with Informative Priors: Simple Baselines Better than Previous
 </div>
 
 
-<div class="list-group-item">
-    <a href="https://arxiv.org/abs/2403.06024">
-    <h4 class="list-group-item-heading">
-Semi-Supervised Multimodal Multi-Instance Learning for Aortic Stenosis Diagnosis
-    </h4>
-    <p class="list-group-item-text">
-    Zhe Huang, Xiaowei Yu, Benjamin S. Wessler, Michael C. Hughes
-    </p>
-    </a>
-    <p class="list-group-item-text"><i>
-        unpublished preprint, 2024
-    </i></p>
-    <p class="list-group-item-text"><span>
-        &#8226;
-        <a href="https://arxiv.org/abs/2403.06024">
-        [arXiv]
-        </a>
-    </p>
-</div>
 
 
 <div class="list-group-item">

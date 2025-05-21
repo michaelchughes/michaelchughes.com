@@ -390,7 +390,7 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 	<p class="panel-text">
 		Next Positions: 
 		<ul>
-		<li>'23: SWE at ASML</li>
+		<li>'23: Software Engineer at ASML</li>
 		</ul>
 	</p>
 </div><!-- end panel body -->
@@ -420,7 +420,119 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 		Next Positions: 
 		<ul>
 		<li>'23: <a href="https://stat.columbia.edu/people/name/binh-irene-chang/
-">PhD Student in Statistics at Columbia</a> (with Prof. Dave Blei)</li>
+">PhD Student in Statistics at Columbia</a></li>
+		</ul>
+	</p>
+</div><!-- end panel body -->
+</div><!-- end panel -->
+</div><!-- end col -->
+
+
+<div class="col-xs-6 col-md-3 d-flex align-items-stretch">
+<div class="panel bg-light" style="border=0px;">
+<div class="panel-body">
+	<h3 style="padding-top: 0; margin-top: 0">
+		<a href="https://stat.columbia.edu/department-directory/current-doctoral-students/name/binh-irene-chang/">
+		Gian Marco Visani
+		</a>
+	</h3>
+	<p class="panel-text">
+		2022 Tufts BS in CS
+	</p>
+	<p class="panel-text">
+		Interests:
+		<ul>
+			<li>Enzyme Promiscuity Prediction</li>
+			<li>COVID-19 modeling</li>
+		</ul>
+	</p>
+	<p class="panel-text">
+		Next Positions: 
+		<ul>
+		<li>'23: PhD Student in Computer Science at U. Washington</li>
+		</ul>
+	</p>
+</div><!-- end panel body -->
+</div><!-- end panel -->
+</div><!-- end col -->
+
+<div class="col-xs-6 col-md-3 d-flex align-items-stretch">
+<div class="panel bg-light" style="border=0px;">
+<div class="panel-body">
+	<h3 style="padding-top: 0; margin-top: 0">
+		<a href="https://stat.columbia.edu/department-directory/current-doctoral-students/name/binh-irene-chang/">
+		Xi Chen
+		</a>
+	</h3>
+	<p class="panel-text">
+		2021 Tufts MS in CS, masters project
+	</p>
+	<p class="panel-text">
+		Interests:
+		<ul>
+			<li>Bayesian methods for missing data</li>
+		</ul>
+	</p>
+	<p class="panel-text">
+		Next Positions: 
+		<ul>
+		<li>'19: PhD Student in Computer Science at Rutgers</li>
+		</ul>
+	</p>
+</div><!-- end panel body -->
+</div><!-- end panel -->
+</div><!-- end col -->
+
+
+<div class="col-xs-6 col-md-3 d-flex align-items-stretch">
+<div class="panel bg-light" style="border=0px;">
+<div class="panel-body">
+	<h3 style="padding-top: 0; margin-top: 0">
+		<a href="https://stat.columbia.edu/department-directory/current-doctoral-students/name/binh-irene-chang/">
+		Yu Liu
+		</a>
+	</h3>
+	<p class="panel-text">
+		2021 Tufts MS in Data Science, masters thesis
+	</p>
+	<p class="panel-text">
+		Interests:
+		<ul>
+			<li>treatment effect prediction</li>
+		</ul>
+	</p>
+	<p class="panel-text">
+		Next Positions: 
+		<ul>
+		<li>'21: Merck</li>
+		</ul>
+	</p>
+</div><!-- end panel body -->
+</div><!-- end panel -->
+</div><!-- end col -->
+
+
+<div class="col-xs-6 col-md-3 d-flex align-items-stretch">
+<div class="panel bg-light" style="border=0px;">
+<div class="panel-body">
+	<h3 style="padding-top: 0; margin-top: 0">
+		<a href="https://stat.columbia.edu/department-directory/current-doctoral-students/name/binh-irene-chang/">
+		Manh Duc Nguyen
+		</a>
+	</h3>
+	<p class="panel-text">
+		2019 Tufts BS in CS, honors thesis
+	</p>
+	<p class="panel-text">
+		Interests:
+		<ul>
+			<li>Bayesian deep learning</li>
+		</ul>
+	</p>
+	<p class="panel-text">
+		Next Positions: 
+		<ul>
+		<li>'19: PhD Student in Computer Science at U. Penn</li>
 		</ul>
 	</p>
 </div><!-- end panel body -->

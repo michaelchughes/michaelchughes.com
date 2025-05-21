@@ -148,6 +148,7 @@ MARKDOWN_CONTEXT = RenderContext(
         ('--', '-'),                       # en dash
         (r'``([^\']*)\'\'', r'"\1"'),      # quotes
         (r'\\&', '&'),                       # \& to &
+        (r'\\textsuperscript{p}', r"<sup>p</sup>"),
         (r'\\textsuperscript{b}', r"<sup>b</sup>"),
         (r'\\textsuperscript{d}', r"<sup>d</sup>"),
         (r'\\textsuperscript{c}', r"<sup>c</sup>"),

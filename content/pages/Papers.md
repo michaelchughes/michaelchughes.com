@@ -12,6 +12,34 @@ This page contains select publications from my group. See the complete list in m
 
 ### 2025
 
+<div class="list-group-item">
+    <a href="https://arxiv.org/abs/2401.14973">
+    <h4 class="list-group-item-heading">
+Discovering group dynamics in coordinated time series via hierarchical recurrent switching-state models
+    </h4>
+    <p class="list-group-item-text">
+        Michael T. Wojnowicz, Kaitlin Gili, Preetish Rath, Eric Miller, Jeffrey Miller, Clifford Hancock, Meghan O'Donovan, Seth Elkin-Frankston, Tad T. Brunyé, and Michael C. Hughes
+    </p>
+    </a>
+    <p class="list-group-item-text"><i>
+        unpublished preprint, 2024
+    </i></p>
+    <p class="list-group-item-text"><span>
+        &#8226;
+        <a href="https://arxiv.org/abs/2401.14973">
+        [arXiv]
+        </a>
+        &#8226;
+        <a href="https://openreview.net/forum?id=LHchZthcOf">
+        [OpenReview]
+        </a>
+        &#8226;
+        <a href="https://github.com/tufts-ml/team-dynamics-time-series/">
+        [code on GitHub]
+        </a>
+    </p>
+</div>
+
 
 <div class="list-group-item">
     <a href="https://arxiv.org/abs/2503.05622">
@@ -26,10 +54,16 @@ This page contains select publications from my group. See the complete list in m
         To appear, International Conference on Machine Learning (ICML), 2025
     </i></p>
     <p class="list-group-item-text"><span>
-        [camera ready coming soon]
+        <a href="{static}/papers/HeutonEtAl_ICML_2025.pdf">
+            [PDF]
+        </a>
         &#8226;
         <a href="https://arxiv.org/abs/2503.05622">
         [arXiv]
+        </a>
+        &#8226;                
+        <a href="https://openreview.net/pdf?id=8eQKjsVnN3">
+        [OpenReview]
         </a>
         &#8226;
         <a href="https://github.com/tufts-ml/decision-aware-topk">
@@ -194,7 +228,7 @@ Kyle Heuton, Jyontika Kapoor, Shikhar Shrestha, Thomas J Stopka, Michael C. Hugh
         SINCERE: Supervised Information Noise-Contrastive Estimation REvisited
     </h4>
     <p class="list-group-item-text">
-        Patrick Feeney and Michael C. Hughes
+        Cynthia Feeney and Michael C. Hughes
     </p>
     </a>
     <p class="list-group-item-text"><i>
@@ -204,30 +238,6 @@ Kyle Heuton, Jyontika Kapoor, Shikhar Shrestha, Thomas J Stopka, Michael C. Hugh
         &#8226;
         <a href="https://arxiv.org/abs/2309.14277">
         [arXiv]
-        </a>
-    </p>
-</div>
-
-<div class="list-group-item">
-    <a href="https://arxiv.org/abs/2401.14973">
-    <h4 class="list-group-item-heading">
-Discovering group dynamics in coordinated time series via hierarchical recurrent switching-state models
-    </h4>
-    <p class="list-group-item-text">
-        Michael T. Wojnowicz, Kaitlin Gili, Preetish Rath, Eric Miller, Jeffrey Miller, Clifford Hancock, Meghan O'Donovan, Seth Elkin-Frankston, Tad T. Brunyé, and Michael C. Hughes
-    </p>
-    </a>
-    <p class="list-group-item-text"><i>
-        unpublished preprint, 2024
-    </i></p>
-    <p class="list-group-item-text"><span>
-        &#8226;
-        <a href="https://arxiv.org/abs/2401.14973">
-        [arXiv]
-        </a>
-        &#8226;
-        <a href="https://github.com/tufts-ml/team-dynamics-time-series/">
-        [code on GitHub]
         </a>
     </p>
 </div>
@@ -332,7 +342,7 @@ A Neurosymbolic Cognitive Architecture Framework for Handling Novelties in Open 
     </a>
     <p class="list-group-item-text">
 Shivam Goel, Panagiotis Lymperopoulos, Ravenna Thielstrom, Evan Krause,
-Patrick Feeney, Pierrick Lorang, Sarah Schneider, Yichen Wei, Eric Kildebeck, Stephen Goss, Michael C. Hughes, Liping Liu, Jivko Sinapov and Matthias Scheutz
+Cynthia Feeney, Pierrick Lorang, Sarah Schneider, Yichen Wei, Eric Kildebeck, Stephen Goss, Michael C. Hughes, Liping Liu, Jivko Sinapov and Matthias Scheutz
     </p>
     <p class="list-group-item-text">
         <i>Artificial Intelligence</i>, 2024
@@ -541,7 +551,7 @@ Semi-supervised Ordinal Regression via Cumulative Link Models for Predicting In-
     </h4>
     </a>
     <p class="list-group-item-text">
-        Patrick Feeney, Sarah Schneider, Panagiotis Lymperopoulos, Li-Ping Liu, Matthias Scheutz, and Michael C. Hughes
+        Cynthia Feeney, Sarah Schneider, Panagiotis Lymperopoulos, Li-Ping Liu, Matthias Scheutz, and Michael C. Hughes
     </p>
     <p class="list-group-item-text"><i>
         Transactions on Machine Learning Research (TMLR), 03/2023
@@ -1106,7 +1116,7 @@ A New Semi-supervised Learning Benchmark for Classifying View and Diagnosing Aor
     Evaluating the Use of Reconstruction Error for Novelty Localization
     </h4>
     <p class="list-group-item-text">
-        Patrick Feeney and Michael C. Hughes
+        Cynthia Feeney and Michael C. Hughes
     </p>
     <p class="list-group-item-text"><i>
         Uncertainty and Robustness in Deep Learning (UDL) workshop at ICML 2021

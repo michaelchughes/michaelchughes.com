@@ -1,4 +1,14 @@
 
+
+- title: "Discovering group dynamics in coordinated time series via hierarchical recurrent switching-state models"
+  authors: "Michael Wojnowicz\\textsuperscript{p}, Kaitlin Gili\\textsuperscript{p}, Preetish Rath\\textsuperscript{d}, Eric Miller, Jeffrey Miller, Clifford Hancock, Meghan O'Donovan, Seth Elkin-Frankston, Tad T. Brunyé, and Michael C. Hughes"
+  key: wojnowiczGroupDynamics2025
+  year: 2025
+  venuetype: journal
+  venue: "Transactions on Machine Learning Research (TMLR)"
+  url: "https://openreview.net/forum?id=LHchZthcOf"
+  displaytype: highlight
+
 - title: "Decision-aware training of spatiotemporal forecasting models to select a top K subset of sites for intervention"
   authors: "Kyle Heuton\\textsuperscript{d}, F. Samuel Muench\\textsuperscript{u}, Shikhar Shrestha, Thomas Stopka, and Michael C. Hughes"
   key: heutonDAML2025
@@ -13,9 +23,19 @@
   key: karmiyHandheld2025
   year: 2025
   venuetype: journal
-  venue: "To appear in European Heart Journal – Imaging Methods and Practice"
-  url: "#"
-  displaytype: journal
+  venue: "European Heart Journal – Imaging Methods and Practice"
+  url: "https://doi.org/10.1093/ehjimp/qyaf051"
+  displaytype: none
+
+- title: "Predicting Patient Outcomes from Time Series with Missing Data Via a Semi-Supervised Hidden Markov Model"
+  authors: "Preetish Rath\\textsuperscript{d}, Gabriel Hope, Alexander Lobo\\textsuperscript{m}, Erik B. Sudderth, Michael C. Hughes"
+  key: rathSSLHMM2024
+  year: 2024
+  venuetype: preprint
+  venue: "SSRN preprint"
+  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4930177"
+  displaytype: none
+
 
 - title: "Learning Hyperparameters via a Data-Emphasized Variational Objective"
   authors: "Ethan Harvey\\textsuperscript{d}, Mikhail Petrov, and Michael C. Hughes"
@@ -50,7 +70,7 @@
   year: 2024
   venuetype: workshop
   venue: "Workshop on Fine-Tuning in Modern Machine Learning (FITML)"
-  url: "#"
+  url: "https://arxiv.org/abs/2410.19675"
   displaytype: none
 
 - title: "Validation of System for Automated Screening for Aortic Stenosis"
@@ -98,6 +118,17 @@
   url: "https://openreview.net/forum?id=BbvSU02jLg"
   displaytype: highlight
 
+
+- title: "A Neurosymbolic Cognitive Architecture Framework for Handling Novelties in Open Worlds"
+  authors: "Shivam Goel, Panagiotis Lymperopoulos, Ravenna Thielstrom, Evan Krause, Cynthia Feeney\\textsuperscript{d}, Pierrick Lorang, Sarah Schneider, Yichen Wei, Eric Kildebeck, Stephen Goss, Michael C. Hughes, Liping Liu, Jivko Sinapov, Matthias Scheutz"
+  key: goelNeurosymb2024
+  year: 2024
+  venuetype: journal
+  venue: "Artificial Intelligence"
+  url: "https://doi.org/10.1016/j.artint.2024.104111"
+  displaytype: none
+
+
 - title: "A Probabilistic Method to Predict Classifier Accuracy on Larger Datasets given Small Pilot Data"
   authors: "Ethan Harvey\\textsuperscript{d}, Wansu Chen, David M. Kent, and Michael C. Hughes"
   key: harveyProbabilistic2023
@@ -107,17 +138,8 @@
   url: "https://proceedings.mlr.press/v225/harvey23a.html"
   displaytype: none
 
-- title: "Discovering group dynamics in coordinated time series via hierarchical recurrent switching-state models"
-  authors: "Michael Wojnowicz\\textsuperscript{p}, Kaitlin Gili\\textsuperscript{p}, Preetish Rath\\textsuperscript{d}, Eric Miller, Jeffrey Miller, Clifford Hancock, Meghan O'Donovan, Seth Elkin-Frankston, Tad T. Brunyé, and Michael C. Hughes"
-  key: wojnowiczGroupDynamics2024
-  year: 2024
-  venuetype: preprint
-  venue: "arXiv"
-  url: "https://arxiv.org/abs/2401.14973"
-  displaytype: preprint
-
 - title: "SINCERE: Supervised Information Noise-Contrastive Estimation REvisited"
-  authors: "Patrick Feeney\\textsuperscript{d} and Michael C. Hughes"
+  authors: "Cynthia Feeney\\textsuperscript{d} and Michael C. Hughes"
   key: feeneySINCERE2024
   year: 2024
   venuetype: preprint
@@ -190,7 +212,7 @@
   displaytype: none
 
 - title: "NovelCraft: A Dataset for Novelty Detection and Discovery in Open Worlds"
-  authors: "Patrick Feeney\\textsuperscript{d}, Sarah Schneider\\textsuperscript{d}, Panagiotis Lymperopoulos, Liping Liu, Matthias Scheutz, and Michael C. Hughes"
+  authors: "Cynthia Feeney\\textsuperscript{d}, Sarah Schneider\\textsuperscript{d}, Panagiotis Lymperopoulos, Liping Liu, Matthias Scheutz, and Michael C. Hughes"
   key: feeneyNovelCraftDataset2023
   year: 2023
   venuetype: journal
@@ -345,7 +367,7 @@
   displaytype: none
 
 - title: Evaluating the Use of Reconstruction Error for Novelty Localization
-  authors: "Patrick Feeney\\textsuperscript{d} and Michael C. Hughes"
+  authors: "Cynthia Feeney\\textsuperscript{d} and Michael C. Hughes"
   key: feeney2021saliency
   year: 2021
   venuetype: workshop

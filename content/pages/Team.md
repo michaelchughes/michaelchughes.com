@@ -42,12 +42,12 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 <div class="col-xs-6 col-md-3 d-flex align-items-stretch">
 <div class="panel bg-light" style="border=0px;">
 <img class="panel-img-top"
-  src="images/headshots_200x200/patrick_feeney.jpg"
-  alt="Patrick headshot">
+  src="images/headshots_200x200/cynthia_feeney.jpg"
+  alt="Cynthia headshot">
 <div class="panel-body">
 	<h3 style="padding-top: 0; margin-top: 0">
 		<a href="https://scholar.google.com/citations?user=GQY8QDYAAAAJ&hl=en">
-		Patrick Feeney
+		Cynthia Feeney
 		</a>
 	</h3>
 	<p class="panel-text">
@@ -56,8 +56,9 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 	<p class="panel-text">
 		Interests:
 		<ul>
-			<li>Contrastive Learning</li>
-			<li>Representation Learning</li>
+			<li>Fairness and societal impact</li>
+			<li>Contrastive learning</li>
+			<li>Representation learning</li>
 		</ul>
 	</p>
 	<p class="panel-text">
@@ -134,10 +135,6 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 </div><!-- end panel body -->
 </div><!-- end panel -->
 </div><!-- end col -->
-
-
-</div>
-<div class="row display-flex">
 
 
 <div class="col-xs-6 col-md-3 d-flex align-items-stretch">
@@ -336,7 +333,7 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 	<p class="panel-text">
 		Next Positions: 
 		<ul>
-		<li>'23: PhD student in CS at NYU (with Prof. Rajesh Ranganath)</li>
+		<li>'20: PhD student in CS at NYU (with Prof. Rajesh Ranganath)</li>
 		</ul>
 	</p>
 </div><!-- end panel body -->
@@ -432,7 +429,7 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 <div class="panel bg-light" style="border=0px;">
 <div class="panel-body">
 	<h3 style="padding-top: 0; margin-top: 0">
-		<a href="https://stat.columbia.edu/department-directory/current-doctoral-students/name/binh-irene-chang/">
+		<a href="https://scholar.google.com/citations?user=OW2p9LIAAAAJ&hl=en">
 		Gian Marco Visani
 		</a>
 	</h3>
@@ -460,7 +457,7 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 <div class="panel bg-light" style="border=0px;">
 <div class="panel-body">
 	<h3 style="padding-top: 0; margin-top: 0">
-		<a href="https://stat.columbia.edu/department-directory/current-doctoral-students/name/binh-irene-chang/">
+		<a href="https://xichen-97.github.io/">
 		Xi Chen
 		</a>
 	</h3>
@@ -476,7 +473,7 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 	<p class="panel-text">
 		Next Positions: 
 		<ul>
-		<li>'19: PhD Student in Computer Science at Rutgers</li>
+		<li>'21: PhD Student in Computer Science at Rutgers</li>
 		</ul>
 	</p>
 </div><!-- end panel body -->
@@ -488,7 +485,7 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 <div class="panel bg-light" style="border=0px;">
 <div class="panel-body">
 	<h3 style="padding-top: 0; margin-top: 0">
-		<a href="https://stat.columbia.edu/department-directory/current-doctoral-students/name/binh-irene-chang/">
+		<a href="#">
 		Yu Liu
 		</a>
 	</h3>
@@ -516,7 +513,7 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 <div class="panel bg-light" style="border=0px;">
 <div class="panel-body">
 	<h3 style="padding-top: 0; margin-top: 0">
-		<a href="https://stat.columbia.edu/department-directory/current-doctoral-students/name/binh-irene-chang/">
+		<a href="https://dnguyen1196.github.io/">
 		Manh Duc Nguyen
 		</a>
 	</h3>
@@ -532,7 +529,7 @@ Meet the Hughes Lab research team! Post-docs, PhD students, and other junior men
 	<p class="panel-text">
 		Next Positions: 
 		<ul>
-		<li>'19: PhD Student in Computer Science at U. Penn</li>
+		<li>'19: PhD Student in CS at U. Penn</li>
 		</ul>
 	</p>
 </div><!-- end panel body -->

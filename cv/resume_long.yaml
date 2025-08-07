@@ -25,12 +25,15 @@ sections:
         about: "\\href{www.cs.tufts.edu}{Tufts University}, Medford, MA"
         notes:
           - "Tenure-track role focused on research, teaching, mentorship, and service"
-          - "Research in statistical methods for machine learning, published in AISTATS, NeurIPS, ICML"
-          - "Research in applications of ML to health, published in MLHC, CHIL, clinical journals"
-          - "Research in applications of ML to STEM education"
-          - "Mentorship as of 2025: Actively advise 3 full-time Ph.D. students and 1 post-doc"
-          - "Teaching: Taught core data science courses: \\href{https://www.cs.tufts.edu/cs/135/2023f/}{CS 135 Intro to ML} and \\href{https://www.cs.tufts.edu/cs/136/2024s/}{CS 136 Statistical Pattern Recog.}"
-          - "Teaching: Developed new courses for grad students: \\href{https://www.cs.tufts.edu/comp/152BDL/2022f/}{Bayesian Deep Learning} and \\href{https://www.cs.tufts.edu/comp/152L3D/2024f/}{Learning from Limited Labeled Data}"
+          - "Research in statistical methods for machine learning (ML), published in  ICML, AISTATS, NeurIPS, TMLR"
+          - "Research in applied ML for health, published in MLHC, CHIL, clinical journals"
+#          - "Research in applied ML for STEM education"
+          - "Active Funding as PI: NSF CAREER as Single PI; NIH R01 as PI"
+          - "Active Funding with Co-I role as ML lead: NSF GCR, NIH R01, ADDF foundation"
+          - "Past Funding: NSF small, DARPA, U.S. Army, pharma"
+          - "Mentoring: 3 full-time Ph.D. students and 1 postdoc in 2025. Past: 1 postdoc (now faculty), 2 Ph.D."
+          - "Teaching: Core ML courses: \\href{https://www.cs.tufts.edu/cs/135/2023f/}{CS 135 Intro to ML}, \\href{https://www.cs.tufts.edu/cs/136/2024s/}{CS 136 Statistical Pattern Recognition}"
+          - "Teaching: Project courses for grad students: \\href{https://www.cs.tufts.edu/comp/152BDL/2022f/}{Bayesian Deep Learning}, \\href{https://www.cs.tufts.edu/comp/152L3D/2024f/}{Learning from Limited Labeled Data}"
 
   - name: Research Expertise
     type: experience
@@ -39,25 +42,26 @@ sections:
       - date: 2012-
         about: "Machine Learning"
         notes:
-          - "Unsupervised learning, Semi-supervised learning, Supervised learning"
-          - "Probabilistic models: Bayesian nonparametrics, topic models, hidden Markov models, deep generative models"
-          - "Estimation methods for posterior distributions: variational methods, Markov chain Monte Carlo"
+          - "Learning from limited labeled data: semi-supervised and self-supervised learning, transfer learning"
+          - "Probabilistic models: latent variable models like HMMs, deep generative models, Bayesian nonparametrics"
+          - "Estimation algorithms for Bayesian posteriors: variational methods, Markov chain Monte Carlo"
+          - "Decision-aware ML: top-K where-to-intervene problems, false alarm constraints, semi-supervised HMMs"
 
       - date: 2017-
-        about: "Applications of ML to Healthcare"
+        about: "Applied ML for Healthcare"
         notes:
-          - "Early warning systems for predicting mortality/deterioration in hospitalized patients"
-          - "--- Consume EHR time series of labs, vitals, diagnosis and procedure codes"
           - "Image analysis / computer vision for heart disease and cerebrovascular disease"
           - "--- Predicting aortic stenosis (valve disease) from echocardiograms (ultrasound of the heart)"
           - "--- Predicting risk of stroke/dementia from CT/MRI images"
           - "Spatiotemporal forecasting of opioid overdose events"
-          - "Modeling demand for hospital resources over time due to COVID-19 pandemic"
+          - "Early warning systems for predicting mortality/deterioration in hospitalized patients"
+#          - "Modeling demand for hospital resources over time due to COVID-19 pandemic"
 
       - date: 2012-
-        about: "Human Activity Analysis"
+        about: "Applied ML for Human Activity Analysis"
         notes:
-          - "Sensor time-series, motion capture, video, images"
+          - "Modeling sensor time series, motion capture, or video for activity recognition"
+          - "Modeling teams of students in STEM classrooms to understand group dynamics"
 
 
   - name: Education
@@ -76,14 +80,14 @@ sections:
         school: Olin College of Engineering
         major: B.S. Electrical \& Computer Engineering
 
-  - name: Highlighted Publications
-    type: publications
-    yaml_file: build/publications_highlight.yaml
-    footnote: "Superscripts indicate mentored student's status: u = undergraduate, m = masters, d = Ph.D. student, b = post-bacc, c = medical student. \\ Complete publication list at end of this document."
+#  - name: Highlighted Publications
+#    type: publications
+#    yaml_file: build/publications_highlight.yaml
+#    footnote: "Superscripts indicate mentored student's status: u = undergraduate, m = masters, d = Ph.D. student, b = post-bacc, c = medical student. \\ Complete publication list at end of this document."
 
-  - name: Highlighted Preprints
-    type: publications
-    yaml_file: build/publications_preprint.yaml
+#  - name: Highlighted Preprints
+#    type: publications
+#    yaml_file: build/publications_preprint.yaml
 
 #  - name: Highlighted Manuscripts Under Review
 #    type: publications
@@ -163,6 +167,17 @@ sections:
   - name: Current Funding Support
     type: experience
     items:
+         
+      - date: "08/01/24 - 07/31/29"
+        topic: "\\href{https://reporter.nih.gov/search/VLPEr5GdEEySqG98h4jgNg/project-details/11208162}{FIND AS: Novel Diagnostic strategy for Aortic Stenosis}"
+        about: "NIH R01, 1R01HL180937"
+        notes:
+          - "Full title: Focused Imaging as a Novel Diagnostic strategy for Aortic Stenosis"
+          - "Goal: Develop heart disease detectors using images from handheld ultrasound devices"
+          - "My role: PI, lead investigator of ML methods" 
+          - "Team: Benjamin Wessler (PI, Tufts Medical)"
+          - "Total Amount: \\$790,000 for each year of 5 year project"
+  
 
       - date: "09/15/24 - 09/14/29"
         topic: "\\href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=2428640}{Understanding Dynamics of Uncertainty in STEM Education}"
@@ -184,26 +199,15 @@ sections:
           - "News Article: \\href{https://engineering.tufts.edu/news-events/news/hughes-receives-nsf-career-award}{Tufts SoE News}"
           - "Total Amount: \\$599,998 for 5 years"
           
-      - date: "04/01/24 - 03/31/25"
-        topic: "ML to Identify Opioid-Related Incidents in EMS Patient Care Reports"
-        about: "Americal Public Health Association (APHA)"
-        notes:
-          - "Title: Using Natural Language Processing and Machine Learning to Improve Identification of Opioid-Related Incidents in EMS Patient Care Reports"
-          - "Context: \\href{https://app.smarterselect.com/programs/89459-Public-Health-Practice--Apha}{Injury and Violence Prevention Data Science Demonstration Project}"
-          - "Goal: Develop improved alert systems for opioid overdose events in Lowell, MA"
-          - "Team: Shikhar Shrestha (PI, Tufts Public Health) and Tom Stopka (co-I, Tufts Public Health)"
-          - "My role: Lead of ML methods to identify opioid events from written EMS reports"
-          - "Total Amount: \\$200,000 for one year"
-
       - date: "02/15/24 - 01/31/28"
         topic: "\\href{https://reporter.nih.gov/search/5_-w30o8c0ebqzo4i-m_PQ/project-details/10780892}{Covert Cerbrovascular Disease detected by AI}"
         about: "NIH R01"
         notes:
-          - "Full title: Pragmatic neuroimaging biomarkers for future stroke and dementia risk"
+          - "Full title: Covert Cerebrovascular Disease Detected by Artificial Intelligence (C2D2AI): Pragmatic Neuroimaging Biomarkers for Future Stroke and Dementia Risk"
           - "Goal: Develop biomarkers for brain disease from large dataset of CT and MRI images"
           - "Team: David Kent (PI, Tufts Medical) and Wansu Chen (co-I, Kaiser Permanente)"
           - "My role: Lead investigator of ML methods to predict risk of stroke and dementia" 
-          - "Total Amount: \\$790,627 for first year"
+          - "Total Amount: \\$790,627 for each year of multi-year project"
 
       - date: "10/15/23 - 10/15/25"
         topic: "\\href{https://www.alzdiscovery.org/research-and-grants/portfolio-details/21977527}{C2D2AI: Pilot Investigation for Neuroimaging Biomarkers}"
@@ -224,6 +228,17 @@ sections:
   - name: Past Funding Support
     type: experience
     items:
+
+      - date: "04/01/24 - 03/31/25"
+        topic: "ML to Identify Opioid-Related Incidents in EMS Patient Care Reports"
+        about: "Americal Public Health Association (APHA)"
+        notes:
+          - "Title: Using Natural Language Processing and Machine Learning to Improve Identification of Opioid-Related Incidents in EMS Patient Care Reports"
+          - "Context: \\href{https://app.smarterselect.com/programs/89459-Public-Health-Practice--Apha}{Injury and Violence Prevention Data Science Demonstration Project}"
+          - "Goal: Develop improved alert systems for opioid overdose events in Lowell, MA"
+          - "Team: Shikhar Shrestha (PI, Tufts Public Health) and Tom Stopka (co-I, Tufts Public Health)"
+          - "My role: Lead of ML methods to identify opioid events from written EMS reports"
+          - "Total Amount: \\$200,000 for one year"
 
       - date: "9/1/20 - 8/31/24"
         topic: "MASTR-E: Machine Learning Models for Human Performance Prediction"
@@ -285,6 +300,17 @@ sections:
   - name: Invited Talks
     type: experience
     items:
+      - date: "08/2025"
+        about: "Invited Talk at Montana State Univ., Dept. of Computer Science"
+        notes:
+          - "Title: Decision-aware learning for top-K site selection"
+        
+      - date: "05/2025"
+        about: "Invited Talk at Univ. Pittsburgh, Dept. of Biomedical Informatics"
+        notes:
+          - "Title: Big Neural Nets for Small Pilot Data: Multimodal, Semi-supervised, and Bayesian Deep Learning"
+          - "Faculty Hosts: Prof. Greg Cooper (DBMI, Univ. Pittsburgh)"
+
       - date: "04/2025"
         about: "Invited Panelist at a2 National Symposium on Empowering Innovation in AI/Tech + Aging"
         notes:
@@ -355,14 +381,14 @@ sections:
           - "Host Organization: \\href{https://dcri.org/}{Duke Clinical Research Institute}"
           - "An invitation-only event in Washington D.C. gathering ~40 ML experts, clinical experts, and policy makers"
 
-      - date: "01/2020"
-        about: Invited Talk at Meeting of Critical Care Directors in Madrid, Spain
-        notes:
-          - "Talk Title: Optimizing Machine Learning Models for Interpretable, Actionable Predictions"
-          - "Event: Reunión Sobre Nuevas Tecnologías en el Tratamiento de Datos Clínicos Electrónicos"
-          - "Translation: Meeting on New Technologies for Processing Electronic Health Records"
-          - "Hosts: RGI Informatics (Dr. Richard Goldstein, CEO) and Fuenlabrada University Hospital (Joaquin Álvarez, head of ICU)."
-          - "An invitation-only hosted event in Madrid for ~30 directors of intensive care units around Madrid, Spain"
+#      - date: "01/2020"
+#        about: Invited Talk at Meeting of Critical Care Directors in Madrid, Spain
+#        notes:
+#          - "Talk Title: Optimizing Machine Learning Models for Interpretable, Actionable Predictions"
+#          - "Event: Reunión Sobre Nuevas Tecnologías en el Tratamiento de Datos Clínicos Electrónicos"
+#          - "Translation: Meeting on New Technologies for Processing Electronic Health Records"
+#          - "Hosts: RGI Informatics (Dr. Richard Goldstein, CEO) and Fuenlabrada University Hospital (Joaquin Álvarez, head of ICU)."
+#          - "An invitation-only hosted event in Madrid for ~30 directors of intensive care units around Madrid, Spain"
 
       - date: "11/2019"
         about: "Invited Mentor at 2019 PLA General Hospital - MIT Critical Data Datathon"
@@ -404,8 +430,8 @@ sections:
           - "Tenure-track role focused on research, teaching, mentorship, and service"
           - "Research in statistical methods for machine learning, published in AISTATS, NeurIPS, ICML"
           - "Research in applications of ML to health, published in MLHC, CHIL, clinical journals"
-          - "Teaching: Taught core data science courses: \\href{https://www.cs.tufts.edu/cs/135/2023f/}{CS 135 Intro to ML} and \\href{https://www.cs.tufts.edu/cs/136/2024s/}{CS 136 Statistical Pattern Recog.}"
-          - "Teaching: Developed new courses for grad students: \\href{https://www.cs.tufts.edu/comp/150BDL/2022f/}{CS 152 Bayesian Deep Learning} and \\href{https://www.cs.tufts.edu/comp/152L3D/2024f/}{CS 152 Learning from Limited Labeled Data}"
+#          - "Teaching: Taught core data science courses: \\href{https://www.cs.tufts.edu/cs/135/2023f/}{CS 135 Intro to ML} and \\href{https://www.cs.tufts.edu/cs/136/2024s/}{CS 136 Statistical Pattern Recog.}"
+#          - "Teaching: Developed new courses for grad students: \\href{https://www.cs.tufts.edu/comp/150BDL/2022f/}{CS 152 Bayesian Deep Learning} and \\href{https://www.cs.tufts.edu/comp/152L3D/2024f/}{CS 152 Learning from Limited Labeled Data}"
 
       - date: 2016 - 2018
         topic: "Postdoctoral fellow: Machine learning to improve clinical  decisions in healthcare"
@@ -421,7 +447,7 @@ sections:
         notes:
           - "Predicted forest biomass from LiDAR waveforms to better understand land use and climate change."
           - "Modeled waveforms and biomass predictions jointly via nonparametric regression using our \\href{https://www.github.com/bnpy/bnpy}{BNPy toolbox.}" 
-          - "Intended for use in NASA's upcoming \\href{https://science.nasa.gov/missions/gedi}{Global Ecosystem Dynamics Investigation (GEDI)}."
+          - "Intended for use in NASA's \\href{https://science.nasa.gov/missions/gedi}{Global Ecosystem Dynamics Investigation (GEDI)}."
 
       - date: 2016
         topic: "Ph.D. thesis: \\href{https://cs.brown.edu/research/pubs/theses/phd/2016/hughes.michael.pdf}{Reliable and scalable variational inference for Bayesian nonparametrics}"
@@ -431,7 +457,7 @@ sections:
           - "Developed optimization algorithms for Bayesian nonparametric models that scale to millions of examples."
           - "Optimized lower bound on marginal likelihood, thus penalizing too simple and too complex explanations."
           - "Escaped local optima via data-driven proposals that add useful new clusters and remove redundant ones."
-          - "Applied to topic models of 2 million NY Times articles and  sequential models of the whole human genome."
+          - "Applied to topic models of 2 million NY Times articles and sequential models of the whole human genome."
           - "Implemented algorithms in \\href{https://www.github.com/bnpy/bnpy}{open-source package: Bayesian Nonparametrics for Python (BNPy)}."
 
       - date: 2012
@@ -447,7 +473,7 @@ sections:
     type: experience
     items:
       - date: ""
-        about: Senior Area Chair
+        about: Senior Area Chair (co-organizer of entire peer review process)
         notes:
           - "2024 - CHIL"
           - "2023 - CHIL"
@@ -536,14 +562,15 @@ sections:
         about: Tufts University
         employer: Doctoral Mentees as primary adviser, in progress
         notes:
-          - "Patrick Feeney, CS, from 2020 - present"
+          - "Cynthia Feeney, CS, from 2020 - present"
           - "-- Topic: Self-supervised and Supervised Contrastive Learning in Open Worlds"
-          - "-- Papers: TMLR '23, SINCERE (arXiv '24)"
+          - "-- Papers: TMLR '23, arXiv '24"
           - "Kyle Heuton, CS, from 2020 - present"
           - "-- Topic: Training spatiotemporal models to learn where to intervene"
-          - "-- Papers: Am. J. Epi '24, IMLH workshop '23"
+          - "-- Papers: ICML '25, Am. J. Epi '24, IMLH workshop '23"
           - "Ethan Harvey, CS, from 2023 - present"
           - "-- Topic: Time-to-event prediction of dementia from neuroimages"
+          - "-- Papers: MLHC '23, TMLR '24, arXiv '25"
 
       - date: ""
         about: Tufts University
@@ -556,7 +583,7 @@ sections:
           - "-- Committee: Prof. B. Mortazavi (Texas A\\&M); Liping Liu, Rob Jacob, and Ben Wessler, MD"
           - "Preetish Rath, CS, from 2019 - 2024" 
           - "-- Topic: Addressing False Alarms and Missingness in Clinical Prediction Models"
-          - "-- Papers: AISTATS '22, IMLH workshop '23"
+          - "-- Papers: AISTATS '22, IMLH workshop '23, preprint '24"
           - "-- Committee: Prof. Joyce Ho (Emory); Liping Liu, Eric Miller, and Donna Slonim"
 
       - date: ""
@@ -585,7 +612,7 @@ sections:
         notes:
           - "Michael T. Wojnowicz, from 2020 - 2023"
           - "-- Tufts DISC Data Scientist, primary adviser M. C. Hughes"
-          - "-- Papers: ICML '22, AABI '23, arXiv '25"
+          - "-- Papers: ICML '22, AABI '23, \\href{https://arxiv.org/abs/2401.14973}{arXiv '24}"
           - "-- Next position: Research associate at Harvard Univ., Dept. of Biostatistics, advised by Jeff Miller"
           - "-- Current: Tenure-track faculty at Montana State University School of Computing"
 
@@ -621,9 +648,14 @@ sections:
           - "-- Topic: Deep Learning for Doppler Echocardiography from Limited Labeled Data"
           - "-- Papers: \\href{https://tmed.cs.tufts.edu/papers/HuangSidhomEtAl_AISTATS_2023.pdf}{AISTATS '23 (oral)}"
           - "-- Next Position: Software Engineer II at ASML"
-          - "Hezekiah Branch, BS CS at Tufts, in 2020"
-          - "-- \\href{https://stemdiversity.tufts.edu/undergraduate/LSAMP}{Tufts LSAMP fellow}"
-          - "-- Topic: Supervised Learning for Clinical Multivariate Time Series"
+
+          - "Manh Duc Nguyen, BS CS with honors thesis, in 2019"
+          - "-- Topic: Particle-based algorithms for Bayesian neural networks"
+          - "-- Next Position: Ph.D. student in CS at U. Penn"
+
+#          - "Hezekiah Branch, BS CS at Tufts, in 2020"
+#          - "-- \\href{https://stemdiversity.tufts.edu/undergraduate/LSAMP}{Tufts LSAMP fellow}"
+#          - "-- Topic: Supervised Learning for Clinical Multivariate Time Series"
 
       - date: 2016-2017
         about: Research Mentor
@@ -647,6 +679,13 @@ sections:
   - name: Teaching
     type: experience
     items:
+      - date: "Spring 2025"
+        about: "Course: \\href{https://www.cs.tufts.edu/cs/135/2025s/}{CS 135 Intro to Machine Learning}"
+        employer: Tufts CS Dept.
+        notes:
+          - "Taught core principles of machine learning to 104 students"
+          - "Format: 2 open-ended projects, 5 homeworks (concept questions and code exercises), 2 exams"
+
       - date: "Fall 2024"
         about: "Course: \\href{https://www.cs.tufts.edu/cs/152L3D/2024f/}{CS 152 Learning from Limited Labeled Data}"
         employer: Tufts CS Dept.
@@ -666,7 +705,7 @@ sections:
         employer: Tufts CS Dept.
         notes:
           - "Taught core principles of machine learning to 101 students"
-          - "Format: 3 open-ended projects, 5 homeworks (conceptual and code questions), 2 exams"
+          - "Format: 2 open-ended projects, 5 homeworks (concept questions and code exercises), 2 exams"
 
       - date: "Spring 2023"
         about: "Course: \\href{https://www.cs.tufts.edu/cs/136/2023s/}{CS 136 Statistical Pattern Recognition}"
@@ -736,7 +775,7 @@ sections:
     type: experience
     items:
 
-      - date: 2021-2024
+      - date: 2021-2025
         about: Research Mentor
         employer: Tufts DIAMONDS Program
         location: Medford, MA
@@ -783,11 +822,17 @@ sections:
           - "Improved walking/biking/running classifier using smartphone accelerometer data."
           - "Led collection of dataset from dozens of individuals for classifier evaluation via custom Android app."
 
-  - name: All Conference Publications (in reverse chronological order)
+
+  - name: Highlighted Preprints
+    type: publications
+    yaml_file: build/publications_preprint.yaml
+
+  - name: Peer-Reviewed Conference Publications (in reverse chronological order)
     type: publications
     yaml_file: build/publications_conference.yaml
+    footnote: "Superscripts indicate mentored student's status: u = undergraduate, m = masters, d = Ph.D. student, b = post-bacc, c = medical student. \\ Complete publication list at end of this document."
 
-  - name: All Journal Publications (in reverse chronological order)
+  - name: Peer-Reviewed Journal Publications (in reverse chronological order)
     type: publications
     yaml_file: build/publications_journal.yaml
 

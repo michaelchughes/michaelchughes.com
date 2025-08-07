@@ -14,15 +14,15 @@ I completed my Ph.D. in Computer Science at Brown University, advised by <a href
 
 First, my lab pursues methodological advances in statistical machine learning:
 
-* probabilistic models for time-series (see papers from [arXiv 2024](https://arxiv.org/abs/2401.14973), [NeurIPS 2021](https://papers.nips.cc/paper/2021/file/ebb71045453f38676c40deb9864f811d-Paper.pdf) or [AOAS 2014](https://www.michaelchughes.com/papers/FoxHughesSudderthJordan_AOAS_2014.pdf))
+* training predictive models to be better at downstream decisions (papers at [AISTATS 2022]({static}/papers/RathHughes_AISTATS_2022.pdf) or [ICML 2025](https://openreview.net/forum?id=8eQKjsVnN3))
+* probabilistic models for time-series ([arXiv 2024](https://arxiv.org/abs/2401.14973), [NeurIPS 2021](https://papers.nips.cc/paper/2021/file/ebb71045453f38676c40deb9864f811d-Paper.pdf) or [AOAS 2014](https://www.michaelchughes.com/papers/FoxHughesSudderthJordan_AOAS_2014.pdf))
 * probabilistic approaches to transfer learning ([TMLR 2024](https://openreview.net/forum?id=BbvSU02jLg)) or supervised contrastive learning ([arXiv 2024](https://arxiv.org/abs/2309.14277))
 * semi-supervised learning with discriminative neural networks ([ICML 2024](https://proceedings.mlr.press/v235/huang24af.html), [CVPR 2024](https://arxiv.org/abs/2307.08919), [AISTATS 2023](https://www.michaelchughes.com/papers/HuangSidhomEtAl_AISTATS_2023.pdf))
 * semi-supervised learning with generative models ([AISTATS 2018]({static}/papers/HughesEtAl_AISTATS_2018.pdf), [Time Series Workshop 2021]({static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf), and [AABI 2022](https://openreview.net/pdf?id=pmLjKZsCvPt))
-* optimizing early warning classifiers to control false alarms ([AISTATS 2022]({static}/papers/RathHughes_AISTATS_2022.pdf))
 
 Second, I pursue high-impact clinical and scientific applications of these techniques:
 
-* automating preliminary diagnosis of heart disease using echocardiograms ([MLHC '21]({static}/papers/HuangEtAl_MLHC_2021.pdf), [J Am Soc Echo '23](https://www.onlinejase.com/article/S0894-7317\(23\)00014-7/pdf))
+* automating preliminary diagnosis of heart disease using echocardiograms ([MLHC '21]({static}/papers/HuangEtAl_MLHC_2021.pdf), [J Am Soc Echo '23](https://www.onlinejase.com/article/S0894-7317\(23\)00014-7/pdf), [MLHC '23]({static}/papers/HuangEtAl_MLHC_2023.pdf))
 * spatiotemporal forecasting of the opioid overdose epidemic ([Am. Journal of Epi. '24](https://doi.org/10.1093/aje/kwae343))
 * predicting patient risks in the Intensive Care Unit (ICU) ([CHIL '20 paper]({static}/papers/WangMcDermottEtAl_CHIL_2020.pdf) and [MIMIC-Extract code](https://github.com/MLforHealth/MIMIC_Extract))
 * recommending stable antidepressants personalized to patients ([JAMA Network Open 2020]({static}/papers/HughesPradierRossEtAl_JAMANetworkOpen_2020.pdf))
@@ -36,7 +36,32 @@ For more, see my [Research page]({static}/research.html)
 <ul class="list-group">
     <li class="list-group-item">
         <h4 class="list-group-item-heading">
-        [Mar 2024] Paper at IEEE ISBI '25
+        [Aug 2025] New Funding from NIH
+        </h4>
+        <ul>
+            <li> Grateful for a new <a href="https://reporter.nih.gov/search/VLPEr5GdEEySqG98h4jgNg/project-details/11208162#description">NIH R01 award to develop a new strategy to detect heart valve disease</a>
+            </li>
+            <li> This award has two PIs: Mike Hughes (ML lead) and <a href="https://facultyprofiles.tufts.edu/benjamin-wessler">Ben Wessler, MD (cardiology lead)</a>
+            </li>
+            <li> Will support 5 years of work for our multi-disciplinary team
+            </li>            
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Jul 2025] Paper at ICML '25
+        </h4>
+        <ul>
+            <li><a href="https://openreview.net/forum?id=8eQKjsVnN3">
+                [Paper]</a> led by PhD student Kyle Heuton
+            </li>
+            <li> Analysis of whooping crane data from awesome ugrad Sammy Muench
+            </li>
+        </ul>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        [Mar 2025] Paper at IEEE ISBI '25
         </h4>
         <ul>
             <li><a href="https://arxiv.org/abs/2403.06024">
@@ -312,7 +337,7 @@ For more, see my [Research page]({static}/research.html)
         <ul>
             <li> Will be at the <a href="https://sites.google.com/view/imlh2021/">Interpretable Machine Learning for Healthcare (IMLH)</a> workshop to present our <a href="{static}/papers/RathHughes_IMLH_2021.pdf">paper on Optimizing Clinical Early Warning Systems to Meet False Alarm Constraints</a>, led by Ph.D. student Preetish Rath
             </li>
-            <li> Will be at the <a href="https://sites.google.com/view/udlworkshop2021/home">Uncertainty and Robustness in Deep Learning (UDL) workshop</a> to present our <a href="{static}/papers/FeeneyHughes_UDL_2021.pdf">paper on Evaluating the Use of Reconstruction Error for Novelty Localization</a>, led by Ph.D. student Patrick Feeney
+            <li> Will be at the <a href="https://sites.google.com/view/udlworkshop2021/home">Uncertainty and Robustness in Deep Learning (UDL) workshop</a> to present our <a href="{static}/papers/FeeneyHughes_UDL_2021.pdf">paper on Evaluating the Use of Reconstruction Error for Novelty Localization</a>, led by Ph.D. student Cynthia Feeney
             </li>
             <li> Will be at the <a href="http://roseyu.com/time-series-workshop/#introduction">Time Series Workshop (TSW) </a> to present our <a href="{static}/papers/HopeEtAl_TimeSeriesWorkshopAtICML_2021.pdf">paper on Prediction-Constrained Hidden Markov Models for Semi-Supervised Classification</a>, led by UC-Irvine Ph.D. student Gabe Hope. <b>UPDATE: Gabe's poster received the Best Poster award at the TWS workshop!</b>
             </li>
